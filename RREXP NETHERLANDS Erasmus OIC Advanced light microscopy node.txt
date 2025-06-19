@@ -1,0 +1,90 @@
+# NETHERLANDS
+
+## Erasmus MC OIC – Advanced Light Microscopy Rotterdam Node
+
+---
+
+## Description
+
+The **Erasmus Optical Imaging Centre (OIC)** at **Erasmus MC** in Rotterdam is a core facility of the Euro-BioImaging network, dedicated to advancing high-end optical imaging technologies for biomedical research. As a **Multimodal Imaging Node**, the OIC is a leader in the development and implementation of **quantitative live-cell imaging techniques**, including:
+
+- **Fluorescence Recovery After Photobleaching (FRAP)**
+- **Fluorescence Resonance Energy Transfer (FRET)**
+- **Fluorescence Correlation Spectroscopy (FCS and FCCS)**
+- **Time-lapse imaging**
+
+These technologies are applied to investigate dynamic molecular and cellular processes in living systems, enabling deep functional analysis of cellular behavior in real time.
+
+The Node integrates complementary expertise in **molecular biology, tissue culture, cell biology, animal experimentation, and drug delivery**. Its infrastructure supports:
+
+- High-resolution intracellular imaging
+- Precise thermal control for **hyperthermia** and other physiological modulation studies
+- In vivo visualization of **intratumoral processes**, particularly in drug delivery and tumor microenvironment manipulation
+
+---
+
+## Offered Technologies
+
+| Technologies                                      | Euro-BioImaging |
+|--------------------------------------------------|-----------------|
+| Laser Scanning Confocal Microscopy (LSCM/CLSM)   | ✓               |
+| Spinning Disk Confocal Microscopy (SDCM)         | ✓               |
+| Structured Illumination Microscopy (SIM)         | ✓               |
+| Total Internal Reflection Fluorescence Microscopy (TIRF) | ✓       |
+| 4PI                                               | ✓               |
+| Two-Photon Microscopy (2P)                        | ✓               |
+| Single Molecule Localization Microscopy (SMLM)   | ✓               |
+| Fluorescence Resonance Energy Transfer (FRET)    | ✓               |
+| Fluorescence Recovery After Photobleaching (FRAP)| ✓               |
+| Fluorescence (cross)-Correlation Spectroscopy (FCS/FCCS) | ✓       |
+
+---
+
+## Instrument Highlights
+
+The Erasmus OIC hosts an advanced portfolio of imaging systems tailored for high-resolution and live-cell microscopy applications:
+
+**STORM/PALM Super-Resolution Imaging System**  
+A hybrid super-resolution platform that combines **Stochastic Optical Reconstruction Microscopy (STORM)** and **Photoactivated Localization Microscopy (PALM)**, capable of achieving nanometer-scale resolution. The system includes a live-cell incubator, allowing physiological maintenance during long-term super-resolution experiments.
+
+**Deep-UV Laser Confocal Microscopes (Leica SP8)**  
+Two confocal systems equipped with **355 nm and 266 nm deep-UV lasers** provide precise **subcellular manipulation**. These are optimized for advanced applications such as **DNA damage and repair studies**, and **organelle injury and regeneration**.
+
+**Spinning Disk Confocal and TIRF Microscopes with Ultra-Fast FRAP Modules**  
+Designed for fast imaging of dynamic events, these platforms allow **localized photobleaching** with millisecond resolution. Ideal for mobility studies of membrane-bound and cytoplasmic proteins.
+
+---
+
+## Specialties and Expertise of the Node
+
+The OIC provides a cross-disciplinary environment supported by specialists in:
+
+**Molecular and Cellular Biology**  
+Support for gene editing, transfection, and biomolecular labeling enables mechanistic studies of protein interactions and pathway analysis.
+
+**In Vivo and Preclinical Imaging**  
+Expertise in animal handling and intravital microscopy allows real-time analysis of biological systems in living organisms, particularly in oncology and pharmacology.
+
+**Tumor Biology and Drug Delivery**  
+The Node excels in visualizing therapeutic compound distribution and tumor microenvironment responses, aiding in **targeted therapy design** and **drug efficacy assessment**.
+
+---
+
+## Additional Services
+
+**Training and Education**  
+The OIC offers structured training programs for users at all levels. These include hands-on microscopy courses, user certification sessions, and advanced technique workshops. Courses are offered to Erasmus MC affiliates and international users through Euro-BioImaging training channels.  
+[Euro-BioImaging Training at OIC](https://www.eurobioimaging.eu/news/discover-cutting-edge-imaging-and-advanced-training-at-the-erasmus-optical-imaging-centre/?utm_source=chatgpt.com)
+
+**Collaborative Research Support**  
+The facility works closely with research teams to co-develop imaging protocols and analysis pipelines, integrating experimental design consultation with advanced image acquisition and data interpretation.
+
+---
+
+## Contact Details
+
+**Prof. Dr. A. B. Houtsmuller**  
+Scientific Director, Erasmus Optical Imaging Centre  
+Professor of Functional Cell Anatomy  
+📧 [a.houtsmuller@erasmusmc.nl](mailto:a.houtsmuller@erasmusmc.nl)  
+📞 +31 646 154 564

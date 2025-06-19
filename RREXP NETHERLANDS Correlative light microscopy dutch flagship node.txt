@@ -1,0 +1,106 @@
+# NETHERLANDS
+
+## Correlative Light Microscopy Dutch Flagship Node
+
+---
+
+## Description
+
+The Dutch Correlative Light Electron Microscopy (CLEM) Flagship Node is a high-profile collaboration between four leading Dutch research centers in cellular imaging: the University Medical Center (UMC) Utrecht, Utrecht University, Leiden University Medical Center, and the University of Groningen. The Node is coordinated by internationally recognized experts in microscopy and cell biology: Judith Klumperman (UMC Utrecht), Hans Gerritsen (Utrecht University), Arie Koster (Leiden University), and Ben Giepmans (University of Groningen).
+
+The Node is globally recognized for advancing the integration of light and electron microscopy through technological development, standardization of protocols, and training. It supports cutting-edge research using CLEM to bridge the molecular specificity of fluorescence microscopy with the ultrastructural detail of electron microscopy. Its infrastructure enables seamless workflows from live-cell imaging to cryo-fixation and EM-based structural analysis, offering broad accessibility and high-end user support under the Euro-BioImaging framework.
+
+---
+
+## Offered Technologies
+
+
+| Technologies | Euro-BioImaging |
+|-------------|---------------|
+| TEM of chemically fixed samples | ✓ | ✓ |
+| TEM of cryo-immobilized samples | ✓ | ✓ |
+| Large-scale EM | ✓ | ✓ |
+| EM Tomography | ✓ | ✓ |
+| Serial Section TEM | ✓ | ✓ |
+| Serial Blockface SEM | ✓ | ✓ |
+| FIB-SEM | ✓ | ✓ |
+| STEM Tomography | ✓ | ✓ |
+| Array Tomography | ✓ | ✓ |
+| Immuno-gold EM on thawed cryo-sections (Tokuyasu Method) | ✓ | ✓ |
+| Immuno-gold EM on resin sections | ✓ | ✓ |
+| Pre-embedding Immunolabeling | ✓ | ✓ |
+| Genetic Encoded EM Probes | ✓ | ✓ |
+| Pre-embed CLEM | ✓ | ✓ |
+| On-section CLEM | ✓ | ✓ |
+| Cryo Electron Tomography (CryoET) | ✓ | ✓ |
+| Cryo TEM | ✓ | ✓ |
+| SEM (Topography) | ✓ | ✓ |
+| Elemental Analysis | ✓ | ✓ |
+| Pre-embedded CLEM | ✓ | ✓ |
+| In-section CLEM | ✓ | ✓ |
+| Cryo-CLEM | ✓ | ✓ |
+| Live-cell CLEM | ✓ | ✓ |
+| EDX-CLEM (Correlative EDX and SEM) | ✓ | ✓ |
+
+---
+
+## Instrument Highlights
+
+The Dutch CLEM Node is equipped to support complete CLEM workflows, encompassing imaging of live cells, advanced cryo-fixation, ultrathin sectioning, and multi-modal imaging at nanometer resolution. The instrumentation spans across all four partner institutions and is harmonized under a unified access policy.
+
+Available infrastructure includes:
+- Cryomicrotomes for sectioning frozen hydrated biological samples with minimal artefacts.
+- Dedicated Cryo-EM platforms for structural imaging at near-native conditions.
+- Integrated CLEM systems (iCLEM) that enable rapid correlation between fluorescence and EM modalities.
+- FIB-SEM instruments with automated acquisition for 3D EM imaging of resin-embedded samples.
+
+Flagship capabilities also include:
+- Correlative light-immuno-electron microscopy using Tokuyasu ultrathin cryosectioning, a method offering antigen preservation and superior immunolabeling resolution.
+- Live-cell to 3D EM correlation for dynamic studies of intracellular events.
+- Cryo-CLEM workflows combining live-cell fluorescence, vitrification, and cryo-TEM or cryo-ET imaging for high-fidelity structure-function studies.
+- Large-volume CLEM techniques that permit 3D ultrastructural reconstructions of entire cells or tissues.
+
+These technologies support applications ranging from organelle dynamics and protein localization to disease pathogenesis and drug targeting.
+
+---
+
+## Specialties and expertise of the node
+
+This Node is at the forefront of correlative imaging innovation, providing integrated workflows that span from live-cell imaging and fluorescent labeling to high-resolution 3D EM. Core expertise includes:
+
+- Optimization and standardization of the Tokuyasu method for immuno-electron microscopy.
+- Development of genetically encoded EM contrast agents (e.g., APEX2, miniSOG) for targeted labeling.
+- Advanced cryo-preservation and vitrification techniques for maintaining native cellular ultrastructure.
+- Protocols for volume EM and multi-modal 3D reconstruction.
+- Cutting-edge research in molecular cell biology, neurobiology, and immunology using integrated imaging approaches.
+- Extensive training and dissemination activities, including national and international workshops on CLEM, cryo-techniques, and automated image analysis.
+
+Each partner site contributes specific domain expertise: Groningen specializes in cryo-CLEM and genetic labeling, Leiden in EM tomography and volume imaging, and Utrecht in fluorescence microscopy and live-cell imaging.
+
+---
+
+## Additional Services
+
+In addition to open access to advanced instrumentation, the Dutch CLEM Node offers comprehensive support services to maximize research output and reproducibility. These services include:
+
+- Pilot project execution by in-house technical staff to evaluate feasibility or establish workflows.
+- Consultation on experimental design, including imaging strategy, probe selection, and fixation methods.
+- Customized training sessions on sample preparation, light microscopy, and EM techniques.
+- Dedicated assistance during on-site or remote experiment execution.
+- Access to wet lab facilities for specimen processing, cryoprotection, resin embedding, and sectioning.
+- Use of EM automation and correlation software for large-volume imaging and multimodal dataset integration.
+- Post-acquisition support with data analysis tools and visualization platforms.
+- Provision of workspace for visiting researchers, including desk space and seminar rooms for collaborative meetings.
+
+The Node also participates in method development and validation of novel CLEM-compatible probes and imaging software.
+
+---
+
+## Contact Details
+
+📧 **Prof. Judith Klumperman**  
+Chair, Department of Cell Biology  
+Head, Cell Microscopy Center  
+University Medical Center Utrecht  
+[j.klumperman@umcutrecht.nl](mailto:j.klumperman@umcutrecht.nl)  
+📞 +31 88 755 6550

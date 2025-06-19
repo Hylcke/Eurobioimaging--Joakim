@@ -1,0 +1,127 @@
+# NETHERLANDS
+
+## Facility of Multimodal Imaging – AMMI Maastricht, The Netherlands
+
+## Description
+
+The Advanced Microscopy and Molecular Imaging (AMMI) Node at Maastricht University combines light and electron microscopy, molecular imaging using mass spectrometry, and non-invasive biomedical imaging technologies. The facility supports both academic and industrial users in molecular, biological, and biomedical imaging. It spans microscopic and macroscopic levels and is integrated into translational research in cardiovascular disease, cancer, metabolism, orthopaedics, neurology, and regenerative medicine. The Node collaborates with international research centers and promotes clinically relevant, high-resolution imaging for personalised diagnostics and research translation.
+
+More information: [Maastricht University Research Institutes](https://www.maastrichtuniversity.nl/research/institutes/organisation/3566)
+
+---
+
+## Offered Technologies
+
+| Technologies | Euro-BioImaging |
+|-------------|-----------------|
+| Laser Scanning Confocal Microscopy (LSCM/CLSM) | ✓ |
+| Spinning Disk Confocal Microscopy (SDCM) | ✓ |
+| Two-Photon Microscopy (2P) | ✓ |
+| Stimulated Emission Depletion Microscopy (STED) | ✓ |
+| Second/Third Harmonic Generation (SHG/THG) | ✓ |
+| High-Throughput Microscopy / High-Content Screening (HTM/HCS) | ✓ |
+| Intravital Microscopy (IVM) | ✓ |
+| Tissue Clearing | ✓ |
+| FRET | ✓ |
+| FRAP | ✓ |
+| FLIM | ✓ |
+| micro-MRI/MRS (≥ 7T) | ✓ |
+| micro-MRI/MRS (< 7T) | ✓ |
+| micro-CT | ✓ |
+| micro-PET | ✓ |
+| micro-SPECT | ✓ |
+| micro-US | ✓ |
+| micro-PET/MRI | ✓ |
+| micro-PET/CT | ✓ |
+| micro-MRI/MRS (≥ 7T) – ex-vivo | ✓ |
+| micro-MRI/MRS (< 7T) – ex-vivo | ✓ |
+| micro-CT – ex-vivo | ✓ |
+| Mass Spectrometry-Based Imaging (MSI) – Med | ✓ |
+
+---
+
+## Instrument Highlights
+
+AMMI provides integrated multimodal platforms for microscopy and whole-body imaging. Key instruments include:
+
+- **Electron Microscopy (EM)**: Scanning and transmission modes with correlative workflows (CLEM), based at the Microscopy Core Lab (Dr. C. Lopez-Iglesias).
+- **STED Super-Resolution Microscopy**: Using 592 nm depletion and resonant scanning for sub-diffraction resolution.
+- **Confocal Microscopy**: White-light laser and resonant scanning for dynamic in vivo imaging.
+- **Two-Photon Microscopy**: Enabled for intravital and FLIM imaging.
+- **Whole-Body Imaging**: Used for small animal models in oncology, vascular, and metabolic imaging.
+
+The **Mass Spectrometry Imaging CORE Lab** (Dr. B. Cillero Pastor) provides:
+
+- **High-Resolution MALDI Imaging**: For spatial molecular profiling in tissue.
+- **MALDI-2 Postionisation**: Enhances signal detection.
+- **Ozone-Induced Dissociation**: Differentiates structural isomers.
+- **Nano-ToF-SIMS**: High spatial resolution biomolecular imaging at single-cell level.
+- **iKnife**: Mass spectrometry-guided surgical classification of tissue.
+- **Laser Microdissection and Cryo-sectioning**: Targeted tissue sampling.
+- **Label-Free Proteomics and Native MS**: Enables direct protein analysis.
+
+Visual examples from AMMI’s core labs:
+
+![Two-Photon Microscopy](upload/AMMI_figure_combined.png)  
+*Anti-ICAM-1 US-TPLSM imaging of damaged carotid arteries.*
+
+![PET/MRI Imaging](upload/PET_MRI_AMMI.png)  
+*18F-FDG PET/MR fusion of carotid plaque.*
+
+![microPET/CT Fusion](upload/Tumor_AMMI.png)  
+*Mouse model imaging of tumour-bearing subject.*
+
+![MALDI Imaging](upload/MALDI_AMMI.png)  
+*Spatial resolution of intratumour heterogeneity.*
+
+---
+
+## Specialties and Expertise of the Node
+
+The AMMI Node focuses on imaging-guided analysis of pathology and treatment. Core expertise includes:
+
+- Cardiovascular imaging: Visualisation of vessel wall pathology and perfusion.
+- Oncological imaging: Tumour heterogeneity, treatment monitoring.
+- Metabolic imaging: Lipid and metabolite mapping.
+- Orthopaedics: Tissue regeneration tracking.
+- Neurology: Imaging neural structures and blood-brain barrier integrity.
+- Regenerative medicine: Monitoring repair processes using label-free imaging.
+
+---
+
+## Additional Services
+
+The Node provides full research support infrastructure:
+
+- Instrument setup and technical assistance.
+- Study design and SOP support.
+- Access to wet labs and material storage.
+- Training in imaging workflows and analysis.
+- Ethical licensing and animal breeding protocols.
+- Holders for integrating animals into clinical imaging devices.
+- Access to servers, AI pipelines, and radiomics tools.
+- Image-guided small animal irradiator (CT/BLI).
+
+Via collaborations with Uniklinik Aachen, users may also access:
+
+- Lightsheet and rescan confocal microscopy.
+- In vivo fluorescence imaging (whole-body).
+- Two-photon lifetime and intravital platforms.
+
+---
+
+## Contact Details
+
+**Preclinical Imaging Node Lead**  
+Prof. Marc A.M.J. van Zandvoort  
+[mamj.vanzandvoort@maastrichtuniversity.nl](mailto:mamj.vanzandvoort@maastrichtuniversity.nl)  
++31 (0)43 388 1998
+
+**Non-Invasive Imaging Node Lead**  
+Dr. Ludwig Dubois  
+[ludwig.dubois@maastrichtuniversity.nl](mailto:ludwig.dubois@maastrichtuniversity.nl)  
++31 (0)43 388 2909
+
+**Mass Spectrometry Imaging – Proof of Concept Lead**  
+Dr. Michiel Vandenbosch  
+[m.vandenbosch@maastrichtuniversity.nl](mailto:m.vandenbosch@maastrichtuniversity.nl)

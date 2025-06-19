@@ -1,0 +1,79 @@
+# NETHERLANDS
+
+## Population Imaging Flagship Node Rotterdam
+
+---
+
+## Description
+
+The Population Imaging Flagship Node in Rotterdam represents a pivotal infrastructure within the European biomedical research landscape, aimed at integrating imaging into large-scale population studies. It is coordinated by the Department of Radiology and Nuclear Medicine at Erasmus MC, University Medical Centre Rotterdam, in collaboration with the Dutch Federation of University Medical Centres (NFU).
+
+This Node supports the longitudinal acquisition and analysis of imaging biomarkers within prospective epidemiological cohorts. Its core objective is to enable early identification of disease development and progression through imaging-based markers of (pre-)symptomatic pathologies. These efforts contribute to the understanding of the aetiology of chronic diseases and provide a basis for personalised risk stratification in population health management.
+
+A key strength of the infrastructure lies in its ability to link high-quality imaging data with comprehensive demographic, genetic, and clinical datasets. The Node serves both clinical and research environments, facilitating translational approaches from population-level insights to individualised healthcare applications.
+
+---
+
+## Offered Technologies and Services
+
+| Technologies | Euro-BioImaging |
+|-------------|-----------------|
+| Population Imaging (PI) | ✓ | ✓ |
+| Image Analysis - Bio | ✓ | ✓ |
+| Image Analysis - Med | ✓ | ✓ |
+
+---
+
+## Instrument Highlights
+
+The flagship informatics platform utilised at the Node is XNAT (eXtensible Neuroimaging Archive Toolkit), an open-source system originally developed by the Neuroinformatics Research Group at Washington University. XNAT enables centralised data management, curation, and sharing of multimodal imaging datasets. It supports the entire imaging workflow, from image acquisition and archiving to processing and collaborative data analysis.
+
+At Erasmus MC, XNAT is deployed as a national infrastructure service in partnership with Health-RI and TraIT (Translational Research IT). The platform supports both federated and institution-local deployments, providing flexibility for multi-centre studies. Through integration with image processing pipelines and quality control modules, XNAT facilitates reproducibility, data traceability, and methodological standardisation in longitudinal research.
+
+---
+
+## Specialties and expertise of the node
+
+The Rotterdam Node specialises in imaging-driven phenotyping within epidemiological cohorts, with a focus on extracting clinically relevant imaging biomarkers from large-scale datasets. It offers validated pipelines for multi-organ systems, enabling population-based evaluation of structural and functional changes across the lifespan.
+
+Expertise spans neuroimaging (volumetric segmentation of grey matter, white matter, and cerebrospinal fluid; lesion mapping; hippocampal atrophy), cardiovascular imaging (quantification of epicardial fat and left atrial volume), and musculoskeletal imaging (automated segmentation of cartilage and menisci in the knee joint). These imaging markers are harmonised across cohorts, ensuring cross-study comparability.
+
+The Node also contributes to methodological development in image-based epidemiology, including test-retest validation frameworks, biomarker reproducibility assessments, and integration of imaging with genetic and clinical risk models. Its outputs support precision health initiatives, policy-making, and large-scale consortia such as UK Biobank and ELSA-Brasil.
+
+---
+
+## Additional Services
+
+The Node provides comprehensive support for data processing, analysis, and methodological design. Services include:
+
+- Protocol development for population imaging studies, including guidance on imaging parameters, quality assurance, and SOPs.
+- Test-retest imaging data for validation and benchmarking of image analysis tools and pipelines.
+- Custom image analysis workflows tailored to specific disease domains, with support for cardiovascular, neurodegenerative, and musculoskeletal research questions.
+- Secure image storage solutions, based on XNAT infrastructure, with scalable capacity for long-term and collaborative data sharing.
+- Consultation and support for research projects integrating imaging biomarkers with epidemiological, genetic, or clinical datasets.
+
+---
+
+## Contact Details
+
+🌐 **Website:**  
+[www.populationimaging.eu](http://www.populationimaging.eu)
+
+📧 **Stefan Klein**  
+Department of Radiology and Nuclear Medicine  
+Erasmus MC, University Medical Center  
+Rotterdam, The Netherlands  
+[s.klein@erasmusmc.nl](mailto:s.klein@erasmusmc.nl)
+
+📧 **Prof. Dr. Wiro J. Niessen**  
+Department of Radiology and Nuclear Medicine  
+Erasmus MC, University Medical Center  
+Rotterdam, The Netherlands  
+[w.niessen@erasmusmc.nl](mailto:w.niessen@erasmusmc.nl)  
+📞 +31 10 70 41026
+
+📧 **Marcel Koek**  
+Department of Radiology and Nuclear Medicine  
+Erasmus MC, University Medical Center  
+Rotterdam, The Netherlands  
+[i.vanhouwelingen@erasmusmc.nl](mailto:i.vanhouwelingen@erasmusmc.nl)

@@ -1,0 +1,58 @@
+# HUNGARY
+
+## Cellular Imaging Hungary
+
+## Description
+
+The Cellular Imaging Hungary Node is a multi-modal, multi-sited Euro-BioImaging Node offering access to a broad range of advanced imaging technologies. It supports biomedical research across molecular, cellular, and tissue levels.  
+
+## Offered Technologies
+
+| Technologies | Euro-BioImaging |
+|-------------|----------------|
+| Laser scanning confocal microscopy (LSCM/CLSM) | ✓ |
+| Spinning disk confocal microscopy (SDCM) | ✓ |
+| Two-photon microscopy (2P) | ✓ |
+| Total internal reflection fluorescence microscopy (TIRF) | ✓ |
+| Image Scanning Microscopy (ISM) | ✓ |
+| Single Molecule Localization Microscopy (SMLM) | ✓ |
+| Stimulated Emission Depletion Microscopy (STED) | ✓ |
+| Light-sheet mesoscopic imaging (SPIM or dSLSM) | ✓ |
+| High-throughput Microscopy/High-content Screening (HTM/HCS) | ✓ |
+| Fluorescence (cross)-correlation spectroscopy (FCS/FCCS) | ✓ |
+| Fluorescence Resonance Energy Transfer (FRET) | ✓ |
+| Fluorescence Recovery After Photobleaching (FRAP) | ✓ |
+| Fluorescence Lifetime Imaging Microscopy (FLIM) | ✓ |
+| Anisotropy/Polarization Microscopy | ✓ |
+| TEM of chemically fixed samples (TEM) | ✓ |
+| Serial Blockface SEM | ✓ |
+| Array Tomography | ✓ |
+| Serial Section TEM | ✓ |
+| Immuno-gold EM on resin sections (resin-EM) | ✓ |
+| Pre-embedding Immunolabeling (pre-embed IL) | ✓ |
+| *in vivo* Optical Imaging | ✓ |
+| Atomic Force Microscopy (AFM) | ✓ |
+
+## Instrument Highlights
+
+The Node hosts high-resolution confocal microscopes (e.g., Zeiss LSM), fast live-cell systems (e.g., spinning disk), and deep tissue imaging (two-photon). Super-resolution is available via STED and SMLM. Light-sheet and electron microscopes (TEM, SEM) support multi-scale analysis.  
+
+## Specialties and Expertise of the Node
+
+The Node provides expertise in advanced fluorescence imaging (FRET, FRAP, FLIM), molecular interaction studies, and high-throughput phenotyping. EM techniques such as array tomography and immunogold EM enable ultrastructural analysis. Staff support includes experiment planning, imaging, and analysis.  
+
+
+## Additional Services
+
+Services include sample prep (tissue clearing, immunolabelling), microscopy training, user support, and data analysis tools. Researchers receive technical advice and access to processing software for quantitative evaluation.  
+
+
+## Contact Details
+
+**Dr. György Vámosi**  
+Senior Research Fellow, Dept. of Biophysics and Cell Biology  
+University of Debrecen  
+📧 [vamosig@med.unideb.hu](mailto:vamosig@med.unideb.hu)  
+📞 +36 52 258 603  
+📍 4032 Debrecen, Egyetem tér 1., Life Sciences Building, Room 1.407  
+🔗 [biophys.unideb.hu](https://biophys.unideb.hu/en/dr-gyorgy-vamosi)

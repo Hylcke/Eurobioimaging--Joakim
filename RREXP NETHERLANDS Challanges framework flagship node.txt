@@ -1,0 +1,66 @@
+# NETHERLANDS
+
+## Challenges Framework Flagship Node
+
+## Description
+
+The Challenges Framework Flagship Node is a Euro-BioImaging Node located in the Netherlands that manages the **Grand Challenges in Medical Image Analysis**, accessible at [www.grand-challenge.org](http://www.grand-challenge.org). This internationally recognised platform enables the benchmarking of medical image analysis algorithms in a reproducible, FAIR-compliant, and cloud-accessible environment.
+
+The Node serves the **Medical Image Computing (MIC)** community by hosting structured, publicly accessible challenges focused on algorithm evaluation. It supports **open-source infrastructure** for uploading data, submitting predictions, and visualising performance, promoting collaboration across academia, clinical institutions, and industry.
+
+The backend is maintained by Erasmus MC and TU Delft and is designed to provide:
+- A scalable web platform for managing challenges
+- Secure access to curated medical imaging datasets
+- Integrated tools for automated algorithm testing and result display
+
+The platform uses containerisation (Docker, Singularity) and is compatible with major ML libraries (e.g. PyTorch, MONAI, TensorFlow).
+
+
+## Offered Technologies
+
+| Technologies           | Euro-BioImaging |
+|------------------------|-----------------|
+| Challenges Framework   | ✓               | ✓               |
+
+**Additional Capabilities:**
+- Image Analysis Algorithms  
+- AI and Machine Learning Approaches
+
+## Instrument Highlights
+
+The Node infrastructure includes high-performance storage, scalable cloud and on-premise compute resources, and browser-based tools for algorithm validation and result dissemination. Participants access annotated datasets via secure portals, and results can be automatically scored against reference standards. Challenges use harmonised metrics such as Dice Similarity Coefficient (DSC), Hausdorff distance, and ROC-AUC, ensuring fair comparison across algorithms.
+
+This infrastructure is compatible with:
+- Docker/Singularity containers
+- PyTorch, TensorFlow, MONAI
+- Web-based leaderboards and evaluation dashboards
+
+## Specialties and expertise of the node
+
+The Node specialises in:
+- Designing reproducible benchmarking pipelines
+- Standardising evaluation protocols in medical image analysis
+- Curating annotated datasets for segmentation, detection, and classification tasks
+- Supporting GDPR-compliant data sharing and platform governance
+
+It actively contributes to MICCAI challenges, and its leadership (Prof. Wiro Niessen) has authored foundational work in quantitative imaging and computational radiology.
+
+The Node also supports interoperability via REST APIs and challenge development kits, allowing external hosting and evaluation within the Grand Challenge ecosystem.
+
+## Additional Services
+
+The Node provides:
+- Challenge curation consultancy (metric selection, data anonymisation)
+- Technical support for hosting public/private challenges
+- Educational resources including tutorials, documentation, and webinars
+- Access to archived challenge datasets for research and validation
+
+
+## Contact Details
+
+📧 **Prof. Dr. W. J. Niessen**  
+**Erasmus MC & TU Delft**  
+[w.niessen@erasmusmc.nl](mailto:w.niessen@erasmusmc.nl)  
+
+🌐 **Grand Challenge Website:**  
+[www.grand-challenge.org](http://www.grand-challenge.org)

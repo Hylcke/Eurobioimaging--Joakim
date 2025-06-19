@@ -1,0 +1,60 @@
+# BULGARIA
+
+## Sofia BioImaging Node - Advanced Light Microscopy Node Sofia Bulgaria
+
+---
+
+## Description
+
+The Sofia BioImaging Node is a single-sited, multimodal imaging facility located at the Institute of Molecular Biology (IMB) of the Bulgarian Academy of Sciences (BAS) in Sofia. The Node is hosted by the Bulgarian Center for Advanced Microscopy, which is listed in the [National Roadmap for Scientific Infrastructure](https://mon.bg/bg/53), and it serves as Bulgaria’s official access point within the Euro-BioImaging network.
+
+As a national infrastructure and Euro-BioImaging member, the Node provides open access to cutting-edge biological and biomedical imaging technologies. It supports researchers working in molecular and cellular biology, with a particular focus on high-speed, high-resolution live-cell imaging and laser-based manipulation of intracellular structures. These capabilities allow users to visualise and quantify dynamic processes such as protein diffusion, chromatin rearrangement, and DNA repair with high spatial and temporal precision.
+
+More information is available at the [Sofia BioImaging Node website](http://dnarepair.bas.bg/eurobioimaging.bg/site/).
+
+---
+
+## Offered Technologies
+
+*[ISIDORe](https://www.eurobioimaging.eu/content/isidore) is a Horizon Europe funded project that brings together 154 partners from 32 countries around the world, and is designed to effectively support research on infectious diseases and increase preparedness for pandemic.*
+
+| Technologies | Euro-BioImaging | 
+|-------------|---------------|
+| Laser scanning confocal microscopy (LSCM/CLSM) | ✓ | ✓ |
+| Spinning disk confocal microscopy (SDCM) | ✓ | ✓ |
+| Total internal reflection fluorescence microscopy (TIRF) | ✓ | ✓ |
+| Image Scanning microscopy (ISM) | ✓ | ✓ |
+| Stimulated emission depletion microscopy (STED) | ✓ | ✓ |
+| Fluorescence Resonance Energy Transfer (FRET) | ✓ | ✓ |
+| Fluorescence Recovery After Photobleaching (FRAP) | ✓ | ✓ |
+| Fluorescence Lifetime Imaging Microscopy (FLIM) | ✓ | ✓ |
+| Fluorescence (cross)-correlation spectroscopy (FCS/FCCS) | ✓ | ✓ |
+| Anisotropy/Polarization Microscopy (PM) | ✓ | ✓ |
+
+---
+
+## Instrument Highlights
+
+The Node features advanced confocal and fluorescence systems specifically optimised for dynamic live-cell imaging. The **Andor Revolution XD** system is built around a Nikon Ti-E inverted microscope and includes Borealis-enhanced uniform laser illumination and dual iXon3 897 EMCCD cameras. This configuration enables high-speed acquisition with low phototoxicity. It is equipped with a **FRAPPA photobleaching unit** for targeted fluorescence recovery studies and a **Micropoint UV laser** for inducing precise DNA damage, allowing users to track protein recruitment and chromatin remodeling events in real time.
+
+The **Andor Dragonfly 500** platform, based on a Nikon Ti2-E stand, provides widefield, spinning disk confocal, TIRF (Total Internal Reflection Fluorescence), and super-resolution capabilities via **SRRF-Stream** and **dSTORM**. The system incorporates an iXon 888 EMCCD and Zyla sCMOS camera to support both high sensitivity and large field-of-view imaging. A **Mosaic III Duet photostimulation module** and UV micro-irradiation setup allow spatially defined activation or disruption of cellular structures, supporting studies in signal transduction, membrane trafficking, and cytoskeletal dynamics.
+
+Complementary systems include a **Zeiss Axiovert 200M** with Apotome for structured illumination imaging in fixed samples, as well as additional fluorescence and micromanipulation tools. All data generated can be processed using the Node’s custom-built **CellTool** software, which supports segmentation, time-lapse analysis, and quantitative kinetic modelling.
+
+---
+
+## Additional Services
+
+The Sofia BioImaging Node offers full-spectrum user support, from experiment design to data interpretation. This includes consultation for project planning, assistance in sample preparation, and expert guidance in configuring imaging protocols for live and fixed specimens. Users have access to on-site **cell culture facilities**, **wet lab workspaces**, and **biological material storage** for preparing and maintaining experimental samples.
+
+During imaging sessions, technical staff assist with microscope calibration, parameter optimisation, and troubleshooting. For data processing, the Node offers secure **server-based storage**, dedicated **analysis workstations**, and access to commercial and in-house tools such as CellTool. Training is available for beginners and experienced users, delivered through theoretical seminars, practical tutorials, and supervised sessions at the microscope.
+
+Collaborative support is also available for advanced applications such as super-resolution workflows, photobleaching studies, and laser micro-irradiation. Remote consultation is supported, though remote imaging or sample submission workflows are subject to availability and prior agreement with Node staff.
+
+---
+
+## Contact Details
+
+**Stoyno Stoynov**  
+📧 [stoynov@bio21.bas.bg](mailto:stoynov@bio21.bas.bg)  
+🌍 [Sofia BioImaging Node](http://dnarepair.bas.bg/eurobioimaging.bg/site/)

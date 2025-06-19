@@ -1,0 +1,106 @@
+## Description
+
+The Advanced Light and Electron Microscopy Node in Prague, Czech Republic, is a multi-modal, multi-sited Euro-BioImaging Node that brings together seven expert core facilities located in Prague and České Budějovice. 
+
+It provides open-access to an extensive portfolio of high-end **light and electron microscopy technologies**. The Node is operated through close collaboration between national research institutions, including the Institute of Molecular Genetics of the Czech Academy of Sciences and partner universities such as Charles University. This integrated infrastructure supports users across a broad spectrum of biomedical and life science applications, offering advanced instrumentation along with comprehensive methodological and technical support. 
+
+The Node plays a central role within Euro-BioImaging by serving as a regional hub for both foundational and translational microscopy-based research.
+
+## Offered Technologies
+
+| Technologies | Euro-BioImaging |
+|-------------|---------------|
+| Deconvolution widefield microscopy (DWM) | ✓ | ✓ |
+| Laser scanning confocal microscopy (LSCM/CLSM) | ✓ | ✓ |
+| Spinning disk confocal microscopy (SDCM) | ✓ | ✓ |
+| Structured illumination microscopy (SIM) | ✓ | ✓ |
+| Total internal reflection fluorescence microscopy (TIRF) | ✓ | ✓ |
+| Two-photon microscopy (2P) | ✓ | ✓ |
+| cryoFM | ✓ | ✓ |
+| Image Scanning Microscopy (ISM) | ✓ | ✓ |
+| Single Molecule Localization Microscopy (SMLM) | ✓ | ✓ |
+| Stimulated Emission Depletion Microscopy (STED) | ✓ | ✓ |
+| Single Particle Tracking (SPT) | ✓ | - |
+| Light-sheet mesoscopic imaging (SPIM or dSLSM) | ✓ | ✓ |
+| Optical Projection Tomography (OPT) | ✓ | ✓ |
+| Coherent Raman Anti-Stokes Scattering Microscopy (CARS) | ✓ | ✓ |
+| Quantitative Phase Imaging (QPI) | ✓ | ✓ |
+| Polarization Microscopy (PM) | ✓ | ✓ |
+| Second/Third Harmonics Generation (SHG/THG) | ✓ | ✓ |
+| High-throughput Microscopy / High-content Screening (HTM/HCS) | ✓ | ✓ |
+| Fluorescence (cross)-correlation spectroscopy (FCS/FCCS) | ✓ | ✓ |
+| Voltage/pH/Ion Imaging | ✓ | - |
+| Fluorescence Resonance Energy Transfer (FRET) | ✓ | ✓ |
+| Fluorescence Recovery After Photobleaching (FRAP) | ✓ | ✓ |
+| Fluorescence Lifetime Imaging Microscopy (FLIM) | ✓ | ✓ |
+| Intravital Microscopy (IVM) | ✓ | ✓ |
+| High-speed Imaging | ✓ | ✓ |
+| Imaging at Biosafety Level >1 | ✓ | - |
+| Photomanipulation | ✓ | ✓ |
+| Phosphorescence Lifetime Imaging (PLIM) | ✓ | ✓ |
+| Expansion Microscopy | ✓ | - |
+| Anisotropy/Polarization Microscopy | ✓ | ✓ |
+| Tissue Clearing (TC) | ✓ | ✓ |
+| Multiplexing Imaging (Codex, Opal, Celldive) | ✓ | - |
+| Single molecule FRET | ✓ | - |
+| Transmission Electron Microscopy (TEM) | ✓ | ✓ |
+| Cryo Transmission Electron Microscopy (Cryo-TEM) | ✓ | ✓ |
+| Serial Section TEM | ✓ | ✓ |
+| Electron Tomography (ET) | ✓ | ✓ |
+| Serial Blockface SEM | ✓ | ✓ |
+| Focused Ion Beam SEM (FIB-SEM) | ✓ | ✓ |
+| Array Tomography | ✓ | ✓ |
+| Immuno-gold EM on thawed cryo-sections (Tokuyasu-EM) | ✓ | ✓ |
+| Immuno-gold EM on resin sections (resin-EM) | ✓ | ✓ |
+| Pre-embedding Immunolabeling (pre-embed IL) | ✓ | ✓ |
+| Genetic encoded EM probes (e.g. APEX) | ✓ | - |
+| Pre-embed CLEM | ✓ | ✓ |
+| Immunolabeling on immobilized particles | ✓ | - |
+| Post-embed CLEM | ✓ | ✓ |
+| Cryo Electron Tomography (Cryo-ET) | ✓ | ✓ |
+| Cryo Scanning Electron Microscopy (Cryo-SEM) | ✓ | ✓ |
+| Cryo Focused Ion Beam (Cryo-FIB) | ✓ | ✓ |
+| Scanning Electron Microscopy (SEM) | ✓ | ✓ |
+| Elemental Analysis including EDS in TEM (STEM) | ✓ | ✓ |
+| Cryo-CLEM | ✓ | ✓ |
+| 3D-CLEM | ✓ | - |
+| Live-cell CLEM | ✓ | ✓ |
+| *in vivo* Optical Imaging (OI) | ✓ | ✓ |
+| micro-PET/CT | ✓ | - |
+| Long-term Vertical-Stage Confocal/Airyscan Microscopy | ✓ | - |
+| Atomic Force Microscopy (AFM) | ✓ | - |
+| Image Analysis - bio | ✓ | ✓ |
+
+## Instrument Highlights
+
+The Node hosts a broad portfolio of cutting-edge instruments across both light and electron microscopy platforms. 
+
+- **Super-resolution imaging** is enabled by systems such as the Leica TCS SP8 STED 3X and Zeiss Elyra 7, offering lateral resolution below 50 nm for detailed subcellular investigations. Abberior Instruments Easy3D STED and DeltaVision OMX V4 expand this capability by allowing flexible 3D nanoscopy and rapid image acquisition.
+
+- **Multiphoton and confocal platforms** including the Leica STELLARIS 8 FALCON, Bruker Ultima IntraVital, and Zeiss LSM 880 NLO enable deep-tissue fluorescence imaging, high temporal resolution, and live imaging in biological tissues. The Femtonics FEMTO3D Atlas further allows targeted in vivo imaging in neuroscience applications.
+
+- For rapid volumetric imaging, **spinning disk systems** such as the Nikon CSU-W1 and Andor Dragonfly 503 offer high-speed acquisition suitable for dynamic live-cell experiments. **Light-sheet microscopy** is supported through the Zeiss Lightsheet Z.1, providing low-phototoxicity imaging for developing organisms and organoids.
+
+- **Quantitative phase imaging** is facilitated by the TESCAN Q-PHASE, enabling label-free visualization of cellular morphology and dynamics. The Akoya PhenoCycler-Fusion supports highly multiplexed biomarker imaging for spatial transcriptomics and immunophenotyping.
+
+- The Node’s **electron microscopy** suite includes advanced platforms such as the JEOL JEM-F200 with STEM and EDS for elemental analysis, the Thermo-Fisher Helios NanoLab 660 G3 for FIB-SEM, and the JEOL JEM-2100F with a direct electron detector for high-resolution cryo-electron tomography. Cryo-capable systems, including the TESCAN Amber Cryo with nanomanipulator and Leica SP8 Cryo-CLEM, allow correlative workflows between fluorescence and cryo-EM modalities.
+
+## Additional Services
+
+The Node offers a comprehensive range of services designed to support users through the entire experimental pipeline. 
+
+These include assistance with study design, probe development, and imaging protocol optimization, as well as technical training in instrument usage. Dedicated wet lab facilities, a surgical suite, and animal housing are available for live imaging workflows. 
+
+**Data infrastructure** includes secure server space, workstations for analysis, and support for quantitative image processing and bioimage informatics. Users may also access training seminars, methodological consultations, and biobanking services for sample storage and preservation. The facility provides both short-term and long-term accommodation for visiting researchers.
+
+## Contact Details
+
+The Node is coordinated by the Institute of Molecular Genetics of the Czech Academy of Sciences.
+
+**Administration Contact:**  
+Daniela Klimesova  
+📧 [info.praguenode@czech-bioimaging.cz](mailto:info.praguenode@czech-bioimaging.cz)
+
+**Strategic Representative:**  
+Aleš Benda  
+📧 [ales.benda@natur.cuni.cz](mailto:ales.benda@natur.cuni.cz)

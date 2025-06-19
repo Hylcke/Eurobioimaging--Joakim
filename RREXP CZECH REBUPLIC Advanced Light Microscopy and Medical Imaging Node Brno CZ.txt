@@ -1,0 +1,74 @@
+# CZECH REPUBLIC
+
+## Advanced Light Microscopy and Medical Imaging Node Brno CZ
+
+---
+
+## Description
+
+The Advanced Light Microscopy and Medical Imaging Node in Brno is a multimodal Euro-BioImaging Node hosted at CEITEC Masaryk University, with contributions from the Brno University of Technology and the Czech Academy of Sciences. It offers open-access imaging infrastructure to researchers in the life sciences, biomedicine, and neuroscience. 
+
+This Node integrates state-of-the-art human medical imaging and light microscopy technologies with advanced support in data processing, enabling users to generate and interpret complex image datasets across spatial and temporal scales. Through its coordinated logistics and expert personnel, the Node serves both academic and translational research communities, and actively contributes to the Euro-BioImaging network by supporting interoperability and method standardisation across sites.
+
+---
+
+## Offered Technologies
+
+| Technologies | Euro-BioImaging |
+|-------------|---------------|
+| Deconvolution widefield microscopy (DWM) | ✓ |
+| Laser scanning confocal microscopy (LSCM/CLSM) | ✓ |
+| Spinning disk confocal microscopy (SDCM) | ✓ |
+| Structured illumination microscopy (SIM) | ✓ |
+| Total internal reflection fluorescence microscopy (TIRF) | ✓ |
+| Image Scanning microscopy (ISM) | ✓ |
+| Single Molecule localization microscopy (SMLM) | ✓ |
+| Light-sheet mesoscopic imaging (SPIM or dSLSM) | ✓ |
+| Quantitative Phase Imaging (QPI) | ✓ |
+| Fluorescence Resonance Energy Transfer (FRET) | ✓ |
+| Fluorescence Recovery After Photobleaching (FRAP) | ✓ |
+| Expansion Microscopy | ✓ |
+| Tissue Clearing | ✓ |
+| micro-MRI/MRS (≥ 7T) | ✓ |
+| micro-MRI/MRS (≥ 7T) - ex-vivo | ✓ |
+| Human MRI/MRS (< 7T) | ✓ |
+| Image Analysis - bio | ✓ |
+| Image Analysis - med | ✓ |
+
+---
+
+## Instrument Highlights
+
+### **Medical Imaging**
+The medical imaging platform, based at the Multimodal and Functional Imaging Laboratory (MAFIL), includes two Siemens 3T Prisma MRI scanners designed for advanced human neuroimaging. These scanners provide high gradient strength and excellent magnetic field homogeneity, enabling rapid, high-resolution acquisitions suitable for structural, functional, and diffusion imaging protocols. The system supports hyper-scanning, allowing simultaneous scanning of two participants, which is particularly valuable for hypersocial and cognitive neuroscience studies. MR-compatible equipment is available for simultaneous physiological recordings, including high-density EEG, ECG, respiratory monitoring, and eye tracking, facilitating multimodal experiments.
+
+### **Advanced Light Microscopy**
+In the domain of light microscopy, the Cellular Imaging Core Facility (CELLIM) hosts a Carl Zeiss Elyra 7 system equipped for super-resolution and dynamic live-cell imaging. This instrument supports Lattice SIM (Structured Illumination Microscopy), Total Internal Reflection Fluorescence (TIRF), and Single Molecule Localization Microscopy (SMLM), enabling researchers to visualise subcellular structures beyond the classical diffraction limit. Applications include tracking dynamic processes in plant tissues, mammalian embryos, stem cells, and germline cells.
+
+### **Experimental Biophotonics Facility**
+A notable asset of the Node is the Q-Phase multimodal holographic microscope, developed in-house and commercialized by Telight/Tescan. This system provides label-free, quantitative phase imaging of live cells and tissues, including in complex 3D environments such as collagen matrices. By combining coherence-controlled holography with integrated fluorescence modules, the instrument enables real-time monitoring of cell growth, morphology, and motility with high temporal resolution and minimal phototoxicity.
+
+---
+
+## Additional Services
+
+The Node offers comprehensive support services to facilitate all stages of biomedical and biological imaging projects. These include personalized consultation and access to high-end equipment for both live-cell microscopy and human neuroimaging. Advanced image analysis services are provided on-site, including the development of custom-tailored algorithms and software tools for specific research needs. Researchers may also access data visualization tools and assisted workflows for complex multidimensional datasets. Regular training sessions are organised for both novice and experienced users, covering instrument operation, experimental design, and quantitative data analysis. Depending on the project type, the Node supports remote data processing and collaborative project design.
+
+![](/upload/CELLIM_2.png)
+![](/upload/CELLIM_4.jpg)
+![](/upload/MAFIL_MR_scanner.jpg)
+
+---
+
+## Contact Details
+
+**Michal Mikl**  
+📧 [michal.mikl@ceitec.muni.cz](mailto:michal.mikl@ceitec.muni.cz)  
+📞 +00420549496099  
+Head of the Node, Representative of Medical Imaging
+
+**Milan Esner**  
+📧 [milan.esner@ceitec.muni.cz](mailto:milan.esner@ceitec.muni.cz)  
+Deputy Head of the Node, Representative of Microscopic Imaging
+
+🌍 [3D view of Multimodal and Functional Imaging Laboratory](http://www.ceitec-muni-neuroscience.pano3d.cz)

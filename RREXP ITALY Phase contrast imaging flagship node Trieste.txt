@@ -1,0 +1,63 @@
+# ITALY
+
+## Phase Contrast Imaging Flagship Node Trieste
+
+---
+
+## Description
+
+The **Phase Contrast Imaging Flagship Node in Trieste** is hosted at the SYRMEP beamline of the Elettra Synchrotron facility, an advanced synchrotron radiation source located in north-eastern Italy. This Node represents Italy’s national hub for high-resolution phase contrast X-ray imaging and contributes a unique modality to the Euro-BioImaging network by offering **non-destructive, label-free imaging of biological tissues** with enhanced soft tissue contrast.
+
+Phase contrast imaging takes advantage of the specific properties of synchrotron radiation, including monochromaticity, high flux, and spatial coherence, to detect minute changes in the phase of X-ray beams as they pass through samples. This approach significantly **improves the visibility of features in low-absorbing soft tissues**, which are difficult to visualise using conventional absorption-based radiography. 
+
+The Node's infrastructure supports both propagation-based and analyzer-based phase contrast imaging modalities, offering tailored solutions for a wide range of biomedical applications, from preclinical imaging to biomaterials research.
+
+---
+
+## Offered Technologies
+
+
+
+| Technologies | Euro-BioImaging | 
+|-------------|---------------|
+| Phase Contrast Imaging | ✓ | 
+
+---
+
+## Instrument Highlights
+
+The Node is equipped with high-performance imaging platforms that support **multi-scale synchrotron radiation imaging** using propagation-based phase contrast. These systems enable spatial resolutions ranging from 1 µm to 50 µm, adjustable according to sample size and required detail. This flexibility allows precise visualisation of fine anatomical structures and tissue interfaces.
+
+A key instrument is the **Analyzer-Based Imaging (ABI)** setup, which operates in the 15 to 35 keV X-ray energy range using monochromatic beams. This configuration enhances contrast sensitivity for weakly absorbing materials and is particularly useful for quantitative imaging of **soft tissues, cartilage, and pathological specimens**.
+
+The **SYRMEP Tomo Project (STP) software suite** provides advanced pre-processing and reconstruction algorithms that allow optimisation of image quality based on specific experimental needs. These tools support workflows such as ring artifact correction, phase retrieval, and iterative reconstruction.
+
+The Node also includes a versatile experimental station capable of supporting in-situ experiments and custom imaging setups. In addition, the TomoLab facility complements the synchrotron station with a micro-focus X-ray source for standard microCT applications, offering greater flexibility in proposal planning.
+
+---
+
+## Additional Services
+
+The Phase Contrast Imaging Node offers **full-service imaging pipelines, from sample mounting and acquisition to reconstruction and data post-processing**. Users receive support in experimental design, including guidance on beamline setup and selection of imaging parameters suitable for their biological question.
+
+Advanced data processing is available through proprietary and open-source software tools, such as the **Pore3D library**, which facilitates quantitative analysis of porous and fibrous structures in 3D datasets. Remote access to data, virtual consultation for experimental planning, and assistance with image interpretation are provided on request.
+
+**Training is available** for both new and experienced users, with tailored programmes focused on phase contrast principles, data handling, and 3D image reconstruction. These sessions can be delivered in-person or remotely, depending on user needs and project scope.
+
+---
+
+## Contact Details
+
+📧 **Dr. Giuliana Tromba**  
+**SYRMEP Beamline Coordinator**  
+[giuliana.tromba@elettra.eu](mailto:giuliana.tromba@elettra.eu)  
+📞 +39 040 3758587  
+
+🌐 **SYRMEP Beamline:**  
+[https://www.elettra.trieste.it/elettra-beamlines/syrmep.html](https://www.elettra.trieste.it/elettra-beamlines/syrmep.html)  
+
+🌐 **TomoLab:**  
+[https://www.elettra.trieste.it/lightsources/labs-and-services/tomolab/tomolab.html](https://www.elettra.trieste.it/lightsources/labs-and-services/tomolab/tomolab.html)  
+
+🌐 **Pore3D Library:**  
+[http://www.elettra.eu/pore3d](http://www.elettra.eu/pore3d)  

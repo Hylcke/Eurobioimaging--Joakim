@@ -1,0 +1,87 @@
+## Description
+
+France‑BioImaging (FBI) represents the French national research infrastructure for biological imaging, integrated across ten regional sites and supported by a transversal bioimage informatics Node. 
+
+Hosted by universities and national research organizations (CNRS, INSERM), the infrastructure coordinates 30 major facilities and 80 R&D laboratories in molecular and cell biology, biophysics, engineering, mathematics, and informatics. 
+
+Eight regional sites exist—Paris‑Centre, Bordeaux, Montpellier, Marseille, among others—currently serve Euro‑BioImaging users. The mission is to enable broad access to advanced imaging technologies, to support translational transfer from R&D into core facilities, and to empower users with quantitative and integrative insights on cellular and tissue activity in biological models spanning from unicellular organisms to small vertebrates under physiological and pathological conditions.
+
+![](upload/french_node_2024.png)  
+
+*Main scientific fields of expertise in the 8 regional sites of FBI currently open to EuBI users.*  
+
+## Offered Technologies
+
+| Technologies | Euro‑BioImaging | 
+|--------------|------------------|
+| Deconvolution widefield microscopy (DWM) | ✓ | ✓ |
+| Laser scanning confocal microscopy (LSCM/CLSM) | ✓ | ✓ |
+| Spinning disk confocal microscopy (SDCM) | ✓ | ✓ |
+| Structured illumination microscopy (SIM) | ✓ | ✓ |
+| Total internal reflection fluorescence microscopy (TIRF) | ✓ | ✓ |
+| Two‑photon microscopy (2P) | ✓ | ✓ |
+| Image Scanning microscopy (ISM) | ✓ | ✓ |
+| Random Illumination Microscopy (RIM) | ✓ | ✓ |
+| Lattice Lightsheet (LL) | ✓ | ✓ |
+| Single Molecule localization microscopy (SMLM) | ✓ | ✓ |
+| Stimulated emission depletion microscopy (STED) | ✓ | ✓ |
+| Reversible optical fluorescence transitions (RESOLFT) | ✓ | ✓ |
+| Light‑sheet mesoscopic imaging (SPIM or dSLSM) | ✓ | ✓ |
+| Macro Serial Blockface Fluorescence Imaging | ✓ | ✓ |
+| Raman Spectroscopy (RS) | ✓ | ✓ |
+| Optical projection tomography (OPT) | ✓ | ✓ |
+| Pre‑embedding CLEM | ✓ | ✓ |
+| Intravital Microscopy (IVM) | ✓ | ✓ |
+| Atomic Force Microscopy (AFM) | ✓ | ✓ |
+| Large scale EM | ✓ | ✓ |
+| EM tomography (ET) | ✓ | ✓ |
+| Scanning Electron Microscopy (SEM) | ✓ | ✓ |
+| Traction Force Microscopy (TFM) | ✓ | ✓ |
+| Cryo Transmission Electron Microscopy (Cryo‑TEM) | ✓ | ✓ |
+| Genetic encoded EM probes | ✓ | ✓ |
+| Imaging at Biosafety Level >1 | ✓ | ✓ |
+| Image Analysis ‑ Bio | ✓ | ✓ |
+
+## Instrument Highlights
+
+**Lattice light-sheet microscopy** is implemented at Paris‑Centre, Bordeaux, and Montpellier, enabling isotropic high‑resolution imaging of live or cleared samples in four dimensions. This technique allows subcellular spatial resolution while minimizing photodamage, making it particularly effective for long-term imaging of delicate biological structures. 
+
+The **Montpellier Node** features a sequential smFISH platform for spatial transcriptomics, supporting high-precision, multiplexed detection of individual RNA molecules within fixed tissue samples. Montpellier also supports correlative light microscopy with atomic force microscopy (LM/AFM), facilitating simultaneous topographical and molecular analysis at the nanoscale. 
+
+**Bordeaux Node** offers an extensive super-resolution suite, comprising over ten advanced systems, including STED, PALM, and STORM, dedicated to high-resolution applications in neuroscience and plant biology. 
+
+**Marseille Node** offers correlative X-ray and Electron Microscopy (CXEM) enables comprehensive ultrastructural mapping by combining high-resolution electron data with wide-field structural X-ray imaging. 
+
+**Paris and Marseille** provide infrastructure for preclinical optical imaging, supporting longitudinal in vivo studies of disease models. The Bioimage Analysis Facility (FB‑IAS) offers advanced software pipelines and computational support for user projects requiring quantitative image analysis.
+
+## Additional Services
+
+France-BioImaging offers a broad range of services designed to support both technical operation and scientific application of its imaging platforms. These include hands-on instrumentation support, custom experimental design assistance, and standard operating procedure development. 
+
+Facilities are available for animal handling and preparation, fluorophore and probe formulation, and wet-lab experimentation. Comprehensive image data processing and storage infrastructure is in place, with analysis pipelines tailored for diverse imaging modalities. 
+
+Training opportunities range from introductory seminars to expert-level workshops, including topics in light-sheet imaging and spatial transcriptomics. The infrastructure supports remote sample submission, collaborative project design, and access to biobanking services for long-term preservation of biological materials. 
+
+The Bioimage Analysis Facility further enables users to implement custom workflows or integrate AI-assisted strategies into their imaging analyses.
+
+## Contact Details
+
+**René Marc Mège**, DR CNRS, PhD  
+Scientific Director of France‑BioImaging  
+Institut Jacques Monod (Université Paris Cité / CNRS)  
+15 rue Hélène Brion, 75205 Paris Cedex 13, France  
+Email: [rene‑marc.mege@france‑bioimaging.org](mailto:rene-marc.mege@france-bioimaging.org)
+
+**Caroline Thiriet**, IE CNRS  
+External Affairs Manager, Node Representative, Euro‑BioImaging User Access Coordinator  
+Bordeaux Imaging Center, Centre Génomique Fonctionnelle Bordeaux  
+146 rue Léo Saignat, CS 61292 – 33076 Bordeaux Cedex, France  
+Email: [caroline.thiriet@france‑bioimaging.org](mailto:caroline.thiriet@france-bioimaging.org)  
+
+
+**General Contact:**  
+[contact@france‑bioimaging.org](mailto:contact@france-bioimaging.org)
+
+**Website:**  
+[https://france-bioimaging.org/](https://france-bioimaging.org/)
+

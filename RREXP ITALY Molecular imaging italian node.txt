@@ -1,0 +1,97 @@
+# ITALY
+
+## Molecular Imaging Italian Node
+
+---
+
+## Description
+
+The **MultiModal Molecular Imaging (MMMI) Italian Node** is a multisited infrastructure dedicated to advanced *in vivo* biomedical imaging. It operates across eight partner institutions situated in **four Italian cities**: 
+1. Turin
+2. Milan
+3. Naples
+4. Pisa. 
+
+The Node provides broad access to high-resolution, multimodal imaging platforms alongside tailored scientific and technical expertise. As part of the Euro-BioImaging research infrastructure and a key contributor to the ISIDORe project, the Node supports infectious disease and **pandemic-related research alongside disease-focused investigations**.
+
+The Node’s mission is to facilitate noninvasive imaging studies that enhance understanding of **human disease mechanisms**, enable monitoring of therapeutic interventions, and support biomarker discovery in living systems. Access is provided to a validated repository of imaging agents and tracers, along with a diverse collection of animal and cellular models that reflect major human pathologies. Coordinated services span from imaging probe development through to quantitative analysis, with site-specific strengths in **oncology, neurology, cardiology, and metabolism**.
+
+---
+
+## Offered Technologies
+
+| Technologies | Euro-BioImaging |
+|-------------|------------------|
+| micro MRI MRS (≥ 7T) | ✓ | ✓ |
+| micro MRI MRS (< 7T) | ✓ | ✓ |
+| micro CT | ✓ | ✓ |
+| micro PET | ✓ | ✓ |
+| micro US | ✓ | - |
+| *in vivo* Optical Imaging | ✓ | - |
+| Photoacoustic Imaging (PAI) Med | ✓ | - |
+| micro PET MRI | ✓ | ✓ |
+| MRI MRS (< 7T) | ✓ | - |
+| micro SPECT CT | ✓ | - |
+| MRI PET | ✓ | ✓ |
+| PET | ✓ | ✓ |
+| Terahertz Plant Imaging (THzI) | ✓ | - |
+| PET CT | ✓ | - |
+| micro MRI MRS (≥ 7T) ex vivo | ✓ | ✓ |
+| micro MRI MRS (< 7T) ex vivo | ✓ | ✓ |
+| micro CT ex vivo | ✓ | ✓ |
+| Image Analysis Med | ✓ | ✓ |
+
+![](upload/MIIN_img1.PNG)
+
+![](upload/MIIN_img2.PNG)
+---
+
+## Instrument Highlights
+
+The MMMI Node offers a comprehensive suite of imaging modalities designed for preclinical and translational research. 
+- **Milan & Naples** → Neurological diseases  
+- **Pisa & Naples** → Cardiovascular diseases  
+- **Turin & Naples** → Oncological diseases  
+- **Pisa** → Metabolic diseases  
+
+**Magnetic Resonance Imaging** systems operating at field strengths between 1 and 9.4 Tesla provide high-contrast anatomical and functional imaging of soft tissues. These systems support advanced applications such as spectroscopy, relaxometry, and dynamic contrast-enhanced imaging, enabling detailed investigation of cardiovascular, metabolic, and neurological functions.
+
+The Node includes a range of nuclear imaging technologies such as **Positron Emission Tomography, Single Photon Emission Computed Tomography, and hybrid platforms including PET CT and PET MRI**. These modalities offer sensitive detection of radiolabelled probes to assess molecular pathways, receptor expression, and disease progression in real time. Sites in Milan and Naples specialise in neurological and oncological applications, while Pisa and Naples focus on cardiovascular and metabolic imaging.
+
+**Optical imaging platforms** enable noninvasive tracking of fluorescent or bioluminescent signals in small animal models. Photoacoustic imaging combines the molecular specificity of optical contrast with the spatial resolution of ultrasound, offering a powerful tool for studying vascular function and tissue oxygenation. **High-frequency ultrasound systems** provide real-time, high-resolution assessment of cardiac and organ-level function.
+
+Dedicated laboratories support the synthesis and characterisation of imaging agents, including molecular, nanoscale, and supramolecular constructs. These capabilities are crucial for developing targeted imaging approaches tailored to specific biological questions.
+
+---
+
+## Additional Services
+
+![](upload/MIIN_img3.PNG)
+
+The Node delivers a complete portfolio of technical and methodological services to support imaging workflows from experimental design to data interpretation. Services include support for relaxometry studies, custom probe preparation, and assistance with animal handling, including housing and preparation for imaging. Core facilities offer expertise in cell culture, microscopy, histopathology, and wet lab-based experimental procedures.
+
+**Radiochemistry laboratories**, equipped with cyclotron infrastructure, enable the on-site production of radionuclides and synthesis of **PET and SPECT tracers**. A biobank facility supports biochemical and molecular analysis, including extraction of DNA, RNA, and proteins, which can be correlated with imaging data to strengthen biological interpretation.
+
+Specialised infrastructure is available for **hardware calibration, detector development, and testing**. Image processing and quantitative analysis services are provided across all imaging modalities, including advanced segmentation and three-dimensional reconstruction. Methodological consultation is available to assist users with protocol design, regulatory compliance, and custom standard operating procedures.
+
+**Training opportunities** are available for both novice and experienced users and include hands-on guidance in probe development, instrument operation, and image analysis. External researchers may submit samples or arrange collaborative projects with participating centres.
+
+---
+
+## Contact Details
+
+**Node Coordinator**  
+Enzo Terreno  
+✉️ [enzo.terreno@unito.it](mailto:enzo.terreno@unito.it)  
+📞 +39 0116706451  
+🌐 [MMMI Italian Node Website](http://www.mmmi.unito.it/)
+
+**Affiliated Institutions**  
+[University of Turin – Molecular Imaging Centre (CIM)](http://www.cim.unito.it/website/index.php)  
+[San Raffaele Hospital, Milan – Experimental Imaging Centre](http://www.hsr.it/ricerca/divisioni-centri-istituti-e-programmi-di-ricerca/centro-di-imaging-sperimentale)  
+[CNR Institute of Molecular BioImaging and Physiology, Milan](http://www.ibfm.cnr.it/en_home/en_ibfm_home.html)  
+[CNR Institute of Clinical Physiology, Pisa](https://www.ifc.cnr.it/index.php/en)  
+[G. Monasterio Foundation, Pisa](http://www.ftgm.it)  
+[University of Pisa – Department of Physics](http://www.df.unipi.it)  
+[IRCCS SDN, Naples](http://www.sdn-napoli.it/en/home-2)  
+[CNR Institute of Biostructures and BioImages, Naples](http://www.ibb.cnr.it)

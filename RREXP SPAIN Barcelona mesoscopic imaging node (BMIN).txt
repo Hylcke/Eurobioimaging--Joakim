@@ -1,0 +1,75 @@
+## Description
+
+The **Barcelona Mesoscopic Imaging Node (BMIN)** is a Flagship Euro-BioImaging facility jointly operated by **IRB Barcelona** and **ICFO**, and hosted within the Barcelona Institute of Science and Technology in Spain. This Node provides open access to state-of-the-art mesoscopic imaging platforms, centered on **advanced Lightsheet Fluorescence Microscopy (LSFM)**. Instruments span scales from tens of micrometres to multiple centimetres, enabling high-speed, deep-volume imaging of entire organs and live whole organisms with cellular resolution. 
+
+**BMIN supports public and private sector researchers** through custom-tailored workflows that begin with project design and extend through sample preparation, image acquisition, data analysis, and visualization.
+
+### Unique Capabilities:
+- **Multiscale optical imaging**, from **50 µm to 5+ cm**.
+- **Live imaging of whole organisms and organs**.
+- **High-speed and deep imaging capabilities**.
+- **In toto imaging with cellular resolution**.
+
+## Offered Technologies
+
+| Technologies | Euro-BioImaging |
+|-------------|---------------|
+| Lightsheet Mesoscopic Imaging (SPIM/sDSLM) | ✓ |
+| Tissue Clearing | ✓ |
+| Expansion Microscopy | ✓ |
+| High-Speed Imaging | ✓ |
+| Feedback Microscopy | ✓ |
+| Laser Scanning Confocal Microscopy (LSCM/CLSM) | ✓ |
+| High-Throughput Microscopy / High-Content Screening (HTM/HCS) | ✓ |
+| Fluorescence Lifetime Imaging (FLIM) | ✓ |
+| Two-Photon Microscopy (2P) | ✓ |
+| Second/Third Harmonic Generation (SHG/THG) | ✓ |
+| Raman Spectroscopy | ✓ |
+| Image Analysis - Bio | ✓ |
+
+## Instrument Highlights
+
+The Node incorporates **multiple specialized LSFM configurations to address diverse mesoscopic imaging challenges**. 
+
+**SPIM (Selective Plane Illumination Microscopy)** delivers fast, gentle optical sectioning suited to live and cleared specimens. **MultiView SPIM **facilitates isotropic three-dimensional reconstructions via multi-angle acquisition. Double-sided illumination and detection enhance imaging depth and uniformity in large specimens. **Digitally Scanned Lightsheet Microscopy (DSLM)** improves contrast and spatial resolution by scanning a thin laser sheet. **Axially Swept Lightsheet Microscopy (ASLM)** maintains high axial resolution throughout large volume fields. **Oblique Plane Microscopy (OPM)** supports samples in conventional multiwell plates. Refocused imaging combined with adaptive optics enables rapid volumetric imaging in dynamic biological systems. **MacroSPIM** extends capabilities to intact organs up to 30 mm, particularly when paired with tissue clearing methods. 
+
+**Diverging and Scattered Lightsheet** techniques enable label-free visualization of whole organisms or fibrous structures, addressing biological questions such as developmental dynamics and nanoparticle distribution.
+
+### **Lightsheet (LS) Variants Available:**
+- **SPIM (Selective Plane Illumination Microscopy)**  
+  - Fast, deep, and gentle imaging for live and cleared samples.  
+- **MultiView SPIM**  
+  - Sample rotation for isotropic 3D volume reconstruction.  
+- **Double-Sided Illumination & Detection**  
+  - Enhanced imaging for large, live or fixed samples.  
+- **Digitally Scanned Lightsheet Microscopy (DSLM)**  
+  - Improved contrast, image quality, and resolution.  
+- **Axially Swept Lightsheet Microscopy (ASLM)**  
+  - Optimized axial resolution across large fields of view.  
+- **Oblique Plane Microscopy (OPM)**  
+  - Lightsheet imaging with conventional multiwell plates.  
+- **Refocused Imaging & Adaptive Optics**  
+  - High-speed volumetric imaging for living samples.  
+- **MacroSPIM (Optical Clearing)**  
+  - Imaging large samples (*5–30mm organs*).  
+- **Diverging Lightsheet Imaging**  
+  - Imaging entire organisms (*e.g., chicken embryos*).  
+- **Scattered Lightsheet (sLS)**  
+  - Label-free tissue imaging (*e.g., nanoparticles, fibers*).  
+
+## Additional Services
+
+**BMIN offers end-to-end user support** including collaborative project planning, methodological setup, sample processing, and custom mounting solutions. Technical assistance covers probe preparation, histology, tissue processing, and access to animal facilities such as Drosophila support. 
+
+Sample mounting resources include modular LEGO‑based systems and **3D‑printed adapters** suited for large or cleared specimens. Infrastructure provides remote access to analysis workstations, robust data storage, and tailored bioimage analysis pipelines. 
+
+**Training ranges from introductory workshops to advanced sessions** on LSFM workflows, image acquisition, and data interpretation. Administrative support extends to logistics and housing arrangements. Prototyping services enable development of custom imaging hardware, including electronic and 3D-print fabrication support.
+
+## Contact Details
+
+Julien Colombelli (Core Facility Manager, Advanced Digital Microscopy, IRB Barcelona)  
+📧 julien.colombelli@irbbarcelona.org  
+
+Pablo Loza‑Alvarez (Head, Super‑Resolution Light Microscopy & Nanoscopy, ICFO)  
+📧  pablo.loza@icfo.eu
+

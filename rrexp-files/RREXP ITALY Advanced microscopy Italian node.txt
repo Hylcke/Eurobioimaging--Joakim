@@ -1,0 +1,84 @@
+# Description
+
+The **Italian Advanced Light Microscopy (ALM)** Node is a nationally coordinated, multi-sited infrastructure providing open access to a wide array of advanced imaging technologies. 
+It is composed of five specialized facilities located in:
+1. Naples
+2. Genoa
+3. Padua
+4. Florence
+5. Milan. 
+
+Coordinated by the Institute of Biochemistry and Cell Biology (IBBC-CNR) in Naples, the Node forms part of the Euro-BioImaging network and supports academic and industrial users across basic, applied, and translational research. Each site contributes unique strengths in microscopy and sample analysis while collaborating extensively to offer integrated workflows that include sample preparation, image acquisition, data quantification, and visualization. The **Node collectively supports over 1,000 users annually**, making it a cornerstone of Italy’s bioimaging research ecosystem.
+
+## Offered Technologies
+
+| Technologies | Euro-BioImaging | 
+|-------------|---------------|
+| Deconvolution widefield microscopy (DWM) | ✓ | ✓ |
+| Laser scanning confocal microscopy (LSCM/CLSM) | ✓ | ✓ |
+| Spinning disk confocal microscopy (SDCM) | ✓ | ✓ |
+| Structured illumination microscopy (SIM) | ✓ | ✓ |
+| Two-photon microscopy (2P) | ✓ | ✓ |
+| Image Scanning Microscopy (ISM) | ✓ | ✓ |
+| Total internal reflection fluorescence microscopy (TIRF) | ✓ | ✓ |
+| Single Molecule Localization Microscopy (SMLM) | ✓ | ✓ |
+| Stimulated Emission Depletion Microscopy (STED) | ✓ | ✓ |
+| 4PI | ✓ | ✓ |
+| Light-sheet mesoscopic imaging (SPIM or dSLSM) | ✓ | ✓ |
+| Raman Spectroscopy (RS) | ✓ | ✓ |
+| Second/Third Harmonics Generation (SHG/THG) | ✓ | ✓ |
+| High-throughput Microscopy/High-content Screening (HTM/HCS) | ✓ | ✓ |
+| Fluorescence (cross)-correlation spectroscopy (FCS/FCCS) | ✓ | ✓ |
+| Voltage/pH/Ion Imaging | ✓ | - |
+| Fluorescence Resonance Energy Transfer (FRET) | ✓ | ✓ |
+| Fluorescence Recovery After Photobleaching (FRAP) | ✓ | ✓ |
+| Fluorescence Lifetime Imaging Microscopy (FLIM) | ✓ | ✓ |
+| Expansion Microscopy | ✓ | ✓ |
+| Tissue Clearing (TC) | ✓ | ✓ |
+| TEM of chemically fixed samples (TEM) | ✓ | ✓ |
+| EM Tomography | ✓ | ✓ |
+| Serial Section TEM | ✓ | ✓ |
+| FIB-SEM | ✓ | ✓ |
+| Pre-embedding Immunolabeling (pre-embed IL) | ✓ | ✓ |
+| Pre-embed CLEM | ✓ | ✓ |
+| Atomic Force Microscopy (AFM) | ✓ | - |
+| Mass Spectrometry-based Imaging (MSI) | ✓ | - |
+
+## Instrument Highlights
+
+The Node integrates both commercial and custom-built imaging systems that support high-resolution, dynamic, and correlative imaging across a range of spatial and temporal scales. 
+
+#### Naples
+In Naples, the IBBC-CNR facility provides advanced tools for **Förster Resonance Energy Transfer (FRET)**, a technique that measures nanometer-scale molecular interactions by detecting energy transfer between fluorophores, particularly suited for studying large protein complexes. **Raman microscopy** is used here to map chemical compositions in cells without staining, while microfluidic platforms support dynamic live-cell imaging in controlled environments.
+
+### Genoa
+The Genoa site at the Italian Institute of Technology (IIT), through the Nikon Imaging Centre (NIC@IIT), specialises in **super-resolution techniques such as STED (Stimulated Emission Depletion Microscopy)**, which breaks the diffraction limit to image subcellular structures at nanoscale resolution. It also provides **Image Scanning Microscopy (ISM)**, which improves optical sectioning and sensitivity, and **Expansion Microscopy (ExM)**, allowing physical sample expansion for nanoscale imaging using standard microscopes. A key innovation at this site is the correlative integration of **Atomic Force Microscopy (AFM) with STED**, enabling concurrent acquisition of surface topology and fluorescence signals.
+
+### Padua
+In Padua, the imaging facility focuses on functional imaging of intracellular signalling pathways. It employs **genetically encoded biosensors and chemical probes** to visualise calcium and cyclic AMP (cAMP) dynamics in living cells and tissues. Two-photon microscopy allows deep-tissue imaging with reduced phototoxicity, particularly beneficial in intact **brain preparations**.
+
+### Florence
+Florence hosts imaging platforms at the European Laboratory for Non-linear Spectroscopy (LENS), where **Raman spectroscopy and non-linear optical imaging techniques** such as Second Harmonic Generation (SHG) and Third Harmonic Generation (THG) are applied to optically cleared and expanded tissues. 
+
+**Raman spectroscopy** uses inelastic scattering of laser light to identify the vibrational modes of molecular bonds, enabling label-free chemical mapping of biological samples. **Second Harmonic Generation (SHG)** produces signal only in non-centrosymmetric, highly ordered structures such as collagen or myosin, making it ideal for **imaging fibrous components** of the extracellular matrix. **Third Harmonic Generation (THG)** detects interfaces between materials with different refractive indices, such as lipid membranes and organelle boundaries, providing high-contrast, label-free **imaging of cellular architecture**.
+
+### Milan
+Milan's Alembic facility at San Raffaele Scientific Institute offers high-throughput imaging pipelines, combining **automated confocal and widefield microscopy with batch image analysis**. It also supports correlative light and electron microscopy **(CLEM)**, enabling structural-functional correlation in both fixed and live samples.
+
+## Additional Services
+
+The Node provides end-to-end support for imaging projects, including tailored experimental design consultations, hands-on technical training, and access to wet-lab environments, tissue culture rooms, and animal housing. Image analysis and processing services include deconvolution, quantification, 3D reconstruction, and data visualization, with options for supervised or autonomous workflows. 
+
+Facilities at **Naples and Milan support biosensor development** and validation, while **Genoa and Padua offer remote access** or sample submission options for users conducting long-term experiments or working off-site.
+
+**Training programs** are available for both novice and experienced users, covering basic light microscopy techniques as well as advanced applications such as STED, FLIM, and volumetric light-sheet imaging. Collaborative development of custom imaging workflows and sample preparation protocols is encouraged, and staff scientists actively engage in methodological development projects with academic partners.
+
+## Contact Details
+
+**Coordinator of the Italian ALM Node**  
+📧 Alberto Luini: [alberto.luini@ibbc.cnr.it](mailto:alberto.luini@ibbc.cnr.it)  
+📞 +39 081 6132 535  
+
+**Head, Bioimaging Facility, IBBC-CNR**  
+📧 Seetharaman Parashuraman: [raman@ibbc.cnr.it](mailto:raman@ibbc.cnr.it)  
+📞 +39 081 6132 283

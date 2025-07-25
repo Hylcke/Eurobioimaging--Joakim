@@ -1,0 +1,62 @@
+## Description
+
+The **Center for Advanced Preclinical Imaging (CAPI)**, hosted within the First Faculty of Medicine at Charles University in Prague, operates as a single-site, multimodal Euro‑BioImaging and Czech‑BioImaging node. 
+
+Established in 2016 with support from national research infrastructure funding, the Node specialises in in vivo preclinical imaging of small animals (mice and rats), offering open access to a comprehensive suite of biomedical imaging technologies. 
+
+CAPI integrates advanced modalities spanning magnetic resonance, computed tomography, emission tomography, magnetic particle imaging (MPI), ultrasound, photoacoustics, and optical imaging—for a range of applications including oncology, neurology, cardiology, tracer development, and molecular imaging. The platform supports longitudinal single‑subject studies with anaesthesia, vital‑sign monitoring and integrated multimodal co‑registration. 
+
+Recognised as part of Euro‑BioImaging since 2021, CAPI fosters collaborations with national and international research institutes and industry partners.
+
+## Offered Technologies
+
+| Technologies | Euro-BioImaging |
+|-------------|---------------|
+| micro-MRI/MRS (≥ 7T) | ✓ |
+| micro-MRI/MRS (< 7T) | ✓ |
+| micro-CT | ✓ |
+| micro-PET | ✓ |
+| micro-SPECT | ✓ |
+| micro-US | ✓ |
+| *in vivo* Optical Imaging | ✓ |
+| Photoacoustic Imaging (PAI) - med | ✓ |
+| micro-PET/MRI | ✓ |
+| micro-PET/CT | ✓ |
+| micro-SPECT/CT | ✓ |
+| micro-MRI/MRS (< 7T) - ex-vivo | ✓ |
+| micro-MRI/MRS (≥ 7T) - ex-vivo | ✓ |
+| micro-CT - ex-vivo | ✓ |
+
+## Instrument Highlights
+
+CAPI hosts a suite of high-end imaging instruments tailored to preclinical research. 
+
+### **Magnetic Resonance Imaging (MRI)**
+- The ICON 1 T MRI scanner (Bruker) employs a permanent magnet delivering standard 2D/3D anatomical imaging, **diffusion‑weighted protocols and relaxometry for tumor, cardiovascular and neurological research**. Complementing this, the cryogen‑free 7 T MR Solutions scanner (installed May 2021) features a compact design with a 10 cm bore, 600 mT/m gradients, dual transmit and quad receive channels, plus X‑nuclei capability (¹⁹F,³¹P). Its configuration enables high‑resolution structural imaging in oncology, neurology, cardiology, spectroscopy and cell tracking, with integrated physiological monitoring.
+
+### **Magnetic Particle Imaging (MPI)**
+- The Bruker MPI instrument enables **real‑time tomographic detection of superparamagnetic iron oxide nanoparticles** with exceptional sensitivity (~10⁻¹¹ mol/L), sub‑millimetre resolution (<0.6 mm), and speed (up to 46 frames per second). This modality excels in quantitative cell tracking, angiography, targeted tissue imaging and hyperthermia guidance, and is routinely co-registered with MRI or CT for anatomical context.
+
+### **Ultrasound & Photoacoustic Imaging (US & PA)**
+- **Ultrasound and photoacoustic imaging** are offered via the Vevo LAZR-X, supporting multimodal studies in oncology, neurobiology and cardiovascular research. Four transducer configurations (MX201, MX400, MX550D, MX700) cover frequency ranges from 10 to 71 MHz, enabling diverse applications such as small‑animal whole‑body scanning, embryonic imaging, microvasculature, ophthalmology and lymphatic studies.
+
+![](upload/CAPI11.png)  
+*CT/PET/SPECT preclinical scanner, Magnetic Particle Imager, and 7T Magnetic Resonance in dedicated labs.*
+
+## Additional Services
+
+CAPI provides full project support from experimental design to data interpretation and publication. Wet-lab capabilities include animal housing (specific‑pathogen‑free mice and rats), cell culture, microsurgery, stem‑cell transplantation, and tracer development, supported by radiochemistry and chemistry labs with cryotome, autoradiography, gamma‑counting and radio‑HPLC. The infrastructure also supports contrast‑agent characterisation, relaxometry (0.5 T), 3D printing, flow cytometry (imaging enabled), and molecular assays including RT‑PCR.
+
+Comprehensive data services include acquisition, storage, processing and advanced image analysis pipelines, including multimodal registration using tools such as P‑MOD and MATLAB. Training is available for entry-level to advanced users in in vivo imaging modalities, with on-site and remote instrument use, sample submission, and collaborative experiment design. The facility’s expertise was instrumental in supporting Dr. Mohamed Elgendy’s cancer metabolism studies, exemplifying robust translation of preclinical imaging to scientific outputs.
+
+## Contact Details
+
+Luděk Šefc (Head of Department)  
+📧 sefc@cesnet.cz  
+
+Pavla Francová (Project Coordinator)  
+📧 pavla.francova@lf1.cuni.cz  
+
+🌍 [CAPI Website](https://capi.lf1.cuni.cz/en)  
+
+BB Contact information needed BB

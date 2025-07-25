@@ -1,0 +1,62 @@
+# HUNGARY
+
+## Medical and Preclinical Imaging Hungary
+
+---
+
+## Description
+
+Medical and Preclinical Imaging Hungary is a multimodal, multi-sited Euro-BioImaging Node comprising sites in Debrecen, Pécs, and Budapest. It provides access to both preclinical and clinical biomedical imaging. The Node focuses on functional imaging and offers specialized expertise in quantitative autoradiology, microCT, PET, SPECT/CT, and PET/CT imaging modalities. Each site contributes specific technical capabilities.
+
+---
+
+## Offered Technologies
+
+| Technologies                     | Euro-BioImaging |
+|----------------------------------|-----------------|
+| micro-MRI/MRS (≥ 7T)             | ✓               |
+| micro-CT                         | ✓               |
+| micro-PET                        | ✓               |
+| micro-SPECT                      | ✓               |
+| *in vivo* Optical Imaging        | ✓               |
+| micro-PET/MRI                    | ✓               |
+| micro-PET/CT                     | ✓               |
+| micro-SPECT/CT                   | ✓               |
+| MRI-PET                          | ✓               |
+| PET                              | ✓               |
+| PET/CT                           | ✓               |
+| micro-MRI/MRS (≥ 7T) - ex-vivo   | ✓               |
+| micro-CT - ex-vivo               | ✓               |
+
+---
+
+## Instrument Highlights
+
+The Node includes MiniPET, NanoPET-MRI, and nano-SPECT-CT scanners for preclinical studies. Clinical systems include PET/SPECT-CT. A Bruker PharmaScan 4.7T MRI is available for small-animal imaging. Leica CM3600 cryomacrotome and a phosphor imager are used for high-resolution autoradiography. One site houses PET, MRI, SPECT, and CT in a single room for multimodal preclinical imaging. A 16 MeV cyclotron supports in-house radioisotope production beyond conventional PET tracers.
+
+---
+
+## Specialties and Expertise of the Node
+
+The Node specializes in:
+- Quantitative autoradiology for functional tissue imaging
+- Integrated PET/MRI, PET/CT, and SPECT/CT workflows
+- Preclinical trial imaging for neurology, oncology, and cardiovascular research
+- In-house radiotracer synthesis using a medical-grade cyclotron
+
+---
+
+## Additional Services
+
+- Instrument operation support
+- Cell culture and isotope laboratories
+- Small-animal imaging facilities
+- Wet labs for tracer development and tissue prep
+- Data analysis and archiving infrastructure
+- Seminar and training rooms
+
+---
+
+## Contact Details
+
+📧 Viktoria Aratò: [arato.viktoria@med.unideb.hu](mailto:arato.viktoria@med.unideb.hu)

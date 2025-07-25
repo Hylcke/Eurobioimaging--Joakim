@@ -1,0 +1,98 @@
+# SLOVENIA
+
+## SiMBION NODE
+
+---
+
+## Description
+
+The **Slovenian BioImaging Node, SiMBION**, is a national multi-sited infrastructure network composed of 15 institutional departments and imaging centres. It is coordinated by the **Faculty of Medicine at the University of Ljubljana** and integrates expertise across leading Slovenian research institutions, including the Jožef Stefan Institute, the National Institute of Biology, and the National Institute of Chemistry. 
+
+SiMBION provides external academic, clinical, and industry users with structured access to a comprehensive suite of biomedical imaging technologies. As part of the Euro-BioImaging network, SiMBION facilitates both national and international collaboration through funded research projects, institutional partnerships, and participation in European Transnational Access schemes.
+
+In addition to access to advanced imaging platforms, the Node supports users with methodological development, project planning, and technical training. Through its distributed infrastructure, **SiMBION enables cross-modal workflows** that combine light microscopy, electron microscopy, magnetic resonance imaging, computed tomography, and mass spectrometry-based imaging, with coordinated expertise for biological, clinical, and materials science applications.
+
+![](upload/Slovenia_node.png)  
+*Collage of light and electron microscopic images (S. Hudoklin, A. Erman, R. Romih, P. Veranic, Institute of Cell Biology)*  
+
+---
+
+## Offered Technologies
+
+| Technologies | Euro-BioImaging |
+|-------------|---------------|
+| Laser Scanning Confocal Microscopy (LSCM/CLSM) | ✓ |
+| Total Internal Reflection Fluorescence Microscopy (TIRF) | ✓ |
+| Fluorescence Recovery After Photobleaching (FRAP) | ✓ |
+| TEM of Chemically Fixed Samples (TEM) | ✓ |
+| TEM of Cryo-Immobilized Samples (TEM Cryo) | ✓ |
+| Immuno-Gold EM on Thawed Cryo-Sections (Tokuyasu-EM) | ✓ |
+| Immuno-Gold EM on Resin Sections (Resin-EM) | ✓ |
+| Scanning Electron Microscopy (SEM) | ✓ |
+| Micro-MRI (Field ≥ 7T) (HF) | ✓ |
+| Micro-MRI (Field < 7T) (LF) | ✓ |
+| Ex-vivo micro-CT | ✓ |
+| Mass Spectrometry-Based Imaging - Bio (MSI - Bio) | ✓ |
+| Mass Spectrometry-Based Imaging - Med (MSI - Med) | ✓ |
+
+---
+
+## Instrument Highlights
+
+![](upload/slovenia.png)  
+![](upload/slovenia2.png)  
+*Sodium (Na) distribution in flowers of Solanum lycopersicum by LA-ICP-MS (S. Bigot, P. Pongrac, M. Šala, J.T. van Elteren, J.-P. Martínez, S. Lutts, and M. Quinet, Plants 2022, 11, 672).*
+
+**SiMBION** integrates high-performance instrumentation to support multimodal imaging at subcellular, tissue, and whole-organ levels. 
+
+At the **Jožef Stefan Institute's Microanalytical Centre**, external users can access up to 600 beam hours annually via the RADIATE Transnational Access programme (H2020 Project 824096). This facility provides ion beam-based imaging, including particle-induced X-ray emission **(PIXE)**, Rutherford backscattering spectrometry **(RBS)**, and MeV secondary ion mass spectrometry **(MeV-SIMS)**, allowing spatially resolved elemental analysis of biological samples at micrometre-scale resolution.
+
+Laser Ablation Inductively Coupled Plasma Mass Spectrometry **(LA-ICP-MS)** enables high-resolution elemental mapping of tissues and biomaterials. This technology is particularly suited to visualising the d**istribution of trace metals and nanoparticles in cells**, and is widely applied in metalloproteomics, targeted drug delivery studies, and the assessment of therapeutic antibody distribution.
+
+The Node also hosts a state-of-the-art **EM ICE high-pressure freezer** for rapid cryo-fixation of biological specimens. This technology supports downstream cryo-electron microscopy applications, including cryo-sectioning of vitreous samples **(CEMOVIS)**, three-dimensional electron tomography, and correlative light and electron microscopy **(CLEM)**. The system facilitates advanced ultrastructural preservation, critical for **studying membrane architecture, intracellular compartments, and macromolecular complexes** in their native state.
+
+**Specialized Imaging Capabilities:**
+
+- **Laser Nanosurgery System**  
+  - Custom-built system for subnanosecond pulsed laser ablation.
+  - Submicron damage control for precise intracellular studies.
+
+- **Advanced FLIM (Lifetime Imaging)**
+  - Time-domain FLIM analysis using visible pulsed lasers.
+  - Phasor plot analysis for advanced lifetime imaging studies.
+
+- **High-Resolution Image Scanning Microscopy (ISM)**
+  - Super-resolution and fast imaging for live-cell applications.
+
+- **Dual-Camera Fast Spinning Disk System**
+  - Synchronous multichannel imaging for rapid live-cell capture.
+
+- **High-Content Imaging & Automated Multiwell Analysis**
+  - Robot-loaded multiwell plates.
+  - Long-term incubation for multi-day time-lapse studies.
+
+- **Multiphoton Microscope**
+  - Bridge-type upright configuration with motorized translation.
+  - Dual tunable pulsed laser (*660–1320nm and fixed 1040nm*).
+  - High-speed resonant scanners for dynamic *in vivo* imaging.
+
+---
+
+## Additional Services
+
+SiMBION provides a full-service imaging environment, including **wet lab and tissue culture facilities**, sample preparation labs, and dedicated animal housing units. Users can access bespoke methodological support for protocol development, probe design, and preparation of fixed or cryogenic samples. Advanced sample preparation workflows include high-pressure freezing and optical clearing techniques, optimised for thick tissue imaging or volume EM applications.
+
+The Node offers **comprehensive computational infrastructure** for image analysis, featuring server-based storage and high-performance workstations. Researchers benefit from tailored support in data processing, image quantification, and pipeline development. In-person and remote training is available for both novice and experienced users, including structured courses on microscopy techniques, regulatory compliance, and data management. SiMBION also provides access to **secure biobanking sgervices** and project consulting for compliance with ethical, biosafety, and data governance frameworks.
+
+---
+
+## Contact Details
+
+📧 **Primož Pelicon**  
+[primoz.pelicon@ijs.si](mailto:primoz.pelicon@ijs.si)  
+
+📧 **Esther Punzon Quijorna**  
+[esther.punzon-quijorna@ijs.si](mailto:esther.punzon-quijorna@ijs.si)  
+
+🌐 **Further information, services, and access procedures can be found at:**  
+[https://simbion.mf.uni-lj.si/en/home-2/](https://simbion.mf.uni-lj.si/en/home-2/)

@@ -1,0 +1,107 @@
+# PORTUGAL
+
+## Portuguese Platform of BioImaging (PPBI)
+
+---
+
+## Description
+
+The **Portuguese Platform of BioImaging (PPBI)** is a distributed, multimodal biological Node within the Euro-BioImaging infrastructure. It is hosted by a consortium of leading Portuguese research institutions and universities, and is geographically organised into three regional clusters: 
+1. **North Imaging Cluster (NIC)** located in Porto and Braga
+2. **Central Imaging Cluster (CIC)** in Coimbra, Aveiro, and Covilhã
+3. **South Imaging Cluster (SIC)** in Lisbon and Faro. 
+
+PPBI provides nationwide access to advanced bioimaging technologies, supporting fundamental and translational research across diverse areas including **cell and developmental biology, neuroscience, oncology, immunology, regenerative medicine, infectious diseases, and marine biology**.
+
+PPBI is integrated into the Portuguese National Roadmap for Research Infrastructures and operates in close collaboration with the international Euro-BioImaging community. The platform delivers open-access imaging services and expert support for experimental workflows ranging from **molecular and cellular investigations to whole-organism imaging**, positioning itself as a cornerstone of Portugal’s biomedical research infrastructure.
+
+![](upload/PPBI_1.png)
+
+---
+
+## Offered Technologies
+
+| Technologies | Euro-BioImaging |
+|-------------|---------------|
+| Deconvolution Widefield Microscopy (DWM) | ✓ | ✓ |
+| Laser Scanning Confocal Microscopy (LSCM/CLSM) | ✓ | ✓ |
+| Spinning Disk Confocal Microscopy (SDCM) | ✓ | ✓ |
+| Structured Illumination Microscopy (SIM) | ✓ | ✓ |
+| Two-Photon Microscopy (2P) | ✓ | ✓ |
+| Total Internal Reflection Fluorescence Microscopy (TIRF) | ✓ | ✓ |
+| Single Molecule Localization Microscopy (SMLM) | ✓ | ✓ |
+| Stimulated Emission Depletion Microscopy (STED) | ✓ | ✓ |
+| Light-Sheet Mesoscopic Imaging (SPIM or dSLSM) | ✓ | ✓ |
+| Optical Projection Tomography (OPT) | ✓ | ✓ |
+| Raman Spectroscopy (RS) | ✓ | ✓ |
+| Second/Third Harmonics Generation (SHG/THG) | ✓ | ✓ |
+| High-Throughput Microscopy / High-Content Screening (HTM/HCS) | ✓ | ✓ |
+| Fluorescence (cross)-Correlation Spectroscopy (FCS/FCCS) | ✓ | ✓ |
+| Fluorescence Resonance Energy Transfer (FRET) | ✓ | ✓ |
+| Fluorescence Recovery After Photobleaching (FRAP) | ✓ | ✓ |
+| Fluorescence Lifetime Imaging Microscopy (FLIM) | ✓ | ✓ |
+| Intravital Microscopy (IVM) | ✓ | ✓ |
+| Microdissection | ✓ | ✓ |
+| Imaging at Biosafety Level >1 | ✓ | ✓ |
+| Photomanipulation | ✓ | ✓ |
+| Anisotropy/Polarization Microscopy | ✓ | ✓ |
+| Expansion Microscopy | ✓ | ✓ |
+| Tissue Clearing (TC) | ✓ | ✓ |
+| Single Molecule FRET (smFRET) | ✓ | ✓ |
+| TEM of Chemically Fixed Samples | ✓ | ✓ |
+| Immuno-Gold EM on Resin Sections (Resin-EM) | ✓ | ✓ |
+| Pre-Embedding Immunolabeling (Pre-Embed IL) | ✓ | ✓ |
+| Scanning Electron Microscopy (SEM) | ✓ | ✓ |
+| Elemental Analysis including EDS in TEM (STEM) | ✓ | ✓ |
+| micro-CT | ✓ | ✓ |
+| micro-US | ✓ | ✓ |
+| Atomic Force Microscopy (AFM) | ✓ | ✓ |
+
+---
+
+## Instrument Highlights
+
+**PPBI** hosts a comprehensive portfolio of cutting-edge imaging systems tailored to a broad spectrum of biomedical applications. 
+
+Among its flagship technologies, the platform offers access to multiple super-resolution modalities, including Stimulated Emission Depletion **(STED)** microscopy, Photoactivated Localization Microscopy **(PALM)**, direct Stochastic Optical Reconstruction Microscopy **(dSTORM)**, and Structured Illumination Microscopy **(SIM)**. These systems enable visualization of subcellular structures below the diffraction limit, critical for **investigating nanoscale** features such as centrioles, synapses, and viral capsids.
+
+![](upload/PPBI_2.png)
+
+Euro-BioImaging users studying **cell division, centrioles, neuronal structures, bacteria, or viruses at nanoscale** can access **super-resolution microscopy systems** (*STED, PALM, dSTORM, SIM-SR*).  
+
+![](upload/PPBI_3.png)
+
+The Node provides extensive capacity for functional imaging, including Fluorescence Lifetime Imaging Microscopy **(FLIM)**, Fluorescence Resonance Energy Transfer **(FRET)**, and Fluorescence Correlation Spectroscopy **(FCS and FCCS)**. These techniques allow quantitative analysis of molecular interactions and dynamic processes in **living cells**. Optical tools such as photoconversion, photoactivation, and optogenetic systems support the manipulation of cellular components with spatial and temporal precision.
+
+Specialised **mesoscopic imaging platforms**, including Selective Plane Illumination Microscopy **(SPIM)** and Optical Projection Tomography **(OPT)**, facilitate large-volume imaging of three-dimensional biological samples such as organoids, zebrafish (Danio rerio), and mammalian embryos. 
+
+PPBI’s custom-built systems, such as dual-pulsed infrared multiphoton microscopes for intravital imaging and uncaging experiments in live rodents, further extend its capacity for deep tissue interrogation and neurophysiological studies.
+
+![](upload/PPBI_4.png)
+
+Electron microscopy facilities encompass Transmission Electron Microscopy **(TEM)** with integrated Scanning Transmission Electron Microscopy **(STEM)** and Energy Dispersive X-ray Spectroscopy **(EDS)**, enabling high-resolution structural and elemental characterisation. Complementary techniques include resin-embedded immunogold labelling, pre-embedding immunocytochemistry, and Scanning Electron Microscopy **(SEM)**, all of which are essential for correlative workflows.
+
+![](upload/PPBI_5.png)
+
+![](upload/PPBI_6.png)
+---
+
+## Additional Services
+
+Beyond imaging instrumentation, **PPBI delivers an integrated framework of support services designed to facilitate the entire research lifecycle**. Users benefit from expert consultation during project design and methodological planning, ensuring optimal use of imaging platforms. On-site wet laboratories include certified **biosafety level 1, 2, and 3** environments for cell culture, molecular biology, and pathogen handling.
+
+Animal facilities accommodate standard and alternative models, including **mice, rats, zebrafish, yeast, nematodes (C. elegans), Drosophila, plants, chick embryos, fungi, spider mites, and Anopheles mosquitoes**. These resources enable experimental flexibility across genetic, developmental, and ecological studies.
+
+Data infrastructure includes **high-performance analysis workstations**, dedicated servers for secure image storage, and software environments for quantitative image analysis. Training activities are regularly scheduled and include basic and advanced microscopy, digital image processing, and data interpretation using open-source tools such as QuPath. The Node also participates in major community events such as **SPAOM and ELMI**, offering workshops and collaborative training opportunities.
+
+Some PPBI sites allow remote sample submission or provide remote access to imaging equipment, supported by online consultation and technical assistance, ensuring accessibility for both national and international users.
+
+---
+
+## Contact Details
+
+Gaby Martins  
+PPBI Manager  
+📧 [gaby@igc.gulbenkian.pt](mailto:gaby@igc.gulbenkian.pt)  
+
+🌐 Website: [https://www.ppbi.pt](https://www.ppbi.pt)  

@@ -1,0 +1,104 @@
+# BELGIUM
+
+## Flanders BioImaging Imaging Node
+
+### Description
+
+Flanders BioImaging (FBI) is an interuniversity consortium dedicated to integrating and optimizing advanced imaging infrastructure across Flanders. Comprising nine imaging facilities across five sites within a 70 km radius, FBI offers a comprehensive portfolio of biological and biomedical imaging techniques, spanning molecular to human/clinical scales. The consortium includes core facilities from all Flemish universities and the VIB, ensuring a robust and collaborative imaging network.
+
+FBI's infrastructure supports a wide range of imaging modalities, including advanced light microscopy, preclinical small and large animal imaging, and human biomedical imaging. This integration facilitates seamless international research access through its membership in Euro-BioImaging, a European Research Infrastructure Consortium.
+
+The node is funded by the FWO International Research Infrastructure program, in coordination with the Department of Economy, Science and Innovation (EWI). The combined imaging infrastructure represents an investment exceeding €50 million, underscoring the commitment to advancing imaging research in the region.
+
+## Offered Technologies
+
+| Technology | Description |
+|------------|-------------|
+| **Clinical PET Imaging** | Two PET/CT scanners (GE Discovery MI, Siemens TruePoint), a simultaneous 3T PET/MRI (GE Healthcare Signa), four SPECT/CT scanners (Symbia Intevo Bold, GE Discovery NM530s CZT, GE Discovery MI, Siemens Symbia). |
+| **Preclinical Multimodality Imaging** | PET/SPECT/CT scanners: Dual Siemens Inveon, Dual Molecubes β-cubes (high-throughput PET-CT) are available at the Molecular Imaging Core Antwerp (MICA) and the Molecular Imaging Research and Clinic Leuven (MIRaCLe) whilst CORE ARTH Infinity houses β- and X cubes. |
+| **High-field preclinical MRI** | Bruker 7T preclinical MRI instruments and one Bruker 9.4T high-field MRI with cryo-coil at the Biological Imaging Lab, University of Antwerp. |
+| **Optical Imaging** | Bioluminescence (Perkin Elmer IVIS Lumina LT at CORE ARTH Infinity, Biospace PhotonImager at MICA-BIL and ICMI), Intravital microscopy at ICMI (Leica Stellaris DIVE Dual Intravital Microscope). |
+| **Radiotherapy Delivery** | SmART+ (Precision X-ray) platform for laboratory animal radiation research at CORE ARTH Infinity, University of Gent. |
+| **Biological Imaging** | Comprehensive imaging park at the Universities of Gent, Antwerp, Hasselt, KU Leuven, and VIB, including advanced light, super-resolution, mesoscopic, electron, and multimodal correlative microscopy. |
+
+## Instrument Highlights
+
+### Clinical PET Imaging
+
+FBI's clinical PET imaging capabilities include advanced scanners such as the GE Discovery MI and Siemens TruePoint PET/CT systems, as well as a 3T PET/MRI hybrid system (GE Healthcare Signa). These instruments support a variety of radiotracers for diverse applications:
+
+- **[18F]FDG**: Assesses glucose metabolism, aiding in oncology and neurology diagnostics.
+- **[18F]SynVesT-1 / [11C]UCB-J**: Targets synaptic vesicle glycoprotein 2A (SV2A) to evaluate synaptic density.
+- **[18F]PE2I**: Binds to dopamine transporters, useful in Parkinson's disease research.
+- **[18F]MK6240**: Detects tau protein aggregates, relevant in Alzheimer's disease studies.
+- **[18F]NOTA-Octreotide**: Visualizes neuroendocrine tumors by targeting somatostatin receptors.
+- **[18F]DPA-714**: Binds to translocator protein (TSPO), indicating neuroinflammation.
+- **[18F]FPEB**: Targets metabotropic glutamate receptor 5 (mGluR5), involved in various CNS disorders.
+- **[11C]PiB**: Identifies beta-amyloid plaques, a hallmark of Alzheimer's disease.
+- **Radiolabeling with [18F], [89Zr], [111In], [99mTc]**: Enables biomolecular imaging for various applications.
+
+### Preclinical Multimodality Imaging
+
+FBI's preclinical imaging facilities are equipped with dual Siemens Inveon and Molecubes β-cubes for high-throughput PET-CT imaging. These systems facilitate studies using various radiotracers:
+
+- **[18F]FDG**: Evaluates glucose metabolism in animal models.
+- **[18F]SynVesT-1**: Assesses synaptic density.
+- **[11C]SCH23390 / [11C]Raclopride**: Target dopamine D1 and D2/3 receptors, respectively.
+- **[18F]MNI-659**: Binds to phosphodiesterase 10A (PDE10A), implicated in neurodegenerative diseases.
+- **[18F]PBR111 / [18F]DPA-714**: Indicate neuroinflammation via TSPO binding.
+- **[11C]ABP688 / [18F]FPEB**: Target mGluR5 receptors.
+- **[11C]CHDI-180R / [18F]CHDI-650**: Detect mutant huntingtin protein in Huntington's disease models.
+- **[18F]AV-45 / [11C]PiB**: Visualize beta-amyloid plaques.
+- **Radiolabeling with [18F], [111In], [99mTc], [68Ga/67Ga], [64Cu]**: Supports diverse molecular imaging studies.
+- **[18F]FET**: Assesses amino acid transport via LAT system.
+- **[18F]-PSMA-11**: Targets prostate-specific membrane antigen.
+- **[18F]-Choline**: Evaluates tumor-associated lipogenesis.
+
+### High-field Preclinical MRI
+
+The Biological Imaging Lab at the University of Antwerp houses Bruker 7T and 9.4T MRI systems with cryo-coils, enabling high-resolution imaging for various applications:
+
+- **Structural Analysis**: Volumetric and morphometric assessments.
+- **Microstructural MRI**: Techniques like diffusion tensor imaging (DTI), diffusion kurtosis imaging (DKI), and fixel-based analysis.
+- **Functional MRI**: Evaluates brain connectivity and activity through resting-state and task-based fMRI.
+- **Susceptibility Weighted Imaging (SWI) and Quantitative Susceptibility Mapping (QSM)**: Detects iron deposition and microbleeds.
+- **Arterial Spin Labeling (ASL)**: Measures cerebral blood flow (CBF) and volume (CBV).
+- **Glymphatic Clearance Studies**: Investigates brain waste clearance mechanisms.
+- **Manganese Enhanced MRI (MEMRI)**: Traces neuronal pathways and activity.
+- **Magnetic Resonance Spectroscopy (MRS)**: Analyzes metabolic profiles.
+- **31P MRS**: Assesses energy metabolism.
+- **Fluorine MRI and Chemical Exchange Saturation Transfer (CEST)**: Enables molecular imaging of specific metabolites.
+
+## Specialties and Expertise of the Node
+
+FBI's multidisciplinary expertise encompasses:
+
+- **CNS Tracer Development**: Translating novel central nervous system tracers from bench to bedside.
+- **GMP Production of Nanobody Theranostics**: Manufacturing nanobody-based agents for diagnostic and therapeutic applications.
+- **Image-Guided Radiotherapy**: Integrating multimodal imaging for precise radiotherapy delivery.
+- **CNS Disease Modeling**: Utilizing PET and high-field MRI to characterize disease models and monitor therapeutic responses.
+- **Enteric Nervous System Imaging**: Visualizing the gut-brain axis and related pathologies.
+- **Correlative Microscopy**: Combining light and electron microscopy for comprehensive cellular imaging.
+- **Pharmacokinetic Imaging**: Assessing drug distribution and dynamics in vivo.
+- **Dynamic Optical Microscopy**: Capturing real-time cellular processes.
+- **Systems Microscopy**: Integrating imaging data for systems-level biological insights.
+
+## Additional Services
+
+FBI offers comprehensive support services, including:
+
+- **Project Support**: Assistance with experimental design and user training.
+- **Disease Models**: Access to a wide range of preclinical disease models.
+- **Large Animal Imaging**: Facilities for scanning larger animals, such as mini-pigs.
+- **BSL2 and SPF Facilities**: Biosafety Level 2 and Specific Pathogen-Free environments for high-field MRI imaging.
+- **Autoradiography**: Ex vivo tissue analysis using various isotopes.
+- **Laser Microdissection and Photoablation**: Precision tissue sampling and manipulation.
+- **Clinical Study Support**: Aid in patient recruitment and ethical approvals.
+- **Quantitative Imaging Analysis**: Comprehensive analysis for both clinical and preclinical PET studies.
+- **Data Management**: Support for image processing, data analysis, and metadata implementation.
+
+## Contact Details
+
+**Contact Flanders BioImaging:**  
+📧 [Christopher.cawthorne@kuleuven.be](mailto:Christopher.cawthorne@kuleuven.be)  
+🌍 [Flanders BioImaging Website](https://www.flandersbioimaging.org)

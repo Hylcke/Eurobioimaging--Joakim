@@ -1,0 +1,63 @@
+## Description
+
+The **Norwegian Advanced Light Microscopy Node (NorMIC Oslo)** is a dual-site Euro-BioImaging Node located in Oslo, Norway. It is jointly hosted by the Department of Biosciences at the **University of Oslo (Blindern campus)** and the **Institute for Cancer Research at Oslo University Hospital (Montebello campus)**. 
+
+As part of Norway’s national imaging infrastructure network, NALMIN, NorMIC Oslo offers advanced light microscopy expertise and services to local, national, and international users. The Node provides imaging solutions for a wide range of biomedical research areas, including **intracellular vesicle trafficking, membrane fusion and fission, cell division, cell migration, and immune cell interactions**. In addition to live-cell imaging, the facility supports high-resolution imaging of fixed samples, integrating microscopy-based cell biology with clinically relevant research questions. 
+
+Through its close affiliation with Helse Sør‑Øst (South-Eastern Norway Regional Health Authority), **NorMIC Oslo fosters translational research** that connects fundamental biological mechanisms with human disease.
+
+## Offered Technologies
+
+| Technologies | Euro-BioImaging |
+|--------------|------------------|
+| Deconvolution Widefield Microscopy (DWM) | ✓ | ✓ |
+| Laser Scanning Confocal Microscopy (LSCM/CLSM) | ✓ | ✓ |
+| Spinning Disk Confocal Microscopy (SDCM) | ✓ | ✓ |
+| Structured Illumination Microscopy (SIM) | ✓ | ✓ |
+| Total Internal Reflection Fluorescence Microscopy (TIRF) | ✓ | ✓ |
+| Image Scanning Microscopy (ISM) | ✓ | ✓ |
+| Single Molecule Localization Microscopy (SMLM) | ✓ | ✓ |
+| Fluorescence Resonance Energy Transfer (FRET) | ✓ | ✓ |
+| Fluorescence Recovery After Photobleaching (FRAP) | ✓ | ✓ |
+| High-Speed Imaging | ✓ | ✓ |
+| TEM of Chemically Fixed Samples (TEM) | ✓ | ✓ |
+| Immuno-Gold EM on Thawed Cryo-Sections (Tokuyasu-EM) | ✓ | ✓ |
+| Immuno-Gold EM on Resin Sections (Resin-EM) | ✓ | ✓ |
+| Pre-Embedding Immunolabeling (Pre-Embed IL) | ✓ | ✓ |
+| Pre-Embedded CLEM | ✓ | ✓ |
+
+## Instrument Highlights
+
+NorMIC Oslo is equipped with a broad range of high-performance light and electron microscopy systems, enabling multiscale imaging from molecular to cellular structures. 
+
+At the **Montebello site**, confocal laser scanning microscopes support super-resolution imaging using **Airyscan and SoRa (Spinning disk super-resolution) modules**. These technologies increase spatial resolution beyond the diffraction limit, achieving lateral resolutions near 120 nm, and are essential for resolving dynamic processes such as endosomal transport and mitosis in live cells.
+
+**Spinning disk** confocal systems offer rapid imaging with minimal photobleaching, ideal for tracking **fast cellular events** including immune synapse formation and membrane trafficking. Total Internal Reflection Fluorescence **(TIRF)** microscopy enables **selective imaging of cellular regions adjacent to the plasma membrane**, enhancing signal-to-noise for studies of vesicle docking or receptor internalisation. 
+
+The Node’s **electron microscopy platforms** support immuno-gold labelling on Tokuyasu cryosections and resin-embedded samples, allowing precise protein localisation at nanometre resolution. Correlative Light and Electron Microscopy (CLEM) workflows further integrate **fluorescence-based localisation with ultrastructural context**. Temperature- and CO₂-controlled incubators attached to selected microscopes allow **long-term, live-cell imaging** under physiological conditions, supporting applications in migration, cytokinesis, and immune surveillance.
+
+## Additional Services
+
+NorMIC Oslo offers **comprehensive user support across all stages of the imaging pipeline**. 
+
+This includes consultation on experimental design, assistance with probe selection, and access to dedicated wet laboratory and cell culture spaces. Tailored training is available for both entry-level users and advanced researchers, covering foundational microscopy techniques, super-resolution modalities, and sample preparation protocols for electron microscopy.
+
+Expert staff provide on-site assistance during imaging sessions and guide users through image processing, including deconvolution, segmentation, and quantitative analysis. A centralized remote server infrastructure allows users to conduct post-acquisition data analysis off-site, ensuring flexibility and continuity. The Node also accommodates collaborative workflows through sample submission and visiting researcher schemes. Long-term visitors are supported with local housing arrangements, facilitating immersive project development. Workshops and seminars, including virtual options, are offered regularly to support community skill-building in advanced imaging methods.
+
+## Contact Details
+
+
+**Oddmund Bakke**  
+Head of NorMIC Oslo Facility, Department of Biosciences, University of Oslo  
+✉️ [oddmund.bakke@ibv.uio.no](mailto:oddmund.bakke@ibv.uio.no) | 📞 +47 958 51 479  
+
+🔗 [NorMIC Blindern Subnode – Department of Biosciences, UiO](https://www.mn.uio.no/ibv/english/research/infrastructure/facilities/life-science/imaging/normic/) 
+
+
+**Andreas Brech**  
+Head of Electron Microscopy and CLEM Facility, Institute for Cancer Research, Oslo University Hospital  
+
+✉️ [andreas.brech@rr-research.no](mailto:andreas.brech@rr-research.no)
+
+🔗 [NorMIC Montebello Subnode – Unit of Cellular Electron Microscopy, OUS](https://www.ous-research.no/alm-montebello/)
+

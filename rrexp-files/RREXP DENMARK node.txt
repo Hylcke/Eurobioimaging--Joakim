@@ -1,0 +1,112 @@
+## Description  
+**Danish BioImaging (DBI)** forms a comprehensive national infrastructure for advanced bioimaging in Denmark, uniting five core facilities across the country. 
+It functions under Euro-BioImaging as a multimodal node offering services that span **preclinical imaging of large animals and humans** to cryo‑electron microscopy for single‑particle analysis. 
+
+Hosted by partner institutions including:
+- Aarhus University
+- University of Southern Denmark
+- University of Copenhagen
+
+DBI supports diverse research fields such as plant biology, high‑content screening of yeast libraries, zoology, pathology, neuroscience, and metabolism. The consortium acknowledges the increasing complexity and volume of imaging datasets and therefore integrates a national image analysis service, data management, and storage infrastructure to support users at all stages of their imaging workflow.
+
+## Offered Technologies  
+| Technologies | Euro-BioImaging |
+|--------------|------------------|
+| Deconvolution widefield microscopy (DWM) | ✓ |
+| Laser scanning confocal microscopy (LSCM/CLSM) | ✓ |
+| Spinning disk confocal microscopy (SDCM) | ✓ |
+| Structured illumination microscopy (SIM)* | ✓ |
+| Total internal reflection fluorescence microscopy (TIRF) | ✓ |
+| Two-photon microscopy (2P) | ✓ |
+| Image Scanning microscopy (ISM) | ✓ |
+| cryoFM * | ✓ |
+| Single Molecule localization microscopy (SMLM) | ✓ |
+| Stimulated emission depletion microscopy (STED) | ✓ |
+| Light-sheet mesoscopic imaging (SPIM or dSLSM) | ✓ |
+| Coherent Anti-Stokes Raman Scattering microscopy* (CARS) | ✓ |
+| Raman Spectroscopy (RS) | ✓ |
+| Fluorescence (cross)-correlation spectroscopy (FCS/FCCS) | ✓ |
+| Fluorescence Resonance Energy Transfer (FRET) | ✓ |
+| Fluorescence Recovery After Photobleaching (FRAP) | ✓ |
+| Fluorescence Lifetime Imaging Microscopy (FLIM) | ✓ |
+| TEM of chemical fixed samples (TEM) | ✓ |
+| TEM of cryo-immobilized samples (TEM cryo samples)* | ✓ |
+| EM tomography (ET) | ✓ |
+| FIB-SEM | ✓ |
+| Serial Blockface SEM | ✓ |
+| Immuno-gold EM on thawed cryo-sections (Tokuyasu-EM) | ✓ |
+| Immuno-gold EM on resin sections (resin-EM) | ✓ |
+| Cryo Transmission Electron Microscopy (Cryo-TEM)* | ✓ |
+| Scanning Electron Microscopy (SEM) | ✓ |
+| micro-MRI/MRS (≥ 7T) | ✓ |
+| micro-MRI/MRS (< 7T) | ✓ |
+| micro-CT | ✓ |
+| micro-PET | ✓ |
+| micro-SPECT | ✓ |
+| micro-US | ✓ |
+| In vivo Optical Imaging | ✓ |
+| micro-PET/MRI | ✓ |
+| micro-MRI/MRS (≥ 7T) - ex-vivo | ✓ |
+| micro-MRI/MRS (< 7T) - ex-vivo | ✓ |
+| micro-CT - ex-vivo | ✓ |
+| Image Analysis-bio * | ✓ |
+| Image Analysis-med * | ✓ |
+
+## Instrument Highlights  
+
+Several key instruments anchor DBI’s capabilities. 
+
+**Dual beam scanning electron microscopes** (e.g., FEI Quanta FEG 3D) support high-resolution three‑dimensional reconstructions of organellar ultrastructure, exemplified by imaging of brown adipocyte mitochondria using 3D rendering in Amira. These instruments enable detailed morphological analysis at nanometer scale. SEM instruments (e.g., FEI XL30 and Quanta 3D FEG) facilitate visualization of bacterial and streptococcal cell surfaces.
+
+For **histopathology and immunohistological analysis**, slide scanners (e.g., Zeiss Axioscan Z1) provide digitized brightfield imaging at high throughput. Confocal laser scanning microscopes, such as the Zeiss LSM700, support imaging of fluorescent markers in tissue sections, demonstrated by imaging of mitochondrial and nuclear markers in human muscle fibers. These systems offer optical sectioning with sub‑micron resolution, enabling quantitative analysis of cellular architecture. 
+
+**Ex vivo and in vivo imaging modalities** include clinical MRI systems and diffusion tensor sequences for structural imaging of pig kidneys, CT imaging with vascular contrast agents for detailed visualization of giraffe heart vasculature, and Fourier‑domain optical coherence tomography (OCT) for resolution of murine brain vasculature. These instruments deliver multi‑scale structural insight from cellular to organ level and support a wide range of anatomical and physiological studies.
+
+### Green Mitochondria on Fat  
+![Green mitochondria on fat](upload/Picture1.png)  
+*The inside of a brown fat cell with multilocular lipid droplets (white and brown) surrounded by mitochondria and other smaller organelles (green). Dual beam SEM with FEI Quanta FEG 3D and 3D rendering with Amira.*  
+
+### Streptococcus Image  
+![Streptococcus](upload/Picture2.png)  
+*Streptococcus imaged with SEM FEI XL30 and pseudocolored with Photoshop.*  
+
+### Human Intestine Section  
+![Human intestine section](upload/Picture3.png)  
+*Human intestine section stained with Hematoxylin-Eosin and imaged with a Zeiss Axioscan Z1.*  
+
+### Human Vastus Lateralis  
+![Human Vastus Lateralis](upload/Picture4.png)  
+*Human vastus lateralis single muscle fiber stained against mitochondrial networks (green) and myonuclei (blue). Images acquired with a Zeiss LSM700.*  
+
+### Bacteria Imaging  
+![Bacteria](upload/Picture5.png)  
+*Bacteria imaged in a FEI Quanta 3D FEG and pseudocolored with Amira software.*  
+
+### Pig Kidney MRI  
+![Pig kidney MRI](upload/Picture6.png)  
+*MRI of pig kidneys, visualization of tubule structures. Method: MRI clinical system and diffusion tensor sequence, Aarhus University Hospital.*  
+
+### Giraffe Heart CT  
+![Giraffe heart CT](upload/Picture7.png)  
+*CT of giraffe heart, visualization of blood vessels. Method: CT clinical system and iodine filling, Aarhus University Hospital.*  
+
+### OCT of Mouse Brain Cortex  
+![Mouse brain cortex OCT](upload/Picture8.png)  
+*OCT of mouse brain cortex, visualization of cerebral vessels. Method: Preclinical Fourier-domain OCT imaging with en face maximum intensity projection, Aarhus University Hospital.* 
+
+## Additional Services  
+DBI offers comprehensive user support that complements its instrumentation. The **Image Analysis Core Facility (IACF)** provides quantitative image analysis guidance, tailored training, and development of bespoke image‑analysis workflows, integrating machine learning and deep‑learning methodologies for automated 3D registration and event detection. Users may access expert consultation through bi‑monthly “Call4Help” sessions, which support problem scoping and dataset evaluation. Training covers both introductory and advanced levels for tools such as **QuPath, Fiji, ilastik, and ImJoy**. A national data infrastructure supports storage, management, and exchange of large imaging datasets, with remote access options for analysis. Project planning services include methodological setup, wet lab and cell culture facilities, and sample preparation support. The Node supports sample submission and offers collaborative experimental design, particularly for in vitro and animal model imaging across scales.
+
+## Contact Details  
+
+
+📧 **Clara Prats** (Director of Light Microscopy & Image Analysis, University of Copenhagen)  
+[cprats@sund.ku.dk](mailto:cprats@sund.ku.dk)  
+
+📧 **Sonia Diaz Garcia** (DBI‑INFRA Coordinator)  
+[sonia.garcia@sund.ku.dk](mailto:sonia.garcia@sund.ku.dk)  
+
+For more information, consult the individual facility sites at [danishbioimaging.dk](https://www.danishbioimaging.dk). 
+
+Further details on booking, support, and events are also available via the Danish BioImaging Infrastructure site at [dbi‑infra.eu](https://www.dbi-infra.eu).
+

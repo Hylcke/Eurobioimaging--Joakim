@@ -1,0 +1,79 @@
+# NORWAY
+
+## NORMOLIM, Norwegian Molecular Imaging Infrastructure
+
+---
+
+## Description
+
+The **Norwegian Molecular Imaging Infrastructure (NORMOLIM)** is a multi-sited, national imaging platform designed to support advanced *in vivo* molecular imaging in preclinical animal models. With facilities located in **Oslo, Bergen, and Trondheim**, the infrastructure is embedded within leading Norwegian academic and medical institutions, including the University of Oslo, the University of Bergen, and the Norwegian University of Science and Technology (NTNU). 
+
+NORMOLIM provides access to a broad range of cutting-edge imaging modalities specifically optimised for the visualisation and quantification of **molecular, metabolic, and physiological processes in living animals**.
+
+This infrastructure serves as a translational bridge between fundamental biomedical research and clinical application. By focusing on experimental models of human disease, particularly using **transgenic rodent models**.
+
+ NORMOLIM facilitates the development and validation of new diagnostic tools, biomarkers, and therapies. The Node collaborates closely with associated university hospitals, accelerating the implementation of imaging-based innovations into **clinical research protocols**. As a Euro-BioImaging Node, NORMOLIM contributes to the pan-European imaging landscape, expanding international access to Norwegian expertise and technology in molecular imaging.
+
+---
+
+## Offered Technologies
+
+| Technologies | Euro-BioImaging |
+|--------------|------------------|
+| micro-MRI/MRS (Field ≥ 7 T) (HF) | ✓ |
+| micro-US | ✓ |
+| In vivo Optical Imaging (OI) | ✓ |
+| PhotoAcoustic Imaging (PAI) - med | ✓ |
+| micro-PET/MRI | ✓ |
+| micro-PET/CT | ✓ |
+| micro-MRI/MRS (≥ 7T) - ex-vivo | ✓ |
+| Mass spectrometry-based imaging (MSI) - med* | ✓ |
+
+---
+
+## Instrument Highlights
+
+![](upload/Normolim.png)  
+
+The Node hosts an extensive suite of state-of-the-art imaging instruments designed to investigate **dynamic biological processes in vivo** with high spatial and temporal resolution. 
+
+### Multi-modal MRI
+The magnetic resonance (MR) systems are equipped with specialised coils for imaging and spectroscopy using **multiple nuclei**, including ¹H, ¹³C, ²³Na, ³¹P, and ¹⁹F. This multi-nuclear capability allows researchers to non-invasively study **tissue metabolism, energy status, ion transport**, and molecular labelling strategies within living organisms. 
+
+Both longitudinal and cross-sectional studies benefit from the high-field MR imaging available, offering improved signal-to-noise ratio and spatial resolution for small animal anatomy and function.
+
+### Optical imaging platforms
+Optical imaging platforms incorporate **time-domain fluorescence lifetime imaging**, which distinguishes fluorophores based on their decay kinetics rather than solely emission spectra. This method enhances specificity in multiplexed imaging of labelled compounds and cells, particularly for **tracking pharmacokinetics and tumour biology**. The optical systems also enable near-infrared imaging, improving tissue penetration and reducing autofluorescence for deeper in vivo visualisation.
+
+### Ultrasound platforms
+The ultrasound infrastructure includes high-frequency platforms such as the VisualSonics Vevo system, which enables anatomical, functional, and contrast-enhanced imaging. These systems support Doppler flow analysis, strain imaging to assess tissue elasticity, and 3D volume reconstruction. 
+
+### PET/CT
+Quantitative PET data analysis is performed using PMOD software, enabling kinetic modelling and tracer quantification for molecular imaging studies. Hybrid scanners, including **PET/MRI and PET/CT**, allow spatially co-registered multi-modal imaging, critical for examining both functional and structural disease markers in a single workflow.
+
+---
+
+## Additional Services
+
+NORMOLIM offers comprehensive user support to facilitate each stage of the imaging process, from **experimental design to data interpretation**. 
+
+Researchers receive assistance in defining appropriate imaging strategies, developing study protocols, and ensuring methodological rigour. **Tailored training sessions** are available for users at all experience levels, covering instrumentation use, sample preparation, and data processing workflows. Guidance is also provided in compliance with ethical and procedural requirements for working with laboratory animals.
+
+Infrastructure users are granted access to **dedicated animal housing** and preparation facilities that support long-term or acute imaging studies. Some disease models—such as those for **neurodegeneration, cancer, inflammatory bowel disease (IBD), and pancreatic ductal adenocarcinoma (PDAC)**, are maintained at the participating sites and can be integrated into collaborative research projects. Image processing services include advanced data reconstruction, co-registration, quantification, and correlation with histological or biochemical endpoints.
+
+NORMOLIM encourages collaborative engagement and supports custom tracer synthesis, including radiolabelling with fluorine-18 for PET imaging. Researchers conducting longitudinal or multi-modal studies benefit from flexible project integration, technical consulting, and remote support options where feasible.
+
+---
+
+## Contact Details
+
+**Lili Zhang**  
+[lili.zhang@medisin.uio.no](mailto:lili.zhang@medisin.uio.no)  
+Affiliation: Institute of Basic Medical Sciences, University of Oslo  
+
+**Jin Li**  
+[jin.li@ntnu.no](mailto:jin.li@ntnu.no)  
+Affiliation: Department of Circulation and Medical Imaging, Norwegian University of Science and Technology (NTNU)  
+
+**Website**  
+[https://normolim.w.uib.no/](https://normolim.w.uib.no/)

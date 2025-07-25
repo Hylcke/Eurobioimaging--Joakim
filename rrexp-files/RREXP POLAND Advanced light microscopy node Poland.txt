@@ -1,0 +1,88 @@
+# POLAND
+
+## Advanced Light Microscopy Node Poland
+---
+## Description  
+
+The **Polish Advanced Light Microscopy (ALM)** Node is a multi-sited, multimodal imaging infrastructure within the Euro-BioImaging network, providing open access to an extensive range of biological and biomedical imaging technologies. 
+
+It is hosted by three premier research institutions in Poland: 
+1. **Nencki Institute of Experimental Biology** of the Polish Academy of Sciences (PAS) 
+2. **Mossakowski Medical Research Centre** PAS in Warsaw
+3.  **Faculty of Biochemistry, Biophysics and Biotechnology** at Jagiellonian University in Kraków. 
+
+The Node offers state-of-the-art instrumentation and technical expertise across advanced light microscopy, correlative light and electron microscopy (CLEM), electron microscopy (EM), high-throughput imaging, super-resolution microscopy, and functional imaging. These services support diverse scientific disciplines, including **neuroscience, cell biology, developmental biology, and molecular biochemistry**. 
+
+As part of the Euro-BioImaging European Research Infrastructure Consortium (ERIC), the Polish ALM Node facilitates cross-border collaboration and standardised access to cutting-edge imaging resources for users across Europe.
+
+![](upload/poland_collage.png)  
+*Collage of images acquired by our users*
+
+
+## Offered Technologies  
+| Technologies | Euro-BioImaging |
+|-------------|---------------|
+| Deconvolution Widefield Microscopy (DWM) | ✓ |
+| Laser Scanning Confocal Microscopy (LSCM/CLSM) | ✓ |
+| Spinning Disk Confocal Microscopy (SDCM) | ✓ |
+| Structured Illumination Microscopy (SIM) | ✓ |
+| Total Internal Reflection Fluorescence Microscopy (TIRF) | ✓ |
+| Two-Photon Microscopy (2P) | ✓ |
+| Single Molecule Localization Microscopy (SMLM) | ✓ |
+| Stimulated Emission Depletion Microscopy (STED) | ✓ |
+| Quantitative Phase Imaging (QPI) | ✓ |
+| High-Throughput Microscopy / High-Content Screening (HTM/HCS) | ✓ |
+| Fluorescence (cross)-Correlation Spectroscopy (FCS/FCCS) | ✓ |
+| Fluorescence Resonance Energy Transfer (FRET) | ✓ |
+| Fluorescence Recovery After Photobleaching (FRAP) | ✓ |
+| Fluorescence Lifetime Imaging Microscopy (FLIM) | ✓ |
+| Microdissection | ✓ |
+| TEM of Chemically Fixed Samples | ✓ |
+| EM Tomography | ✓ |
+| Serial Section TEM | ✓ |
+| Immuno-Gold EM on Resin Sections (Resin-EM) | ✓ |
+| Pre-Embedding Immunolabeling (Pre-Embed IL) | ✓ |
+| Scanning Electron Microscopy (SEM) | ✓ |
+| Pre-Embedded CLEM | ✓ |
+
+## Instrument Highlights  
+
+![](upload/animated_microscope.png)  
+*Our new friend: CD7 LSM900 automated microscope (upper left corner) and the rest of the equipment*
+
+The Polish ALM Node hosts an advanced portfolio of imaging platforms designed to support research from **single molecules to tissue-scale investigations**. A key system is the ZEISS Cell Discoverer 7 with the LSM 900 Airyscan 2 detector, which combines **widefield and confocal microscopy in a fully automated environment**. This system allows rapid screening of samples with precise autofocus and barcode-guided sample recognition, and supports high-resolution 3D imaging with improved signal-to-noise ratio and enhanced spatial resolution through the Airyscan module. 
+
+The Node also features Leica Stellaris 5 STED-DLS for **super-resolution and digital light sheet imaging**, which enables sub-diffraction resolution and volumetric imaging of live samples with minimal phototoxicity.
+
+For ultrastructural imaging, the Node provides ZEISS Sigma VP SEM systems equipped with Gatan 3View technology, allowing **automated block-face serial imaging of embedded biological specimens at nanometre resolution**. This approach is critical for reconstructing cellular and subcellular architecture in three dimensions. Additional capabilities include the ONI Nanoimager for **single-molecule localization microscopy** (e.g., PALM/STORM), Zeiss LSM 780/800/900 platforms with spectral and Airyscan detection, high-speed spinning disk confocals, and two-photon microscopes for deep tissue imaging. 
+
+Quantitative phase imaging and laser microdissection systems expand the Node’s utility for label-free live-cell studies and precise sample excision, respectively.
+
+## Additional Services  
+In addition to providing access to high-end imaging equipment, the Polish ALM Node offers comprehensive **scientific and technical support to internal and external users**. This includes customised methodological consultation, experimental design support, and structured training in sample preparation, image acquisition, and data analysis. **Dedicated wet-lab and tissue culture facilities** are available at each site, alongside microinjection and microdissection laboratories. The Node offers both on-site and remote access, depending on the technology and user needs, allowing for flexible engagement with the platform.
+
+**Training programmes are offered at multiple levels**, ranging from introductory sessions for new users to advanced workshops on specialised imaging techniques, such as super-resolution and electron microscopy. 
+
+**Image analysis support** includes the use of commercial and open-source software packages (e.g., ZEN Blue, Imaris, ARIVIS Vision4D, Huygens), as well as access to custom-built workflows for segmentation, tracking, and quantitative analysis. The Node’s team assists users in establishing standard operating procedures and optimising imaging protocols to ensure reproducibility.
+
+## Contact Details  
+**Olga Sumara**  
+Office of International Relations and Project Management  
+[Nencki Institute of Experimental Biology PAS](https://nencki.edu.pl)  
+📧[o.sumara@nencki.edu.pl](mailto:o.sumara@nencki.edu.pl)
+
+**Joanna Szczepanowska**  
+Professor, Laboratory of Mitochondrial Biogenesis  
+[Nencki Institute of Experimental Biology PAS](https://nencki.edu.pl)  
+📧[j.szczepanowska@nencki.edu.pl](mailto:j.szczepanowska@nencki.edu.pl)
+
+**Jędrzej Szymański**  
+Head, Laboratory of Imaging Tissue Structure and Function  
+[Nencki Institute of Experimental Biology PAS](https://nencki.edu.pl)  
+📧[j.szymanski@nencki.edu.pl](mailto:j.szymanski@nencki.edu.pl)  
+Tel: +48 22 589 2508
+
+**Institutional Websites**  
+- Nencki Institute of Experimental Biology PAS: [https://nencki.edu.pl](https://nencki.edu.pl)  
+- Mossakowski Medical Research Centre PAS: [https://www.imdik.pan.pl](https://www.imdik.pan.pl)  
+- Faculty of Biochemistry, Biophysics and Biotechnology, Jagiellonian University: [https://wbbib.uj.edu.pl](https://wbbib.uj.edu.pl)

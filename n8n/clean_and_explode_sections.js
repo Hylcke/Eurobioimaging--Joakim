@@ -105,6 +105,10 @@ if (!currentNode) {
 }
 
 const raw = inputItems[0].json.output;
+if (typeof raw === 'string' && !raw.trim()) {
+  throw new Error('AI Node Writer returned an empty answer, most likely because thinking used all the tokens. ' +
+    'Raise Maximum Number of Tokens in "Anthropic Chat Model" (21000 at most without streaming) and rerun this Node.');
+}
 // The writer is asked for {"sections": [...]}, but sometimes returns a bare list
 // of sections, or the sections one after another. All three are accepted.
 function allTopLevelObjects(text) {

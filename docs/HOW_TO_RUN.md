@@ -95,7 +95,7 @@ you switch the sheet boxes on, the spreadsheet in the two sheet boxes.
 - **Upload node page to Drive**: Folder = **EB-Nodes**.
 - **Save sections to sheet**: EB-NODES_pipeline_sheets_v1, sheet **Node_Body_Output**.
 - **Archive briefing**: same spreadsheet, sheet **Node_Briefings**.
-- **Anthropic Chat Model**: model `claude-opus-5-5` (By ID), Maximum Number of Tokens 16000, Prompt Caching off. Leave temperature, top K, top P and thinking unset (adaptive thinking is always on; setting them gives an error 400).
+- **Anthropic Chat Model**: model `claude-opus-5-5` (By ID), Maximum Number of Tokens 21000 (not higher: above about 21,300 n8n stops with "Streaming is required"; lower, the largest Nodes can come back empty), Prompt Caching off. Leave temperature, top K, top P and thinking unset (adaptive thinking is always on; setting them gives an error 400).
 - **Save sections to sheet** and **Archive briefing** are switched off. Leave them off.
 
 ---

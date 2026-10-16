@@ -147,6 +147,8 @@ the script), or paste the prompt and the `.js` files into the boxes by hand.
 
 ### Clean and explode sections
 
+- **16 Oct, latest**: an empty answer from the writer now stops the run with its
+  own message (out of tokens) instead of "no parseable JSON".
 - **16 Oct**: when the Node has no services, any Services text is dropped and
   flagged. "Elemental analysis/EDX" is flagged when the Node does not register it.
 - **v3** (15 Oct): every section is tidied before it reaches the page: dashes,
@@ -206,7 +208,11 @@ the script), or paste the prompt and the `.js` files into the boxes by hand.
 
 ### Workflow settings
 
-- Model `claude-opus-5-5` by ID, 16,000 max tokens, temperature, top K and top P
+- **16 Oct**: max tokens raised from 16,000 to 21,000 after PPBI (20 facilities)
+  came back empty because thinking used the whole budget. 21,000 is close to the
+  most n8n allows without streaming.
+
+- Model `claude-opus-5-5` by ID, 21,000 max tokens, temperature, top K and top P
   unset (they give an error 400), prompt caching off.
 - The briefing is sent as compact JSON, which halves the prompt for the largest Nodes.
 - AI Node Writer and Upload node page to Drive retry up to 3 times.

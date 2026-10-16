@@ -1,0 +1,10 @@
+# Data and generated files stay out of git
+*.xlsx
+node_files/
+node_files_index.json
+link_status.json
+review/
+backup*/
+test_pages/
+__pycache__/
+*.pyc

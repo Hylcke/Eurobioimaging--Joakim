@@ -1,0 +1,29 @@
+url,ok,checked_by,date,note
+https://isibrno-emrs.cz/,true,assumed,2026-10-14,blocks automated checks (401)
+https://bcuib.biocheckup.net/en/,true,assumed,2026-10-14,blocks automated checks (403)
+https://iki-labs.bgu.ac.il/,true,assumed,2026-10-14,blocks automated checks (403)
+https://mnp.leeds.ac.uk/facilities/hybifa/,true,assumed,2026-10-14,blocks automated checks (403)
+https://www.uc.pt/en/brainimaging,true,assumed,2026-10-14,blocks automated checks (403)
+https://www.uc.pt/en/icnas,true,assumed,2026-10-14,blocks automated checks (403)
+https://www.uc.pt/en/uid/cibit,true,assumed,2026-10-14,blocks automated checks (403)
+https://www.uc.pt/ilab/,true,assumed,2026-10-14,blocks automated checks (403)
+https://www.danishbioimaging.dk,true,assumed,2026-10-14,blocks automated checks (454)
+https://www.iit.it/it/web/nanoscopy-and-nikon-centre-iit,true,assumed,2026-10-14,server error (500) during check
+https://sante.ijclab.in2p3.fr/en/platforms/,true,assumed,2026-10-14,timeout during check
+https://www.ipam.cnrs.fr/plateforme/,true,assumed,2026-10-14,timeout during check
+https://primacen.univ-rouen.fr/Site/,true,assumed,2026-10-14,connection error during check
+https://frim-ums34.cnrs.fr/,true,assumed,2026-10-14,security certificate error during check
+https://imagingoffice.erasmusmc.nl/populationimaging/,true,assumed,2026-10-14,security certificate error during check
+https://www.i3s.up.pt/scientific-platform.php?groupid=57,true,assumed,2026-10-14,security certificate error during check
+https://www.i3s.up.pt/scientific-platform.php?groupid=65,true,assumed,2026-10-14,security certificate error during check
+https://www.i3s.up.pt/scientific-platform.php?groupid=91,true,assumed,2026-10-14,security certificate error during check
+https://www.imagingoffice.erasmusmc.nl,true,assumed,2026-10-14,security certificate error during check
+https://www.mmmi.unito.it/,true,browser check,2026-10-14,replacement for a dead link
+https://eurobioimaging-spain.es/about-us/blivin/,true,browser check,2026-10-14,replacement for a dead link
+https://eurobioimaging-spain.es/about-us/bmin/,true,browser check,2026-10-14,replacement for a dead link
+https://eurobioimaging-spain.es/about-us/madmic/,true,browser check,2026-10-14,replacement for a dead link
+https://eurobioimaging-spain.es/about-us/som/,true,browser check,2026-10-14,SOM Node page (coming soon)
+https://research.pasteur.fr/en/team/photonic-bioimaging-utechs-pbi/,true,browser check,2026-10-14,replacement for a dead link
+https://www.cran.univ-lorraine.fr/?action=platform&lang=fr&name=photovivo,true,browser check,2026-10-14,replacement for a dead link
+https://www.mmmi.unito.it/description/turin,true,browser check,2026-10-14,replacement for a dead link
+https://www.timc.fr/axes-recherche/plateformes-plateaux-techniques/plateforme-miv,true,browser check,2026-10-14,replacement for a dead link

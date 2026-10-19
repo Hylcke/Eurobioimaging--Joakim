@@ -33,7 +33,7 @@ Owner and curator: Joakim Edman. Current version: prompt v16, Render v13, 19 Oct
 | --- | --- |
 | `n8n/` | The workflow to import (`EB-NODES_KB_workflow.json`), the writer prompt (`node_writer_system_prompt_v16.md`) and the code of the boxes "Clean and explode sections" and "Render node page" |
 | `scripts/` | Python that builds the Node files from the Knowledge Base (`build_node_files.py`, `kbdata.py`, `reconcile.py`, `tech_instruments.py`, `check_links.py`), rebuilds the workflow (`make_workflow.py`), the link CSVs, and `tools/` (`check_pages.py` to check finished pages, `rerender.js` to rebuild pages and keep the AI text) |
-| `docs/` | `HOW_TO_RUN.md` (step by step), `NODE_FILES.md` (fields of a Node file, page layout, rules), `OPTIMISATION_2026-10-15.md` (review of the first batch and the fixes after it) |
+| `docs/` | `HOW_TO_RUN.md` (step by step), `NODE_FILES.md` (fields of a Node file, page layout, rules), `OPTIMISATION_2026-10-15.md` (review of the first batch and the fixes after it), and `presentations/` (the slides for the 20 and 21 October 2026 meetings: a technical deck and a plain-language deck) |
 | `AI Prompts/` | Prompts from the 2025 approach (rewriting website text with local models). Kept for reference |
 | `rrexp-files/` | Node texts from that 2025 approach (RREXP 4.0). Kept for reference |
 
@@ -168,15 +168,36 @@ the script), or paste the prompt and the `.js` files into the boxes by hand.
   "Research and development", "Infrastructure access"). Instrument cells: no CT scanner
   in the in vivo optical imaging row, and "X configuration with" prefixes removed.
 
-- **19 Oct**: applies the master's Navigator gates: Node technologies NOD-02, facility
-  providers LNK-01 only (35 held links on 12 Nodes left out and listed for review; 58
-  qualified links marked), facility services SVC-01, contacts CON-01, SLA services SLA-01.
-  Database services no longer reach the writer.
+- **19 Oct**: applies the master's Navigator gates. Every relationship row carries a
+  `navigator_route` value from the Data Dictionary, and the build now keeps a row only
+  when that value allows it; anything else fails closed and goes to `missing_info`.
+  How each sheet is read:
+  - Node Technologies: only `REGISTERED_NODE_SCOPE` (NOD-02). `UTILITY_EXCLUDED`
+    (TEC-02) rows are dropped.
+  - Facility Technologies: only `REGISTERED_PROVIDER_LINK` (LNK-01) fills `provided_by`.
+    When `round3_relation_status` is `VALIDATED_FACILITY_ALLOCATION_QUALIFIED`, the
+    facility is also put in the new field `provided_by_qualified`. `HELD_RELATIONSHIP`
+    (LNK-02) links are left out and written to `missing_info` with their reason
+    (35 held links on 12 Nodes; 58 qualified links marked).
+  - Facilities: `HELD_MEMBERSHIP` (FAC-02) facilities are left off the page and
+    listed in `missing_info` (14 facilities).
+  - Services: only `CURRENT_FACILITY_SERVICE` (SVC-01). Contacts: only
+    `PUBLIC_CONTACT` (CON-01), and older contact records are skipped.
+  - Node Services: only rows with `source_type = SLA_ANNEX_1_1` and
+    `NODE_CONTRACT_CONTEXT` (SLA-01) become `services_support`. `services_basis` is
+    `SLA`, `DATABASE` (fallback to the Node service summary) or empty. Database
+    services no longer reach the writer: `services_support` stays empty and Render
+    prints the list under "please confirm" (29 Nodes SLA, 9 database, 2 none).
 
 ### Clean and explode sections
 
-- **v3.2** (19 Oct): review flags for hedging words (recorded, registered, according to).
-- **v3.1** (19 Oct): review flags for evaluating or recommending phrases.
+- **v3.2** (19 Oct): the `BANNED` word list also catches hedging words that v15
+  produced: recorded, records, registered, according to, is described, are described.
+  They are flagged on the section, not removed.
+- **v3.1** (19 Oct): the `BANNED` list also catches evaluating or recommending phrases:
+  strongest, best suited, well suited, suits, natural place, will find, most support,
+  within one node, in one place. An empty writer answer stops the run with its own
+  message.
 - **16 Oct, latest**: an empty answer from the writer now stops the run with its
   own message (out of tokens) instead of "no parseable JSON".
 - **16 Oct**: when the Node has no services, any Services text is dropped and
@@ -197,10 +218,15 @@ the script), or paste the prompt and the `.js` files into the boxes by hand.
 
 ### Render node page
 
-- **v13** (19 Oct): technology table with a "Confirmed facility providers" column
-  ("No confirmed facility provider yet" for 303 registered technologies, "(qualified)"
-  for a qualified allocation). Services headings "Services in the signed SLA" and
-  "Services currently recorded (not in the signed SLA, please confirm)".
+- **v13** (19 Oct): the technology table gets a third column, "Confirmed facility
+  providers", filled from `provided_by` in the Node file. A facility that is also in
+  `provided_by_qualified` is shown as "Name (qualified)", and a note under the table
+  explains the mark. A registered technology with an empty `provided_by` shows "No
+  confirmed facility provider yet" (303 rows). The services heading is chosen from
+  `record.services_basis`: "Services in the signed SLA" for `SLA`, and "Services
+  currently recorded (not in the signed SLA, please confirm)" for `DATABASE`, where
+  the list is printed without any written text. This replaces the earlier
+  "Services offered*" heading.
 
 - **16 Oct, latest**: the "(provisional)" mark is gone from the technology table
   (the flag stays in the Node file). The service list heading is "Services
@@ -240,6 +266,14 @@ the script), or paste the prompt and the `.js` files into the boxes by hand.
   Windows and Google Drive.
 - **v1**: turns the page into a binary file named `<node_uri>.md` for the Drive
   upload, and stops if the page or file name is missing.
+
+### Documentation
+
+- **19 Oct**: `docs/HOW_TO_RUN.md` Part 5 has the four batches joined into one
+  `NODE_FILTER` line, for a single run of all 40 Nodes (an empty filter does the same).
+  New folder `docs/presentations/` with the two decks about this pipeline: the
+  technical deck for the KTH meeting (20 Oct) and the plain-language deck for the
+  21 Oct meeting. The README folder table lists it.
 
 ### Workflow settings
 

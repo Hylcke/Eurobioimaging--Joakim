@@ -188,6 +188,11 @@ Batch 4:
 const NODE_FILTER = "phase-contrast-imaging-flagship-node-trieste, population-imaging-flagship-node-rotterdam, portuguese-platform-of-bioimaging-ppbi, preclinical-imaging-centre-prime-molecular-imaging-dutch-node, radiology-and-medical-imaging-valencia, simbion-node, smart-optical-microscopy-som-node, sofia-bioimaging-node-advanced-light-microscopy-node-sofia-bulgaria, swedish-national-microscopy-infrastructure-nmi, the-uk-node";
 ```
 
+All 40 Nodes in one run (about three hours). This is the four batches above in one line; `const NODE_FILTER = "";` does the same:
+```
+const NODE_FILTER = "advanced-light-and-electron-microscopy-node-prague-cz, advanced-light-microscopy-italian-node, advanced-light-microscopy-node-poland, advanced-nl-microscopy, austrian-bioimaging-node-cmi, barcelona-live-and-intravital-node, barcelona-mesoscopic-imaging-node, barcelona-super-resolution-light-and-nanoscopy-node, bilbao-node, brain-imaging-network-bin, cellular-imaging-hungary, center-for-advanced-preclinical-imaging-capi, challenges-framework-flagship-node, danish-bioimaging, digital-imaging-multimodal-platform-neuromed-dimp-neuromed, dutch-high-field-imaging-hub, euro-bioimaging-embl-node, facility-of-excellence-in-imaging-ammi-maastricht, finnish-advanced-microscopy-node, finnish-biomedical-imaging-node, flanders-bioimaging-imaging-node, france-life-imaging-node, french-bioimaging-node, israel-bioimaging, madrid-advanced-microscopy-center-madmic, medical-and-preclinical-imaging-hungary, molecular-imaging-italian-node, multimodal-imaging-node-brno-cz, normic-oslo-advanced-light-microscopy-node-oslo, normolim-norwegian-molecular-imaging-infrastructure, phase-contrast-imaging-flagship-node-trieste, population-imaging-flagship-node-rotterdam, portuguese-platform-of-bioimaging-ppbi, preclinical-imaging-centre-prime-molecular-imaging-dutch-node, radiology-and-medical-imaging-valencia, simbion-node, smart-optical-microscopy-som-node, sofia-bioimaging-node-advanced-light-microscopy-node-sofia-bulgaria, swedish-national-microscopy-infrastructure-nmi, the-uk-node";
+```
+
 To redo single Nodes, list just those: `const NODE_FILTER = "danish, flanders";`.
 
 When all four are done, **EB-Nodes** has 40 `.md` files.

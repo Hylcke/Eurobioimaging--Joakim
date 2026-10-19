@@ -2,49 +2,51 @@
 
 ## Overview
 
-NORMOLIM, the Norwegian Molecular Imaging Infrastructure, images living animals. Its strength is in vivo molecular imaging of small-animal disease models and transgenic mice and rats, and all three of its facilities offer high-field magnetic resonance imaging and spectroscopy (MRI/MRS) and ultrasound. The Node is a biomedical imaging infrastructure spread over three institutions in Bergen, Oslo and Trondheim. Each site concentrates on one organ system or disease area, with the brain in Trondheim, cancer in Bergen and the heart in Oslo. The groups work closely with university hospitals and take part in moving new findings and therapies into clinical practice.
+NORMOLIM, the Norwegian Molecular Imaging Infrastructure, offers in vivo molecular imaging of animal disease models, including transgenic mice and rats. Its work forms a link between basic biomedical research and clinical practice, and the research groups behind it collaborate closely with university hospitals on bringing new knowledge and therapies into the clinic. The Node has three facilities at three institutions in Bergen, Oslo and Trondheim, and it covers biomedical imaging only.
 
-Much of the staff expertise lies in magnetic resonance. The MR Core Facility in Trondheim works across preclinical and clinical MR imaging and spectroscopy, and its staff also have experience in MR and mass spectrometry metabolomics of tissue and body fluids. The team at the Preclinical MR Core Facility in Oslo concentrates on cardiovascular imaging of mice and rats, with further work in metabolism, neuroimaging and prostate imaging. At MIC in Bergen, staff combine small-animal imaging with sample preparation, image analysis and method development. Across the Node, the emphasis stays on disease models and transgenic animals rather than on a single technique.
+Each site specialises in one organ system. The MR Core Facility in Trondheim focuses on the brain, MIC in Bergen on cancer, and the Preclinical MR Core Facility in Oslo on the heart. Staff in Trondheim work across preclinical and clinical MR imaging and spectroscopy, and they are also experienced in metabolomics of human tissue and body fluids by MR and mass spectrometry. The Oslo team concentrates on cardiovascular imaging of mice and rats, with further work in neuroimaging, prostate imaging and metabolism. Staff at MIC bring experience in small-animal imaging, sample preparation, image analysis and method development.
 
-Cardiovascular researchers will find the most specialised support at the Preclinical MR Core Facility in Oslo. Cancer projects that need tracer imaging with anatomical context suit MIC in Bergen, which is the only facility offering micro-PET/CT. Neuroscientists, and groups who want to link in vivo imaging with metabolomics, should look first to the MR Core Facility in Trondheim.
+High-field MRI and MR spectroscopy at 7 tesla or above are at all three facilities, and so is ultrasound imaging. Combined PET and MRI is at the MR Core Facility in Trondheim and MIC in Bergen, while combined PET and CT is at MIC alone. In vivo optical imaging is at the MR Core Facility and MIC, and photoacoustic imaging and mass spectrometry imaging are at the MR Core Facility. Ex vivo MRI and MR spectroscopy of tissue specimens are at the Preclinical MR Core Facility in Oslo.
 
 ## Imaging technologies offered
 
-High-field MRI and MRS form the core of the Node. All three facilities offer micro-MRI/MRS at 7 tesla or above, which shows anatomy, physiology and tissue chemistry without sectioning and allows the same animal to be scanned again later. The Preclinical MR Core Facility in Oslo also scans excised organs and samples at high field, using a 9.4T Varian/Agilent magnet with a Bruker Avance Neo spectrometer. The Node has coils for spectroscopy and imaging of 1H, 13C, 23Na, 31P and 19F nuclei, so metabolism can be followed alongside anatomy.
+Preclinical magnetic resonance is the core of the Node. MRI and MR spectroscopy at 7 tesla or higher show anatomy, physiology and tissue chemistry without sectioning, and the same animal can be scanned again as a disease or treatment progresses. The MR Core Facility runs a 7T Bruker BioSpec with a PET insert, so tracer uptake and MR measurements come from one session. The Preclinical MR Core Facility uses a 9.4T Varian/Agilent magnet interfaced with a Bruker Avance Neo spectrometer, with coils for cardiac, neuro and whole-body imaging and 31P coils for metabolism studies. Across the Node, coils cover 1H, 13C, 23Na, 31P and 19F spectroscopy and imaging.
 
-PET adds tracer measurements of biology. Micro-PET/MRI is offered by the MR Core Facility in Trondheim and MIC in Bergen, so tracer uptake can be read against soft-tissue MR contrast. The Trondheim system is a 7T Bruker BioSpec with a PET insert. MIC also offers micro-PET/CT, which places tracer signals on an X-ray image of the anatomy, and PMOD software is used to quantify dynamic PET scans.
+Nuclear imaging adds tracer biology. Micro-PET/MRI at the MR Core Facility and MIC places tracer signals on soft-tissue contrast, while micro-PET/CT at MIC gives anatomical context and attenuation correction from X-ray CT. PMOD software quantifies dynamic PET scans.
 
-Ultrasound is available at all three sites and gives quick structural and blood-flow measurements without ionising radiation. MIC and the Preclinical MR Core Facility each run a Vevo 2100. In vivo optical imaging at the MR Core Facility and MIC follows fluorescent or bioluminescent reporters in whole animals. The MR Core Facility also offers photoacoustic imaging, which maps blood vessels and light-absorbing molecules in tissue, as well as mass spectrometry imaging of tissue sections.
+Ultrasound at all three facilities gives quick views of organs and blood flow without ionising radiation. MIC and the Preclinical MR Core Facility each have a Vevo 2100, and the Node's VisualSonics scanner has 3D, contrast, Doppler and strain-imaging modules for molecular ultrasound. In vivo optical imaging at the MR Core Facility and MIC follows fluorescent or bioluminescent reporters in intact animals. The MR Core Facility also offers photoacoustic imaging of vasculature and mass spectrometry imaging, which maps lipids, metabolites and peptides across tissue sections.
 
 ### Technologies and instruments
 
-| Technology | Instrument highlights |
-| --- | --- |
-| [Mass spectrometry-based imaging - bio (MSI - bio)](#mass-spectrometry-based-imaging-msi-bio "mass-spectrometry-based-imaging-msi-bio") | MR Core Facility: RapifleX MALDI Tissuetyper (MALDI-TOF/TOF) |
-| [in vivo optical imaging (OI)](#in-vivo-optical-imaging-oi "in-vivo-optical-imaging-oi") |  |
-| [micro-MRI/MRS (Field >= 7 T)](#micro-mri-mrs-gte-7t "micro-mri-mrs-gte-7t") | MR Core Facility: 7T Bruker BioSpec with PET insert (preclinical MR/PET); Preclinical MR Core Facility: 9.4T Varian/Agilent magnet interfaced with a Bruker Avance Neo spectrometer |
-| [micro-PET/CT](#micro-pet-ct "micro-pet-ct") |  |
-| [micro-PET/MRI](#micro-pet-mri "micro-pet-mri") | MR Core Facility: 7T Bruker BioSpec with PET insert (preclinical MR/PET) |
-| [micro-US](#micro-us "micro-us") | MIC: Vevo 2100; Preclinical MR Core Facility: Vevo 2100 |
-| [PhotoAcoustic Imaging (PAI) - med](#photoacoustic-imaging-pai-med "photoacoustic-imaging-pai-med") |  |
-| [Mass spectrometry-based imaging - med (MSI - med)](#mass-spectrometry-based-imaging-msi-med "mass-spectrometry-based-imaging-msi-med") | MR Core Facility: RapifleX MALDI Tissuetyper (MALDI-TOF/TOF) |
-| [micro-MRI/MRS (>= 7 T)ex-vivo](#micro-mri-mrs-gte-7t-ex-vivo "micro-mri-mrs-gte-7t-ex-vivo") | Preclinical MR Core Facility: 9.4T Varian/Agilent magnet interfaced with a Bruker Avance Neo spectrometer |
+| Technology | Confirmed facility providers | Instrument highlights |
+| --- | --- | --- |
+| [Mass spectrometry-based imaging - bio (MSI - bio)](#mass-spectrometry-based-imaging-msi-bio "mass-spectrometry-based-imaging-msi-bio") | MR Core Facility | MR Core Facility: RapifleX MALDI Tissuetyper (MALDI-TOF/TOF) |
+| [in vivo optical imaging (OI)](#in-vivo-optical-imaging-oi "in-vivo-optical-imaging-oi") | MR Core Facility, MIC |  |
+| [micro-MRI/MRS (Field >= 7 T)](#micro-mri-mrs-gte-7t "micro-mri-mrs-gte-7t") | MR Core Facility, MIC, Preclinical MR Core Facility | MR Core Facility: 7T Bruker BioSpec with PET insert (preclinical MR/PET); Preclinical MR Core Facility: 9.4T Varian/Agilent magnet interfaced with a Bruker Avance Neo spectrometer |
+| [micro-PET/CT](#micro-pet-ct "micro-pet-ct") | MIC |  |
+| [micro-PET/MRI](#micro-pet-mri "micro-pet-mri") | MR Core Facility, MIC | MR Core Facility: 7T Bruker BioSpec with PET insert (preclinical MR/PET) |
+| [micro-US](#micro-us "micro-us") | MR Core Facility, MIC, Preclinical MR Core Facility | MIC: Vevo 2100; Preclinical MR Core Facility: Vevo 2100 |
+| [PhotoAcoustic Imaging (PAI) - med](#photoacoustic-imaging-pai-med "photoacoustic-imaging-pai-med") | MR Core Facility |  |
+| [Mass spectrometry-based imaging - med (MSI - med)](#mass-spectrometry-based-imaging-msi-med "mass-spectrometry-based-imaging-msi-med") | MR Core Facility | MR Core Facility: RapifleX MALDI Tissuetyper (MALDI-TOF/TOF) |
+| [micro-MRI/MRS (>= 7 T)ex-vivo](#micro-mri-mrs-gte-7t-ex-vivo "micro-mri-mrs-gte-7t-ex-vivo") | Preclinical MR Core Facility | Preclinical MR Core Facility: 9.4T Varian/Agilent magnet interfaced with a Bruker Avance Neo spectrometer |
 
 ## Specialties and research focus
 
-Research at NORMOLIM centres on animal models of human disease, mainly mice and rats and including transgenic lines. Each site follows one organ system. The MR Core Facility in Trondheim focuses on the brain and supports disease-model imaging and metabolomics, with studies of human tissue and body fluids alongside the animal work. MIC in Bergen concentrates on cancer and serves biomedical research more broadly, from cells and tissues up to whole animals. The Preclinical MR Core Facility in Oslo focuses on the heart, and cardiovascular imaging of mice and rats is its main application. The Oslo group also works on metabolism, neuroimaging and prostate imaging, and on ex vivo imaging of organs and samples.
+Research at NORMOLIM centres on disease in living animals, mainly mouse and rat models, including transgenic lines. The three sites divide this work by organ system, so brain research is based in Trondheim, cancer research in Bergen and heart research in Oslo.
 
-The Node sees its work as a link between basic biomedical research and new clinical practice. Its research groups collaborate closely with university hospitals, and they are directly involved in bringing new knowledge and therapies to patients. The work on human tissue and body fluids in Trondheim sits close to that clinical side.
+At the Preclinical MR Core Facility in Oslo, cardiac imaging is the main application. The facility also supports studies of metabolism, neuroimaging and prostate imaging, and it images excised organs and tissue specimens ex vivo. At the MR Core Facility in Trondheim, the work combines imaging of disease models with metabolomics. Its metabolomics extends to human tissue and body fluids, which connects the animal studies with clinical material. MIC in Bergen serves biomedical research in general, with cancer as the site's organ focus.
+
+Across all three sites, the aim is translational. The groups work closely with university hospitals, and their imaging studies in animal models are meant to carry new findings and therapies towards clinical use.
 
 ## Services and user support
 
-A project usually begins with methodological setup, where staff help design the study protocol and the standard operating procedures. Regulatory affairs management is offered as well. Animal work is supported from the start, with access to animal models, animal housing and preparation of animals, including facilities for small-animal surgery.
+A project with NORMOLIM starts with methodological setup, where staff help design the study protocol and the standard operating procedures. Researchers can then be trained to use the instruments themselves, or staff provide technical assistance to run them.
 
-For molecular imaging, staff prepare probes and synthesise PET tracers with a cyclotron on site. Wet lab space is available for preparation work, and the Node also provides instrumentation for sonoporation, which uses ultrasound to help deliver substances into cells and tissue. During acquisition, researchers can have technical assistance running the instruments or be trained to use the infrastructure themselves.
+Animal work is supported throughout. The Node gives access to animal models and houses animals in its own facilities. Staff prepare animals for imaging, and there are facilities for small animal surgery. A regulatory affairs management service helps with the formal side of this work. For tracer and contrast studies, staff prepare probes, and PET tracers are synthesised with an on-site cyclotron. Instrumentation for sonoporation is also available to projects that use ultrasound to deliver agents into tissue.
 
-After scanning, staff help with data processing and analysis. NMR metabolomics analysis of biological fluids and tissue samples extends a study beyond the images, and biological material can be stored and processed through the Node's biobanking service.
+Wet lab space supports work around the imaging sessions. Biological material can be stored and processed through the biobanking service, and NMR metabolomics analysis covers biological fluids and tissue samples. Once data are acquired, staff help with processing and analysis.
 
-### Services offered
+### Services in the signed SLA
 
 - Technical assistance to run instrument
 - Methodological setup (e.g. design of study protocol and standard operation procedures)
@@ -69,13 +71,11 @@ After scanning, staff help with data processing and analysis. NMR metabolomics a
 | [Molecular Imaging Center (MIC), University of Bergen](https://www4.uib.no/en/research/research-infrastructure/molecular-imaging-center "normolim-norwegian-molecular-imaging-infrastructure-molecular-imaging-center-mic-university-of-bergen") | Department of Biomedicine, University of Bergen | Bergen |
 | [Preclinical MR Core Facility, IEMR (Ulleval)](https://iemr.no/preclinical_mr_corefacility/ "normolim-norwegian-molecular-imaging-infrastructure-preclinical-mr-core-facility-iemr-ulleval") | Institute for Experimental Medical Research, Oslo University Hospital | Oslo (Ulleval) |
 
-NORMOLIM brings together three core facilities, one at each partner institution. They share a common base in high-field MRI and ultrasound, while each adds its own methods and organ focus. This means a project can draw on one site's disease expertise and still use methods found across the Node.
+The MR Core Facility at the Norwegian University of Science and Technology in Trondheim has the broadest set of methods in the Node. Alongside preclinical MRI and MR spectroscopy, it offers combined PET and MRI, ultrasound, photoacoustic and optical imaging of living animals, and mass spectrometry imaging of tissue. Its staff are expert in MR spectroscopy across preclinical and clinical work, and in metabolomics of tissue and body fluids by MR, mass spectrometry and high-resolution NMR. The brain is the site's organ focus.
 
-The MR Core Facility at the Norwegian University of Science and Technology (NTNU) in Trondheim has the broadest set of methods. It combines in vivo MR and PET/MR with optical and photoacoustic imaging, and it adds mass spectrometry imaging and metabolomics. It suits projects that connect imaging in animals with molecular measurements in tissue or body fluids.
+MIC, the Molecular Imaging Center at the University of Bergen, is a core facility in the Department of Biomedicine. It offers MRI and MR spectroscopy, ultrasound and optical imaging, and it is the only NORMOLIM facility with combined PET and CT as well as combined PET and MRI. The team brings experience in small-animal imaging, sample preparation, image analysis and method development, and its organ focus is cancer.
 
-MIC belongs to the Department of Biomedicine at the University of Bergen. It covers imaging from cells and tissues up to small animals, and it is the place for combined PET and CT. Its work on sample preparation and method development helps projects that need adapted protocols.
-
-The Preclinical MR Core Facility sits within the Institute for Experimental Medical Research at Oslo University Hospital, Ullevål. It is the most focused of the three, built around MR imaging and spectroscopy with ultrasound alongside. It is also the only facility offering high-field MR of excised organs and samples, which makes it a fit for studies that follow in vivo cardiac scans with detailed ex vivo imaging.
+The Preclinical MR Core Facility at the Institute for Experimental Medical Research, Oslo University Hospital, is dedicated to magnetic resonance and ultrasound. Its staff concentrate on cardiovascular imaging of mice and rats and on high-resolution preclinical MRI and MR spectroscopy. The facility also images excised tissues ex vivo and supports work on metabolism, the brain and the prostate, with the heart as its organ focus.
 
 ## Access and contact
 

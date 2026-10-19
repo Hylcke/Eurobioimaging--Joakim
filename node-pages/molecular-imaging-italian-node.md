@@ -2,58 +2,62 @@
 
 ## Overview
 
-The Molecular Imaging Italian Node specialises in preclinical in vivo imaging and in the imaging probes that give it molecular contrast. Its chemists and imaging scientists design, characterise and test contrast agents and tracers, and then use them to follow disease and treatment in living animals. The Node brings together nine facilities at eight institutions in five cities, including Turin, Milan, Naples and Pisa. It works in biomedical imaging. Six facilities work in preclinical imaging and two clinical centres offer human PET. An imaging biobank in Naples manages diagnostic image collections for research.
+The Molecular Imaging Italian Node, also called the Multi-Modal Molecular Imaging (MMMI) Node, mainly offers preclinical imaging of living animals with MRI, PET, CT, ultrasound and optical methods. Its second focus is chemistry, because its staff design, characterise and test the imaging probes and contrast agents that make molecular processes visible in these scans. The Node is a biomedical imaging Node with nine facilities in Milan, Naples, Pisa, Segrate and Turin, and it reaches from animal models to clinical PET in people.
 
-The staff's deepest expertise lies in probe chemistry. They design molecular, supramolecular and nano- or micro-sized imaging agents for several modalities, including agents that target a tissue or respond to their surroundings. At CIM in Turin, the team develops chemical exchange saturation transfer (CEST) agents, which are MRI contrast agents that can be detected selectively by tuning the scanner. CIM staff also label cells so they can be tracked in vivo. IBB-CNR in Naples develops diagnostic and therapeutic agents alongside its study of biomolecule structure. In Pisa, physicists build detectors and scanners, write reconstruction algorithms and develop custom tracers.
+Much of the Node's expertise lies in imaging probes. Chemists and life scientists at CIM in Turin develop MRI contrast agents, including agents based on chemical exchange saturation transfer (CEST), and use them to label and track cells and to image tumour angiogenesis. IBB-CNR in Naples designs targeting and responsive probes and develops agents for diagnosis and therapy. In Pisa, physicists at the two MMMI Pisa sites build detectors and scanners, write acquisition and reconstruction algorithms and develop custom tracers for cardiovascular and metabolic imaging. The Experimental Imaging Center in Milan works on biosensors, functional imaging and the 3D and 4D reconstruction of biological events.
 
-Researchers developing a new contrast agent or tracer will find the closest match at CIM, where probe chemistry sits next to MRI, nuclear, optical and ultrasound imaging. Groups studying tumour angiogenesis, cell tracking or theranostics will also find support at CIM. Cardiovascular and metabolic research is the focus of the Pisa sites, which pair preclinical PET and CT with scanner development. Projects that need to carry a tracer study into patients can turn to the two clinical nuclear medicine centres in Pisa and Naples.
+Preclinical MRI at 7 T and above is at IBB-CNR in Naples, CIM in Turin and the Experimental Imaging Center in Milan. CIM in Turin also offers lower-field MRI, micro-ultrasound and in vivo optical imaging. Micro-PET is at the CNR Institute of Bioimaging and Complex Biological Systems in Segrate and MMMI Pisa site (EBI-FAC-0194) in Pisa. Clinical PET is at the G. Monasterio Foundation in Pisa and IRCCS SYNLAB SDN in Naples, and IRCCS SYNLAB SDN also offers PET-MRI.
 
 ## Imaging technologies offered
 
-Preclinical magnetic resonance is the Node's largest platform. Micro-MRI and MR spectroscopy at 7 T and above are offered by IBB-CNR in Naples, CIM in Turin and the Experimental Imaging Center in Milan. These methods show soft-tissue anatomy and physiology without sectioning, and spectroscopy adds metabolite measurements, so the same animal can be imaged repeatedly. The scanners include a Biospec 9.4T at IBB-CNR and a Biospec 70/30 at the Experimental Imaging Center. CIM runs a PharmaScan 7T and a BioSpec 3T, and it also images excised tissue at high field.
+Preclinical magnetic resonance is the largest group of methods at the Node. Micro-MRI and MR spectroscopy show anatomy, tissue physiology and metabolites in living animals without sectioning, so the same animal can be scanned again as disease or treatment progresses. High-field systems include a Biospec 9.4T at IBB-CNR in Naples, a PharmaScan 7T at CIM in Turin and a Biospec 70/30 at the Experimental Imaging Center in Milan. CIM also runs a BioSpec 3T and scans fixed specimens by high-field MRI ex vivo.
 
-Nuclear imaging follows where a tracer goes and how quickly it gets there. Micro-PET is offered by the CNR Institute of Bioimaging and Complex Biological Systems in Segrate, CIM in Turin and the MMMI Pisa site (EBI-FAC-0194) in Pisa. The MMMI Pisa site (EBI-FAC-0194) also offers micro-PET/CT, which places tracer signals in their anatomical context. CIM adds micro-SPECT and micro-SPECT-CT for gamma-emitting isotopes. Micro-CT gives 3D anatomy including bone, and it is offered by the MMMI Pisa site (EBI-FAC-0194), the Experimental Imaging Center and the CNR Institute of Bioimaging and Complex Biological Systems. CIM also offers in vivo optical imaging of fluorescent and bioluminescent reporters, and micro-ultrasound for quick views of organs and blood flow.
+Nuclear imaging follows where a tracer goes in the body and how quickly it gets there. Micro-PET is offered by the CNR Institute of Bioimaging and Complex Biological Systems and MMMI Pisa site (EBI-FAC-0194), and the Pisa site adds micro-PET/CT to place tracer signals in their anatomical context. Micro-CT gives 3D anatomy, including bone and other mineralised structures, at these two facilities and at the Experimental Imaging Center.
 
-For human studies, G. Monasterio Foundation in Pisa and IRCCS SYNLAB SDN in Naples offer PET and PET/CT. IRCCS SYNLAB SDN also offers PET-MRI. Medical image analysis is offered by the Experimental Imaging Center and the CNR Institute of Bioimaging and Complex Biological Systems.
+CIM adds micro-ultrasound for quick views of organs and blood flow without ionising radiation, and in vivo optical imaging to read fluorescent or bioluminescent reporters in whole animals. For human studies, PET and PET/CT are at the G. Monasterio Foundation and IRCCS SYNLAB SDN, with PET-MRI at IRCCS SYNLAB SDN. Medical image analysis and terahertz imaging of plants complete the list.
 
 ### Technologies and instruments
 
-| Technology | Instrument highlights |
-| --- | --- |
-| [in vivo optical imaging (OI)](#in-vivo-optical-imaging-oi "in-vivo-optical-imaging-oi") |  |
-| [micro-CT](#micro-ct "micro-ct") |  |
-| [micro-MRI/MRS (Field < 7 T)](#micro-mri-mrs-lt-7t "micro-mri-mrs-lt-7t") | CIM: BioSpec 3T |
-| [micro-MRI/MRS (Field >= 7 T)](#micro-mri-mrs-gte-7t "micro-mri-mrs-gte-7t") | IBB-CNR: Biospec 9.4T; CIM: PharmaScan 7T; Experimental Imaging Center: Biospec 70/30 |
-| [micro-PET](#micro-pet "micro-pet") |  |
-| [micro-PET/CT](#micro-pet-ct "micro-pet-ct") |  |
-| [micro-PET/MRI](#micro-pet-mri "micro-pet-mri") |  |
-| [micro-SPECT](#micro-spect "micro-spect") |  |
-| [micro-SPECT-CT](#micro-spect-ct "micro-spect-ct") |  |
-| [micro-US](#micro-us "micro-us") |  |
-| [PhotoAcoustic Imaging (PAI) - med](#photoacoustic-imaging-pai-med "photoacoustic-imaging-pai-med") |  |
-| [Terahertz Plant Imaging (THzI)](#terahertz-plant-imaging-thzi "terahertz-plant-imaging-thzi") |  |
-| [ex-vivo micro-CT](#ex-vivo-micro-ct "ex-vivo-micro-ct") |  |
-| [micro-MRI/MRS (<7 T)ex-vivo](#micro-mri-mrs-lt-7t-ex-vivo "micro-mri-mrs-lt-7t-ex-vivo") |  |
-| [micro-MRI/MRS (>= 7 T)ex-vivo](#micro-mri-mrs-gte-7t-ex-vivo "micro-mri-mrs-gte-7t-ex-vivo") |  |
-| [MRI/MRS (< 7T)](#mri-mrs-lt-7t "mri-mrs-lt-7t") |  |
-| [PET](#pet "pet") |  |
-| [PET-MRI](#pet-mri-1 "pet-mri-1") |  |
-| [PET/CT](#pet-ct "pet-ct") |  |
-| [Image analysis - med (IA med)](#image-analysis-med "image-analysis-med") |  |
+| Technology | Confirmed facility providers | Instrument highlights |
+| --- | --- | --- |
+| [in vivo optical imaging (OI)](#in-vivo-optical-imaging-oi "in-vivo-optical-imaging-oi") | CIM |  |
+| [micro-CT](#micro-ct "micro-ct") | CNR Institute of Bioimaging and Complex Biological Systems, Experimental Imaging Center, MMMI Pisa site (EBI-FAC-0194) |  |
+| [micro-MRI/MRS (Field < 7 T)](#micro-mri-mrs-lt-7t "micro-mri-mrs-lt-7t") | CIM | CIM: BioSpec 3T |
+| [micro-MRI/MRS (Field >= 7 T)](#micro-mri-mrs-gte-7t "micro-mri-mrs-gte-7t") | IBB-CNR, CIM, Experimental Imaging Center | IBB-CNR: Biospec 9.4T; CIM: PharmaScan 7T; Experimental Imaging Center: Biospec 70/30 |
+| [micro-PET](#micro-pet "micro-pet") | CNR Institute of Bioimaging and Complex Biological Systems, MMMI Pisa site (EBI-FAC-0194) |  |
+| [micro-PET/CT](#micro-pet-ct "micro-pet-ct") | MMMI Pisa site (EBI-FAC-0194) |  |
+| [micro-PET/MRI](#micro-pet-mri "micro-pet-mri") | No confirmed facility provider yet |  |
+| [micro-SPECT](#micro-spect "micro-spect") | No confirmed facility provider yet |  |
+| [micro-SPECT-CT](#micro-spect-ct "micro-spect-ct") | No confirmed facility provider yet |  |
+| [micro-US](#micro-us "micro-us") | CIM |  |
+| [PhotoAcoustic Imaging (PAI) - med](#photoacoustic-imaging-pai-med "photoacoustic-imaging-pai-med") | No confirmed facility provider yet |  |
+| [Terahertz Plant Imaging (THzI)](#terahertz-plant-imaging-thzi "terahertz-plant-imaging-thzi") | MMMI Pisa site (EBI-FAC-0196) |  |
+| [ex-vivo micro-CT](#ex-vivo-micro-ct "ex-vivo-micro-ct") | No confirmed facility provider yet |  |
+| [micro-MRI/MRS (<7 T)ex-vivo](#micro-mri-mrs-lt-7t-ex-vivo "micro-mri-mrs-lt-7t-ex-vivo") | No confirmed facility provider yet |  |
+| [micro-MRI/MRS (>= 7 T)ex-vivo](#micro-mri-mrs-gte-7t-ex-vivo "micro-mri-mrs-gte-7t-ex-vivo") | CIM |  |
+| [MRI/MRS (< 7T)](#mri-mrs-lt-7t "mri-mrs-lt-7t") | No confirmed facility provider yet |  |
+| [PET](#pet "pet") | G. Monasterio Foundation, IRCCS SYNLAB SDN |  |
+| [PET-MRI](#pet-mri-1 "pet-mri-1") | IRCCS SYNLAB SDN |  |
+| [PET/CT](#pet-ct "pet-ct") | G. Monasterio Foundation, IRCCS SYNLAB SDN |  |
+| [Image analysis - med (IA med)](#image-analysis-med "image-analysis-med") | CNR Institute of Bioimaging and Complex Biological Systems, Experimental Imaging Center |  |
 
 ## Specialties and research focus
 
-Oncology is a common thread at several facilities. At CIM, research centres on tumour angiogenesis, the tracking of labelled cells in vivo and theranostics, which combine diagnosis and therapy in one agent. IBB-CNR works on preclinical and clinical molecular imaging aimed at new diagnostics and targeted therapies. The CNR Institute of Bioimaging and Complex Biological Systems applies imaging to neurodegeneration and oncology, and also to cardiovascular and metabolic questions and exercise physiology.
+Cardiovascular and metabolic disease is the clearest research theme across the Node. The two MMMI Pisa sites work on cardiovascular disease, metabolic disorders and cardiopulmonary research, and they also develop new imaging methods. The G. Monasterio Foundation in Pisa focuses on the heart and on nuclear medicine diagnostics, which links the Pisa physics and preclinical work to clinical cardiology.
 
-Pisa has a clear cardiovascular identity. The MMMI Pisa site (EBI-FAC-0194) supports research on cardiovascular disease, metabolic disorders and cardiopulmonary function. The University of Pisa physics team at the MMMI Pisa site (EBI-FAC-0196) develops imaging methods for cardiovascular and metabolic research. G. Monasterio Foundation brings a cardiac focus to clinical nuclear medicine diagnostics. In Naples, BCU Imaging Biobank supports research on imaging biomarkers and radiomics, which extracts quantitative features from collections of diagnostic images.
+Cancer is the second main theme. CIM in Turin studies tumour angiogenesis and theranostics, which combine diagnosis and therapy in one agent, and it tracks labelled cells in preclinical models. IBB-CNR in Naples works on molecular imaging in both preclinical and clinical research, aiming at new diagnostics and targeted therapies.
+
+The CNR Institute of Bioimaging and Complex Biological Systems covers neurodegeneration and oncology, cardiovascular and metabolic questions and exercise physiology. Its groups also study the biological effects of radiation and cognitive neurophysiology. BCU Imaging Biobank in Naples serves research on imaging biomarkers and radiomics, which extracts quantitative features from diagnostic images, and it manages collections of diagnostic images with their associated data.
 
 ## Services and user support
 
-A project can begin with methodological setup, where staff help design the study protocol and the standard operating procedures. Researchers can then be trained to use the infrastructure or run their experiments with technical assistance from staff, and a seminar room is available for training. Because much of the Node's science depends on probes, staff can also prepare imaging probes for a project. A radiochemistry facility and a cyclotron for radionuclide production support tracer work.
+A project at the Node usually begins with methodological setup, where staff help design the study protocol and write standard operating procedures. Researchers can then be trained to use the infrastructure, or staff provide technical assistance to run the instruments with them. A seminar room is available for training sessions.
 
-Animal facilities and animal preparation are part of the support, alongside wet lab space and cell culture facilities at safety level 1. Relaxometry measures how strongly a contrast agent changes the MR signal, and it sits alongside microscopy and histology for characterising agents and tissues. A laboratory for detector development and testing serves projects that involve imaging hardware. Once data are acquired, staff help with processing and analysis, and server space is available to store the results.
+Probe work is well supported. The Node prepares imaging probes, and it has a radiochemistry facility and a cyclotron that produces radionuclides for tracer studies. Relaxometry measures how strongly a contrast agent changes the MRI signal, which helps when testing new agents. Staff also prepare animals for imaging, and animal facilities are part of the service.
 
-### Services offered
+For work at the bench, visiting researchers can use wet lab space and cell culture facilities at safety level 1. Histology and microscopy help relate in vivo images to tissue structure. A laboratory for detector development and testing supports projects on imaging hardware. Once images are acquired, staff help with data processing and analysis, and data can be kept on the Node's server space.
+
+### Services in the signed SLA
 
 - Technical assistance to run instrument
 - Methodological setup (e.g. design of study protocol and standard operation procedures)
@@ -87,11 +91,13 @@ Animal facilities and animal preparation are part of the support, alongside wet 
 | [MMMI Pisa site, University of Pisa component](https://www.df.unipi.it/ricerca/progettoricerca/the-multi-modal-molecular-imaging-italian-node-mmmi/ "molecular-imaging-italian-node-mmmi-pisa-site-university-of-pisa-component") | University of Pisa | Pisa |
 | [MMMI Pisa site, cardiovascular and molecular imaging platforms](https://ifc.cnr.it/laboratorio-seelife-di-imaging-biomedico/ "molecular-imaging-italian-node-mmmi-pisa-site-cardiovascular-and-molecular-imaging-platforms") | CNR Institute of Clinical Physiology (IFC-CNR) | Pisa |
 
-The CNR Institute of Bioimaging and Complex Biological Systems is headquartered in Segrate and works from the molecular level up to human physiology. Its expertise includes neuroimaging and the biological effects of radiation. The Experimental Imaging Center at IRCCS Ospedale San Raffaele in Milan combines experimental approaches to visualise biological structure and function across scales. It suits projects that need MRI, micro-CT and image analysis in one place. IBB-CNR in Naples links structural biology with preclinical imaging and clinical research.
+Two facilities centre on imaging probes and preclinical MRI. CIM in Turin is a chemistry and life-science laboratory that develops probes and offers MRI at several field strengths, micro-ultrasound and optical imaging. IBB-CNR in Naples combines the study of biomolecule structure and function with preclinical imaging and clinical research, and it offers high-field micro-MRI.
 
-Pisa works as a cluster. The MMMI Pisa site (EBI-FAC-0194) is a joint platform of the University of Pisa physics department, the CNR Institute of Clinical Physiology and G. Monasterio Foundation, and it has developed its own preclinical scanners. The MMMI Pisa site (EBI-FAC-0196) is the University of Pisa physics team, which contributes detector and reconstruction research and offers terahertz imaging of leaf and fruit hydration in plants. G. Monasterio Foundation runs a nuclear medicine unit, so a tracer study in Pisa can move from animals to patients in the same city.
+Two further facilities offer multimodal preclinical imaging alongside image analysis. The Experimental Imaging Center in Milan offers high-field micro-MRI and micro-CT, and its staff work on biosensors and functional imaging across scales. The CNR Institute of Bioimaging and Complex Biological Systems in Segrate offers micro-PET and micro-CT, with groups in neuroimaging, radiation biology and exercise physiology.
 
-In Naples, IRCCS SYNLAB SDN is a clinical and research imaging centre with a background in radiology and nuclear medicine. BCU Imaging Biobank, also in Naples, is a data resource rather than an imaging site, and it manages diagnostic images and their associated data for research.
+In Pisa, MMMI Pisa site (EBI-FAC-0194) is a platform shared by the University of Pisa physics department, the CNR Institute of Clinical Physiology and the G. Monasterio Foundation. It offers micro-PET, micro-PET/CT and micro-CT, and its team has developed its own scanners. MMMI Pisa site (EBI-FAC-0196) is the molecular imaging team of the physics department, working on detectors and reconstruction algorithms, and it offers terahertz plant imaging.
+
+Clinical imaging comes from the nuclear medicine unit of the G. Monasterio Foundation in Pisa and the clinical and research imaging centre IRCCS SYNLAB SDN in Naples. BCU Imaging Biobank in Naples manages diagnostic image collections and processes image data for research.
 
 ## Access and contact
 

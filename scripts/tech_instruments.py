@@ -147,6 +147,8 @@ EXCLUDE = {
     "pet-mri-1": re.compile(r"rodent|small[- ]animal|preclinical|nanoScan|insert", re.I),
     "pet-ct": re.compile(r"rodent|small[- ]animal|preclinical|nanoScan|Inveon|Albira|mMR|PET[- ]?MR", re.I),
     "micro-pet-ct": re.compile(r"mMR|PET[- ]?MR|Prisma|Achieva|clinical", re.I),
+    # an optical imager row never takes a CT scanner ("Quantum GX3 µCT")
+    "in-vivo-optical-imaging-oi": re.compile(r"µCT|micro-?CT|Quantum [GF]X", re.I),
 }
 _CLINICAL_MRI = re.compile(r"(?<!pre)(?<!pre-)clinical|human|national|hospital|Prisma|Skyra|Terra|Achieva|Ingenia|Signa|Vida|Magnetom", re.I)
 for _u in ("micro-mri-mrs-gte-7t", "micro-mri-mrs-lt-7t", "micro-mri-mrs-gte-7t-ex-vivo", "micro-mri-mrs-lt-7t-ex-vivo"):
@@ -352,6 +354,8 @@ def _clean(text: str) -> str:
     # "AMC-specific official Node inventory: Leica SP8" -> "Leica SP8"
     t = re.sub(r"^(?=[^:]*[a-z]{3})[A-Z][^:\d]{2,60}:\s+(?=\S)", "", t)
     t = re.sub(r"^(?:Named systems include|Systems include|Includes?)\s+(?:an?\s+)?", "", t)
+    # "Lifetime/PIE configuration with LSM980 (...)" -> "LSM980 (...)"
+    t = re.sub(r"^[\w/ -]{0,40}\bconfiguration\s+(?:with|on)\s+", "", t, flags=re.I)
     t = re.sub(r"\s+documented\b.*$|\s+configurations?$|\s+as detailed above$", "", t)
     if t.count("(") > t.count(")"):  # a text cut inside its brackets: "MaiTai laser (TCSPC"
         t = t[:t.rfind("(")].strip()

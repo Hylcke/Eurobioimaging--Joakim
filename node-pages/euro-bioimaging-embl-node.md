@@ -2,80 +2,80 @@
 
 ## Overview
 
-The EMBL Node is built around advanced light microscopy, from automated high-throughput screening to super-resolution and functional imaging of molecules in cells. Electron microscopy and correlative light and electron microscopy (CLEM) sit alongside it, so a project can move from a fluorescent signal to the ultrastructure beneath it within one institution. The Node has four facilities, all part of EMBL. Three are in Heidelberg and one is in Barcelona, and together they cover biological imaging from single molecules to tissues and small organisms.
+The Euro-BioImaging EMBL Node offers advanced light and electron microscopy for biological research, together with correlative methods that link the two. Light microscopy is the largest part, from confocal and multiphoton imaging to super-resolution, functional imaging and automated high-throughput screening. The Node has four facilities at EMBL, three in Heidelberg and one in Barcelona, covering biological imaging.
 
-Much of the Node's expertise lies in automation. Staff at ALMF in Heidelberg develop automated microscopy workflows that link sample preparation, image acquisition, image analysis and data mining, and they have applied them to genome-scale siRNA screens. The same approach lets them scan samples quickly, find objects of interest by online analysis and follow these up with multicolour 3D time-lapse imaging or measurements of molecular mobility. The IC in Heidelberg specialises in correlative and multimodal light and electron microscopy, including methods developed in academic labs that are not yet commercially available. EMCF in Heidelberg handles room-temperature cellular electron microscopy from sample preparation to image analysis, for samples from bacteria to small multicellular organisms. At MIF in Barcelona, staff build custom preparation, imaging and processing workflows for specimens from microns to several centimetres across.
+Staff at ALMF in Heidelberg build automated high-throughput workflows that run from sample preparation and image acquisition to analysis and data mining. They have used these workflows for genome-scale siRNA screens. They can scan samples quickly and find objects of interest by online analysis. They then image those objects in detail with multicolour 3D time-lapse, fluorescence recovery after photobleaching (FRAP) or fluorescence correlation spectroscopy. ALMF began as a cooperation between EMBL and industry and is a reference site for major microscope vendors. The team at IC in Heidelberg specialises in correlative and multimodal light and electron microscopy, including methods from academic labs that are not yet on the market. EMCF in Heidelberg covers room-temperature cellular electron microscopy from sample preparation to image analysis, for samples from bacteria to small multicellular organisms. At MIF in Barcelona, staff design custom sample preparation, imaging and image-processing workflows for mesoscopic samples.
 
-Cell biologists planning an imaging screen, or quantitative imaging of molecules in living cells, will find most support at ALMF. Researchers who need to see the ultrastructure behind a fluorescent signal should look to EMCF, which runs several CLEM workflows alongside volume electron microscopy. Developmental biologists and groups working with organoids, whole tissues or larger specimens are best served by MIF in Barcelona.
+Most light microscopy methods are at ALMF in Heidelberg, including confocal, widefield and high-throughput microscopy. STED and single-molecule localisation microscopy are offered by ALMF and IC, both in Heidelberg. Room-temperature electron microscopy, volume EM and most correlative workflows are at EMCF in Heidelberg, while IC adds cryo-electron and cryo-correlative methods. Light-sheet microscopy and optical projection tomography are at MIF in Barcelona. Image analysis is offered by MIF, ALMF and EMCF.
 
 ## Imaging technologies offered
 
-Light microscopy is the Node's largest family. At ALMF, laser scanning and spinning disk confocal microscopes give optical sections for 3D localisation in cells and tissues. ALMF also offers deconvolution widefield and image scanning microscopy. For thick tissue, ALMF and the IC offer two-photon microscopy and second and third harmonic generation, which shows ordered structures without any added label. ALMF's Zeiss LSM 780 NLO combines these nonlinear methods with confocal imaging. Below the diffraction limit, ALMF and the IC offer STED and single-molecule localisation microscopy (SMLM). The IC runs a Leica Stellaris 8 STED Falcon, which also records fluorescence lifetimes, and a custom 3D-SMLM system for ratiometric multicolour localisation. FRET, fluorescence lifetime imaging and fluorescence correlation spectroscopy measure molecular proximity, environment and diffusion at ALMF and the IC. ALMF adds FRAP for molecular mobility and automated high-content screening. The IC also offers intravital microscopy in living animals. MIF in Barcelona images tissues and organoids by light-sheet microscopy and by optical projection tomography on its custom OPT1 system.
+Light microscopy is the largest group. ALMF in Heidelberg offers laser scanning and spinning disk confocal microscopy for optical sectioning of cells and tissues in 3D. It also offers deconvolution widefield and image scanning microscopy. Two-photon microscopy and harmonic generation imaging, offered by ALMF and IC, reach cells in thick tissue and show ordered structures without added labels. FRET, FLIM and fluorescence correlation spectroscopy at ALMF and IC report molecular proximity, local environment, diffusion and concentration. FRAP at ALMF measures how molecules move and exchange within a region of the cell. For nanoscale detail, ALMF and IC offer STED and single-molecule localisation microscopy. IC also offers MINFLUX and intravital microscopy in living animals. Instruments include a Zeiss LSM 780 NLO for multiphoton and functional imaging at ALMF, and a Leica Stellaris 8 STED Falcon and a custom 3D-SMLM system at IC.
 
-EMCF covers room-temperature electron microscopy, from transmission and scanning EM to volume methods such as serial block-face SEM. Immunogold labelling on resin or thawed cryo-sections places molecules within the ultrastructure. Pre-embedding, post-embedding and live-cell CLEM link an event seen by fluorescence to the structure beneath it. The IC adds cryo-fluorescence microscopy, which locates fluorescent targets in vitrified samples.
+Electron microscopy at EMCF in Heidelberg covers transmission and scanning EM. Immunogold labelling on resin or thawed cryo-sections places individual molecules within the ultrastructure. Serial blockface SEM, FIB-SEM and serial section TEM reconstruct cells and tissues in 3D. The correlative workflows at EMCF, including live-cell CLEM, find a fluorescent event first and then image its ultrastructure. IC offers cryo-fluorescence and cryo-electron methods for frozen-hydrated samples. At MIF in Barcelona, light-sheet microscopy and optical projection tomography image embryos, organs and organoids in 3D, and MIF runs a custom OPT1 instrument.
 
 ### Technologies and instruments
 
-| Technology | Instrument highlights |
-| --- | --- |
-| [Cryo fluorescence microscopy (CryoFM)](#cryo-fluorescence-microscopy-cryofm "cryo-fluorescence-microscopy-cryofm") |  |
-| [Deconvolution widefield microscopy (DWM)](#deconvolution-widefield-microscopy-dwm "deconvolution-widefield-microscopy-dwm") |  |
-| [Image Scanning microscopy (ISM)](#image-scanning-microscopy-ism "image-scanning-microscopy-ism") |  |
-| [Laser scanning confocal microscopy (LSCM/CLSM)](#laser-scanning-confocal-microscopy-lscm-clsm "laser-scanning-confocal-microscopy-lscm-clsm") | ALMF: Zeiss LSM 780 NLO |
-| [Spinning disk confocal microscopy (SDCM)](#spinning-disk-confocal-microscopy-sdcm "spinning-disk-confocal-microscopy-sdcm") |  |
-| [Structured illumination microscopy (SIM)](#structured-illumination-microscopy-sim "structured-illumination-microscopy-sim") |  |
-| [Total internal reflection fluorescence microscopy (TIRF)](#total-internal-reflection-fluorescence-microscopy-tirf "total-internal-reflection-fluorescence-microscopy-tirf") |  |
-| [Two-photon microscopy (2P)](#two-photon-microscopy-2p "two-photon-microscopy-2p") | ALMF: Zeiss LSM 780 NLO |
-| [Minimal Photon Fluxes Microscopy (MINFLUX)](#minimal-photon-fluxes-microscopy-minflux "minimal-photon-fluxes-microscopy-minflux") | IC: Abberior MINFLUX |
-| [Reversible optical fluorescence transitions (RESOLFT)](#reversible-optical-fluorescence-transitions-resolft "reversible-optical-fluorescence-transitions-resolft") |  |
-| [Single Molecule localization microscopy (SMLM)](#single-molecule-localization-microscopy-smlm "single-molecule-localization-microscopy-smlm") | IC: Custom 3D-SMLM |
-| [Stimulated emission depletion microscopy (STED)](#stimulated-emission-depletion-microscopy-sted "stimulated-emission-depletion-microscopy-sted") | IC: Leica Stellaris 8 STED Falcon |
-| [Second/Third Harmonic Generation (SHG/THG)](#second-third-harmonic-generation-shg-thg "second-third-harmonic-generation-shg-thg") | ALMF: Zeiss LSM 780 NLO |
-| [Light-sheet mesoscopic imaging (SPIM/dSLSM)](#light-sheet-mesoscopic-imaging-spim-dslsm "light-sheet-mesoscopic-imaging-spim-dslsm") |  |
-| [Optical projection tomography (OPT)](#optical-projection-tomography-opt "optical-projection-tomography-opt") | MIF: Custom OPT1 |
-| [Fluorescence (cross)-correlation spectroscopy (FCS/FCCS)](#fluorescence-cross-correlation-spectroscopy-fcs-fccs "fluorescence-cross-correlation-spectroscopy-fcs-fccs") |  |
-| [Fluorescence Lifetime Imaging (FLIM)](#fluorescence-lifetime-imaging-flim "fluorescence-lifetime-imaging-flim") | IC: Leica Stellaris 8 STED Falcon |
-| [Fluorescence Recovery after Photobleaching (FRAP)](#fluorescence-recovery-after-photobleaching-frap "fluorescence-recovery-after-photobleaching-frap") |  |
-| [Fluorescence Resonance Energy Transfer (FRET)](#fluorescence-resonance-energy-transfer-fret "fluorescence-resonance-energy-transfer-fret") |  |
-| [High throughput microscopy/high content screening (HTM/HCS)](#high-throughput-microscopy-high-content-screening-htm-hcs "high-throughput-microscopy-high-content-screening-htm-hcs") |  |
-| [Imaging at Biosafety Level >1 (BSL>1)](#imaging-at-biosafety-level-gt-1-bsl-gt-1 "imaging-at-biosafety-level-gt-1-bsl-gt-1") |  |
-| [Intravital Microscopy (IVM)](#intravital-microscopy-ivm "intravital-microscopy-ivm") |  |
-| [Microdissection (µDis)](#microdissection-mdis "microdissection-mdis") |  |
-| [Cryo Correlative Light and Electron Microscopy (Cryo-CLEM)](#cryo-correlative-light-and-electron-microscopy-cryo-clem "cryo-correlative-light-and-electron-microscopy-cryo-clem") |  |
-| [post-embedding CLEM (post-emb CLEM)](#post-embedding-clem-post-emb-clem "post-embedding-clem-post-emb-clem") |  |
-| [pre-embedding CLEM (pre-emb CLEM)](#pre-embedding-clem-pre-emb-clem "pre-embedding-clem-pre-emb-clem") |  |
-| [live-cell Correlative Light and Electron Microscopy (live-cell CLEM)](#live-cell-correlative-light-and-electron-microscopy-live-cell-clem "live-cell-correlative-light-and-electron-microscopy-live-cell-clem") |  |
-| [Cryo Electron Tomography (Cryo-ET)](#cryo-electron-tomography-cryo-et "cryo-electron-tomography-cryo-et") |  |
-| [Cryo Focussed Ion beam (Cryo-FIB)](#cryo-focussed-ion-beam-cryo-fib "cryo-focussed-ion-beam-cryo-fib") |  |
-| [Cryo Scanning Electron Microscopy (Cryo-SEM)](#cryo-scanning-electron-microscop-cryo-sem "cryo-scanning-electron-microscop-cryo-sem") |  |
-| [Cryo Transmission Electron Microscopy (Cryo-TEM)](#cryo-transmission-electron-microscopy-cryo-tem "cryo-transmission-electron-microscopy-cryo-tem") |  |
-| [Scanning Electron Microscopy (SEM)](#scanning-electron-microscopy-sem "scanning-electron-microscopy-sem") |  |
-| [Large scale EM (lsTEM)](#large-scale-em-lstem "large-scale-em-lstem") |  |
-| [TEM of chemical fixed samples (TEM)](#tem-of-chemical-fixed-samples-tem "tem-of-chemical-fixed-samples-tem") |  |
-| [TEM of cryo-immobilized samples (TEM cryo samples)](#tem-of-cryo-immobilized-samples-tem-cryo-samples "tem-of-cryo-immobilized-samples-tem-cryo-samples") |  |
-| [EM tomography (ET)](#em-tomography-et "em-tomography-et") |  |
-| [Focussed Ion beam SEM (FIB-SEM)](#focussed-ion-beam-sem-fib-sem "focussed-ion-beam-sem-fib-sem") |  |
-| [Serial Blockface SEM (SBF-SEM)](#serial-blockface-sem-sbf-sem "serial-blockface-sem-sbf-sem") |  |
-| [serial section TEM (ssTEM)](#serial-section-tem-sstem "serial-section-tem-sstem") |  |
-| [Immuno-gold EM on resin sections (resin-EM)](#immuno-gold-em-on-resin-sections-resin-em "immuno-gold-em-on-resin-sections-resin-em") |  |
-| [Immuno-gold EM on thawed cryo-sections (Tokuyasu-EM)](#immuno-gold-em-on-thawed-cryo-sections-tokuyasu-em "immuno-gold-em-on-thawed-cryo-sections-tokuyasu-em") |  |
-| [post-embed Correlative Light and Electron Microscopy (on-section CLEM)](#post-embed-correlative-light-and-electron-microscopy-post-embed-clem "post-embed-correlative-light-and-electron-microscopy-post-embed-clem") |  |
-| [pre-embed Correlative Light and Electron Microscopy (pre-embed CLEM)](#pre-embed-correlative-light-and-electron-microscopy-pre-embed-clem "pre-embed-correlative-light-and-electron-microscopy-pre-embed-clem") |  |
-| [Image Analysis -bio (IA bio)](#image-analysis-bio "image-analysis-bio") |  |
+| Technology | Confirmed facility providers | Instrument highlights |
+| --- | --- | --- |
+| [Cryo fluorescence microscopy (CryoFM)](#cryo-fluorescence-microscopy-cryofm "cryo-fluorescence-microscopy-cryofm") | IC |  |
+| [Deconvolution widefield microscopy (DWM)](#deconvolution-widefield-microscopy-dwm "deconvolution-widefield-microscopy-dwm") | ALMF |  |
+| [Image Scanning microscopy (ISM)](#image-scanning-microscopy-ism "image-scanning-microscopy-ism") | ALMF |  |
+| [Laser scanning confocal microscopy (LSCM/CLSM)](#laser-scanning-confocal-microscopy-lscm-clsm "laser-scanning-confocal-microscopy-lscm-clsm") | ALMF | ALMF: Zeiss LSM 780 NLO |
+| [Spinning disk confocal microscopy (SDCM)](#spinning-disk-confocal-microscopy-sdcm "spinning-disk-confocal-microscopy-sdcm") | ALMF |  |
+| [Structured illumination microscopy (SIM)](#structured-illumination-microscopy-sim "structured-illumination-microscopy-sim") | No confirmed facility provider yet |  |
+| [Total internal reflection fluorescence microscopy (TIRF)](#total-internal-reflection-fluorescence-microscopy-tirf "total-internal-reflection-fluorescence-microscopy-tirf") | ALMF, IC |  |
+| [Two-photon microscopy (2P)](#two-photon-microscopy-2p "two-photon-microscopy-2p") | ALMF, IC | ALMF: Zeiss LSM 780 NLO |
+| [Minimal Photon Fluxes Microscopy (MINFLUX)](#minimal-photon-fluxes-microscopy-minflux "minimal-photon-fluxes-microscopy-minflux") | IC | IC: Abberior MINFLUX |
+| [Reversible optical fluorescence transitions (RESOLFT)](#reversible-optical-fluorescence-transitions-resolft "reversible-optical-fluorescence-transitions-resolft") | No confirmed facility provider yet |  |
+| [Single Molecule localization microscopy (SMLM)](#single-molecule-localization-microscopy-smlm "single-molecule-localization-microscopy-smlm") | ALMF, IC | IC: Custom 3D-SMLM |
+| [Stimulated emission depletion microscopy (STED)](#stimulated-emission-depletion-microscopy-sted "stimulated-emission-depletion-microscopy-sted") | ALMF, IC | IC: Leica Stellaris 8 STED Falcon |
+| [Second/Third Harmonic Generation (SHG/THG)](#second-third-harmonic-generation-shg-thg "second-third-harmonic-generation-shg-thg") | ALMF, IC | ALMF: Zeiss LSM 780 NLO |
+| [Light-sheet mesoscopic imaging (SPIM/dSLSM)](#light-sheet-mesoscopic-imaging-spim-dslsm "light-sheet-mesoscopic-imaging-spim-dslsm") | MIF |  |
+| [Optical projection tomography (OPT)](#optical-projection-tomography-opt "optical-projection-tomography-opt") | MIF | MIF: Custom OPT1 |
+| [Fluorescence (cross)-correlation spectroscopy (FCS/FCCS)](#fluorescence-cross-correlation-spectroscopy-fcs-fccs "fluorescence-cross-correlation-spectroscopy-fcs-fccs") | ALMF, IC |  |
+| [Fluorescence Lifetime Imaging (FLIM)](#fluorescence-lifetime-imaging-flim "fluorescence-lifetime-imaging-flim") | ALMF, IC | IC: Leica Stellaris 8 STED Falcon |
+| [Fluorescence Recovery after Photobleaching (FRAP)](#fluorescence-recovery-after-photobleaching-frap "fluorescence-recovery-after-photobleaching-frap") | ALMF |  |
+| [Fluorescence Resonance Energy Transfer (FRET)](#fluorescence-resonance-energy-transfer-fret "fluorescence-resonance-energy-transfer-fret") | ALMF, IC |  |
+| [High throughput microscopy/high content screening (HTM/HCS)](#high-throughput-microscopy-high-content-screening-htm-hcs "high-throughput-microscopy-high-content-screening-htm-hcs") | ALMF |  |
+| [Imaging at Biosafety Level >1 (BSL>1)](#imaging-at-biosafety-level-gt-1-bsl-gt-1 "imaging-at-biosafety-level-gt-1-bsl-gt-1") | No confirmed facility provider yet |  |
+| [Intravital Microscopy (IVM)](#intravital-microscopy-ivm "intravital-microscopy-ivm") | IC |  |
+| [Microdissection (µDis)](#microdissection-mdis "microdissection-mdis") | ALMF |  |
+| [Cryo Correlative Light and Electron Microscopy (Cryo-CLEM)](#cryo-correlative-light-and-electron-microscopy-cryo-clem "cryo-correlative-light-and-electron-microscopy-cryo-clem") | IC |  |
+| [post-embedding CLEM (post-emb CLEM)](#post-embedding-clem-post-emb-clem "post-embedding-clem-post-emb-clem") | EMCF |  |
+| [pre-embedding CLEM (pre-emb CLEM)](#pre-embedding-clem-pre-emb-clem "pre-embedding-clem-pre-emb-clem") | EMCF |  |
+| [live-cell Correlative Light and Electron Microscopy (live-cell CLEM)](#live-cell-correlative-light-and-electron-microscopy-live-cell-clem "live-cell-correlative-light-and-electron-microscopy-live-cell-clem") | EMCF |  |
+| [Cryo Electron Tomography (Cryo-ET)](#cryo-electron-tomography-cryo-et "cryo-electron-tomography-cryo-et") | IC |  |
+| [Cryo Focussed Ion beam (Cryo-FIB)](#cryo-focussed-ion-beam-cryo-fib "cryo-focussed-ion-beam-cryo-fib") | IC |  |
+| [Cryo Scanning Electron Microscopy (Cryo-SEM)](#cryo-scanning-electron-microscop-cryo-sem "cryo-scanning-electron-microscop-cryo-sem") | No confirmed facility provider yet |  |
+| [Cryo Transmission Electron Microscopy (Cryo-TEM)](#cryo-transmission-electron-microscopy-cryo-tem "cryo-transmission-electron-microscopy-cryo-tem") | IC |  |
+| [Scanning Electron Microscopy (SEM)](#scanning-electron-microscopy-sem "scanning-electron-microscopy-sem") | EMCF |  |
+| [Large scale EM (lsTEM)](#large-scale-em-lstem "large-scale-em-lstem") | No confirmed facility provider yet |  |
+| [TEM of chemical fixed samples (TEM)](#tem-of-chemical-fixed-samples-tem "tem-of-chemical-fixed-samples-tem") | EMCF |  |
+| [TEM of cryo-immobilized samples (TEM cryo samples)](#tem-of-cryo-immobilized-samples-tem-cryo-samples "tem-of-cryo-immobilized-samples-tem-cryo-samples") | EMCF |  |
+| [EM tomography (ET)](#em-tomography-et "em-tomography-et") | EMCF |  |
+| [Focussed Ion beam SEM (FIB-SEM)](#focussed-ion-beam-sem-fib-sem "focussed-ion-beam-sem-fib-sem") | EMCF |  |
+| [Serial Blockface SEM (SBF-SEM)](#serial-blockface-sem-sbf-sem "serial-blockface-sem-sbf-sem") | EMCF |  |
+| [serial section TEM (ssTEM)](#serial-section-tem-sstem "serial-section-tem-sstem") | EMCF |  |
+| [Immuno-gold EM on resin sections (resin-EM)](#immuno-gold-em-on-resin-sections-resin-em "immuno-gold-em-on-resin-sections-resin-em") | EMCF |  |
+| [Immuno-gold EM on thawed cryo-sections (Tokuyasu-EM)](#immuno-gold-em-on-thawed-cryo-sections-tokuyasu-em "immuno-gold-em-on-thawed-cryo-sections-tokuyasu-em") | EMCF |  |
+| [post-embed Correlative Light and Electron Microscopy (on-section CLEM)](#post-embed-correlative-light-and-electron-microscopy-post-embed-clem "post-embed-correlative-light-and-electron-microscopy-post-embed-clem") | EMCF |  |
+| [pre-embed Correlative Light and Electron Microscopy (pre-embed CLEM)](#pre-embed-correlative-light-and-electron-microscopy-pre-embed-clem "pre-embed-correlative-light-and-electron-microscopy-pre-embed-clem") | EMCF |  |
+| [Image Analysis -bio (IA bio)](#image-analysis-bio "image-analysis-bio") | MIF, ALMF, EMCF |  |
 
 ## Specialties and research focus
 
-Research at MIF in Barcelona centres on development and disease. Its application areas include developmental biology, disease modelling, infectious disease with work on cryptococcal infection, and marine biology with Octopus vulgaris. The facility images live and fixed samples, and its mesoscopic scale suits tissues, organoids and whole specimens up to several centimetres. Handling and analysing large imaging datasets is part of these projects.
+MIF in Barcelona works in developmental biology, disease modelling and infectious disease, including studies of cryptococcal infection. It also supports marine biology on the common octopus, Octopus vulgaris. Its samples range from microns to several centimetres in size and include live and fixed tissues and organoids, which the team images in 3D and over time.
 
-In Heidelberg, ALMF supports large-scale functional studies through RNA interference screens, in which genes are knocked down systematically and the resulting cell phenotypes are scored by automated imaging. EMCF applies its methods to a broad range of biological samples, and its applications include developmental and cell biology studies carried out with collaborating research groups. The IC serves projects in which a molecular signal must be placed within the ultrastructure of a cell, including frozen samples kept close to their native state.
+At ALMF in Heidelberg, the focus is on large-scale studies of gene function in cells. Its automated workflows serve projects such as genome-scale siRNA screens, and the staff also work on assay development and screen validation. EMCF in Heidelberg works with biological samples from bacteria to small multicellular organisms, and it supports developmental and cell biology through its collaborations. IC in Heidelberg concentrates on bringing correlative and multimodal methods into service, so its research focus lies in linking molecular signals seen by light microscopy to the structures seen by electron microscopy. Several of these methods come from academic development and have not yet reached the market.
 
 ## Services and user support
 
-A project usually begins with methodological set-up, in which staff help design the study protocol and the standard operating procedures. Researchers are then trained to use the infrastructure, with training workstations and a seminar room set aside for this, or they work at the instrument with technical assistance from staff. The Node also trains researchers in optical clearing, which makes biological samples transparent so that light can reach deep into tissues and larger specimens.
+A project starts with methodological setup, where staff help design the study protocol and the standard operating procedures. Researchers are then trained to use the instruments, and the Node has training workstations and a seminar room for this purpose. Staff also give technical assistance while an instrument runs. Training is offered in techniques for optical clearing, which make thick biological samples transparent enough to image in depth.
 
-Sample work can be done on site. The Node provides wet lab space, cell culture facilities at safety levels 1 and 2, and probe preparation. For animal studies it offers animal facilities and help with animal preparation, and it also has housing facilities. Once images are acquired, staff help with data processing and analysis, and the Node provides server space for storing the resulting datasets.
+For sample work, the Node provides probe preparation and animal preparation, along with animal facilities and wet lab space. Cell culture laboratories are provided at safety levels 1 and 2, so cells can be grown and prepared close to the microscopes. Once images are acquired, staff help with data processing and analysis. Server space is provided for storing the resulting data during the project.
 
-### Services offered
+### Services in the signed SLA
 
 - Technical assistance to run instrument
 - Methodological setup (e.g. design of study protocol and standard operation procedures)
@@ -102,9 +102,9 @@ Sample work can be done on site. The Node provides wet lab space, cell culture f
 | [EMBL Heidelberg / EMBL Imaging Centre (IC)](https://www.embl.org/about/info/imaging-centre/ "euro-bioimaging-embl-node-embl-heidelberg-embl-imaging-centre-ic") | EMBL | Heidelberg |
 | [EMBL Heidelberg / Electron Microscopy Core Facility (EMCF)](https://www.embl.org/groups/electron-microscopy-core-facility/ "euro-bioimaging-embl-node-embl-heidelberg-electron-microscopy-core-facility-emcf") | EMBL | Heidelberg |
 
-The Node is one institution working across two cities. Three facilities are in Heidelberg, which makes it practical to combine light and electron microscopy in a single project, while MIF in Barcelona adds imaging at the mesoscopic scale.
+Light microscopy is spread over three facilities. ALMF in Heidelberg covers most of the Node's light microscopy, from confocal and widefield imaging to super-resolution, functional methods and automated high-throughput microscopy. It was set up as a cooperation between EMBL and industry, and it serves as a reference site for major microscope vendors. Its staff develop assays, validate screens and run automated acquisition. MIF in Barcelona works at a larger scale, with commercial and custom light-sheet and optical projection tomography platforms for 3D and time-lapse imaging of tissues and organoids. Its team also has expertise in managing and analysing large imaging datasets.
 
-ALMF is the Node's general light microscopy facility and covers the largest set of techniques, from confocal imaging to super-resolution, functional measurements and automated screening. Its partnership with industry means it works closely with major microscope manufacturers. The IC is a service unit that brings high-resolution light and electron microscopy together. Its light microscopy overlaps with ALMF in nanoscopy and functional imaging, but it adds intravital and cryo-fluorescence microscopy. EMCF is the core facility for room-temperature electron microscopy and handles the whole workflow from sample preparation to image analysis. A project that starts with fluorescence imaging at ALMF or the IC can therefore continue at EMCF for ultrastructure, all within Heidelberg. MIF works with tissues, organoids and specimens up to several centimetres, using both commercial and custom-built mesoscopic platforms. Image analysis is offered at MIF, ALMF and EMCF.
+Electron microscopy is at two facilities. EMCF in Heidelberg focuses on room-temperature cellular electron microscopy. Its staff have expertise in chemical fixation, high-pressure freezing and serial sectioning. EMCF offers transmission, scanning and volume EM, immunogold labelling and several CLEM workflows, and it carries projects through to image analysis. IC in Heidelberg is an EMBL service unit that combines high-resolution light and electron microscopy with correlative technologies. It offers super-resolution and intravital light microscopy alongside cryo-fluorescence and cryo-electron methods, and some of its methods were developed in academic labs and are not yet sold commercially.
 
 ## Access and contact
 

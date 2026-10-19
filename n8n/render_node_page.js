@@ -1,5 +1,9 @@
 // ============================================================
-// RENDER NODE PAGE v12 (Knowledge Base edition)
+// RENDER NODE PAGE v13 (Knowledge Base edition)
+// v13 (19 Oct): the technology table has a "Confirmed facility providers" column (LNK-01 links
+// only; "No confirmed facility provider yet" when none; "(qualified)" for a qualified allocation).
+// Services that are not from a signed SLA are listed under "Services currently recorded (not in
+// the signed SLA, please confirm)", without written text.
 // v12: technology names in the table carry their technology URI (a link to their page
 // once TECH_URL is set, the Access Portal has no technology pages yet); facility names
 // in the facility table and locations carry their facility URI; no links in the text; NO_INSTRUMENT can fill empty instrument cells
@@ -159,7 +163,8 @@ function buildFacilityTable() {
 function buildTechnologyList() {
   const groups = briefing.technologies_by_category || [];
   if (!groups.length) return '';
-  let md = '| Technology | Instrument highlights |\n| --- | --- |\n';
+  let md = '| Technology | Confirmed facility providers | Instrument highlights |\n| --- | --- | --- |\n';
+  let anyQualified = false;
   for (const g of groups) {
     for (const t of g.technologies) {
       // Every technology name carries its URI: as a link to its page once TECH_URL is set,
@@ -169,9 +174,14 @@ function buildTechnologyList() {
         : link(t.label, TECH_URL ? TECH_URL.replace('{uri}', uri) : `#${uri}`, uri);
       const label = name;  // the provisional flag stays in the Node file, not on the page (16 Oct)
       const inst = (t.instruments || []).join('; ') || NO_INSTRUMENT;
-      md += `| ${cell(label)} | ${cell(inst)} |\n`;
+      const qual = new Set(t.provided_by_qualified || []);
+      if (qual.size) anyQualified = true;
+      const providers = (t.provided_by || []).map(p => qual.has(p) ? `${p} (qualified)` : p).join(', ')
+        || 'No confirmed facility provider yet';
+      md += `| ${cell(label)} | ${cell(providers)} | ${cell(inst)} |\n`;
     }
   }
+  if (anyQualified) md += '\n(qualified): the provider link is recorded with a scope note and is to be confirmed by the Node.\n';
   return md + '\n';
 }
 
@@ -240,7 +250,15 @@ const missingSections = [];
 
 for (const title of SECTION_ORDER) {
   const text = sectionText[title];
-  if (!text) { missingSections.push(title); continue; }
+  if (!text) {
+    // Services not from a signed SLA have no written text, only the recorded list.
+    const services = title === 'Services and user support' && record.services_basis === 'DATABASE' ? buildServiceList() : '';
+    if (services) {
+      markdown += `## ${title}\n\n### Services currently recorded (not in the signed SLA, please confirm)\n\n${services}`;
+      continue;
+    }
+    missingSections.push(title); continue;
+  }
   if (title === 'Facilities') {
     // The facility table opens the section; the written text follows it.
     const table = buildFacilityTable();
@@ -254,9 +272,9 @@ for (const title of SECTION_ORDER) {
   }
   if (title === 'Services and user support') {
     const services = buildServiceList();
-    // * = not from a signed SLA (Node service summary in the database); to be confirmed later.
-    const star = record.services_basis === 'DATABASE' ? '*' : '';
-    if (services) markdown += `### Services offered${star}\n\n${services}`;
+    const head = record.services_basis === 'DATABASE'
+      ? 'Services currently recorded (not in the signed SLA, please confirm)' : 'Services in the signed SLA';
+    if (services) markdown += `### ${head}\n\n${services}`;
   }
 }
 

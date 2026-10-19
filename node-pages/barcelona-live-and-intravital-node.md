@@ -2,53 +2,55 @@
 
 ## Overview
 
-The Barcelona Live and Intravital Node (BLivIN) is built around advanced light microscopy of living systems. Its facilities help researchers measure function and dynamics in live cells and organoids and, at one site, in intact animals. The Node joins three core facilities in Barcelona, hosted by the Centre for Genomic Regulation (CRG), IRB Barcelona and the University of Barcelona. All three run laser scanning confocal microscopy, fluorescence recovery after photobleaching (FRAP) and image analysis. Intravital microscopy in animal models at Advanced Optical Microscopy in Barcelona extends the Node from biological into preclinical biomedical imaging.
+The Barcelona Live and Intravital Node (BLivIN) offers advanced light microscopy for functional imaging of living cells, tissues and animals. Its core focus is extracting dynamic, quantitative and high-content information from living biological systems. The Node has three facilities at three institutions in Barcelona, which are the Centre for Genomic Regulation (CRG), IRB Barcelona and the University of Barcelona, and it covers both biological and biomedical imaging.
 
-The staff at ALMU in Barcelona, the CRG unit, are experienced in quantitative bioimaging, multiphoton and live imaging, and in analysing the data these experiments produce. At ADM in Barcelona, part of IRB Barcelona, the team develops custom automated acquisition and hardware-specific solutions. They also have experience with cleared organs, embryos and organoids. The Advanced Optical Microscopy team at the University of Barcelona works with confocal, multiphoton and intravital microscopy. Its expertise extends to second harmonic generation, including polarisation-resolved measurements, and to FRET and FRAP assays. The team handles human samples as well as rat, mouse, C. elegans and Xenopus models.
+Staff at ALMU in Barcelona, the light microscopy unit of CRG, are experienced in quantitative bioimaging, multiphoton imaging and live and intravital imaging. They combine these with bioimage analysis. The team at ADM in Barcelona, based at IRB Barcelona, works on high-resolution imaging and builds custom automated acquisition and hardware solutions for specific projects. Its samples include cleared organs, embryos and organoids. At Advanced Optical Microscopy in Barcelona, part of CCiTUB at the University of Barcelona, staff run intravital imaging and second harmonic generation, including its polarisation-sensitive form. They also carry out FRET and FRAP experiments on human samples and on rat, mouse, C. elegans and Xenopus models.
 
-Projects that follow molecular behaviour in living cells, such as protein mobility or changes in local environment, suit ALMU and ADM. Both offer fluorescence lifetime imaging (FLIM), spinning-disk and TIRF microscopy. Groups that need to image organoids or many conditions in multiwell plates should look to ADM, the only facility offering high-content screening. Researchers studying cells inside living animals, or tissue architecture without added labels, will find intravital microscopy and second harmonic generation at Advanced Optical Microscopy.
+Laser scanning confocal microscopy and fluorescence recovery after photobleaching (FRAP) are at all three facilities. Image scanning microscopy, spinning-disk confocal and TIRF microscopy are at ADM and ALMU. Fluorescence lifetime imaging (FLIM) is also at ADM and ALMU, while high-content screening is at ADM alone. Two-photon microscopy is at ALMU and Advanced Optical Microscopy. Intravital microscopy, harmonic generation imaging and FRET are at Advanced Optical Microscopy.
 
 ## Imaging technologies offered
 
-Confocal imaging is the common ground of the Node, and laser scanning confocal microscopy is offered by ADM, ALMU and Advanced Optical Microscopy. For faster live work, ADM and ALMU add spinning-disk confocal microscopy, which sections samples quickly with less light. The same two facilities offer TIRF, which isolates the cell membrane and the region next to the coverslip. ADM and ALMU also offer image scanning microscopy, which uses spatially resolved detection to sharpen images of cells and subcellular structures. At ALMU, the Andor Dragonfly spinning disk and the SAFe360 MN serve these live-cell and near-membrane experiments.
+Most of what BLivIN offers is fluorescence light microscopy of living samples. Laser scanning and spinning-disk confocal microscopes give optical sections for 3D multichannel imaging, and spinning-disk systems do this quickly with less light on the sample. Image scanning microscopy at ADM and ALMU uses spatially resolved detection to recover finer detail in cells. TIRF microscopy at ADM and ALMU images membranes and molecules close to the coverslip with high contrast. Two-photon microscopy at ALMU and Advanced Optical Microscopy images cells deep in thick tissue and in living animals.
 
-Functional methods show what molecules are doing as well as where they are. FLIM at ADM and ALMU reads the lifetime of a fluorophore, which reports on its environment and interactions. The Zeiss LSM 990 Airyscan 2 NLO FLIM at ALMU combines lifetime imaging with multiphoton excitation. FRAP, offered at all three facilities, measures how quickly molecules move and exchange. Photomanipulation at ADM and Advanced Optical Microscopy lets researchers perturb or label chosen regions with light, while FRET at Advanced Optical Microscopy reports nanometre proximity between molecules. For thick tissue, two-photon microscopy at ALMU and Advanced Optical Microscopy gives optical sectioning deep in the sample. Advanced Optical Microscopy also offers second and third harmonic generation and intravital microscopy of living animals. ADM runs high-content screening on a custom Oblique Plane Microscope, and image analysis is offered at all three facilities.
+Functional methods show what molecules do rather than only where they are. FLIM at ADM and ALMU adds contrast that reflects the molecular environment and interactions. FRAP measures molecular mobility and exchange, and FRET at Advanced Optical Microscopy reports proximity at the nanometre scale. Photomanipulation at ADM and Advanced Optical Microscopy lets researchers perturb or label chosen targets with light. Advanced Optical Microscopy also offers intravital microscopy, which follows cellular processes inside living animals, and harmonic generation imaging, which shows ordered tissue structures without any label. High-content screening at ADM measures phenotypes across many wells and conditions, and image analysis is available at all three facilities.
+
+Instruments include the Zeiss LSM 990 Airyscan 2 NLO FLIM and the Evident SpinSR for live-cell imaging at ALMU. ADM runs a Leica Stellaris STED FLIM for lifetime imaging and a custom oblique plane microscope for high-throughput imaging of organoids.
 
 ### Technologies and instruments
 
-| Technology | Instrument highlights |
-| --- | --- |
-| [Deconvolution widefield microscopy (DWM)](#deconvolution-widefield-microscopy-dwm "deconvolution-widefield-microscopy-dwm") |  |
-| [Image Scanning microscopy (ISM)](#image-scanning-microscopy-ism "image-scanning-microscopy-ism") | ADM: Zeiss LSM 880 ELYRA PS1; ALMU: Zeiss LSM 990 Airyscan 2 NLO FLIM |
-| [Laser scanning confocal microscopy (LSCM/CLSM)](#laser-scanning-confocal-microscopy-lscm-clsm "laser-scanning-confocal-microscopy-lscm-clsm") | ADM: Zeiss LSM 880 ELYRA PS1, Leica Stellaris STED FLIM; ALMU: Zeiss LSM 990 Airyscan 2 NLO FLIM, Leica confocal with galvo + resonant scanner |
-| [Spinning disk confocal microscopy (SDCM)](#spinning-disk-confocal-microscopy-sdcm "spinning-disk-confocal-microscopy-sdcm") | ALMU: Evident SpinSR, Andor Dragonfly spinning disk (Nikon Ti2) |
-| [Total internal reflection fluorescence microscopy (TIRF)](#total-internal-reflection-fluorescence-microscopy-tirf "total-internal-reflection-fluorescence-microscopy-tirf") | ALMU: SAFe360 MN |
-| [Two-photon microscopy (2P)](#two-photon-microscopy-2p "two-photon-microscopy-2p") | ALMU: Zeiss LSM 990 Airyscan 2 NLO FLIM, SpectraPhysics MaiTai DeepSee multiphoton laser |
-| [Second/Third Harmonic Generation (SHG/THG)](#second-third-harmonic-generation-shg-thg "second-third-harmonic-generation-shg-thg") |  |
-| [Fluorescence (cross)-correlation spectroscopy (FCS/FCCS)](#fluorescence-cross-correlation-spectroscopy-fcs-fccs "fluorescence-cross-correlation-spectroscopy-fcs-fccs") |  |
-| [Fluorescence Lifetime Imaging (FLIM)](#fluorescence-lifetime-imaging-flim "fluorescence-lifetime-imaging-flim") | ADM: Leica Stellaris STED FLIM; ALMU: Zeiss LSM 990 Airyscan 2 NLO FLIM, SpectraPhysics MaiTai DeepSee multiphoton laser |
-| [Fluorescence Recovery after Photobleaching (FRAP)](#fluorescence-recovery-after-photobleaching-frap "fluorescence-recovery-after-photobleaching-frap") |  |
-| [Fluorescence Resonance Energy Transfer (FRET)](#fluorescence-resonance-energy-transfer-fret "fluorescence-resonance-energy-transfer-fret") |  |
-| [High throughput microscopy/high content screening (HTM/HCS)](#high-throughput-microscopy-high-content-screening-htm-hcs "high-throughput-microscopy-high-content-screening-htm-hcs") | ADM: Custom Oblique Plane Microscope |
-| [Intravital Microscopy (IVM)](#intravital-microscopy-ivm "intravital-microscopy-ivm") |  |
-| [Microdissection (µDis)](#microdissection-mdis "microdissection-mdis") |  |
-| [Photomanipulation (Pmanip)](#photomanipulation-pmanip "photomanipulation-pmanip") |  |
-| [intravital microscopy (IVM-med)](#intravital-microscopy-ivm-med "intravital-microscopy-ivm-med") |  |
-| [Image Analysis -bio (IA bio)](#image-analysis-bio "image-analysis-bio") |  |
+| Technology | Confirmed facility providers | Instrument highlights |
+| --- | --- | --- |
+| [Deconvolution widefield microscopy (DWM)](#deconvolution-widefield-microscopy-dwm "deconvolution-widefield-microscopy-dwm") | No confirmed facility provider yet |  |
+| [Image Scanning microscopy (ISM)](#image-scanning-microscopy-ism "image-scanning-microscopy-ism") | ADM, ALMU | ADM: Zeiss LSM 880 ELYRA PS1; ALMU: Zeiss LSM 990 Airyscan 2 NLO FLIM |
+| [Laser scanning confocal microscopy (LSCM/CLSM)](#laser-scanning-confocal-microscopy-lscm-clsm "laser-scanning-confocal-microscopy-lscm-clsm") | ADM, ALMU, Advanced Optical Microscopy | ADM: Zeiss LSM 880 ELYRA PS1, Leica Stellaris STED FLIM; ALMU: Zeiss LSM 990 Airyscan 2 NLO FLIM, Leica confocal with galvo + resonant scanner |
+| [Spinning disk confocal microscopy (SDCM)](#spinning-disk-confocal-microscopy-sdcm "spinning-disk-confocal-microscopy-sdcm") | ADM, ALMU | ALMU: Evident SpinSR, Andor Dragonfly spinning disk (Nikon Ti2) |
+| [Total internal reflection fluorescence microscopy (TIRF)](#total-internal-reflection-fluorescence-microscopy-tirf "total-internal-reflection-fluorescence-microscopy-tirf") | ADM, ALMU | ALMU: SAFe360 MN |
+| [Two-photon microscopy (2P)](#two-photon-microscopy-2p "two-photon-microscopy-2p") | ALMU, Advanced Optical Microscopy | ALMU: Zeiss LSM 990 Airyscan 2 NLO FLIM, SpectraPhysics MaiTai DeepSee multiphoton laser |
+| [Second/Third Harmonic Generation (SHG/THG)](#second-third-harmonic-generation-shg-thg "second-third-harmonic-generation-shg-thg") | Advanced Optical Microscopy |  |
+| [Fluorescence (cross)-correlation spectroscopy (FCS/FCCS)](#fluorescence-cross-correlation-spectroscopy-fcs-fccs "fluorescence-cross-correlation-spectroscopy-fcs-fccs") | No confirmed facility provider yet |  |
+| [Fluorescence Lifetime Imaging (FLIM)](#fluorescence-lifetime-imaging-flim "fluorescence-lifetime-imaging-flim") | ADM, ALMU | ADM: Leica Stellaris STED FLIM; ALMU: Zeiss LSM 990 Airyscan 2 NLO FLIM, SpectraPhysics MaiTai DeepSee multiphoton laser |
+| [Fluorescence Recovery after Photobleaching (FRAP)](#fluorescence-recovery-after-photobleaching-frap "fluorescence-recovery-after-photobleaching-frap") | ADM, ALMU, Advanced Optical Microscopy |  |
+| [Fluorescence Resonance Energy Transfer (FRET)](#fluorescence-resonance-energy-transfer-fret "fluorescence-resonance-energy-transfer-fret") | Advanced Optical Microscopy |  |
+| [High throughput microscopy/high content screening (HTM/HCS)](#high-throughput-microscopy-high-content-screening-htm-hcs "high-throughput-microscopy-high-content-screening-htm-hcs") | ADM | ADM: Custom Oblique Plane Microscope |
+| [Intravital Microscopy (IVM)](#intravital-microscopy-ivm "intravital-microscopy-ivm") | Advanced Optical Microscopy |  |
+| [Microdissection (µDis)](#microdissection-mdis "microdissection-mdis") | No confirmed facility provider yet |  |
+| [Photomanipulation (Pmanip)](#photomanipulation-pmanip "photomanipulation-pmanip") | ADM, Advanced Optical Microscopy |  |
+| [intravital microscopy (IVM-med)](#intravital-microscopy-ivm-med "intravital-microscopy-ivm-med") | Advanced Optical Microscopy |  |
+| [Image Analysis -bio (IA bio)](#image-analysis-bio "image-analysis-bio") | ADM, ALMU, Advanced Optical Microscopy |  |
 
 ## Specialties and research focus
 
-Across the Node, the research focus is on functional, dynamic and high-content information from living biological systems. ALMU serves the broad life sciences, with an emphasis on live-cell and intravital questions, and its samples are mainly cultured cells and prepared specimens. ADM works with cleared organs, embryos and organoids, and it supports high-resolution imaging of biological samples.
+The research BLivIN supports centres on living systems and how they change over time. ALMU serves the broad life sciences, and its focus is live-cell and intravital imaging of cultured cells and prepared specimens. ADM works with cleared organs, embryos and organoids, and it combines optical imaging with bioimage analysis for these samples.
 
-Advanced Optical Microscopy has the most clearly defined set of applications. In cell biology, it supports studies of 2D and 3D cell migration, neurite growth and colocalisation. It also tests how well biosensors and drug-delivery systems function, and it measures cytotoxicity and cell viability. Other work covers particle analysis, in vivo molecular imaging and the contact between bone and implants. Its samples range from human material to rats, mice, C. elegans and Xenopus, including living animals imaged intact.
+Advanced Optical Microscopy supports in vivo molecular imaging and studies of cell migration in two and three dimensions. Projects there also look at neurite growth and at cell viability and cytotoxicity. Other applications include testing the function of biosensors and drug-delivery systems, analysing particles and measuring colocalisation. The facility also examines bone-implant contact, which links its imaging to biomaterials research. Its samples include human material and animal models such as rat, mouse, C. elegans and Xenopus.
 
 ## Services and user support
 
-Work with the Node usually begins with methodological setup, where staff help design the study protocol and the standard operating procedures. Researchers are then trained in using the infrastructure, with training workstations and a seminar room for teaching sessions. During acquisition, staff give technical assistance to run the instruments.
+Work with BLivIN can begin with methodological setup, where staff help design the study protocol and standard operating procedures. Researchers can then be trained to use the instruments themselves, with training workstations and a training seminar room for this purpose. Alternatively, staff give technical assistance to run the instruments during the experiment.
 
-Sample preparation is part of the support. Staff prepare probes, and they prepare animals for imaging, including Drosophila, C. elegans, Xenopus, zebrafish, mice and rats. The Node also provides housing facilities and a regulatory affairs management service. Visiting researchers can work in wet lab space and in cell culture facilities at safety levels 1 and 2. After imaging, the Node offers data processing and analysis, and server space for keeping the data.
+For live and in vivo projects, staff prepare probes and prepare animals, including Drosophila, C. elegans, Xenopus, zebrafish, mice and rats. The Node also provides housing facilities and a regulatory affairs management service. Visiting researchers can use wet lab space and cell culture facilities at safety levels 1 and 2. Once images are acquired, staff help with data processing and analysis, and server space holds the data during the project.
 
-### Services offered
+### Services in the signed SLA
 
 - Technical assistance to run instrument
 - Methodological setup (e.g. design of study protocol and standard operation procedures)
@@ -73,11 +75,13 @@ Sample preparation is part of the support. Staff prepare probes, and they prepar
 | [Advanced Light Microscopy Unit (ALMU), CRG](https://www.crg.eu/en/programmes-groups/advanced-light-microscopy-unit "barcelona-live-and-intravital-node-advanced-light-microscopy-unit-almu-crg") | Centre for Genomic Regulation (CRG) | Barcelona |
 | [Advanced Optical Microscopy, CCiTUB](https://www.ccit.ub.edu/EN/tb08.html "barcelona-live-and-intravital-node-advanced-optical-microscopy-ccitub") | University of Barcelona | Barcelona |
 
-BLivIN joins three core facilities, one at each of its host institutions in Barcelona. ALMU is the core unit of the CRG and runs a walk-in service for quantitative bioimaging. Its strength is having several live-imaging methods side by side, including two-photon microscopy combined with lifetime imaging, so one project can move between methods on the same samples.
+Advanced Optical Microscopy at CCiTUB, University of Barcelona, is the Node's only facility for intravital microscopy. It combines confocal and two-photon microscopy with label-free harmonic generation imaging. Its functional methods include FRET, FRAP and photomanipulation, and its staff have long experience in following cell behaviour in living animal models.
 
-ADM at IRB Barcelona is the most engineering-oriented of the three. It builds custom systems and automated acquisition, and it focuses on cleared organs, embryos and organoids. It shares lifetime imaging, spinning-disk and TIRF microscopy with ALMU, so the two facilities cover similar live-cell ground with different instruments.
+ALMU at CRG is a walk-in core unit for quantitative bioimaging. It runs confocal, spinning-disk and two-photon microscopes. Image scanning microscopy, TIRF and lifetime imaging add finer detail and functional readouts to this base. The staff's expertise lies in multiphoton, live and intravital imaging and in bioimage analysis.
 
-Advanced Optical Microscopy is part of CCiTUB at the University of Barcelona. It is the Node's link to work in living animals, and it adds label-free harmonic generation and FRET to the Node's methods. Its applied work, from drug delivery to bone implants, sets it apart from the two research-institute facilities. Together the three facilities share confocal microscopy, FRAP and image analysis, so a project can start at one site and continue at another with comparable methods. A study might begin with cells imaged at ALMU or ADM and then follow the same question in living animals at Advanced Optical Microscopy.
+ADM at IRB Barcelona supports advanced optical imaging and bioimage analysis on biological samples at safety level 1. Like ALMU, it offers confocal, spinning-disk and TIRF microscopy, along with image scanning microscopy and lifetime imaging. ADM is the Node's facility for high-content screening, and it also offers photomanipulation. Its team designs custom automated acquisition and hardware for specific projects, and its samples include cleared organs, embryos and organoids.
+
+Image analysis is offered at all three facilities.
 
 ## Access and contact
 

@@ -2,39 +2,31 @@
 
 ## Overview
 
-The Smart Optical Microscopy (SOM) Node in Spain brings optical microscopy and computational image analysis together for biomedical research. Its focus is smart optical microscopy, in which experimental imaging and computational analysis are planned as parts of the same project. The Node has three facilities at three institutions in three cities. These are UMOA at the Instituto de Salud Carlos III (ISCIII) in Majadahonda, the Confocal Microscopy Core Unit at the Centro Nacional de Investigaciones Oncologicas (CNIO) in Madrid, and the UC3M Neuroscience and Life Sciences Department at the Universidad Carlos III de Madrid (UC3M) in Leganés.
+The Smart Optical Microscopy (SOM) Node is a Spanish Node built around optical microscopy and the computational analysis of the images it produces. Its main strength is the combination of experimental imaging with computational image analysis, so that acquiring and interpreting images are brought together in one Node. SOM has three facilities at three institutions in Madrid, Majadahonda and Leganés, and it serves biological and biomedical research.
 
-The expertise of the three sites fits together. Staff at UMOA use and develop optical microscopy techniques, work with fluorescence and confocal systems and pursue their own research lines alongside their support work. The Confocal Microscopy Core Unit gives scientific advice and technical support in imaging and image analysis, with a focus on cancer biology and translational biomedical research. Its staff also develop new microscopy and computational methods. At UC3M, the BSEL research group joins biomedical science with engineering, and it has a background in electronic device design, nanoparticle synthesis, image processing and deep learning.
+The Node's expertise comes from three groups with different backgrounds. Staff at UMOA, the Advanced Optical Microscopy Unit of the Instituto de Salud Carlos III in Majadahonda, specialise in using and developing new optical microscopy techniques. They work with fluorescence and confocal systems and pursue their own research lines alongside their core work. The Confocal Microscopy Core Unit at the Centro Nacional de Investigaciones Oncologicas (CNIO) in Madrid has experience in imaging and image analysis for cancer biology and translational biomedical research. The UC3M Neuroscience and Life Sciences Department in Leganés brings the engineering side. Its research group has a background in image processing and in integrating artificial intelligence and deep learning into biomedical work, and it also has experience in electronic device design and nanoparticle synthesis.
 
-Cancer biologists will find the closest match at the Confocal Microscopy Core Unit in Madrid, which combines imaging support with data analysis. Projects that need imaging below the resolution of conventional confocal microscopy, or measurements of fluorescence lifetime, should start with UMOA in Majadahonda. Researchers whose questions call for engineering or deep-learning expertise will find it in the BSEL group at the UC3M Neuroscience and Life Sciences Department in Leganés.
+The Node's microscopes, including spectral confocal, STED and widefield systems, are at UMOA in Majadahonda. Imaging and image analysis for cancer research are at the Confocal Microscopy Core Unit in Madrid. Computational expertise in image processing and deep learning sits with the UC3M Neuroscience and Life Sciences Department in Leganés.
 
 ## Imaging technologies offered
 
-The Node works with optical microscopy, and its idea of smart microscopy links what happens at the microscope with what happens in the analysis. The instruments named here are at UMOA in Majadahonda, which works with fluorescence and confocal systems.
+Fluorescence light microscopy is the core of the Node's imaging, and the instruments at UMOA in Majadahonda show its range. A Leica TCS SP5 spectral confocal microscope has lasers at 405, 488, 561 and 633 nm and a black-and-white widefield camera. Spectral detection lets researchers separate fluorescent labels whose emission overlaps, which helps when several markers are imaged in the same cell or tissue.
 
-The Leica STELLARIS 8 is the most versatile of these. It is a confocal microscope with a tuneable white light laser covering 440 to 780 nm, in addition to a 405 nm line, so dyes and fluorescent proteins can be excited close to their optimum. The same instrument offers STED, with depletion at 592, 660 and 775 nm, which resolves structures smaller than a conventional confocal microscope can separate. It also offers fluorescence lifetime imaging (FLIM). FLIM measures how long a fluorophore stays excited, which can report on its molecular surroundings and help separate signals that overlap in colour.
+The Leica STELLARIS 8 confocal extends this to higher resolution and to functional measurements. It combines a 405 nm laser with a white light laser tunable from 440 to 780 nm, so excitation can be matched closely to each dye. Its STED depletion lines at 592, 660 and 775 nm resolve structures below the diffraction limit of conventional confocal imaging. The same instrument offers fluorescence lifetime imaging microscopy (FLIM), which measures how long a fluorophore stays excited and so reports on its molecular surroundings and interactions.
 
-A Leica TCS SP5 spectral confocal microscope, with lasers at 405, 488, 561 and 633 nm, supports multicolour imaging of fixed and labelled samples. A Leica Thunder widefield imaging system complements the two point-scanning instruments.
-
-The computational side of the Node sits mainly at the Confocal Microscopy Core Unit in Madrid, which processes and analyses image data and develops new microscopy and computational methods. The BSEL group at UC3M in Leganés adds expertise in image processing and deep learning.
+A Leica Thunder widefield imaging system adds camera-based fluorescence imaging alongside the two point-scanning confocals. Image analysis runs through the Node as well. The Confocal Microscopy Core Unit in Madrid pairs imaging with image analysis for cancer biology, and the UC3M group in Leganés contributes experience in image processing and deep learning.
 
 ## Specialties and research focus
 
-The research the Node serves is biomedical, and each facility has its own emphasis. The Confocal Microscopy Core Unit in Madrid sits within the Biotechnology Programme at CNIO, so oncology and cancer biology are its explicit focus. Its imaging and image analysis serve cancer biology and translational biomedical research, and it also supports other areas of biomedicine.
+The research that SOM supports is biomedical, and each facility brings its own emphasis. At UMOA, the work covers biomedical research broadly. This includes infection, the cellular changes that accompany disease, and the development of new diagnostics and therapeutics.
 
-UMOA in Majadahonda serves biomedical research more broadly. Its application areas include infection, the cellular changes that come with disease, and the development of diagnostics and therapeutics. Because UMOA also runs its own research lines, its staff work on questions of their own as well as on those of the projects they support.
+The Confocal Microscopy Core Unit works within the Biotechnology Programme of CNIO, and cancer biology is its explicit focus. Its imaging and image analysis serve oncology and translational biomedical research, with other biomedical projects supported as well.
 
-The BSEL group at the UC3M Neuroscience and Life Sciences Department in Leganés works on translational biomedicine aimed at unmet clinical needs, without a focus on one disease. Its research brings engineering into biology, and it draws on device design, nanoparticle synthesis and deep learning. Across the three sites, the Node's shared interest is in pairing careful imaging with quantitative, computational interpretation of the images.
+The UC3M Neuroscience and Life Sciences Department hosts a research group that joins biomedical science with engineering. Its translational research is aimed at biomedicine that addresses unmet clinical needs rather than at one particular disease. The group's engineering history spans electronic devices, nanoparticles and computational methods, and this links its research to the image processing and deep learning that it contributes to the Node.
 
 ## Services and user support
 
-Most of the Node's recorded services are offered at the Confocal Microscopy Core Unit in Madrid. Researchers new to its instruments can learn through courses, seminars and laboratory visits, which give a practical introduction to the infrastructure before a project starts.
-
-During a project, staff at the Confocal Microscopy Core Unit provide technical assistance with imaging, helping researchers acquire the data their question needs. Technical assistance is also offered at UMOA in Majadahonda, where staff give scientific and technical support with the unit's microscopes.
-
-When a project needs more than an existing protocol, the Confocal Microscopy Core Unit takes on method development. This covers both microscopy and computational methods, which suits projects where the imaging approach or the analysis has to be adapted to an unusual question. Once images are acquired, the same unit offers data processing and analysis, so that acquisition and interpretation can be handled by one team in Madrid.
-
-### Services offered*
+### Services currently recorded (not in the signed SLA, please confirm)
 
 - Technical assistance (scientific and technical support), at UMOA, ISCIII community
 - Technical assistance (imaging support), at CNIO Confocal Microscopy Core Unit
@@ -50,13 +42,11 @@ When a project needs more than an existing protocol, the Confocal Microscopy Cor
 | [Confocal Microscopy Core Unit, CNIO](https://www.cnio.es/en/research-innovation/scientific-programmes/biotechnology-programme/confocal-microscopy-core-unit/) | Centro Nacional de Investigaciones Oncologicas (CNIO) | Madrid |
 | [UC3M Neuroscience and Life Sciences Department](https://bsel.uc3m.es/) | Universidad Carlos III de Madrid (UC3M) | Leganés |
 
-The Node is spread across three institutions, and each brings a different strength. UMOA in Majadahonda is the Advanced Optical Microscopy Unit of ISCIII and one of the institute's Scientific-Technical Units. It holds the Node's confocal, STED and widefield instruments, so it suits projects that depend on resolution, multicolour labelling or lifetime measurements. Its staff combine service work with research of their own.
+Two of the Node's facilities are light microscopy units at national research centres in the Madrid region. UMOA in Majadahonda is one of the Scientific-Technical Units of the Instituto de Salud Carlos III. Its staff specialise in using and developing optical microscopy techniques with fluorescence and confocal systems, and the unit runs its own research lines as well as supporting the institute's scientists. Its microscopes cover spectral confocal imaging, STED super-resolution, fluorescence lifetime imaging and widefield fluorescence.
 
-The Confocal Microscopy Core Unit in Madrid is a core facility within the CNIO Biotechnology Programme. It is the most service-oriented of the three sites. It offers training, imaging support, method development and data analysis, which makes it the most complete single entry point for a project that runs from acquisition to quantitative results.
+The Confocal Microscopy Core Unit in Madrid belongs to the Biotechnology Programme at CNIO, a centre devoted to cancer research. The unit works through imaging technologies and image analysis, with a focus on cancer biology and other biomedical research. Its expertise lies in applying microscopy to questions in oncology and translational medicine.
 
-The UC3M Neuroscience and Life Sciences Department in Leganés hosts the BSEL research group rather than a service unit. Its role in the Node is to contribute engineering and computational expertise, from image processing to deep learning, and its work is directed at translational biomedicine.
-
-Together, the three sites follow the idea behind smart optical microscopy. Imaging at UMOA and at the Confocal Microscopy Core Unit is matched by computational work at the Confocal Microscopy Core Unit and by the BSEL group at UC3M, which brings experience in image processing and deep learning.
+The third facility has a different character. The UC3M Neuroscience and Life Sciences Department in Leganés hosts a research group working at the meeting point of biomedical science and engineering. Its background includes electronic device design, nanoparticle synthesis and image processing. More recently it has brought artificial intelligence and deep learning into its work, and this gives the Node its computational side alongside the two microscopy units.
 
 ## Access and contact
 

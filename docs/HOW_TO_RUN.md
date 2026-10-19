@@ -120,7 +120,7 @@ you switch the sheet boxes on, the spreadsheet in the two sheet boxes.
    - addresses and contacts under "Access and contact", no coordinates.
 
 If the text needs changes, tell me what is wrong; the prompt is
-`node_writer_system_prompt_v14.md` and a new workflow file is one command.
+`node_writer_system_prompt_v16.md` and a new workflow file is one command.
 
 ---
 
@@ -135,7 +135,7 @@ const NODE_FILTER = "center-for-advanced-preclinical-imaging-capi, swedish-natio
 ```
 
 Download the three `.md` files from the output folder into
-a `test_pages` folder
+the `pages/test` folder next to the scripts
 and ask Claude to review them; it can read that folder directly.
 
 ## Part 4c. Trial run of the 15 October changes (prompt v11, Clean v3, Render v11)
@@ -147,10 +147,10 @@ large Node, service list, instrument tables, contacts):
 const NODE_FILTER = "barcelona-mesoscopic-imaging-node, barcelona-live-and-intravital-node, brain-imaging-network-bin, austrian-bioimaging-node-cmi, advanced-nl-microscopy";
 ```
 
-Put the five pages in `test_pages` and check them with:
+Put the five pages in `pages/test` and check them with:
 
 ```
-python tools/check_pages.py test_pages
+python tools/check_pages.py pages/test
 ```
 
 ## Part 4d. Rebuild finished pages without a new AI run
@@ -188,9 +188,24 @@ Batch 4:
 const NODE_FILTER = "phase-contrast-imaging-flagship-node-trieste, population-imaging-flagship-node-rotterdam, portuguese-platform-of-bioimaging-ppbi, preclinical-imaging-centre-prime-molecular-imaging-dutch-node, radiology-and-medical-imaging-valencia, simbion-node, smart-optical-microscopy-som-node, sofia-bioimaging-node-advanced-light-microscopy-node-sofia-bulgaria, swedish-national-microscopy-infrastructure-nmi, the-uk-node";
 ```
 
+All 40 Nodes in one run (about three hours). This is the four batches above in one line; `const NODE_FILTER = "";` does the same:
+```
+const NODE_FILTER = "advanced-light-and-electron-microscopy-node-prague-cz, advanced-light-microscopy-italian-node, advanced-light-microscopy-node-poland, advanced-nl-microscopy, austrian-bioimaging-node-cmi, barcelona-live-and-intravital-node, barcelona-mesoscopic-imaging-node, barcelona-super-resolution-light-and-nanoscopy-node, bilbao-node, brain-imaging-network-bin, cellular-imaging-hungary, center-for-advanced-preclinical-imaging-capi, challenges-framework-flagship-node, danish-bioimaging, digital-imaging-multimodal-platform-neuromed-dimp-neuromed, dutch-high-field-imaging-hub, euro-bioimaging-embl-node, facility-of-excellence-in-imaging-ammi-maastricht, finnish-advanced-microscopy-node, finnish-biomedical-imaging-node, flanders-bioimaging-imaging-node, france-life-imaging-node, french-bioimaging-node, israel-bioimaging, madrid-advanced-microscopy-center-madmic, medical-and-preclinical-imaging-hungary, molecular-imaging-italian-node, multimodal-imaging-node-brno-cz, normic-oslo-advanced-light-microscopy-node-oslo, normolim-norwegian-molecular-imaging-infrastructure, phase-contrast-imaging-flagship-node-trieste, population-imaging-flagship-node-rotterdam, portuguese-platform-of-bioimaging-ppbi, preclinical-imaging-centre-prime-molecular-imaging-dutch-node, radiology-and-medical-imaging-valencia, simbion-node, smart-optical-microscopy-som-node, sofia-bioimaging-node-advanced-light-microscopy-node-sofia-bulgaria, swedish-national-microscopy-infrastructure-nmi, the-uk-node";
+```
+
 To redo single Nodes, list just those: `const NODE_FILTER = "danish, flanders";`.
 
 When all four are done, **EB-Nodes** has 40 `.md` files.
+
+## Part 5b. Save and check the finished pages
+
+1. Download all 40 `.md` files from the **EB-Nodes** folder in Google Drive into a
+   `pages/v16` folder next to the scripts (on Joakim's laptop:
+   `EuroBioImaging_Master_Data\n8n\pages\v16`). The `node_files` folder is only for
+   the input JSON files; pages never go there.
+2. Check them: `python tools/check_pages.py pages/v16`
+3. When they are approved, copy them into `node-pages/` in this repo, replacing the
+   older pages, and commit.
 
 ---
 
@@ -223,7 +238,7 @@ or "List node files" points at the wrong folder (Part 3.3).
 2. **Pick node files** keeps the Nodes in NODE_FILTER (all if empty), each once.
 3. **Loop Over Nodes** takes one Node at a time.
 4. **Download node file** and **Read node file** load that Node's file.
-5. **AI Node Writer** (Claude Opus 5.5, prompt v14) writes five sections.
+5. **AI Node Writer** (Claude Opus 5.5, prompt v16) writes five sections.
 6. **Clean and explode sections** checks all five are there, checks the text belongs to this Node, and removes em dashes.
 7. **Save sections to sheet** (off) would store them in Node_Body_Output.
 8. **Render node page** adds the technology table, service list, facility

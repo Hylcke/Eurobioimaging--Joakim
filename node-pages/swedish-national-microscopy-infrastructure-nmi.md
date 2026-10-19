@@ -2,107 +2,111 @@
 
 ## Overview
 
-The Swedish National Microscopy Infrastructure (NMI) is above all a light microscopy Node, with its main strengths in super-resolution, light-sheet and live imaging. Five of its seven facilities offer light microscopy. Two of them, CCI in Gothenburg and BICU + UCEM in Umeå, add electron microscopy, so molecular signals can be followed down to the level of ultrastructure. The seven facilities belong to seven institutions in seven Swedish cities. LBIC in Lund adds preclinical and human imaging, and BIIF in Uppsala is dedicated to image analysis, so the Node serves both biological and biomedical research.
+The Swedish National Microscopy Infrastructure (NMI) is mainly a light microscopy Node. It offers methods that range from confocal and light-sheet imaging to super-resolution, fluorescence correlation spectroscopy and intravital microscopy in living animals. NMI has seven facilities at seven institutions in Solna, Stockholm, Huddinge, Uppsala, Gothenburg, Umeå and Lund. Together they cover biological and biomedical imaging, from single molecules to the human body.
 
-Each facility brings its own expertise. Staff at ALM in Solna work on nanoscale visualisation and on single-molecule and fluorescence correlation analysis. They also run light-sheet and lattice light-sheet imaging of zebrafish embryos and 3D cell cultures. The CCI team has particular experience in 3D correlative multimodal imaging, which brings light and electron microscopy together on the same sample. In Umeå, staff combine live-cell light microscopy with atomic force microscopy and force spectroscopy on cells, biomolecules and coated surfaces. LCI in Huddinge focuses on live-cell imaging and image analysis, for live or fixed samples large and small. IVMSU in Stockholm specialises in nonlinear imaging inside living animals and supports repeated sessions for longitudinal projects. LBIC brings expertise in preclinical nuclear medicine and in preclinical and clinical MRI, while BIIF develops image-analysis pipelines for microscopy experiments.
+Each facility brings its own expertise. Staff at ALM support nanoscale imaging of cells, single-molecule and correlation spectroscopy measurements, and lattice light-sheet imaging of live samples. CCI specialises in 3D correlative imaging that joins light and electron microscopy, and it also runs automated high-content screening of live cells. At BICU + UCEM the team combines live-cell light microscopy with electron microscopy and correlative workflows, and it measures forces on living cells in a BSL2 environment. IVMSU staff image cells and tissues in living rodents with nonlinear microscopy at BSL2 and follow animals over repeated sessions. LCI concentrates on live-cell imaging, BIIF builds image-analysis pipelines, and LBIC has expertise in preclinical nuclear medicine and high-field MRI.
 
-Cell biologists who need to resolve structures at the molecular scale, or to measure how molecules diffuse and associate, will find most support at ALM. Projects that link a fluorescent signal to the surrounding ultrastructure, or that reconstruct cells and tissues in 3D by electron microscopy, suit CCI. Researchers working with animal models or in clinical studies, from microscopic to whole-body scale, should look to LBIC.
+Super-resolution, lattice light-sheet and fluorescence correlation spectroscopy are at ALM in Solna. Intravital microscopy is at IVMSU in Stockholm, while LCI in Huddinge offers confocal, widefield and light-sheet microscopy for live and fixed samples. Electron microscopy is at CCI in Gothenburg and BICU + UCEM in Umeå, with focused ion beam imaging in Umeå and correlative array tomography in Gothenburg. Preclinical MRI, PET and SPECT, together with human MRI, are at LBIC in Lund. Image analysis is at BIIF in Uppsala.
 
 ## Imaging technologies offered
 
-Light microscopy carries most of the Node's technologies. Three facilities offer confocal microscopy for optical sectioning and multichannel 3D localisation, and their systems include an LSM 900 at CCI. Light-sheet imaging, also offered at three facilities, illuminates only the plane being recorded, which suits embryos, organs and other large specimens. CCI runs a Lightsheet 7 for this work. For detail below the diffraction limit, ALM offers STED and single-molecule localisation microscopy (SMLM). Its nanoscopy extends further to MINFLUX and expansion microscopy. ALM also offers lattice light-sheet for 3D dynamics in living cells, as well as fluorescence correlation spectroscopy, which measures how molecules diffuse and move together.
+Light microscopy makes up most of the Node. Laser scanning confocal microscopy at BICU + UCEM, CCI and LCI gives optical sections and 3D localisation of several labels in cells and tissue. Light-sheet imaging at ALM, CCI and LCI records whole embryos, organs and cleared specimens with little excess light, and CCI runs a Zeiss Lightsheet 7 for this work. LCI uses an NSPARC confocal for live and fixed samples. To see structures below the usual resolution limit, researchers can use STED at ALM and single-molecule localisation microscopy at ALM, BICU + UCEM and CCI.
 
-IVMSU offers two-photon and intravital microscopy to follow cells in intact living animals. It also offers FRET and harmonic generation imaging, which shows ordered tissue structures without an added label. For ultrastructure, CCI offers TEM, array tomography and EM tomography. At BICU + UCEM, focused ion beam SEM (FIB-SEM) reconstructs selected volumes of cells and tissue in 3D. LBIC images animals with micro-PET/CT and micro-SPECT-CT. Its MRI work runs on a 9.4T preclinical scanner and 1.5/3T clinical scanners, and human MRI is also offered at 7T.
+Functional methods measure what molecules do rather than only where they are. Fluorescence lifetime imaging at ALM, BICU + UCEM and IVMSU reports on the molecular environment, and FRET and photomanipulation at IVMSU probe interactions and perturb chosen cells. Intravital and two-photon microscopy at IVMSU follow cells deep in living tissue, with harmonic generation showing collagen and other ordered structures without labels.
+
+Electron microscopy at CCI and BICU + UCEM adds ultrastructure, from scanning electron microscopy to volume methods such as FIB-SEM in Umeå and array tomography in Gothenburg. CCI also localises proteins by immunogold labelling. At LBIC, a 9.4T preclinical MRI and 1.5/3T clinical MRI sit alongside micro-PET/CT, micro-SPECT-CT and micro-CT for whole-body studies in animals and people.
 
 ### Technologies and instruments
 
-| Technology | Instrument highlights |
-| --- | --- |
-| [Deconvolution widefield microscopy (DWM)](#deconvolution-widefield-microscopy-dwm "deconvolution-widefield-microscopy-dwm") |  |
-| [Laser scanning confocal microscopy (LSCM/CLSM)](#laser-scanning-confocal-microscopy-lscm-clsm "laser-scanning-confocal-microscopy-lscm-clsm") | BICU + UCEM: SP8; CCI: LSM 700, LSM 710, LSM 900; LCI: NSPARC |
-| [Lattice light-sheet (LLS)](#lattice-light-sheet-lls "lattice-light-sheet-lls") |  |
-| [Objective-coupled planar illumination (OCPI)](#objective-coupled-planar-illumination-ocpi "objective-coupled-planar-illumination-ocpi") |  |
-| [Spinning disk confocal microscopy (SDCM)](#spinning-disk-confocal-microscopy-sdcm "spinning-disk-confocal-microscopy-sdcm") |  |
-| [Structured illumination microscopy (SIM)](#structured-illumination-microscopy-sim "structured-illumination-microscopy-sim") | LCI: DeepSIM |
-| [Total internal reflection fluorescence microscopy (TIRF)](#total-internal-reflection-fluorescence-microscopy-tirf "total-internal-reflection-fluorescence-microscopy-tirf") |  |
-| [Two-photon microscopy (2P)](#two-photon-microscopy-2p "two-photon-microscopy-2p") |  |
-| [Minimal Photon Fluxes Microscopy (MINFLUX)](#minimal-photon-fluxes-microscopy-minflux "minimal-photon-fluxes-microscopy-minflux") | ALM: Abberior Instruments 2D/3D dual-color MINFLUX system |
-| [Reversible optical fluorescence transitions (RESOLFT)](#reversible-optical-fluorescence-transitions-resolft "reversible-optical-fluorescence-transitions-resolft") |  |
-| [Single Molecule localization microscopy (SMLM)](#single-molecule-localization-microscopy-smlm "single-molecule-localization-microscopy-smlm") |  |
-| [Stimulated emission depletion microscopy (STED)](#stimulated-emission-depletion-microscopy-sted "stimulated-emission-depletion-microscopy-sted") |  |
-| [Polarization microscopy (PM)](#polarization-microscopy-pm "polarization-microscopy-pm") |  |
-| [Second/Third Harmonic Generation (SHG/THG)](#second-third-harmonic-generation-shg-thg "second-third-harmonic-generation-shg-thg") |  |
-| [Stimulated Raman Scattering (SRS)](#stimulated-raman-scattering-srs "stimulated-raman-scattering-srs") |  |
-| [Light-sheet mesoscopic imaging (SPIM/dSLSM)](#light-sheet-mesoscopic-imaging-spim-dslsm "light-sheet-mesoscopic-imaging-spim-dslsm") | CCI: Lightsheet 7 |
-| [Anisotropy/Polarization Microscopy (AM)](#anisotropy-polarization-microscopy-am "anisotropy-polarization-microscopy-am") |  |
-| [Brillouin Scattering Microscopy (BSM)](#brillouin-scattering-microscopy-bsm "brillouin-scattering-microscopy-bsm") |  |
-| [Expansion Microscopy (ExM)](#expansion-microscopy-exm "expansion-microscopy-exm") |  |
-| [Feedback microscopy (FDBKM)](#feedback-microscopy-fdbkm "feedback-microscopy-fdbkm") |  |
-| [Fluorescence (cross)-correlation spectroscopy (FCS/FCCS)](#fluorescence-cross-correlation-spectroscopy-fcs-fccs "fluorescence-cross-correlation-spectroscopy-fcs-fccs") |  |
-| [Fluorescence Lifetime Imaging (FLIM)](#fluorescence-lifetime-imaging-flim "fluorescence-lifetime-imaging-flim") |  |
-| [Fluorescence Recovery after Photobleaching (FRAP)](#fluorescence-recovery-after-photobleaching-frap "fluorescence-recovery-after-photobleaching-frap") |  |
-| [Fluorescence Resonance Energy Transfer (FRET)](#fluorescence-resonance-energy-transfer-fret "fluorescence-resonance-energy-transfer-fret") |  |
-| [High throughput microscopy/high content screening (HTM/HCS)](#high-throughput-microscopy-high-content-screening-htm-hcs "high-throughput-microscopy-high-content-screening-htm-hcs") |  |
-| [High-speed Imaging (HSI)](#high-speed-imaging-hsi "high-speed-imaging-hsi") |  |
-| [Imaging at Biosafety Level >1 (BSL>1)](#imaging-at-biosafety-level-gt-1-bsl-gt-1 "imaging-at-biosafety-level-gt-1-bsl-gt-1") |  |
-| [Intravital Microscopy (IVM)](#intravital-microscopy-ivm "intravital-microscopy-ivm") |  |
-| [Microdissection (µDis)](#microdissection-mdis "microdissection-mdis") |  |
-| [Phosphorescence Lifetime imaging (PLIM)](#phosphorescence-lifetime-imaging-plim "phosphorescence-lifetime-imaging-plim") |  |
-| [Photomanipulation (Pmanip)](#photomanipulation-pmanip "photomanipulation-pmanip") |  |
-| [Spatial Transcriptomics (ST)](#spatial-transcriptomics-st "spatial-transcriptomics-st") |  |
-| [Tissue Clearing (TC)](#tissue-clearing-tc "tissue-clearing-tc") |  |
-| [Voltage/pH/Ion Imaging](#voltage-ph-ion-imaging "voltage-ph-ion-imaging") |  |
-| [Correlative Array Tomography (CAT)](#correlative-array-tomography-cat "correlative-array-tomography-cat") |  |
-| [Cryo Correlative Light and Electron Microscopy (Cryo-CLEM)](#cryo-correlative-light-and-electron-microscopy-cryo-clem "cryo-correlative-light-and-electron-microscopy-cryo-clem") |  |
-| [post-embedding CLEM (post-emb CLEM)](#post-embedding-clem-post-emb-clem "post-embedding-clem-post-emb-clem") |  |
-| [pre-embedding CLEM (pre-emb CLEM)](#pre-embedding-clem-pre-emb-clem "pre-embedding-clem-pre-emb-clem") |  |
-| [live-cell Correlative Light and Electron Microscopy (live-cell CLEM)](#live-cell-correlative-light-and-electron-microscopy-live-cell-clem "live-cell-correlative-light-and-electron-microscopy-live-cell-clem") |  |
-| [Cryo Electron Tomography (Cryo-ET)](#cryo-electron-tomography-cryo-et "cryo-electron-tomography-cryo-et") |  |
-| [Cryo Focussed Ion beam (Cryo-FIB)](#cryo-focussed-ion-beam-cryo-fib "cryo-focussed-ion-beam-cryo-fib") |  |
-| [Cryo Transmission Electron Microscopy (Cryo-TEM)](#cryo-transmission-electron-microscopy-cryo-tem "cryo-transmission-electron-microscopy-cryo-tem") |  |
-| [Elemental analysis (EDX)](#elemental-analysis-edx "elemental-analysis-edx") |  |
-| [Scanning Electron Microscopy (SEM)](#scanning-electron-microscopy-sem "scanning-electron-microscopy-sem") |  |
-| [Large scale EM (lsTEM)](#large-scale-em-lstem "large-scale-em-lstem") |  |
-| [TEM of chemical fixed samples (TEM)](#tem-of-chemical-fixed-samples-tem "tem-of-chemical-fixed-samples-tem") |  |
-| [TEM of cryo-immobilized samples (TEM cryo samples)](#tem-of-cryo-immobilized-samples-tem-cryo-samples "tem-of-cryo-immobilized-samples-tem-cryo-samples") |  |
-| [Array tomography (AT)](#array-tomography-at "array-tomography-at") |  |
-| [EM tomography (ET)](#em-tomography-et "em-tomography-et") |  |
-| [Focussed Ion beam SEM (FIB-SEM)](#focussed-ion-beam-sem-fib-sem "focussed-ion-beam-sem-fib-sem") |  |
-| [Serial Blockface SEM (SBF-SEM)](#serial-blockface-sem-sbf-sem "serial-blockface-sem-sbf-sem") |  |
-| [serial section TEM (ssTEM)](#serial-section-tem-sstem "serial-section-tem-sstem") |  |
-| [Genetic encoded EM probes (GE probes)](#genetic-encoded-em-probes-ge-probes "genetic-encoded-em-probes-ge-probes") |  |
-| [Immuno-gold EM on resin sections (resin-EM)](#immuno-gold-em-on-resin-sections-resin-em "immuno-gold-em-on-resin-sections-resin-em") |  |
-| [Immuno-gold EM on thawed cryo-sections (Tokuyasu-EM)](#immuno-gold-em-on-thawed-cryo-sections-tokuyasu-em "immuno-gold-em-on-thawed-cryo-sections-tokuyasu-em") |  |
-| [post-embed Correlative Light and Electron Microscopy (on-section CLEM)](#post-embed-correlative-light-and-electron-microscopy-post-embed-clem "post-embed-correlative-light-and-electron-microscopy-post-embed-clem") |  |
-| [pre-embed Correlative Light and Electron Microscopy (pre-embed CLEM)](#pre-embed-correlative-light-and-electron-microscopy-pre-embed-clem "pre-embed-correlative-light-and-electron-microscopy-pre-embed-clem") |  |
-| [pre-embedding immunolabelling (pre-embed IL)](#pre-embedding-immunolabelling-pre-embed-il "pre-embedding-immunolabelling-pre-embed-il") |  |
-| [Atomic Force Microscopy (AFM)](#atomic-force-microscopy-afm "atomic-force-microscopy-afm") |  |
-| [Mass spectrometry-based imaging - bio (MSI - bio)](#mass-spectrometry-based-imaging-msi-bio "mass-spectrometry-based-imaging-msi-bio") |  |
-| [micro-CT](#micro-ct "micro-ct") |  |
-| [micro-MRI/MRS (Field >= 7 T)](#micro-mri-mrs-gte-7t "micro-mri-mrs-gte-7t") | LBIC: 9.4T preclinical MRI |
-| [micro-PET/CT](#micro-pet-ct "micro-pet-ct") |  |
-| [micro-SPECT-CT](#micro-spect-ct "micro-spect-ct") |  |
-| [ex-vivo micro-CT](#ex-vivo-micro-ct "ex-vivo-micro-ct") |  |
-| [micro-MRI/MRS (>= 7 T)ex-vivo](#micro-mri-mrs-gte-7t-ex-vivo "micro-mri-mrs-gte-7t-ex-vivo") | LBIC: 9.4T preclinical MRI |
-| [MRI/MRS (< 7T)](#mri-mrs-lt-7t "mri-mrs-lt-7t") | LBIC: 1.5/3T clinical MRI |
-| [MRI/MRS (>= 7T)](#mri-mrs-gte-7t "mri-mrs-gte-7t") |  |
-| [Image Analysis -bio (IA bio)](#image-analysis-bio "image-analysis-bio") |  |
+| Technology | Confirmed facility providers | Instrument highlights |
+| --- | --- | --- |
+| [Deconvolution widefield microscopy (DWM)](#deconvolution-widefield-microscopy-dwm "deconvolution-widefield-microscopy-dwm") | LCI |  |
+| [Laser scanning confocal microscopy (LSCM/CLSM)](#laser-scanning-confocal-microscopy-lscm-clsm "laser-scanning-confocal-microscopy-lscm-clsm") | BICU + UCEM, CCI, LCI | BICU + UCEM: SP8; CCI: LSM 700, LSM 710, LSM 900; LCI: NSPARC |
+| [Lattice light-sheet (LLS)](#lattice-light-sheet-lls "lattice-light-sheet-lls") | ALM |  |
+| [Objective-coupled planar illumination (OCPI)](#objective-coupled-planar-illumination-ocpi "objective-coupled-planar-illumination-ocpi") | No confirmed facility provider yet |  |
+| [Spinning disk confocal microscopy (SDCM)](#spinning-disk-confocal-microscopy-sdcm "spinning-disk-confocal-microscopy-sdcm") | BICU + UCEM, LCI |  |
+| [Structured illumination microscopy (SIM)](#structured-illumination-microscopy-sim "structured-illumination-microscopy-sim") | ALM, BICU + UCEM, CCI, LCI | LCI: DeepSIM |
+| [Total internal reflection fluorescence microscopy (TIRF)](#total-internal-reflection-fluorescence-microscopy-tirf "total-internal-reflection-fluorescence-microscopy-tirf") | BICU + UCEM, CCI |  |
+| [Two-photon microscopy (2P)](#two-photon-microscopy-2p "two-photon-microscopy-2p") | CCI, IVMSU |  |
+| [Minimal Photon Fluxes Microscopy (MINFLUX)](#minimal-photon-fluxes-microscopy-minflux "minimal-photon-fluxes-microscopy-minflux") | ALM | ALM: Abberior Instruments 2D/3D dual-color MINFLUX system |
+| [Reversible optical fluorescence transitions (RESOLFT)](#reversible-optical-fluorescence-transitions-resolft "reversible-optical-fluorescence-transitions-resolft") | No confirmed facility provider yet |  |
+| [Single Molecule localization microscopy (SMLM)](#single-molecule-localization-microscopy-smlm "single-molecule-localization-microscopy-smlm") | ALM, BICU + UCEM, CCI |  |
+| [Stimulated emission depletion microscopy (STED)](#stimulated-emission-depletion-microscopy-sted "stimulated-emission-depletion-microscopy-sted") | ALM |  |
+| [Polarization microscopy (PM)](#polarization-microscopy-pm "polarization-microscopy-pm") | LCI |  |
+| [Second/Third Harmonic Generation (SHG/THG)](#second-third-harmonic-generation-shg-thg "second-third-harmonic-generation-shg-thg") | IVMSU |  |
+| [Stimulated Raman Scattering (SRS)](#stimulated-raman-scattering-srs "stimulated-raman-scattering-srs") | No confirmed facility provider yet |  |
+| [Light-sheet mesoscopic imaging (SPIM/dSLSM)](#light-sheet-mesoscopic-imaging-spim-dslsm "light-sheet-mesoscopic-imaging-spim-dslsm") | ALM, CCI, LCI | CCI: Lightsheet 7 |
+| [Anisotropy/Polarization Microscopy (AM)](#anisotropy-polarization-microscopy-am "anisotropy-polarization-microscopy-am") | No confirmed facility provider yet |  |
+| [Brillouin Scattering Microscopy (BSM)](#brillouin-scattering-microscopy-bsm "brillouin-scattering-microscopy-bsm") | No confirmed facility provider yet |  |
+| [Expansion Microscopy (ExM)](#expansion-microscopy-exm "expansion-microscopy-exm") | ALM |  |
+| [Feedback microscopy (FDBKM)](#feedback-microscopy-fdbkm "feedback-microscopy-fdbkm") | CCI |  |
+| [Fluorescence (cross)-correlation spectroscopy (FCS/FCCS)](#fluorescence-cross-correlation-spectroscopy-fcs-fccs "fluorescence-cross-correlation-spectroscopy-fcs-fccs") | ALM |  |
+| [Fluorescence Lifetime Imaging (FLIM)](#fluorescence-lifetime-imaging-flim "fluorescence-lifetime-imaging-flim") | ALM, BICU + UCEM, IVMSU |  |
+| [Fluorescence Recovery after Photobleaching (FRAP)](#fluorescence-recovery-after-photobleaching-frap "fluorescence-recovery-after-photobleaching-frap") | BICU + UCEM, IVMSU |  |
+| [Fluorescence Resonance Energy Transfer (FRET)](#fluorescence-resonance-energy-transfer-fret "fluorescence-resonance-energy-transfer-fret") | IVMSU |  |
+| [High throughput microscopy/high content screening (HTM/HCS)](#high-throughput-microscopy-high-content-screening-htm-hcs "high-throughput-microscopy-high-content-screening-htm-hcs") | CCI, LCI |  |
+| [High-speed Imaging (HSI)](#high-speed-imaging-hsi "high-speed-imaging-hsi") | No confirmed facility provider yet |  |
+| [Imaging at Biosafety Level >1 (BSL>1)](#imaging-at-biosafety-level-gt-1-bsl-gt-1 "imaging-at-biosafety-level-gt-1-bsl-gt-1") | BICU + UCEM, IVMSU |  |
+| [Intravital Microscopy (IVM)](#intravital-microscopy-ivm "intravital-microscopy-ivm") | IVMSU |  |
+| [Microdissection (µDis)](#microdissection-mdis "microdissection-mdis") | CCI, LCI |  |
+| [Phosphorescence Lifetime imaging (PLIM)](#phosphorescence-lifetime-imaging-plim "phosphorescence-lifetime-imaging-plim") | No confirmed facility provider yet |  |
+| [Photomanipulation (Pmanip)](#photomanipulation-pmanip "photomanipulation-pmanip") | IVMSU |  |
+| [Spatial Transcriptomics (ST)](#spatial-transcriptomics-st "spatial-transcriptomics-st") | No confirmed facility provider yet |  |
+| [Tissue Clearing (TC)](#tissue-clearing-tc "tissue-clearing-tc") | CCI, IVMSU |  |
+| [Voltage/pH/Ion Imaging](#voltage-ph-ion-imaging "voltage-ph-ion-imaging") | IVMSU |  |
+| [Correlative Array Tomography (CAT)](#correlative-array-tomography-cat "correlative-array-tomography-cat") | CCI |  |
+| [Cryo Correlative Light and Electron Microscopy (Cryo-CLEM)](#cryo-correlative-light-and-electron-microscopy-cryo-clem "cryo-correlative-light-and-electron-microscopy-cryo-clem") | No confirmed facility provider yet |  |
+| [post-embedding CLEM (post-emb CLEM)](#post-embedding-clem-post-emb-clem "post-embedding-clem-post-emb-clem") | No confirmed facility provider yet |  |
+| [pre-embedding CLEM (pre-emb CLEM)](#pre-embedding-clem-pre-emb-clem "pre-embedding-clem-pre-emb-clem") | No confirmed facility provider yet |  |
+| [live-cell Correlative Light and Electron Microscopy (live-cell CLEM)](#live-cell-correlative-light-and-electron-microscopy-live-cell-clem "live-cell-correlative-light-and-electron-microscopy-live-cell-clem") | No confirmed facility provider yet |  |
+| [Cryo Electron Tomography (Cryo-ET)](#cryo-electron-tomography-cryo-et "cryo-electron-tomography-cryo-et") | BICU + UCEM |  |
+| [Cryo Focussed Ion beam (Cryo-FIB)](#cryo-focussed-ion-beam-cryo-fib "cryo-focussed-ion-beam-cryo-fib") | BICU + UCEM |  |
+| [Cryo Transmission Electron Microscopy (Cryo-TEM)](#cryo-transmission-electron-microscopy-cryo-tem "cryo-transmission-electron-microscopy-cryo-tem") | BICU + UCEM |  |
+| [Elemental analysis (EDX)](#elemental-analysis-edx "elemental-analysis-edx") | No confirmed facility provider yet |  |
+| [Scanning Electron Microscopy (SEM)](#scanning-electron-microscopy-sem "scanning-electron-microscopy-sem") | BICU + UCEM, CCI |  |
+| [Large scale EM (lsTEM)](#large-scale-em-lstem "large-scale-em-lstem") | No confirmed facility provider yet |  |
+| [TEM of chemical fixed samples (TEM)](#tem-of-chemical-fixed-samples-tem "tem-of-chemical-fixed-samples-tem") | CCI |  |
+| [TEM of cryo-immobilized samples (TEM cryo samples)](#tem-of-cryo-immobilized-samples-tem-cryo-samples "tem-of-cryo-immobilized-samples-tem-cryo-samples") | CCI |  |
+| [Array tomography (AT)](#array-tomography-at "array-tomography-at") | CCI |  |
+| [EM tomography (ET)](#em-tomography-et "em-tomography-et") | CCI |  |
+| [Focussed Ion beam SEM (FIB-SEM)](#focussed-ion-beam-sem-fib-sem "focussed-ion-beam-sem-fib-sem") | BICU + UCEM |  |
+| [Serial Blockface SEM (SBF-SEM)](#serial-blockface-sem-sbf-sem "serial-blockface-sem-sbf-sem") | No confirmed facility provider yet |  |
+| [serial section TEM (ssTEM)](#serial-section-tem-sstem "serial-section-tem-sstem") | No confirmed facility provider yet |  |
+| [Genetic encoded EM probes (GE probes)](#genetic-encoded-em-probes-ge-probes "genetic-encoded-em-probes-ge-probes") | No confirmed facility provider yet |  |
+| [Immuno-gold EM on resin sections (resin-EM)](#immuno-gold-em-on-resin-sections-resin-em "immuno-gold-em-on-resin-sections-resin-em") | CCI |  |
+| [Immuno-gold EM on thawed cryo-sections (Tokuyasu-EM)](#immuno-gold-em-on-thawed-cryo-sections-tokuyasu-em "immuno-gold-em-on-thawed-cryo-sections-tokuyasu-em") | CCI |  |
+| [post-embed Correlative Light and Electron Microscopy (on-section CLEM)](#post-embed-correlative-light-and-electron-microscopy-post-embed-clem "post-embed-correlative-light-and-electron-microscopy-post-embed-clem") | No confirmed facility provider yet |  |
+| [pre-embed Correlative Light and Electron Microscopy (pre-embed CLEM)](#pre-embed-correlative-light-and-electron-microscopy-pre-embed-clem "pre-embed-correlative-light-and-electron-microscopy-pre-embed-clem") | No confirmed facility provider yet |  |
+| [pre-embedding immunolabelling (pre-embed IL)](#pre-embedding-immunolabelling-pre-embed-il "pre-embedding-immunolabelling-pre-embed-il") | CCI |  |
+| [Atomic Force Microscopy (AFM)](#atomic-force-microscopy-afm "atomic-force-microscopy-afm") | BICU + UCEM |  |
+| [Mass spectrometry-based imaging - bio (MSI - bio)](#mass-spectrometry-based-imaging-msi-bio "mass-spectrometry-based-imaging-msi-bio") | No confirmed facility provider yet |  |
+| [micro-CT](#micro-ct "micro-ct") | LBIC |  |
+| [micro-MRI/MRS (Field >= 7 T)](#micro-mri-mrs-gte-7t "micro-mri-mrs-gte-7t") | LBIC | LBIC: 9.4T preclinical MRI |
+| [micro-PET/CT](#micro-pet-ct "micro-pet-ct") | LBIC |  |
+| [micro-SPECT-CT](#micro-spect-ct "micro-spect-ct") | LBIC |  |
+| [ex-vivo micro-CT](#ex-vivo-micro-ct "ex-vivo-micro-ct") | No confirmed facility provider yet |  |
+| [micro-MRI/MRS (>= 7 T)ex-vivo](#micro-mri-mrs-gte-7t-ex-vivo "micro-mri-mrs-gte-7t-ex-vivo") | LBIC | LBIC: 9.4T preclinical MRI |
+| [MRI/MRS (< 7T)](#mri-mrs-lt-7t "mri-mrs-lt-7t") | LBIC | LBIC: 1.5/3T clinical MRI |
+| [MRI/MRS (>= 7T)](#mri-mrs-gte-7t "mri-mrs-gte-7t") | LBIC |  |
+| [Image Analysis -bio (IA bio)](#image-analysis-bio "image-analysis-bio") | BIIF |  |
 
 ## Specialties and research focus
 
-Research at the Node spans cell biology, development, infection and medicine, and each facility has its own centre of gravity. At ALM the focus is nanoscale cell biology, along with embryogenesis and organogenesis in zebrafish and studies in 3D cell culture and organotypic models. CCI serves the broad life sciences, with an emphasis on linking structure to function and morphology to mechanism.
+The research served by NMI runs from molecules to patients. At ALM in Solna the work centres on nanoscale cell biology, embryogenesis and organogenesis in zebrafish, and 3D cell culture and organotypic models. CCI in Gothenburg supports studies across the life sciences that link structure with function and morphology with mechanism.
 
-Infection biology is a theme at two facilities. IVMSU supports in vivo and in vitro studies of cells, tissues and organs, and it operates at biosafety level 2 (BSL2), which allows infection studies. At BICU + UCEM the samples include cells, biomolecules and coated surfaces as well as virus-infected cells. Its atomic force microscopy sits in a BSL2 environment, where the host laboratory carries out infection experiments on live cells.
+Infection biology appears at two facilities. IVMSU in Stockholm runs in vivo and in vitro studies of cells, tissues and organs, including infection studies and longitudinal projects in which the same animal is imaged several times. BICU + UCEM in Umeå works with cells, biomolecules and coated surfaces, and its host lab carries out infection experiments on live, virus-infected cells.
 
-LCI works with live or fixed samples of any size. BIIF serves life-science microscopy across domains rather than a single field. At the whole-organism end, LBIC supports preclinical and clinical research at scales from microscopic structure to the whole body.
+LBIC in Lund serves preclinical and clinical research at scales from microscopic specimens to the whole body, using both animal models and human subjects. BIIF in Uppsala supports life-science microscopy projects from every field, helping researchers turn their images into quantitative results.
 
 ## Services and user support
 
-A project can start with methodological setup, where staff help design the study protocol and the standard operating procedures that go with it. Researchers then receive training in the use of the infrastructure, and training workstations and a seminar room are set aside for this. At the instrument, staff provide technical assistance in running the systems, so researchers have expert help while they acquire their data.
+A project at NMI often starts with methodological setup, where staff help design the study protocol and the standard operating procedures for the experiment. Researchers then receive training in using the infrastructure, and the Node has training workstations and a seminar room for this. During imaging, staff give technical assistance to run the instruments.
 
-Sample preparation is part of the support. Staff help with probe preparation and with preparing animals for imaging, and the Node has animal facilities for in vivo work. Visiting researchers can also use wet lab space and cell culture facilities at safety levels 1 and 2, which lets them prepare cultures and samples close to the microscopes. Once images are acquired, staff help with data processing and analysis. Server space is provided so that the resulting data can be stored and worked on during the project.
+Several services support sample work before and during imaging. Staff prepare probes, and they prepare animals for imaging, with animal facilities available for projects that need them. Visiting researchers can work in wet lab space and in cell culture facilities at safety level 1 and safety level 2.
 
-### Services offered
+Once images are acquired, the Node offers data processing and analysis, so that researchers leave with measurements as well as raw data. Server space holds the data during the project.
+
+### Services in the signed SLA
 
 - Technical assistance to run instrument
 - Methodological setup (e.g. design of study protocol and standard operation procedures)
@@ -130,13 +134,11 @@ Sample preparation is part of the support. Staff help with probe preparation and
 | [Luminous Cell Imaging Core Facility (LCI), Karolinska Institutet](https://ki.se/en/research/research-infrastructure-and-environments/core-facilities-for-research/the-luminous-cell-imaging-core-facility "swedish-national-microscopy-infrastructure-nmi-luminous-cell-imaging-core-facility-lci-karolinska-institutet") | Karolinska Institutet | Huddinge (Campus Flemingsberg) |
 | [Lund University Bioimaging Centre (LBIC)](https://www.lbic.lu.se/ "swedish-national-microscopy-infrastructure-nmi-lund-university-bioimaging-centre-lbic") | Lund University | Lund |
 
-NMI joins seven facilities, and each covers a different part of the imaging range. ALM at KTH Royal Institute of Technology and SciLifeLab concentrates on nanoscopy, single-molecule measurements and light-sheet imaging. LCI at Karolinska Institutet offers light microscopy for live or fixed samples, large or small. A project can begin with confocal or widefield work at LCI and move to ALM when it needs nanoscale detail.
+Three facilities focus on light microscopy. ALM in Solna, at KTH and SciLifeLab, offers super-resolution methods including STED and single-molecule localisation, along with fluorescence correlation spectroscopy and lattice light-sheet imaging of live samples. LCI at Karolinska Institutet in Huddinge offers widefield, spinning disk and laser scanning confocal microscopy, light-sheet imaging and high-content screening, with particular expertise in live-cell imaging. IVMSU at Stockholm University images cells inside living animals with two-photon and other nonlinear methods, and it works at BSL2 within its own biocontainment barrier.
 
-IVMSU at Stockholm University is built for imaging inside living rodents. It sits within its own biocontainment barrier in the university's Experimental Core Facility and supports repeated imaging sessions for longitudinal projects.
+Two facilities combine light and electron microscopy. CCI at the University of Gothenburg integrates both in one multi-user facility and is known for 3D correlative multimodal imaging, offering array tomography, EM tomography and immunogold labelling alongside confocal, two-photon and light-sheet microscopy. BICU + UCEM at Umeå University joins BICU, which handles live-cell light microscopy and force measurements on cells, with UCEM, which provides electron microscopy and correlative workflows.
 
-The two facilities that add electron microscopy differ in emphasis. CCI at the University of Gothenburg is a national core facility that integrates light and electron microscopy in a multi-user environment. Its correlative array tomography places fluorescence signals within 3D ultrastructure. BICU + UCEM at Umeå University joins a light and atomic force microscopy facility with an electron microscopy facility. This means live-cell, force and ultrastructural measurements can be combined in one place.
-
-LBIC at Lund University takes questions beyond the microscope to whole animals and human participants. BIIF, run by NBIS and SciLifeLab at the Uppsala University site, complements the imaging facilities by helping researchers build image-analysis pipelines for their microscopy experiments.
+LBIC at Lund University covers preclinical and human imaging, with expertise in preclinical nuclear medicine, preclinical and clinical MRI, the national 7T MRI, and analysis and visualisation. BIIF, run by NBIS and SciLifeLab at the Uppsala University site, specialises in bioimage informatics and develops image-analysis pipelines for life-science microscopy.
 
 ## Access and contact
 

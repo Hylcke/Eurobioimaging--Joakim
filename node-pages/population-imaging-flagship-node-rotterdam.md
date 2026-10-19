@@ -2,43 +2,47 @@
 
 ## Overview
 
-The Population Imaging Flagship Node Rotterdam supports research that depends on large collections of medical images rather than on a particular scanner. Its strength lies in the data infrastructure and analysis behind population and cohort imaging studies, from collecting and anonymising images to storing, sharing and analysing them. The Node is a single facility, the Imaging Office at the Department of Radiology and Nuclear Medicine of Erasmus MC in Rotterdam. Its work sits entirely in biomedical imaging, with a focus on clinical and human imaging data.
+The Population Imaging Flagship Node Rotterdam offers infrastructure and expert support for medical imaging research on large groups of people. It does not centre on acquiring images but on what happens to imaging data afterwards, helping researchers collect, anonymise, structure, store, share, annotate, analyse and integrate data from population and patient studies. The Node has one facility, the Imaging Office at the Department of Radiology and Nuclear Medicine, Erasmus MC in Rotterdam, and it works entirely in biomedical imaging.
 
-The Imaging Office brings research software engineers and data managers together in one team. The same people can build an imaging database and write the software that analyses it. Staff have experience building structured imaging databases that follow the FAIR principles, so the data stay findable, accessible, interoperable and reusable. They have also developed AI tools for medical images, including automatic organ segmentation, semi-automatic tumour segmentation and automatic prediction models. The software engineers adapt these tools to new clinical applications and can turn an analysis pipeline into user-friendly software for a specific group of users. Their expertise runs from image analysis and data services to software development and clinical implementation.
+The Imaging Office brings research software engineers and data managers together in one team. They build structured imaging databases that follow the FAIR principles, so that data are findable, accessible, interoperable and reusable. The team has developed its own AI tools for clinical research, including automatic organ segmentation, semi-automatic tumour segmentation and automatic prediction models. Its software engineers adapt these tools to new clinical applications and build analysis pipelines into user-friendly software for specific groups of users. Staff also have experience with neuroimage analysis and with removing identifying features from images through defacing and pseudo-anonymisation. They also link image data with clinical data and curate it.
 
-The Node suits epidemiologists and clinical researchers who are setting up or running an imaging cohort and need help to structure, curate and link its data. Oncology groups, including those in European cancer-imaging projects, will find support for tumour segmentation and for organising imaging data across studies. Projects on disease prevention and early identification can draw on the prediction models and quantitative analysis developed at the Imaging Office. Groups that already hold a large set of medical images and want an AI tool adapted to their question are also a good match.
+All of the Node's methods are at the Imaging Office in Rotterdam. The facility combines support for population imaging studies, which covers study design and data infrastructure for cohort imaging, with a dedicated service for population imaging data. Medical image analysis completes the set and turns acquired images into quantitative results. The staff's expertise also extends to the clinical implementation of imaging software.
 
 ## Imaging technologies offered
 
-The Node's technologies deal with what happens to medical images once they have been acquired, and the Imaging Office in Rotterdam offers all of them. The core is Advanced Support for Population Imaging Studies, which joins study design, data infrastructure and analysis for cohort imaging. It helps a researcher set up a cohort, prepare and store images securely, process them and obtain software tailored to the study. This makes it possible to work with imaging data from many participants in a consistent and reproducible way.
+The Node's methods deal with imaging data rather than imaging resolution. Two of them concern population imaging, where the aim is to gather, prepare and study images from cohorts of people. Advanced Support for Population Imaging Studies helps a researcher set up a cohort imaging study, from the study design to the infrastructure that holds the data. Its companion service for population imaging data (PI data) focuses on the data themselves. It covers secure preparation and storage, processing and software tailored to the study. Both are offered at the Imaging Office in Rotterdam.
 
-Advanced Support for Population Imaging Studies (PI data) focuses on the images and their records. This covers defacing and pseudo-anonymisation of scans, linking image data with clinical data, and curating and cataloguing datasets with metadata exchange standards. Images are managed on XNAT, an open-source imaging informatics platform for managing, sharing and quality-assuring imaging and associated data. The Node runs its XNAT instance in collaboration with the Dutch Health-RI initiative.
+Data preparation at the Imaging Office includes defacing and pseudo-anonymisation, so that images can be shared without revealing who the participants are. Staff also curate data, link images with clinical information and describe datasets with standard metadata so that others can find them in catalogues.
 
-Medical image analysis rounds out the data services by turning images into reproducible quantitative measurements. The tools the team has built include neuroimage analysis, epicardial fat quantification and 3D photocephalometric measurements of the skull.
+Medical image analysis adds quantification and reproducible processing of images that have already been acquired. Here the team applies its AI tools, such as automatic organ segmentation and semi-automatic tumour segmentation, and builds prediction models from imaging data.
+
+The central platform for the data work is XNAT, an open-source imaging informatics system for managing, sharing and quality-checking imaging and associated data. The Node runs its XNAT instance in collaboration with the Dutch Health-RI initiative.
 
 ### Technologies and instruments
 
-| Technology | Instrument highlights |
-| --- | --- |
-| [Advanced Support for Population Imaging Studies](#advanced-support-for-population-imaging-studies "advanced-support-for-population-imaging-studies") |  |
-| [Advanced Support for Population Imaging Studies (PI data)](#advanced-support-for-population-imaging-studies-pi-data "advanced-support-for-population-imaging-studies-pi-data") |  |
-| [Image analysis - med (IA med)](#image-analysis-med "image-analysis-med") |  |
+| Technology | Confirmed facility providers | Instrument highlights |
+| --- | --- | --- |
+| [Advanced Support for Population Imaging Studies](#advanced-support-for-population-imaging-studies "advanced-support-for-population-imaging-studies") | Imaging Office |  |
+| [Advanced Support for Population Imaging Studies (PI data)](#advanced-support-for-population-imaging-studies-pi-data "advanced-support-for-population-imaging-studies-pi-data") | Imaging Office |  |
+| [Image analysis - med (IA med)](#image-analysis-med "image-analysis-med") | Imaging Office |  |
 
 ## Specialties and research focus
 
-The research the Imaging Office serves is centred on people rather than on laboratory samples. Population-level epidemiological imaging is its main field, where images collected from large groups of participants are studied alongside clinical information. These studies ask how disease develops across a population and which imaging features relate to later health outcomes.
+The research supported at the Imaging Office centres on people rather than model organisms or tissue samples. Its main field is population-level epidemiological imaging, in which images from large groups help researchers understand how disease develops across a population. Closely tied to this is work on disease prevention and the early identification of disease, where imaging data from cohorts reveal signs before symptoms appear.
 
-Disease prevention and early identification form a second strand. Here the aim is to find signs of disease before symptoms appear, which is why automatic prediction models and quantitative measurements matter to this work. The team's skin cancer risk assessment tool is one example of analysis aimed at identifying people at higher risk.
+Oncology is the other main area. The Imaging Office takes part in EU cancer-imaging projects, and its tumour segmentation and prediction tools serve this research directly.
 
-Oncology is the third area, and the Imaging Office contributes to EU cancer-imaging projects. In this work, imaging data from many patients have to be collected, anonymised and structured in the same way before they can be compared or used to train AI models. Tumour segmentation supports these studies by outlining tumours in scans so that their size and shape can be measured. Beyond these fields, the analysis tools reach into neuroimaging, cardiac imaging through epicardial fat quantification, and measurement of skull shape.
+Several of its software applications point to the clinical questions the team works on. They include neuroimage analysis for brain studies and the quantification of epicardial fat, the fat layer around the heart. Other tools take three-dimensional photocephalometric skull measurements from photographs of the head and assess skin cancer risk. Each of these began as a research tool for a particular clinical question, and the team adapts such tools to new applications.
 
 ## Services and user support
 
-A project with the Node usually begins with methodological setup. Staff at the Imaging Office help design the study protocol and write the standard operating procedures that the study will follow. For a population or cohort study this step matters a great deal, because images collected over years and across sites need to be acquired and handled in the same way if they are to be compared.
+Work with the Node starts with methodological setup. Staff at the Imaging Office help researchers design the study protocol for an imaging study and write the standard operating procedures that keep data collection consistent. In population imaging this groundwork matters, because images often come from many participants over long periods. Agreeing early on how images are acquired, handled and described makes them comparable later on.
 
-Once data are available, the Node supports their processing and analysis. This is where the team's segmentation tools, prediction models and quantitative methods come into a project. Because the Imaging Office combines software engineers with data managers, processing can be fitted to how the study's data are organised rather than handled as a separate step. Researchers can therefore follow their project from the first protocol decisions through to quantitative results with one team, which keeps the methods consistent from the start of a study to its analysis.
+The second service is data processing and analysis. The Imaging Office team processes the imaging data from a study and carries out the analysis, drawing on its own AI tools for segmentation and prediction where they fit the question. Research software engineers can adapt an existing tool to a new clinical application rather than starting from nothing. They can also build an analysis pipeline into software that a specific group of users can run themselves.
 
-### Services offered
+Both services come from the same team of software engineers and data managers, so the people who help design a study also know how its data will be processed.
+
+### Services in the signed SLA
 
 - Methodological setup (e.g. design of study protocol and standard operation procedures)
 - Data processing and analysis
@@ -49,9 +53,11 @@ Once data are available, the Node supports their processing and analysis. This i
 | --- | --- | --- |
 | [Imaging Office, Erasmus MC](https://imagingoffice.erasmusmc.nl/populationimaging/ "population-imaging-flagship-node-rotterdam-imaging-office-erasmus-mc") | Department of Radiology and Nuclear Medicine, Erasmus MC | Rotterdam |
 
-The Node consists of one facility, the Imaging Office at Erasmus MC in Rotterdam. It is a platform within the Department of Radiology and Nuclear Medicine, built to provide infrastructure and services for medical imaging research rather than to run scanning sessions. Its work covers the full life of imaging data, from collection and anonymisation through structuring, storage and sharing to annotation, analysis and integration with other data. The Imaging Office suits projects in which the hardest problem is managing and making sense of many images, such as long-running cohorts or multi-centre cancer studies. It is linked to the European Population Imaging Infrastructure, EPI2, which connects its work to population imaging efforts beyond the Netherlands.
+The Imaging Office is the Node's only facility. It is a platform within the Department of Radiology and Nuclear Medicine at Erasmus MC in Rotterdam. It provides infrastructure and services for medical imaging research, and its work covers the full path of imaging data. That path runs from collection and anonymisation through structuring, storage and sharing to annotation, processing, analysis and integration.
 
-Because data management, software engineering and analysis sit in one team, a project does not have to move between groups as it progresses. A database designed at the start of a study can be built to suit the analysis planned for it. Tools developed for one clinical question can then be adapted for the next. The facility's expertise also extends to clinical implementation, so analysis methods developed in research can be shaped with use in clinical practice in mind.
+The facility offers support for population imaging studies, a dedicated service for population imaging data, and medical image analysis. Its people combine research software engineering with data management, and their expertise spans imaging research infrastructure, image analysis, data services, software development and clinical implementation. In practice this means they can design how a cohort's images are organised and then build the software that analyses them.
+
+The team develops AI tools for clinical research and adapts them to new uses, from organ and tumour segmentation to prediction models. Its applications include epidemiological imaging of whole populations, the prevention and early identification of disease, and oncology. In oncology the Imaging Office contributes to EU cancer-imaging projects.
 
 ## Access and contact
 

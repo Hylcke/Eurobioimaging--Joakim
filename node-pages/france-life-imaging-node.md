@@ -2,59 +2,55 @@
 
 ## Overview
 
-France Life Imaging (FLI) is a national network for biomedical imaging, and its main strength is in vivo imaging of small animals with magnetic resonance, nuclear, optical and ultrasound methods. It also runs human imaging, so a project can move from rodent models to clinical research within the same Node. FLI brings together 48 facilities at 43 institutions in 21 French cities, grouped into ten regional hubs. Preclinical imaging is offered at 34 facilities and clinical and human imaging at 23, and several sites run both.
+France Life Imaging (FLI) is a distributed Node for biomedical imaging that covers preclinical imaging of animal models and imaging of human subjects. Most of its facilities work in vivo with small animals, using MRI, nuclear imaging, ultrasound and optical methods, and a second large group offers human MRI, PET or magnetoencephalography (MEG) for clinical and neuroscience research. The Node brings together 48 facilities at 43 institutions in 21 cities across France, including Paris, Lyon and Marseille.
 
-The Node organises its expertise into networks for molecular imaging agents, instrumentation, image-guided interventional radiology, multimodal image analysis and training. A further hub works on harmonising, tracing and processing large preclinical and clinical datasets from several centres. Radiochemistry is a recurring skill, and staff at CERMEP in Lyon, CYCERON in Caen and GAIA in Grenoble produce and evaluate radiotracers. MR specialists at ICube in Strasbourg and LiiFE in Lille develop and harmonise MRI sequences, while BNIF in Montpellier designs its own coils. CRMBM/CEMEREM in Marseille adapts MR methods to the brain, heart and muscle, and PhotoVivo in Nancy develops label-free optical methods for characterising tissue.
+FLI organises its expertise into networks for molecular imaging agents, instrumentation and technological innovation, image-guided interventional radiology and multimodal image analysis. Staff at GAIA in Grenoble, CIMA in Nantes and CYCERON in Caen have radiochemistry expertise, and CIMA evaluates new PET radiopharmaceuticals. FRIM in Paris adds radiolabelling with gallium-68 and copper-64. CRMBM/CEMEREM in Marseille and CREATIS in Lyon develop new MR methods, and BNIF in Montpellier designs its own coils and antennas. NeurInfo in Rennes combines human MRI with neuroinformatics, and staff at TBM-Core in Bordeaux work routinely with in vivo tumour models.
 
-Neuroscientists who work with human participants will find MRI, MEG and PET-MRI together at CENIR in Paris. CERMEP in Lyon and SHFJ in Orsay each offer human PET, PET-MRI and MRI alongside small-animal PET/CT and MRI, which suits projects that carry a tracer or treatment from rodents into patients. Cancer researchers using small-animal models will find oncology-focused platforms in Bordeaux, Montpellier and Villejuif. Groups in agri-food and nutrition research are served by sites in Rennes and Theix.
+Preclinical MRI at 7 tesla or above is at 16 facilities, including CERMEP in Lyon, CRMBM/CEMEREM in Marseille and FRIM in Paris. Small-animal PET/CT is at 12 facilities, among them SHFJ in Orsay, and micro-PET/MRI is at CIMA, GAIA, CYCERON and FRIM. Photoacoustic imaging is at Optimal in Grenoble, IPAM-U1046 in Montpellier and the PIV small-animal imaging platform in Paris. Human MRI below 7 tesla is at 21 facilities, while 7 tesla human MRI is at CRMBM/CEMEREM. MEG is at INS in Marseille and three other facilities, and human PET is at the Nancyclotep molecular imaging platform in Vandœuvre-lès-Nancy and three others.
 
 ## Imaging technologies offered
 
-Small-animal magnetic resonance is the most widespread method in FLI, with micro-MRI and MRS at 7 tesla or above offered at 16 facilities. It shows soft-tissue anatomy, physiology and metabolites without ionising radiation, and the same animal can be scanned repeatedly. PRISM in Rennes runs a 7T small-animal system with a cryoprobe and an 11.7T system.
+Preclinical MRI and MR spectroscopy at 7 tesla and above are the most widely shared small-animal methods. They let researchers follow anatomy, tissue physiology and metabolites in the same animals over repeated sessions, and fields reach 11.7 tesla at CREATIS in Lyon and AgroResonance in Theix. FRIM runs a Bruker BioSpec 7T alongside its micro-PET/MRI and micro-SPECT-CT systems.
 
-Nuclear imaging is the second pillar. Micro-PET/CT at 12 facilities and micro-SPECT-CT at five follow radiolabelled tracers through the body, so researchers can measure biodistribution and kinetics against an anatomical reference. Micro-PET/MRI adds soft-tissue contrast and is offered at four facilities, including CIMA in Nantes, which runs a HALO 3.0 PET insert for rodents in a cryogen-free magnet.
+Nuclear imaging measures where a radiotracer goes and how its distribution changes over time. Micro-PET/CT and micro-SPECT-CT place the tracer signal on CT anatomy, and micro-PET/MRI adds soft-tissue contrast, which CIMA provides with a HALO 3.0 PET insert on a cryogen-free Caméléon4 magnet. Micro-SPECT is at PRISM in Rennes and Angers and at SHFJ in Orsay.
 
-In vivo optical imaging reads bioluminescent and fluorescent reporters in intact animals at 12 facilities, and micro-ultrasound at 12 shows organs and blood flow quickly and without radiation. Photoacoustic imaging adds vascular contrast at Optimal in Grenoble, IPAM-U1046 in Montpellier and the PIV small-animal imaging platform in Paris. Intravital microscopy at IVM in La Tronche follows cells inside living animals.
+In vivo optical imaging follows bioluminescent and fluorescent reporters in the whole animal. Preclinical ultrasound shows structure and blood flow without ionising radiation, and photoacoustic imaging adds vascular contrast, as with the Vevo LAZR-X at IPAM-U1046. Micro-CT gives 3D anatomy including bone at nine facilities. IVM in La Tronche offers intravital microscopy of cells in living animals, and CYCERON also offers magnetic particle imaging of nanoparticle tracers.
 
-For human studies, MRI and MRS below 7 tesla is offered at 21 facilities, and CRMBM/CEMEREM and LiiFE add MRI at 7 tesla or above. Human PET is available at four facilities, among them the Nancyclotep molecular imaging platform with four PET scanners, three of them digital. MEG measures neural electrical activity directly in time at Clinatec, CERMEP, INS and CENIR, and INS runs a 248-magnetometer system.
+For human studies, MRI and MRS show anatomy, tissue physiology and metabolites. MEG records the timing of neural activity directly, with a 248-magnetometer system at INS. Human PET measures tracer distribution and kinetics, and PET-MRI at CERMEP, CENIR and SHFJ adds soft-tissue context.
 
 ### Technologies and instruments
 
-| Technology | Instrument highlights |
-| --- | --- |
-| [in vivo optical imaging (OI)](#in-vivo-optical-imaging-oi "in-vivo-optical-imaging-oi") | TBM-Core: FMT 4000; Gustave Roussy - Preclinical optical imaging: IVIS Lumina III, IVIS Spectrum (SpectrumCT), Quantum GX3 µCT, IVIS 50 (PerkinElmer) |
-| [intravital microscopy (IVM-med)](#intravital-microscopy-ivm-med "intravital-microscopy-ivm-med") |  |
-| [Magnetic Particle Imaging (MPI)](#magnetic-particle-imaging-mpi-1 "magnetic-particle-imaging-mpi-1") |  |
-| [micro-CT](#micro-ct "micro-ct") | IPAM-IRCM: Mediso |
-| [micro-MRI/MRS (Field >= 7 T)](#micro-mri-mrs-gte-7t "micro-mri-mrs-gte-7t") | IBIO: 11.7T high-resolution NMR; PRISM: Bio-SCANs: 7T small-animal MRI/MRS with cryoprobe, 11.7T micro-MRI/MRS; AgroResonance: 9.4 T (Avance III 400), 11.7 T (Biospec 117/16); CREATIS: 7T and 11.7T; LiiFE: 7T MRI (Bruker Biospec, rodent); BNIF: MRI 9.4 T; CREFRE-Anexplo non-invasive exploration: 7T MRI (Pharmascan Biospec 7T, Bruker); FRIM: Bruker BioSpec 7T, PharmaScan 7T |
-| [micro-PET](#micro-pet "micro-pet") |  |
-| [micro-PET/CT](#micro-pet-ct "micro-pet-ct") | BNIF: Mediso; CREFRE-Anexplo non-invasive exploration: NanoScan PET-CT (Mediso) |
-| [micro-PET/MRI](#micro-pet-mri "micro-pet-mri") | CIMA: HALO 3.0 (Inviscan) PET insert for rodents, preclinical PET/MR system using cryogen-free Caméléon4 (RS2D) magnet technology; FRIM: NanoScan PET/MRI 1T |
-| [micro-SPECT](#micro-spect "micro-spect") |  |
-| [micro-SPECT-CT](#micro-spect-ct "micro-spect-ct") | IPAM-IRCM: Mediso; FRIM: NanoSPECT/CT Plus |
-| [micro-US](#micro-us "micro-us") | CREFRE-Anexplo non-invasive exploration: Vevo 2100 (VisualSonics) ultrafast ultrasound; IPAM-U1046: Vevo 3100 (VisualSonics) ultrasound, Vevo LAZR-X (VisualSonics) photoacoustic; FRIM: VisualSonics Vevo 2100 |
-| [PhotoAcoustic Imaging (PAI) - med](#photoacoustic-imaging-pai-med "photoacoustic-imaging-pai-med") | IPAM-U1046: Vevo LAZR-X (VisualSonics) photoacoustic |
-| [Advanced Support for Population Imaging Studies](#advanced-support-for-population-imaging-studies "advanced-support-for-population-imaging-studies") |  |
-| [MagnetoEncephaloGraphy (MEG)](#magnetoencephalography-meg-1 "magnetoencephalography-meg-1") | INS: 248-magnetometer MEG system (4D Neuroimaging Magnes 3600) |
-| [MRI/MRS (< 7T)](#mri-mrs-lt-7t "mri-mrs-lt-7t") | IBIO: Siemens Prisma 3T MRI; NeurInfo: 3T Siemens Prisma MRI; LiiFE: 3T research MRI (Lille University Hospital); ToNIC MRI platform: 3T Philips Achieva dStream MRI; CIREN: Canon 3T MRI dedicated to clinical neuroimaging research |
-| [MRI/MRS (>= 7T)](#mri-mrs-gte-7t "mri-mrs-gte-7t") |  |
-| [PET](#pet "pet") | Nancyclotep molecular imaging platform: 4 PET scanners (3 digital) |
-| [PET-MRI](#pet-mri-1 "pet-mri-1") |  |
-| [PET/CT](#pet-ct "pet-ct") |  |
+| Technology | Confirmed facility providers | Instrument highlights |
+| --- | --- | --- |
+| [in vivo optical imaging (OI)](#in-vivo-optical-imaging-oi "in-vivo-optical-imaging-oi") | TBM-Core, OptiRAD, PhotoVivo, Optimal, CREATIS, IVIA, CERIMED, CREFRE-Anexplo non-invasive exploration, IPAM-IRCM, PIV small-animal imaging platform, Gustave Roussy - Preclinical optical imaging, SHFJ | TBM-Core: FMT 4000 |
+| [intravital microscopy (IVM-med)](#intravital-microscopy-ivm-med "intravital-microscopy-ivm-med") | IVM |  |
+| [Magnetic Particle Imaging (MPI)](#magnetic-particle-imaging-mpi-1 "magnetic-particle-imaging-mpi-1") | CYCERON |  |
+| [micro-CT](#micro-ct "micro-ct") | Clinatec, ICube, PRISM, Optimal, CERMEP, CERIMED, IPAM-IRCM, PIV small-animal imaging platform, Photonic BioImaging | IPAM-IRCM: Mediso |
+| [micro-MRI/MRS (Field >= 7 T)](#micro-mri-mrs-gte-7t "micro-mri-mrs-gte-7t") | IBIO, Life Sciences Imaging Platform, ICube, PRISM, AgroResonance, CERMEP, CREATIS, CRMBM/CEMEREM, CYCERON, LiiFE, BNIF, CREFRE-Anexplo non-invasive exploration, CENIR, FRIM, NMR Laboratory, SHFJ | IBIO: 11.7T high-resolution NMR; PRISM: Bio-SCANs: 7T small-animal MRI/MRS with cryoprobe, 11.7T micro-MRI/MRS; AgroResonance: 9.4 T (Avance III 400), 11.7 T (Biospec 117/16); CREATIS: 7T and 11.7T; LiiFE: 7T MRI (Bruker Biospec, rodent); BNIF: MRI 9.4 T; CREFRE-Anexplo non-invasive exploration: 7T MRI (Pharmascan Biospec 7T, Bruker); FRIM: Bruker BioSpec 7T, PharmaScan 7T |
+| [micro-PET](#micro-pet "micro-pet") | GAIA, IVIA, CYCERON |  |
+| [micro-PET/CT](#micro-pet-ct "micro-pet-ct") | Cyrce platform, Nancyclotep molecular imaging platform, CIMA, PRISM, CERMEP, CERIMED, CYCERON, LiiFE, BNIF, CREFRE-Anexplo non-invasive exploration, PIV small-animal imaging platform, SHFJ | BNIF: Mediso; CREFRE-Anexplo non-invasive exploration: NanoScan PET-CT (Mediso) |
+| [micro-PET/MRI](#micro-pet-mri "micro-pet-mri") | CIMA, GAIA, CYCERON, FRIM | CIMA: HALO 3.0 (Inviscan) PET insert for rodents, preclinical PET/MR system using cryogen-free Caméléon4 (RS2D) magnet technology; FRIM: NanoScan PET/MRI 1T |
+| [micro-SPECT](#micro-spect "micro-spect") | PRISM, SHFJ |  |
+| [micro-SPECT-CT](#micro-spect-ct "micro-spect-ct") | GAIA, IVIA, CERIMED, IPAM-IRCM, FRIM | IPAM-IRCM: Mediso; FRIM: NanoSPECT/CT Plus |
+| [micro-US](#micro-us "micro-us") | GAIA, Optimal, CERMEP, CREATIS, CERIMED, CYCERON, CREFRE-Anexplo non-invasive exploration, IPAM-U1046, FRIM, PIV small-animal imaging platform, Gustave Roussy - Preclinical ultrasound imaging, SHFJ | CREFRE-Anexplo non-invasive exploration: Vevo 2100 (VisualSonics) ultrafast ultrasound; IPAM-U1046: Vevo 3100 (VisualSonics) ultrasound, Vevo LAZR-X (VisualSonics) photoacoustic; FRIM: VisualSonics Vevo 2100 |
+| [PhotoAcoustic Imaging (PAI) - med](#photoacoustic-imaging-pai-med "photoacoustic-imaging-pai-med") | Optimal, IPAM-U1046, PIV small-animal imaging platform | IPAM-U1046: Vevo LAZR-X (VisualSonics) photoacoustic |
+| [Advanced Support for Population Imaging Studies](#advanced-support-for-population-imaging-studies "advanced-support-for-population-imaging-studies") | No confirmed facility provider yet |  |
+| [MagnetoEncephaloGraphy (MEG)](#magnetoencephalography-meg-1 "magnetoencephalography-meg-1") | Clinatec, CERMEP, INS, CENIR | INS: 248-magnetometer MEG system (4D Neuroimaging Magnes 3600) |
+| [MRI/MRS (< 7T)](#mri-mrs-lt-7t "mri-mrs-lt-7t") | IBIO, Life Sciences Imaging Platform, Clinatec, IADI, ICube, NeurInfo, IRMaGe, iRMaGe, CERMEP, IVIA, CERIMED, CRMBM/CEMEREM, INT, CYCERON, LiiFE, Montpellier University Hospital Functional Imaging Platform, ToNIC MRI platform, CENIR, CIREN, NMR Laboratory, SHFJ | IBIO: Siemens Prisma 3T MRI; NeurInfo: 3T Siemens Prisma MRI; LiiFE: 3T research MRI (Lille University Hospital); ToNIC MRI platform: 3T Philips Achieva dStream MRI; CIREN: Canon 3T MRI dedicated to clinical neuroimaging research |
+| [MRI/MRS (>= 7T)](#mri-mrs-gte-7t "mri-mrs-gte-7t") | CRMBM/CEMEREM |  |
+| [PET](#pet "pet") | Nancyclotep molecular imaging platform, CERMEP, CYCERON, SHFJ | Nancyclotep molecular imaging platform: 4 PET scanners (3 digital) |
+| [PET-MRI](#pet-mri-1 "pet-mri-1") | CERMEP, CENIR, SHFJ |  |
+| [PET/CT](#pet-ct "pet-ct") | Nancyclotep molecular imaging platform, CERMEP, CERIMED, CYCERON, SHFJ |  |
 
 ## Specialties and research focus
 
-Cancer research links the largest number of facilities. TBM-Core in Bordeaux works with tumour models and evaluates therapeutic and diagnostic agents and devices. CIMA and the Nancyclotep molecular imaging platform focus on radiopharmaceuticals and theranostics, with CIMA working on glioblastoma. OptiRAD in Nancy studies how radiation interacts with tissue, including in brain tumours. The Gustave Roussy optical imaging platform in Villejuif characterises orthotopic tumour models.
+Oncology runs through much of the Node. TBM-Core works on tumour models, nanoparticle biodistribution and the testing of diagnostic and therapeutic agents and devices. The Nancyclotep molecular imaging platform focuses on theranostics and nuclear medicine, CIMA on glioblastoma and new radiopharmaceuticals, and OptiRAD in Nancy on brain tumours, radiotherapy and nanoparticles. Optimal studies therapy efficacy, gene-therapy vectors and peritoneal carcinomatosis, while PhotoVivo in Nancy works on cancer diagnosis and skin.
 
-Neuroscience is the second large field. CENIR, CIREN and NeurInfo serve research on healthy and diseased human brains, and CIREN covers vascular, tumour, epilepsy and psychiatric conditions. INS in Marseille studies systems neuroscience, brain dynamics and epilepsy, while CYCERON in Caen works on memory, stroke, cognition and oncology. CRMBM/CEMEREM covers neurological, cardiovascular and muscular disease, and the NMR Laboratory at the Institut de Myologie in Paris studies muscle in neuromuscular disorders. Agri-food, plant and nutrition research is served by AgroResonance in Theix and by PRISM, which works across Rennes and Angers. BNIF in Montpellier images animals, plants and human tissues, and CREFRE-Anexplo in Toulouse brings experience in infection imaging.
+Brain research is the second large theme. CIREN in Paris studies vascular and tumour disease, epilepsy and mental illness in the human nervous system, and INS works on epilepsy and brain dynamics. CYCERON covers memory, stroke and cognition, and NeurInfo studies diseases of the nervous system and the healthy brain. Muscle is the focus at the NMR Laboratory in Paris, which studies neuromuscular disease, and CRMBM/CEMEREM researches neurological, cardiovascular and muscular disorders. Outside medicine, AgroResonance and PRISM serve agri-food, plant and nutrition research, and CREFRE-Anexplo non-invasive exploration in Toulouse images infection in animal models.
 
 ## Services and user support
 
-Projects usually begin with methodological setup, when staff help design the protocol. IBIO in Bordeaux and IRMaGe in La Tronche also give ethics guidance for animal and human experiments. Training in infrastructure use is offered across the Node, with training in MRI physics and safety at IBIO. Researchers can then work with technical assistance on the instruments.
-
-Several sites add specialist support. GAIA labels probes with radiotracers, runs radiochemistry and evaluates new probes for biodistribution and pharmacokinetics. The Vivoptic platform at TBM-Core develops biological models and provides cell lines, and IVM offers histology and cytology. CREFRE-Anexplo maintains SPF status during imaging, and Clinatec supports image-guided interventions. Clinical research support is offered at IADI and at the Nancyclotep platform, and PhotoVivo supports translational clinical trials. LiiFE runs pilot studies and functional exploration and develops AI tools, while ICube develops MRI sequences, instrumentation and robotic assistance. Data processing and analysis is available throughout the Node, with multiscale tissue analysis at Institut Fresnel. CIREN, IVIA and NeurInfo handle data management, including transfer and archiving. Collaborative research and research and development projects are also part of what FLI offers.
-
-### Services offered*
+### Services currently recorded (not in the signed SLA, please confirm)
 
 - Technical assistance to run instrument
 - Methodological setup
@@ -75,11 +71,8 @@ Several sites add specialist support. GAIA labels probes with radiotracers, runs
 - Clinical research support (translational clinical trials), at PhotoVivo
 - Data processing and analysis (multiscale and tissue analysis, coloured-effect quantification), at Institut Fresnel
 - SPF-status maintenance during imaging (at CREFRE-Anexplo)
-- Pilot studies (feasibility), at LiiFE
 - Functional-exploration support (at LiiFE)
 - Method development (AI tools), at LiiFE
-- Collaborative research
-- Research and development
 
 ## Facilities
 
@@ -134,11 +127,11 @@ Several sites add specialist support. GAIA labels probes with radiotracers, runs
 | [Paris Sud Hub / PIMPA, IJCLab two-photon imaging platform, Orsay](https://sante.ijclab.in2p3.fr/en/platforms/ "france-life-imaging-node-paris-sud-hub-pimpa-ijclab-two-photon-imaging-platform-orsay") | IJCLab (PIMPA platform) | Orsay |
 | [Paris Sud Hub / SHFJ (Service Hospitalier Frederic Joliot), Orsay](https://joliot.cea.fr/drf/joliot/Pages/Entites_de_recherche/SHFJ.aspx "france-life-imaging-node-paris-sud-hub-shfj-service-hospitalier-frederic-joliot-orsay") | CEA / Service Hospitalier Frédéric Joliot (SHFJ) | Orsay |
 
-FLI is organised into ten regional hubs, each grouping facilities in one city or region. Some hubs centre on a large multimodal site, such as CERIMED in Marseille, which combines preclinical and clinical imaging with research on radiopharmaceuticals and instrumentation. Other hubs are networks of smaller, specialised platforms. The Grand Est hub links the Cyrce platform in Strasbourg, which produces isotopes and irradiates samples, with clinical, optical and irradiation platforms in Nancy. IVIA federates several entities around Clermont-Ferrand and Theix into one multimodal in vivo platform.
+The large multimodal centres combine preclinical and human imaging with radiochemistry. CERMEP, SHFJ and CYCERON each offer human PET and MRI alongside small-animal MRI, PET/CT and ultrasound. CERIMED in Marseille develops and validates new imaging protocols and radiopharmaceuticals. The Nancyclotep molecular imaging platform adds radiopharmacy and theranostics, and the Cyrce platform in Strasbourg produces isotopes with a cyclotron and offers micro-PET/CT.
 
-In Paris, FRIM and the four-site PIV small-animal imaging platform concentrate on small-animal work, while CIREN focuses on the human nervous system. Grenoble pairs preclinical platforms with Clinatec, which connects imaging to neurotechnology and clinical translation. In Montpellier, IPAM-IRCM handles nuclear and optical imaging and IPAM-U1046 handles ultrasound and photoacoustics. Toulouse adds the ToNIC MRI platform for neuroimaging, and the Montpellier University Hospital Functional Imaging Platform works on human functional MRI and spectroscopy.
+Magnetic resonance specialists form a second group. CRMBM/CEMEREM and the NMR Laboratory apply MR to the nervous system, heart and muscle, and BNIF builds its own MR instrumentation. ICube in Strasbourg develops MRI sequences and medical image processing. Among the small-animal platforms, FRIM and PRISM combine MRI with nuclear imaging, while CREFRE-Anexplo non-invasive exploration also adds ultrasound and optical imaging. Optical expertise is strong in Nancy, where OptiRAD studies how radiation interacts with tissue and PhotoVivo develops label-free optical biopsy. IPAM-IRCM in Montpellier pairs optical imaging with micro-SPECT-CT for oncology.
 
-Several facilities contribute expertise rather than imaging methods of their own. The LORIA image-analysis platform in Nancy provides computational support for medical image analysis. PLaTIMed in Brest works on medical-device evaluation and on AI for orthopaedic and neurosurgical imaging. LabTAU in Lyon develops therapeutic applications of image-guided ultrasound, and Institut Fresnel in Marseille brings expertise in optics and optical tissue characterisation. PIMPA in Orsay is the small-animal imaging platform of IJCLab.
+Human neuroimaging platforms include CIREN in Paris, iRMaGe in La Tronche and the ToNIC MRI platform in Toulouse, with further groups in Marseille and Montpellier. Some groups contribute expertise rather than imaging methods. The LORIA image-analysis platform in Nancy supports medical image analysis, PLaTIMed in Brest evaluates medical devices, and LabTAU in Lyon develops therapeutic ultrasound. Institut Fresnel in Marseille brings optics and tissue characterisation, and PIMPA in Orsay supports small-animal biomedical research.
 
 ## Access and contact
 

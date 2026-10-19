@@ -2,59 +2,57 @@
 
 ## Overview
 
-The Finnish Biomedical Imaging Node (FiBI) is built around positron emission tomography (PET) and the development of new PET tracers. The Turku PET Centre in Turku offers PET in both animals and humans, so a tracer study can move from mouse models to human subjects within one Node. Around this PET work, FiBI adds preclinical high-field MRI, magnetoencephalography (MEG) and optical intravital imaging. The Node has ten facilities at ten institutions in Espoo, Helsinki, Kuopio and Turku, and seven of them are in Helsinki. It covers preclinical imaging and clinical and human imaging.
+The Finnish Biomedical Imaging Node (FiBI) covers biomedical imaging from mouse to man, with preclinical imaging of animals at its core. Its main strengths are PET imaging with tracer development, preclinical high-field MRI, magnetoencephalography (MEG) and optical intravital imaging. The Node has 10 facilities at 10 institutions in Espoo, Helsinki, Kuopio and Turku, and it offers both preclinical and human imaging.
 
-The Turku PET Centre is a national research institute for short-lived positron-emitting isotopes. Its staff keep a large tracer collection for studies of blood perfusion, glucose and fatty-acid metabolism, inflammation and neurotransmission, and they continue to add new tracers made in-house. RadChem in Helsinki brings expertise in designing and radiolabelling new tracers. Kuopio-BIU in Kuopio specialises in small-animal MRI, including ex vivo MRI microscopy and MRI combined with PET. The In Vivo Brain Imaging Unit in Helsinki images the brains of mice that are either anaesthetised or awake and behaving. Across the Node, staff work with animal models that range from mice to pigs.
+Tracer chemistry is central to the Node's expertise. Radiochemists at Turku PET Centre and RadChem in Helsinki design, synthesise and radiolabel tracers. The Node's tracer collection covers blood perfusion, glucose and fatty-acid metabolism, inflammation and neurotransmission, and new in-house tracers are added continually. The team at Kuopio-BIU in Kuopio specialises in small-animal MRI combined with other modalities and in ex vivo MRI microscopy. The In Vivo Brain Imaging Unit in Helsinki images the brains of anaesthetised and awake, behaving mice and links brain activity to behaviour. Animal models at the Node range from mice to pigs, and DISA in Helsinki supports imaging of research animals up to horses.
 
-Researchers in cancer, cardiovascular disease or metabolism who need PET in animals or people will find most support at the Turku PET Centre. Projects that depend on high-field MRI of small animals or tissue specimens suit Kuopio-BIU. Rodent neuroscientists who want to link brain activity to behaviour should look to the In Vivo Brain Imaging Unit, while human neuroscience projects can use the MEG groups in Espoo and Helsinki.
+Preclinical high-field MRI is at Kuopio-BIU in Kuopio, which also offers micro-PET and simultaneous micro-PET/MRI. Human PET and PET-MRI are at Turku PET Centre in Turku, which also offers preclinical PET, ultrasound and optical imaging. MEG is at ANI in Espoo and the BioMag Laboratory in Helsinki. Intravital microscopy is at BIU-IVI and the In Vivo Brain Imaging Unit, both in Helsinki. Micro-SPECT/CT is at the SPECT-CT Imaging Unit in Helsinki, and the MicroCT Laboratory in Helsinki specialises in X-ray microtomography.
 
 ## Imaging technologies offered
 
-PET is the core of the Node. The Turku PET Centre offers human PET and PET-MRI, which let researchers follow where a tracer goes and how quickly it is taken up, alongside soft-tissue anatomy. Its instruments include a Siemens Biograph Vision Quadra total-body PET/CT and a dedicated brain PET scanner (HRRT). For animal work, micro-PET is offered by the Turku PET Centre and Kuopio-BIU, and micro-PET/CT by the Turku PET Centre and BIU-IVI.
+Preclinical nuclear imaging follows where a tracer goes in a living animal and how quickly it gets there. Micro-PET is offered by Kuopio-BIU and Turku PET Centre, and micro-PET/CT by BIU-IVI and Turku PET Centre, which adds anatomical context to the tracer signal. Kuopio-BIU also offers simultaneous micro-PET/MRI. The SPECT-CT Imaging Unit offers micro-SPECT and micro-SPECT-CT with a four-detector nanoSPECT/CT system, for tracers labelled with gamma-emitting isotopes.
 
-Preclinical MRI and MR spectroscopy are concentrated at Kuopio-BIU, which works at fields below and above 7 T and also offers micro-PET/MRI and ex vivo high-field MRI. Its systems include a vertical 11.7 T Bruker MicroImaging scanner for small specimens. For human brain research, ANI and BioMag Laboratory offer MEG, which records neural electrical activity with millisecond timing. ANI and the Turku PET Centre also offer human MRI.
+Preclinical MRI and spectroscopy at Kuopio-BIU show anatomy, physiology and metabolites in animal organs without sectioning. Its systems include a 9.4 T horizontal scanner and a vertical 11.7 T system, and it also images fixed specimens at high field. Optical methods add cellular and reporter readouts. In vivo optical imaging at BIU-IVI and Turku PET Centre measures fluorescence or bioluminescence in whole animals, and intravital microscopy at BIU-IVI and the In Vivo Brain Imaging Unit follows cells inside living tissue. BIU-IVI uses a Leica Stellaris 8 DIVE for this work. Micro-CT gives 3D anatomy, including bone, at four facilities, and micro-ultrasound records structure and blood flow.
 
-Optical methods follow cells and reporters in living animals. Intravital microscopy is offered by BIU-IVI, which runs a Leica Stellaris 8 DIVE, and by the In Vivo Brain Imaging Unit. Whole-animal optical imaging is available at BIU-IVI and the Turku PET Centre. Supporting methods include micro-CT at four facilities for 3D anatomy and mineralised tissue, micro-ultrasound, and micro-SPECT/CT at the SPECT-CT Imaging Unit, which uses a four-detector nanoSPECT/CT system.
+In human imaging, Turku PET Centre offers PET and PET-MRI on scanners that include a Siemens Biograph Vision Quadra total-body PET/CT. MEG at ANI and the BioMag Laboratory measures the magnetic fields of neural activity directly in time, and ANI and Turku PET Centre offer human MRI and spectroscopy.
 
 ### Technologies and instruments
 
-| Technology | Instrument highlights |
-| --- | --- |
-| [in vivo optical imaging (OI)](#in-vivo-optical-imaging-oi "in-vivo-optical-imaging-oi") |  |
-| [intravital microscopy (IVM-med)](#intravital-microscopy-ivm-med "intravital-microscopy-ivm-med") |  |
-| [micro-CT](#micro-ct "micro-ct") | BIU-IVI: Quantum GX2 microCT; MicroCT Laboratory: Bruker SkyScan 1272; Turku PET Centre: Siemens Biograph Vision Quadra total-body PET/CT |
-| [micro-MRI/MRS (Field < 7 T)](#micro-mri-mrs-lt-7t "micro-mri-mrs-lt-7t") |  |
-| [micro-MRI/MRS (Field >= 7 T)](#micro-mri-mrs-gte-7t "micro-mri-mrs-gte-7t") |  |
-| [micro-PET](#micro-pet "micro-pet") | Turku PET Centre: PET/MRI (3.0T), Siemens Biograph Vision Quadra total-body PET/CT |
-| [micro-PET/CT](#micro-pet-ct "micro-pet-ct") | Turku PET Centre: Siemens Biograph Vision Quadra total-body PET/CT |
-| [micro-PET/MRI](#micro-pet-mri "micro-pet-mri") |  |
-| [micro-SPECT](#micro-spect "micro-spect") |  |
-| [micro-SPECT-CT](#micro-spect-ct "micro-spect-ct") | SPECT-CT Imaging Unit: Four-detector nanoSPECT/CT system |
-| [micro-US](#micro-us "micro-us") | Turku PET Centre: Vevo2100 |
-| [ex-vivo micro-CT](#ex-vivo-micro-ct "ex-vivo-micro-ct") | BIU-IVI: Quantum GX2 microCT |
-| [micro-MRI/MRS (<7 T)ex-vivo](#micro-mri-mrs-lt-7t-ex-vivo "micro-mri-mrs-lt-7t-ex-vivo") |  |
-| [micro-MRI/MRS (>= 7 T)ex-vivo](#micro-mri-mrs-gte-7t-ex-vivo "micro-mri-mrs-gte-7t-ex-vivo") |  |
-| [MagnetoEncephaloGraphy (MEG)](#magnetoencephalography-meg-1 "magnetoencephalography-meg-1") |  |
-| [MRI/MRS (< 7T)](#mri-mrs-lt-7t "mri-mrs-lt-7t") |  |
-| [PET](#pet "pet") | Turku PET Centre: PET/MRI (3.0T), Siemens Biograph Vision Quadra total-body PET/CT |
-| [PET-MRI](#pet-mri-1 "pet-mri-1") | Turku PET Centre: PET/MRI (3.0T) |
-| [PET/CT](#pet-ct "pet-ct") | Turku PET Centre: Siemens Biograph Vision Quadra total-body PET/CT |
+| Technology | Confirmed facility providers | Instrument highlights |
+| --- | --- | --- |
+| [in vivo optical imaging (OI)](#in-vivo-optical-imaging-oi "in-vivo-optical-imaging-oi") | BIU-IVI, Turku PET Centre |  |
+| [intravital microscopy (IVM-med)](#intravital-microscopy-ivm-med "intravital-microscopy-ivm-med") | BIU-IVI, In Vivo Brain Imaging Unit |  |
+| [micro-CT](#micro-ct "micro-ct") | BIU-IVI, Kuopio-BIU, MicroCT Laboratory, Turku PET Centre | BIU-IVI: Quantum GX2 microCT; MicroCT Laboratory: Bruker SkyScan 1272; Turku PET Centre: Siemens Biograph Vision Quadra total-body PET/CT |
+| [micro-MRI/MRS (Field < 7 T)](#micro-mri-mrs-lt-7t "micro-mri-mrs-lt-7t") | Kuopio-BIU |  |
+| [micro-MRI/MRS (Field >= 7 T)](#micro-mri-mrs-gte-7t "micro-mri-mrs-gte-7t") | Kuopio-BIU |  |
+| [micro-PET](#micro-pet "micro-pet") | Kuopio-BIU, Turku PET Centre | Turku PET Centre: PET/MRI (3.0T), Siemens Biograph Vision Quadra total-body PET/CT |
+| [micro-PET/CT](#micro-pet-ct "micro-pet-ct") | BIU-IVI, Turku PET Centre | Turku PET Centre: Siemens Biograph Vision Quadra total-body PET/CT |
+| [micro-PET/MRI](#micro-pet-mri "micro-pet-mri") | Kuopio-BIU |  |
+| [micro-SPECT](#micro-spect "micro-spect") | SPECT-CT Imaging Unit |  |
+| [micro-SPECT-CT](#micro-spect-ct "micro-spect-ct") | SPECT-CT Imaging Unit | SPECT-CT Imaging Unit: Four-detector nanoSPECT/CT system |
+| [micro-US](#micro-us "micro-us") | In Vivo Brain Imaging Unit, Turku PET Centre | Turku PET Centre: Vevo2100 |
+| [ex-vivo micro-CT](#ex-vivo-micro-ct "ex-vivo-micro-ct") | BIU-IVI | BIU-IVI: Quantum GX2 microCT |
+| [micro-MRI/MRS (<7 T)ex-vivo](#micro-mri-mrs-lt-7t-ex-vivo "micro-mri-mrs-lt-7t-ex-vivo") | No confirmed facility provider yet |  |
+| [micro-MRI/MRS (>= 7 T)ex-vivo](#micro-mri-mrs-gte-7t-ex-vivo "micro-mri-mrs-gte-7t-ex-vivo") | Kuopio-BIU |  |
+| [MagnetoEncephaloGraphy (MEG)](#magnetoencephalography-meg-1 "magnetoencephalography-meg-1") | ANI, BioMag Laboratory |  |
+| [MRI/MRS (< 7T)](#mri-mrs-lt-7t "mri-mrs-lt-7t") | ANI, Turku PET Centre |  |
+| [PET](#pet "pet") | Turku PET Centre | Turku PET Centre: PET/MRI (3.0T), Siemens Biograph Vision Quadra total-body PET/CT |
+| [PET-MRI](#pet-mri-1 "pet-mri-1") | Turku PET Centre | Turku PET Centre: PET/MRI (3.0T) |
+| [PET/CT](#pet-ct "pet-ct") | Turku PET Centre | Turku PET Centre: Siemens Biograph Vision Quadra total-body PET/CT |
 
 ## Specialties and research focus
 
-Much of the Node's science concerns disease in whole organisms. The Turku PET Centre works on cancer, cardiovascular disease, brain research, metabolism and inflammation. Its tracers reflect these fields, with [15O]H2O, [18F]FDG and [18F]FTHA for cardiovascular and metabolic studies. Cancer work uses tracers such as [11C]Methionine and [68Ga]DOTANOC, and brain studies use [11C]Raclopride and [11C]UCB-J.
+Much of the Node's research uses PET tracers to study disease in animals and people. Turku PET Centre works on cancer, cardiovascular disease, brain research, metabolism and inflammation. Its tracers match these fields, with [18F]FTHA and [11C]Acetate for cardiovascular and metabolic studies, [68Ga]DOTANOC and [18F]rhPSMA7.3 for cancer, and [11C]PIB and [11C]UCB-J for the brain. RadChem in Helsinki supports molecular imaging, drug development and biodistribution studies, and the SPECT-CT Imaging Unit works on drug research, pharmacokinetics, oncology and neuroscience.
 
-Neuroscience runs through several facilities. ANI in Espoo serves human neuroscience, and BioMag Laboratory in Helsinki studies brain and heart function in clinical and neuroscience research. The In Vivo Brain Imaging Unit focuses on neural circuits, plasticity and neuropharmacology in mice.
-
-Drug research is a second thread. The SPECT-CT Imaging Unit supports drug research, pharmacokinetics, oncology and neuroscience, and RadChem works on molecular imaging, drug development and biodistribution. BIU-IVI serves oncology, vascular biology and immunology, often in longitudinal animal studies. Kuopio-BIU supports basic and applied biological research. The MicroCT Laboratory studies bone, soft tissue, other biological specimens and materials, and DISA in Helsinki supports veterinary research and comparative medicine.
+Neuroscience runs through several facilities. ANI in Espoo supports human neuroscience, and the BioMag Laboratory studies brain and heart function in clinical and neuroscience research. The In Vivo Brain Imaging Unit studies neural circuits, plasticity and neuropharmacology in mice. BIU-IVI serves oncology, vascular biology and immunology, often through longitudinal studies that image the same animals repeatedly. Kuopio-BIU supports basic and applied biological research. The MicroCT Laboratory images bone, soft tissue, other biological specimens and materials, while DISA works in veterinary research and comparative medicine.
 
 ## Services and user support
 
-A project at FiBI usually begins with methodological setup, where staff help design the study protocol and the standard operating procedures that go with it. Researchers can then be trained to use the infrastructure themselves, and training workstations are available for learning the software and analysis tools. Where a project needs it, staff provide technical assistance to run the instruments.
+A project at FiBI usually starts with methodological setup, where staff help design the study protocol and the standard operating procedures it follows. Researchers can then be trained to use the infrastructure themselves, or staff provide technical assistance to run the instruments with them.
 
-Sample work is part of the support. The Node offers probe preparation, which matters for tracer studies, and animal preparation before imaging. Animal facilities and wet lab space are available, so visiting groups can keep and prepare their animals and samples close to the scanners. After acquisition, staff help with data processing and analysis, and server space is available for storing the data a project produces.
+Preparation is part of the service. Staff prepare probes, which at this Node includes the tracers a study needs, and they prepare animals for imaging. Animal facilities are available for housing the animals during a study, and wet lab space is provided for sample and reagent work alongside the scans. After acquisition, staff help with data processing and analysis, and training workstations let researchers learn the analysis software and work through their own data. Server space holds the data during the project, so large PET, MRI and MEG datasets stay close to the people analysing them.
 
-### Services offered
+### Services in the signed SLA
 
 - Technical assistance to run instrument
 - Methodological setup (e.g. design of study protocol and standard operation procedures)
@@ -82,11 +80,13 @@ Sample work is part of the support. The Node offers probe preparation, which mat
 | [SPECT-CT Imaging Unit](https://www.helsinki.fi/en/infrastructures/helsinki-in-vivo-animal-imaging/infrastructures/spect-ct-imaging-unit "finnish-biomedical-imaging-node-spect-ct-imaging-unit") | University of Helsinki / Faculty of Pharmacy | Helsinki |
 | [Turku PET Centre](https://turkupetcentre.fi/ "finnish-biomedical-imaging-node-turku-pet-centre") | University of Turku; Abo Akademi University; Turku University Hospital | Turku |
 
-The Turku PET Centre coordinates FiBI and is jointly hosted by the University of Turku, Åbo Akademi University and Turku University Hospital. It is the only facility in the Node that offers human PET. Kuopio-BIU at the University of Eastern Finland serves as a national centre for preclinical MRI.
+Nuclear imaging and tracer production form the largest group. Turku PET Centre is a Finnish National Research Institute for short-lived positron-emitting isotopes, jointly hosted by the University of Turku, Åbo Akademi University and Turku University Hospital. It coordinates FiBI and combines human and preclinical PET with radiochemistry, producing tracers on site. RadChem in Helsinki designs, synthesises, radiolabels and evaluates tracers for nuclear imaging. The SPECT-CT Imaging Unit in Helsinki specialises in multi-pinhole SPECT/CT and tracer biodistribution.
 
-Helsinki holds most of the Node's other facilities, which together cover much of the preclinical chain. RadChem designs and evaluates new tracers, and the SPECT-CT Imaging Unit at the Faculty of Pharmacy images their distribution in animals. BIU-IVI at the Biomedicum combines whole-body imaging with intravital microscopy, so one animal can be followed at the level of the organ and the cell. The MicroCT Laboratory at the Faculty of Science focuses on high-resolution X-ray microtomography and 3D image analysis of specimens and materials. DISA at the Veterinary Teaching Hospital provides veterinary diagnostic imaging for research animals from small animals to horses, which suits studies in larger species and comparative medicine.
+Kuopio-BIU in Kuopio is a national preclinical MRI centre. Its staff run small-animal MRI, micro-PET and micro-CT and combine them in multimodal studies.
 
-Human brain research is split between two sites. ANI at Aalto University in Espoo is an infrastructure for multimodal human neuroscience. BioMag Laboratory at Helsinki University Hospital is a centre for biomagnetism and applies its methods to both brain and heart.
+Two Helsinki units focus on living animals. BIU-IVI combines whole-body optical imaging, micro-PET/CT and micro-CT with intravital multiphoton microscopy for small-animal research. The In Vivo Brain Imaging Unit offers intravital microscopy and micro-ultrasound for brain studies in anaesthetised and awake, behaving mice. The MicroCT Laboratory in Helsinki provides X-ray microtomography and 3D image analysis of specimens and materials.
+
+Human brain imaging is at two facilities. ANI in Espoo is a research infrastructure for multimodal human neuroscience that offers MEG and MRI. The BioMag Laboratory in Helsinki offers MEG and also develops methods for measuring brain and heart function. DISA in Helsinki is a veterinary diagnostic imaging service that supports research animals from small animals to horses.
 
 ## Access and contact
 

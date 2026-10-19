@@ -2,83 +2,84 @@
 
 ## Overview
 
-The Advanced NL Microscopy Node brings together biological light and electron microscopy from across the Netherlands. Its main strength is quantitative light microscopy of cells and tissues, from confocal and functional live-cell imaging to automated screening, with electron and correlative microscopy at a few specialised sites. The Node was formed in 2025 through the merger of five former Dutch Euro-BioImaging microscopy nodes. It has nine facilities at eight institutions in six cities, with four facilities in Amsterdam, and it focuses on biological rather than medical imaging.
+The Advanced NL Microscopy Node is the Dutch Euro-BioImaging Node for biological microscopy. It formed in 2025 when five former Dutch microscopy Nodes merged. It mainly offers advanced light microscopy, from confocal and functional imaging to super-resolution and high-content screening, together with electron microscopy and correlative light and electron microscopy (CLEM). The Node has nine facilities at eight institutions in Amsterdam, Groningen, Leiden, Rotterdam, Utrecht and Wageningen, and it focuses on biological rather than medical imaging.
 
-Each facility brings its own experience. Staff at CMC in Utrecht specialise in immunogold labelling of Tokuyasu cryosections and in correlative light and electron microscopy (CLEM), which places a fluorescent signal in its ultrastructural context. The Leiden Cell Observatory in Leiden runs automated live-cell time-lapse confocal imaging combined with RNAi or compound screens, and its team develops fluorescent-protein biosensors, dyes and imaging methods. At the van Leeuwenhoek Centre for Advanced Microscopy in Amsterdam, staff focus on quantitative functional imaging of living cells and develop microscopy techniques together with industry. UMIC in Groningen combines two-photon imaging of living animals with large-area electron microscopy of tissue.
+The staff bring specialised experience in several directions. At CMC in Utrecht they label Tokuyasu cryosections with immunogold and link fluorescence signals to ultrastructure by CLEM, working with cultured cells, tissues, biopsies and organoids. The van Leeuwenhoek Centre for Advanced Microscopy in Amsterdam concentrates on quantitative and functional live-cell imaging and develops microscopy techniques with industry. Staff at the Leiden Cell Observatory in Leiden combine automated time-lapse confocal imaging with RNAi or compound screens. The NKI Robotics and Screening Center in Amsterdam supports functional genomics and small-molecule screening. UMIC in Groningen has experience with large-area electron microscopy and with two-photon imaging in living animals, and WISH in Wageningen applies light microscopy to plant research.
 
-Projects that need ultrastructure, or that must tie a fluorescent signal to it, are best taken to CMC. Plant biologists will find most support at WISH in Wageningen, which is built around plant research. Groups planning genetic or compound screens should look at the NKI Robotics and Screening Center in Amsterdam, which runs screening automation and high-content imaging. Cell biologists who want to measure molecular mobility, interactions or nanoscale organisation will find these methods at several facilities in Amsterdam and Rotterdam.
+Confocal microscopy is at eight of the nine facilities. OIC in Rotterdam offers STED and single-molecule localisation microscopy, and the van Leeuwenhoek Centre for Advanced Microscopy also offers single-molecule localisation. Electron microscopy is at CMC, UMIC and the Microscopy and Flow Cytometry Core Facility in Amsterdam, while CLEM is at CMC. Light-sheet imaging is at the Leiden Cell Observatory. High-content screening is at four facilities, among them the Leiden Cell Observatory and the NKI Robotics and Screening Center.
 
 ## Imaging technologies offered
 
-Laser scanning confocal microscopy is offered at eight of the nine facilities, so multichannel 3D imaging of cells and tissues is available across the Node. Fluorescence lifetime imaging (FLIM), fluorescence correlation spectroscopy (FCS) and fluorescence recovery after photobleaching (FRAP) are each offered at four facilities, and together they report on molecular interactions, diffusion and exchange in living cells. OIC in Rotterdam offers STED microscopy for nanoscale detail. Single-molecule localisation microscopy is available at OIC and the van Leeuwenhoek Centre for Advanced Microscopy. Spinning disk and TIRF systems serve fast live imaging and events at the cell surface near the coverslip, for example on the Andor Dragonfly at the NKI BioImaging Facility in Amsterdam.
+Confocal microscopy is the shared base of the Node and gives optical sections and multichannel 3D localisation in cells and tissues. Spinning disk confocal microscopy at the NKI BioImaging Facility, WISH and the van Leeuwenhoek Centre for Advanced Microscopy adds fast optical sectioning with less light on the sample. Several facilities go beyond intensity images. Fluorescence lifetime imaging (FLIM) reports on the molecular environment of a probe, while FRAP and fluorescence correlation spectroscopy measure how molecules move, exchange and diffuse inside cells. FRET, which detects whether two molecules lie within a few nanometres of each other, is offered at CMC and OIC.
 
-High-content screening records many phenotypes across wells and conditions, and it runs at four facilities, including CMC and the NKI Robotics and Screening Center. For thicker tissue, UMIC offers two-photon microscopy and label-free harmonic generation imaging, and its Leica Stellaris CRS supports lifetime imaging. The Leiden Cell Observatory offers light-sheet imaging of embryos and larger specimens.
+For thicker samples, UMIC offers two-photon microscopy and second and third harmonic generation, which shows ordered tissue structures without an added label. The Leiden Cell Observatory offers light-sheet microscopy, which illuminates only the plane being recorded in larger specimens. High-content screening measures many phenotypes across plates of cells under many conditions.
 
-Electron microscopy is offered at three facilities. CMC provides transmission EM of chemically fixed samples and EM tomography. Its FEI SCIOS FIB SEM reconstructs cells in 3D by removing a resin block layer by layer. UMIC adds large-scale EM and array tomography, which follow ultrastructure across whole tissue regions, on systems such as the Delmic FAST-EM. CMC also connects light and electron data through pre-embedding, on-section and live-cell CLEM.
+Electron microscopy covers ultrastructure in two and three dimensions. CMC offers TEM of chemically fixed and high-pressure frozen samples, FIB-SEM for 3D volumes and immunogold labelling of Tokuyasu cryosections. UMIC images large areas of tissue at ultrastructural resolution and offers array tomography. Instruments include the FEI SCIOS FIB SEM at CMC and the Delmic FAST-EM at UMIC. UMIC also runs a Leica Stellaris CRS, and the NKI BioImaging Facility has an Andor Dragonfly for spinning disk and TIRF imaging.
 
 ### Technologies and instruments
 
-| Technology | Instrument highlights |
-| --- | --- |
-| [Laser scanning confocal microscopy (LSCM/CLSM)](#laser-scanning-confocal-microscopy-lscm-clsm "laser-scanning-confocal-microscopy-lscm-clsm") | Leiden Cell Observatory: Leica Stellaris 5; Microscopy and Flow Cytometry Core Facility: Leica Stellaris SpectraPlex, Leica Mica, Leica SP8 X WLL, SP8-SMD, SP8-DLS, SP5-II; UMIC: Zeiss LSM 780 / LSM 7MP combined confocal (two-photon/OPO laser); WISH: Leica Stellaris 5 |
-| [Spinning disk confocal microscopy (SDCM)](#spinning-disk-confocal-microscopy-sdcm "spinning-disk-confocal-microscopy-sdcm") | NKI BioImaging Facility: Andor Dragonfly |
-| [Structured illumination microscopy (SIM)](#structured-illumination-microscopy-sim "structured-illumination-microscopy-sim") |  |
-| [Total internal reflection fluorescence microscopy (TIRF)](#total-internal-reflection-fluorescence-microscopy-tirf "total-internal-reflection-fluorescence-microscopy-tirf") | CMC: Leica Thunder widefield with TIRF; NKI BioImaging Facility: Andor Dragonfly |
-| [Two-photon microscopy (2P)](#two-photon-microscopy-2p "two-photon-microscopy-2p") | UMIC: Zeiss LSM 780 / LSM 7MP combined confocal (two-photon/OPO laser) |
-| [Single Molecule localization microscopy (SMLM)](#single-molecule-localization-microscopy-smlm "single-molecule-localization-microscopy-smlm") |  |
-| [Stimulated emission depletion microscopy (STED)](#stimulated-emission-depletion-microscopy-sted "stimulated-emission-depletion-microscopy-sted") |  |
-| [Raman Spectroscopy (RS)](#raman-spectroscopy-rs "raman-spectroscopy-rs") |  |
-| [Second/Third Harmonic Generation (SHG/THG)](#second-third-harmonic-generation-shg-thg "second-third-harmonic-generation-shg-thg") |  |
-| [Light-sheet mesoscopic imaging (SPIM/dSLSM)](#light-sheet-mesoscopic-imaging-spim-dslsm "light-sheet-mesoscopic-imaging-spim-dslsm") |  |
-| [Fluorescence (cross)-correlation spectroscopy (FCS/FCCS)](#fluorescence-cross-correlation-spectroscopy-fcs-fccs "fluorescence-cross-correlation-spectroscopy-fcs-fccs") |  |
-| [Fluorescence Lifetime Imaging (FLIM)](#fluorescence-lifetime-imaging-flim "fluorescence-lifetime-imaging-flim") | UMIC: Leica Stellaris CRS |
-| [Fluorescence Recovery after Photobleaching (FRAP)](#fluorescence-recovery-after-photobleaching-frap "fluorescence-recovery-after-photobleaching-frap") | UMIC: GE Healthcare DeltaVision Elite |
-| [Fluorescence Resonance Energy Transfer (FRET)](#fluorescence-resonance-energy-transfer-fret "fluorescence-resonance-energy-transfer-fret") |  |
-| [High throughput microscopy/high content screening (HTM/HCS)](#high-throughput-microscopy-high-content-screening-htm-hcs "high-throughput-microscopy-high-content-screening-htm-hcs") | CMC: CellInsight; Microscopy and Flow Cytometry Core Facility: Molecular Devices ImageXpress Pico |
-| [Microdissection (µDis)](#microdissection-mdis "microdissection-mdis") | Microscopy and Flow Cytometry Core Facility: Leica LMD-7; WISH: Leica LMD7000 |
-| [Multiplexing imaging (MXI)](#multiplexing-imaging-mxi "multiplexing-imaging-mxi") | Microscopy and Flow Cytometry Core Facility: Leica Cell DIVE, Leica Stellaris SpectraPlex |
-| [Spatial Transcriptomics (ST)](#spatial-transcriptomics-st "spatial-transcriptomics-st") |  |
-| [Voltage/pH/Ion Imaging](#voltage-ph-ion-imaging "voltage-ph-ion-imaging") |  |
-| [Cryo Correlative Light and Electron Microscopy (Cryo-CLEM)](#cryo-correlative-light-and-electron-microscopy-cryo-clem "cryo-correlative-light-and-electron-microscopy-cryo-clem") |  |
-| [pre-embedding CLEM (pre-emb CLEM)](#pre-embedding-clem-pre-emb-clem "pre-embedding-clem-pre-emb-clem") |  |
-| [live-cell Correlative Light and Electron Microscopy (live-cell CLEM)](#live-cell-correlative-light-and-electron-microscopy-live-cell-clem "live-cell-correlative-light-and-electron-microscopy-live-cell-clem") |  |
-| [Cryo Electron Tomography (Cryo-ET)](#cryo-electron-tomography-cryo-et "cryo-electron-tomography-cryo-et") |  |
-| [Cryo Transmission Electron Microscopy (Cryo-TEM)](#cryo-transmission-electron-microscopy-cryo-tem "cryo-transmission-electron-microscopy-cryo-tem") |  |
-| [Elemental analysis (EDX)](#elemental-analysis-edx "elemental-analysis-edx") | Microscopy and Flow Cytometry Core Facility: Talos L120c with EDX; UMIC: Thermo Fisher Talos F200i TEM with dual Bruker XFlash6 EDS |
-| [Scanning Electron Microscopy (SEM)](#scanning-electron-microscopy-sem "scanning-electron-microscopy-sem") | CMC: FEI SCIOS FIB SEM; Microscopy and Flow Cytometry Core Facility: Zeiss Gemini Sigma 300 |
-| [Large scale EM (lsTEM)](#large-scale-em-lstem "large-scale-em-lstem") |  |
-| [TEM of chemical fixed samples (TEM)](#tem-of-chemical-fixed-samples-tem "tem-of-chemical-fixed-samples-tem") | CMC: FEI Tecnai 20, Tecnai 12 TEMs, JEOL 1010 TEM |
-| [TEM of cryo-immobilized samples (TEM cryo samples)](#tem-of-cryo-immobilized-samples-tem-cryo-samples "tem-of-cryo-immobilized-samples-tem-cryo-samples") | CMC: Leica EM ICE high-pressure freezer, Leica AFS2 freeze substitution |
-| [Array tomography (AT)](#array-tomography-at "array-tomography-at") |  |
-| [EM tomography (ET)](#em-tomography-et "em-tomography-et") |  |
-| [Focussed Ion beam SEM (FIB-SEM)](#focussed-ion-beam-sem-fib-sem "focussed-ion-beam-sem-fib-sem") | CMC: FEI SCIOS FIB SEM |
-| [Serial Blockface SEM (SBF-SEM)](#serial-blockface-sem-sbf-sem "serial-blockface-sem-sbf-sem") |  |
-| [serial section TEM (ssTEM)](#serial-section-tem-sstem "serial-section-tem-sstem") |  |
-| [STEM tomography (STEM)](#stem-tomography-stem "stem-tomography-stem") |  |
-| [Genetic encoded EM probes (GE probes)](#genetic-encoded-em-probes-ge-probes "genetic-encoded-em-probes-ge-probes") |  |
-| [Immuno-gold EM on resin sections (resin-EM)](#immuno-gold-em-on-resin-sections-resin-em "immuno-gold-em-on-resin-sections-resin-em") |  |
-| [Immuno-gold EM on thawed cryo-sections (Tokuyasu-EM)](#immuno-gold-em-on-thawed-cryo-sections-tokuyasu-em "immuno-gold-em-on-thawed-cryo-sections-tokuyasu-em") |  |
-| [post-embed Correlative Light and Electron Microscopy (on-section CLEM)](#post-embed-correlative-light-and-electron-microscopy-post-embed-clem "post-embed-correlative-light-and-electron-microscopy-post-embed-clem") |  |
-| [pre-embed Correlative Light and Electron Microscopy (pre-embed CLEM)](#pre-embed-correlative-light-and-electron-microscopy-pre-embed-clem "pre-embed-correlative-light-and-electron-microscopy-pre-embed-clem") |  |
-| [pre-embedding immunolabelling (pre-embed IL)](#pre-embedding-immunolabelling-pre-embed-il "pre-embedding-immunolabelling-pre-embed-il") |  |
-| [Image Analysis -bio (IA bio)](#image-analysis-bio "image-analysis-bio") |  |
+| Technology | Confirmed facility providers | Instrument highlights |
+| --- | --- | --- |
+| [Laser scanning confocal microscopy (LSCM/CLSM)](#laser-scanning-confocal-microscopy-lscm-clsm "laser-scanning-confocal-microscopy-lscm-clsm") | CMC, OIC, Leiden Cell Observatory, Microscopy and Flow Cytometry Core Facility, NKI BioImaging Facility, UMIC, WISH, van Leeuwenhoek Centre for Advanced Microscopy | Leiden Cell Observatory: Leica Stellaris 5; Microscopy and Flow Cytometry Core Facility: Leica Stellaris SpectraPlex, Leica Mica, Leica SP8 X WLL, SP8-SMD, SP8-DLS, SP5-II; UMIC: Zeiss LSM 780 / LSM 7MP combined confocal (two-photon/OPO laser); WISH: Leica Stellaris 5 |
+| [Spinning disk confocal microscopy (SDCM)](#spinning-disk-confocal-microscopy-sdcm "spinning-disk-confocal-microscopy-sdcm") | NKI BioImaging Facility, WISH, van Leeuwenhoek Centre for Advanced Microscopy | NKI BioImaging Facility: Andor Dragonfly |
+| [Structured illumination microscopy (SIM)](#structured-illumination-microscopy-sim "structured-illumination-microscopy-sim") | OIC |  |
+| [Total internal reflection fluorescence microscopy (TIRF)](#total-internal-reflection-fluorescence-microscopy-tirf "total-internal-reflection-fluorescence-microscopy-tirf") | CMC, OIC, NKI BioImaging Facility, van Leeuwenhoek Centre for Advanced Microscopy | CMC: Leica Thunder widefield with TIRF; NKI BioImaging Facility: Andor Dragonfly |
+| [Two-photon microscopy (2P)](#two-photon-microscopy-2p "two-photon-microscopy-2p") | UMIC | UMIC: Zeiss LSM 780 / LSM 7MP combined confocal (two-photon/OPO laser) |
+| [Single Molecule localization microscopy (SMLM)](#single-molecule-localization-microscopy-smlm "single-molecule-localization-microscopy-smlm") | OIC, van Leeuwenhoek Centre for Advanced Microscopy |  |
+| [Stimulated emission depletion microscopy (STED)](#stimulated-emission-depletion-microscopy-sted "stimulated-emission-depletion-microscopy-sted") | OIC |  |
+| [Raman Spectroscopy (RS)](#raman-spectroscopy-rs "raman-spectroscopy-rs") | No confirmed facility provider yet |  |
+| [Second/Third Harmonic Generation (SHG/THG)](#second-third-harmonic-generation-shg-thg "second-third-harmonic-generation-shg-thg") | UMIC |  |
+| [Light-sheet mesoscopic imaging (SPIM/dSLSM)](#light-sheet-mesoscopic-imaging-spim-dslsm "light-sheet-mesoscopic-imaging-spim-dslsm") | Leiden Cell Observatory |  |
+| [Fluorescence (cross)-correlation spectroscopy (FCS/FCCS)](#fluorescence-cross-correlation-spectroscopy-fcs-fccs "fluorescence-cross-correlation-spectroscopy-fcs-fccs") | OIC, Microscopy and Flow Cytometry Core Facility, NKI BioImaging Facility, van Leeuwenhoek Centre for Advanced Microscopy |  |
+| [Fluorescence Lifetime Imaging (FLIM)](#fluorescence-lifetime-imaging-flim "fluorescence-lifetime-imaging-flim") | Microscopy and Flow Cytometry Core Facility, NKI BioImaging Facility, UMIC, van Leeuwenhoek Centre for Advanced Microscopy | UMIC: Leica Stellaris CRS |
+| [Fluorescence Recovery after Photobleaching (FRAP)](#fluorescence-recovery-after-photobleaching-frap "fluorescence-recovery-after-photobleaching-frap") | CMC, OIC, UMIC, van Leeuwenhoek Centre for Advanced Microscopy | UMIC: GE Healthcare DeltaVision Elite |
+| [Fluorescence Resonance Energy Transfer (FRET)](#fluorescence-resonance-energy-transfer-fret "fluorescence-resonance-energy-transfer-fret") | CMC, OIC |  |
+| [High throughput microscopy/high content screening (HTM/HCS)](#high-throughput-microscopy-high-content-screening-htm-hcs "high-throughput-microscopy-high-content-screening-htm-hcs") | CMC, Leiden Cell Observatory, Microscopy and Flow Cytometry Core Facility, NKI Robotics and Screening Center | CMC: CellInsight; Microscopy and Flow Cytometry Core Facility: Molecular Devices ImageXpress Pico |
+| [Microdissection (µDis)](#microdissection-mdis "microdissection-mdis") | Microscopy and Flow Cytometry Core Facility, WISH | Microscopy and Flow Cytometry Core Facility: Leica LMD-7; WISH: Leica LMD7000 |
+| [Multiplexing imaging (MXI)](#multiplexing-imaging-mxi "multiplexing-imaging-mxi") | Microscopy and Flow Cytometry Core Facility | Microscopy and Flow Cytometry Core Facility: Leica Cell DIVE, Leica Stellaris SpectraPlex |
+| [Spatial Transcriptomics (ST)](#spatial-transcriptomics-st "spatial-transcriptomics-st") | No confirmed facility provider yet |  |
+| [Voltage/pH/Ion Imaging](#voltage-ph-ion-imaging "voltage-ph-ion-imaging") | No confirmed facility provider yet |  |
+| [Cryo Correlative Light and Electron Microscopy (Cryo-CLEM)](#cryo-correlative-light-and-electron-microscopy-cryo-clem "cryo-correlative-light-and-electron-microscopy-cryo-clem") | No confirmed facility provider yet |  |
+| [pre-embedding CLEM (pre-emb CLEM)](#pre-embedding-clem-pre-emb-clem "pre-embedding-clem-pre-emb-clem") | CMC |  |
+| [live-cell Correlative Light and Electron Microscopy (live-cell CLEM)](#live-cell-correlative-light-and-electron-microscopy-live-cell-clem "live-cell-correlative-light-and-electron-microscopy-live-cell-clem") | CMC |  |
+| [Cryo Electron Tomography (Cryo-ET)](#cryo-electron-tomography-cryo-et "cryo-electron-tomography-cryo-et") | No confirmed facility provider yet |  |
+| [Cryo Transmission Electron Microscopy (Cryo-TEM)](#cryo-transmission-electron-microscopy-cryo-tem "cryo-transmission-electron-microscopy-cryo-tem") | Microscopy and Flow Cytometry Core Facility |  |
+| [Elemental analysis (EDX)](#elemental-analysis-edx "elemental-analysis-edx") | Microscopy and Flow Cytometry Core Facility, UMIC | Microscopy and Flow Cytometry Core Facility: Talos L120c with EDX; UMIC: Thermo Fisher Talos F200i TEM with dual Bruker XFlash6 EDS |
+| [Scanning Electron Microscopy (SEM)](#scanning-electron-microscopy-sem "scanning-electron-microscopy-sem") | CMC, Microscopy and Flow Cytometry Core Facility, UMIC | CMC: FEI SCIOS FIB SEM; Microscopy and Flow Cytometry Core Facility: Zeiss Gemini Sigma 300 |
+| [Large scale EM (lsTEM)](#large-scale-em-lstem "large-scale-em-lstem") | UMIC |  |
+| [TEM of chemical fixed samples (TEM)](#tem-of-chemical-fixed-samples-tem "tem-of-chemical-fixed-samples-tem") | CMC | CMC: FEI Tecnai 20, Tecnai 12 TEMs, JEOL 1010 TEM |
+| [TEM of cryo-immobilized samples (TEM cryo samples)](#tem-of-cryo-immobilized-samples-tem-cryo-samples "tem-of-cryo-immobilized-samples-tem-cryo-samples") | CMC | CMC: Leica EM ICE high-pressure freezer, Leica AFS2 freeze substitution |
+| [Array tomography (AT)](#array-tomography-at "array-tomography-at") | UMIC |  |
+| [EM tomography (ET)](#em-tomography-et "em-tomography-et") | CMC, Microscopy and Flow Cytometry Core Facility |  |
+| [Focussed Ion beam SEM (FIB-SEM)](#focussed-ion-beam-sem-fib-sem "focussed-ion-beam-sem-fib-sem") | CMC | CMC: FEI SCIOS FIB SEM |
+| [Serial Blockface SEM (SBF-SEM)](#serial-blockface-sem-sbf-sem "serial-blockface-sem-sbf-sem") | No confirmed facility provider yet |  |
+| [serial section TEM (ssTEM)](#serial-section-tem-sstem "serial-section-tem-sstem") | No confirmed facility provider yet |  |
+| [STEM tomography (STEM)](#stem-tomography-stem "stem-tomography-stem") | No confirmed facility provider yet |  |
+| [Genetic encoded EM probes (GE probes)](#genetic-encoded-em-probes-ge-probes "genetic-encoded-em-probes-ge-probes") | No confirmed facility provider yet |  |
+| [Immuno-gold EM on resin sections (resin-EM)](#immuno-gold-em-on-resin-sections-resin-em "immuno-gold-em-on-resin-sections-resin-em") | No confirmed facility provider yet |  |
+| [Immuno-gold EM on thawed cryo-sections (Tokuyasu-EM)](#immuno-gold-em-on-thawed-cryo-sections-tokuyasu-em "immuno-gold-em-on-thawed-cryo-sections-tokuyasu-em") | CMC |  |
+| [post-embed Correlative Light and Electron Microscopy (on-section CLEM)](#post-embed-correlative-light-and-electron-microscopy-post-embed-clem "post-embed-correlative-light-and-electron-microscopy-post-embed-clem") | CMC |  |
+| [pre-embed Correlative Light and Electron Microscopy (pre-embed CLEM)](#pre-embed-correlative-light-and-electron-microscopy-pre-embed-clem "pre-embed-correlative-light-and-electron-microscopy-pre-embed-clem") | No confirmed facility provider yet |  |
+| [pre-embedding immunolabelling (pre-embed IL)](#pre-embedding-immunolabelling-pre-embed-il "pre-embedding-immunolabelling-pre-embed-il") | No confirmed facility provider yet |  |
+| [Image Analysis -bio (IA bio)](#image-analysis-bio "image-analysis-bio") | Leiden Cell Observatory, Microscopy and Flow Cytometry Core Facility, NKI BioImaging Facility, UMIC, WISH |  |
 
 ## Specialties and research focus
 
-The facilities serve cell biology across scales, from molecules in single cells to tissues, organoids and whole organisms. CMC supports molecular studies at subcellular, cellular and tissue level, working with cultured cells, tissues, biopsies and organoids. Cancer research is the institutional context of the NKI BioImaging Facility. Cancer also features at the Leiden Cell Observatory, alongside drug research on tuberculosis, studies of plant and bacterial development, and dye development.
+Cancer research runs through several facilities. The Leiden Cell Observatory supports drug research on cancer and tuberculosis, and it also works on plant and bacterial development and on new dyes. The NKI BioImaging Facility serves cancer research within the Netherlands Cancer Institute.
 
-UMIC works with biomaterials, viruses, bacteria, yeast, tissues and living animals. Its research themes include beta cells in type 1 diabetes, skin blister diseases and cell-cell junctions. WISH serves plant research on photosynthesis, plant signalling and cell division, and its samples also include microorganisms, biological materials and food products. At the van Leeuwenhoek Centre for Advanced Microscopy, the focus is cell biology broadly, together with the development of fluorophores and biosensors. The Microscopy and Flow Cytometry Core Facility in Amsterdam works with cells and tissues, including formalin-fixed paraffin-embedded and frozen tissue.
+UMIC works with biomaterials, viruses, bacteria, yeast, tissues and living animals. Its research areas include beta cells in type 1 diabetes, skin blister diseases and the junctions between cells. At CMC, projects address molecular questions at subcellular, cellular and tissue scale in cultured cells, tissues, biopsies and organoids. The Microscopy and Flow Cytometry Core Facility images cells and tissues, including formalin-fixed paraffin-embedded and frozen tissue in its multiplex workflow.
+
+Plant science is the focus of WISH, where research covers photosynthesis, plant signalling and cell division. WISH handles cells, tissues, microorganisms, biological materials and food products. The van Leeuwenhoek Centre for Advanced Microscopy serves cell biology broadly and develops new fluorophores and biosensors for imaging.
 
 ## Services and user support
 
-Work with the Node usually begins with help on experimental design, where staff advise on how to set up the experiment and which imaging technique fits the question. Node staff can also run a pilot study before a full project starts. Researchers can then be trained in sample preparation, in the use of light and electron microscopes and in the wider infrastructure. During experiments, staff provide technical assistance with the instruments or work alongside users.
+Projects start with help on experimental design, including the choice of technique and the experimental set-up. Staff also assist with assay development and with CRISPR libraries. Researchers then receive training in sample preparation, in the use of light and electron microscopes and in the wider infrastructure, supported by training workstations and a seminar room.
 
-Preparation support includes probe preparation, animal preparation and cell culture facilities at safety levels 1 and 2. For screening projects, staff help with assay development and with CRISPR libraries. Biological material can be stored and processed through biobanking. Visiting researchers have wet lab space, desk space and a training seminar room for the time they spend on site. Once images are acquired, the Node provides data processing and analysis, together with analysis software and training workstations.
+During acquisition, staff either assist users in carrying out their experiments or give technical help in running the instruments. Sample work is supported by probe preparation, animal preparation and wet lab space. Cell culture facilities at biosafety levels 1 and 2 are part of the offer, as is biobanking with storage and processing of biological material. After imaging, staff help with data processing and analysis, and users can work through their data with analysis software at a dedicated desk space.
 
-### Services offered
+### Services in the signed SLA
 
 - Assistance with experimental design (e.g. experimental set up, choice of technique)
-- Execution of pilot studies by node staff
 - Training in sample preparation
 - Training in use of light and electron microscopes
 - Assistance of users in the execution of experiments
@@ -111,9 +112,11 @@ Preparation support includes probe preparation, animal preparation and cell cult
 | [Wageningen Imaging and Spectroscopy Hub (WISH)](#advanced-nl-microscopy-wageningen-imaging-and-spectroscopy-hub-wish "advanced-nl-microscopy-wageningen-imaging-and-spectroscopy-hub-wish") | Wageningen University & Research | Wageningen |
 | [van Leeuwenhoek Centre for Advanced Microscopy, LCAM-FNWI / UvA](https://sils.uva.nl/content/research-groups/molecular-cytology/lcam/van-leeuwenhoek-centre-for-advanced-microscopy.html "advanced-nl-microscopy-van-leeuwenhoek-centre-for-advanced-microscopy-lcam-fnwi-uva") | University of Amsterdam - Swammerdam Institute for Life Sciences (SILS) | Amsterdam |
 
-The facilities sit in university medical centres, universities and a cancer research institute, and together they cover different parts of a microscopy project. Amsterdam holds the largest group. The Microscopy and Flow Cytometry Core Facility at Amsterdam UMC combines confocal, functional and high-content imaging with electron microscopy, so light and electron data can come from one site. It also offers tissue-oriented methods such as multiplexed imaging and laser microdissection. The NKI BioImaging Facility at the Netherlands Cancer Institute offers spinning disk, TIRF and lifetime imaging, together with image analysis. It shares its institute with the NKI Robotics and Screening Center, so imaging and screening sit side by side.
+Three facilities combine light and electron microscopy. CMC, an expertise centre at UMC Utrecht, is known for immuno-electron microscopy on Tokuyasu cryosections and for CLEM, including live-cell and pre-embedding approaches. UMIC at the University Medical Center Groningen pairs large-area electron microscopy and array tomography with two-photon, lifetime and label-free nonlinear imaging. The Microscopy and Flow Cytometry Core Facility at Amsterdam UMC adds cryo-TEM, EM tomography and SEM to confocal, lifetime and multiplexed tissue imaging.
 
-OIC at Erasmus MC in Rotterdam is an expert centre for advanced optical imaging. It brings STED, single-molecule localisation and FRET together in one facility, which suits projects that combine nanoscale and functional imaging. Electron microscopy is shared between CMC, UMIC and the Amsterdam UMC facility, while light microscopy runs at all nine sites. A project can therefore begin with live imaging at one facility and continue to ultrastructure at another within the same Node. WISH brings together Wageningen expertise in light microscopy for plant research, including spinning disk time series under controlled temperature and CO2.
+Advanced optical imaging is the focus of three further centres. OIC at Erasmus MC is an expert centre for functional and super-resolution light microscopy. The van Leeuwenhoek Centre for Advanced Microscopy belongs to the Swammerdam Institute for Life Sciences at the University of Amsterdam and centres its work on quantitative molecular imaging in cells. The NKI BioImaging Facility supports image acquisition and analysis, guiding projects from experimental design to computational analysis.
+
+Two facilities are built around screening. The NKI Robotics and Screening Center supports cell-based screening projects, including functional genomics and small-molecule screens, with bioinformatic support for analysis and interpretation. The Leiden Cell Observatory combines high-throughput and light-sheet microscopy with image analysis and has a background in fluorescent-protein biosensors. WISH at Wageningen University & Research brings Wageningen's light microscopy expertise to plant research, with laser microdissection and image analysis alongside confocal imaging.
 
 ## Access and contact
 

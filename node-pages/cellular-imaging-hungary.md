@@ -2,70 +2,70 @@
 
 ## Overview
 
-Cellular Imaging Hungary is built around advanced light microscopy. Its strengths lie in fluorescence methods that measure how molecules move and interact in cells, and in two-photon imaging of neural tissue and the living brain. All six facilities offer light microscopy, ranging from confocal and super-resolution techniques to quantitative methods that report molecular mobility and proximity. The facilities belong to five institutions in Budapest, Debrecen, Pécs and Szeged. They include university core facilities, biophysics and neuroscience research centres, and a company that develops microscopes. The work is centred on cells and tissues, and the Sándor Damjanovich Core Facility in Debrecen adds volume electron microscopy by array tomography.
+Cellular Imaging Hungary mainly offers advanced fluorescence microscopy of cells and tissues. Its facilities combine confocal and super-resolution microscopy with methods that measure how molecules move and interact, and with two-photon microscopy for imaging deep inside living tissue such as the brain. The Node has six facilities at five institutions in Budapest, Debrecen, Pécs and Szeged, and it works in biological imaging with a strong link to neuroscience and biophysics.
 
-The staff bring several distinct kinds of expertise. At the Sándor Damjanovich Core Facility, the team draws on its department's background in FRET and membrane biophysics. It supports measurements of molecular proximity, diffusion and orientation in cells. Femtonics Ltd in Budapest develops two-photon microscopes, while BVC in Budapest works in neurophotonics using 3D laser microscopy. The Nano-Bio-Imaging Core Facility in Pécs specialises in super-resolution and two-photon imaging, with experience in single-molecule tracking, live-cell super-resolution and calcium imaging. The Georg von Békésy Center for Biophysical Research in Budapest brings expertise in advanced optical microscopy for questions that range from single molecules to whole organisms.
+The staff have specialist knowledge of fluorescence dynamics and membrane biophysics. At the Sándor Damjanovich Core Facility in Debrecen, this builds on a long background in FRET and in receptor and membrane research. The team at the Nano-Bio-Imaging Core Facility in Pécs is experienced in single-molecule tracking, live-cell super-resolution and calcium imaging of brain activity in vivo. Femtonics Ltd in Budapest develops two-photon microscope platforms and works with model organisms from zebrafish to non-human primates. BVC in Budapest specialises in neurophotonics and 3D laser microscopy, while the Georg von Békésy Center for Biophysical Research in Budapest studies systems from single molecules to whole organisms.
 
-Researchers studying receptors, membranes and molecular interactions will find the most support at the Sándor Damjanovich Core Facility in Debrecen. Projects that need nanoscale detail in fixed or living cells suit the Nano-Bio-Imaging Core Facility in Pécs. Neuroscientists who want to record activity in intact tissue can turn to the two-photon facilities in Budapest. Confocal cell imaging and fluorescence dynamics are also offered at the Cellular Imaging Laboratory in Szeged.
+Super-resolution microscopy is at the Nano-Bio-Imaging Core Facility in Pécs and the Sándor Damjanovich Core Facility in Debrecen. Two-photon microscopy is at BVC and Femtonics Ltd, both in Budapest, and at the Nano-Bio-Imaging Core Facility in Pécs. Confocal microscopy and measurements of molecular mobility are at the Cellular Imaging Laboratory in Szeged and the Sándor Damjanovich Core Facility in Debrecen. High content screening is at the Georg von Békésy Center for Biophysical Research in Budapest. Array tomography, the Node's volume electron microscopy method, is at the Sándor Damjanovich Core Facility.
 
 ## Imaging technologies offered
 
-Quantitative fluorescence is the Node's deepest area. Fluorescence lifetime imaging (FLIM) reveals a molecule's local environment and interactions, and the Cellular Imaging Laboratory, the Nano-Bio-Imaging Core Facility and the Sándor Damjanovich Core Facility all offer it. Fluorescence correlation spectroscopy and FRAP measure diffusion, concentration and exchange, and both the Cellular Imaging Laboratory and the Sándor Damjanovich Core Facility provide them. The Sándor Damjanovich Core Facility adds FRET and anisotropy microscopy, which report nanometre proximity and molecular orientation.
+Fluorescence microscopy makes up most of what the Node offers, and all six facilities provide it. Laser scanning confocal microscopy gives optical sections and 3D localisation in cells and tissues, and the Cellular Imaging Laboratory runs a Stellaris 8 among its confocal systems. Spinning disk confocal microscopy at the Cellular Imaging Laboratory and Femtonics Ltd images faster with less light on the sample.
 
-Super-resolution imaging resolves structures below the diffraction limit. STED is offered at the Nano-Bio-Imaging Core Facility on an Abberior Instruments Expert Line system. Single-molecule localisation microscopy is offered there and at the Sándor Damjanovich Core Facility, which runs an N-STORM. The Sándor Damjanovich Core Facility also offers image scanning microscopy. TIRF, which images membranes and molecules near the coverslip, is available at three sites.
+Super-resolution methods resolve structures below the diffraction limit. The Nano-Bio-Imaging Core Facility offers stimulated emission depletion (STED) microscopy on an Abberior Instruments Expert Line system, which also records fluorescence lifetimes. Single-molecule localisation microscopy (SMLM), which maps where individual molecules sit, is at the Nano-Bio-Imaging Core Facility and the Sándor Damjanovich Core Facility. Total internal reflection fluorescence (TIRF) microscopy restricts imaging to membranes and molecules near the coverslip and is at three facilities.
 
-Two-photon microscopy lets researchers image cells deep in thick tissue and in living animals. BVC, Femtonics Ltd and the Nano-Bio-Imaging Core Facility provide it, and Femtonics Ltd runs the FEMTO3D Atlas acousto-optic system. BVC adds label-free harmonic generation imaging, and Femtonics Ltd offers light-sheet imaging of larger specimens. Confocal microscopy at the Cellular Imaging Laboratory includes a Stellaris 8. High-content screening at the Georg von Békésy Center for Biophysical Research and array tomography at the Sándor Damjanovich Core Facility complete the picture.
+A further group of methods measures molecular behaviour rather than shape. Fluorescence lifetime imaging (FLIM), FRET and fluorescence correlation spectroscopy report on molecular environment, proximity and diffusion, and the Sándor Damjanovich Core Facility offers all three along with photobleaching and anisotropy measurements.
+
+For thick and living tissue, two-photon microscopy images cells deep inside tissues and intact animals, and Femtonics Ltd offers it on a FEMTO3D Atlas acousto-optic system. BVC adds label-free harmonic generation imaging of ordered tissue structures, and Femtonics Ltd offers light-sheet imaging of embryos and organs. Supporting methods include high content screening and atomic force microscopy at the Georg von Békésy Center for Biophysical Research.
 
 ### Technologies and instruments
 
-| Technology | Instrument highlights |
-| --- | --- |
-| [Image Scanning microscopy (ISM)](#image-scanning-microscopy-ism "image-scanning-microscopy-ism") |  |
-| [Laser scanning confocal microscopy (LSCM/CLSM)](#laser-scanning-confocal-microscopy-lscm-clsm "laser-scanning-confocal-microscopy-lscm-clsm") | Cellular Imaging Laboratory: Stellaris 8, SP5, FV1000; Sándor Damjanovich Core Facility: FV1000 |
-| [Spinning disk confocal microscopy (SDCM)](#spinning-disk-confocal-microscopy-sdcm "spinning-disk-confocal-microscopy-sdcm") |  |
-| [Structured illumination microscopy (SIM)](#structured-illumination-microscopy-sim "structured-illumination-microscopy-sim") | Nano-Bio-Imaging Core Facility: Zeiss Elyra S.1 SIM |
-| [Total internal reflection fluorescence microscopy (TIRF)](#total-internal-reflection-fluorescence-microscopy-tirf "total-internal-reflection-fluorescence-microscopy-tirf") | Nano-Bio-Imaging Core Facility: Olympus IX81S1F-ZDC2 Fiber-TIRF |
-| [Two-photon microscopy (2P)](#two-photon-microscopy-2p "two-photon-microscopy-2p") | Femtonics Ltd: FEMTO3D Atlas (acousto-optic all-in-one two-photon); Nano-Bio-Imaging Core Facility: Femto2D-SMART in-vivo two-photon microscope |
-| [Single Molecule localization microscopy (SMLM)](#single-molecule-localization-microscopy-smlm "single-molecule-localization-microscopy-smlm") | Nano-Bio-Imaging Core Facility: Nikon Eclipse Ti2-E |
-| [Stimulated emission depletion microscopy (STED)](#stimulated-emission-depletion-microscopy-sted "stimulated-emission-depletion-microscopy-sted") | Nano-Bio-Imaging Core Facility: Abberior Instruments Expert Line/FLIM on Nikon Eclipse Ti2 |
-| [Second/Third Harmonic Generation (SHG/THG)](#second-third-harmonic-generation-shg-thg "second-third-harmonic-generation-shg-thg") |  |
-| [Light-sheet mesoscopic imaging (SPIM/dSLSM)](#light-sheet-mesoscopic-imaging-spim-dslsm "light-sheet-mesoscopic-imaging-spim-dslsm") |  |
-| [Anisotropy/Polarization Microscopy (AM)](#anisotropy-polarization-microscopy-am "anisotropy-polarization-microscopy-am") |  |
-| [Fluorescence (cross)-correlation spectroscopy (FCS/FCCS)](#fluorescence-cross-correlation-spectroscopy-fcs-fccs "fluorescence-cross-correlation-spectroscopy-fcs-fccs") |  |
-| [Fluorescence Lifetime Imaging (FLIM)](#fluorescence-lifetime-imaging-flim "fluorescence-lifetime-imaging-flim") | Nano-Bio-Imaging Core Facility: Abberior Instruments Expert Line/FLIM on Nikon Eclipse Ti2 |
-| [Fluorescence Recovery after Photobleaching (FRAP)](#fluorescence-recovery-after-photobleaching-frap "fluorescence-recovery-after-photobleaching-frap") |  |
-| [Fluorescence Resonance Energy Transfer (FRET)](#fluorescence-resonance-energy-transfer-fret "fluorescence-resonance-energy-transfer-fret") |  |
-| [High throughput microscopy/high content screening (HTM/HCS)](#high-throughput-microscopy-high-content-screening-htm-hcs "high-throughput-microscopy-high-content-screening-htm-hcs") |  |
-| [High-speed Imaging (HSI)](#high-speed-imaging-hsi "high-speed-imaging-hsi") |  |
-| [Imaging at Biosafety Level >1 (BSL>1)](#imaging-at-biosafety-level-gt-1-bsl-gt-1 "imaging-at-biosafety-level-gt-1-bsl-gt-1") |  |
-| [Microdissection (µDis)](#microdissection-mdis "microdissection-mdis") |  |
-| [Phosphorescence Lifetime imaging (PLIM)](#phosphorescence-lifetime-imaging-plim "phosphorescence-lifetime-imaging-plim") |  |
-| [Photomanipulation (Pmanip)](#photomanipulation-pmanip "photomanipulation-pmanip") |  |
-| [Voltage/pH/Ion Imaging](#voltage-ph-ion-imaging "voltage-ph-ion-imaging") |  |
-| [TEM of chemical fixed samples (TEM)](#tem-of-chemical-fixed-samples-tem "tem-of-chemical-fixed-samples-tem") |  |
-| [Array tomography (AT)](#array-tomography-at "array-tomography-at") |  |
-| [Serial Blockface SEM (SBF-SEM)](#serial-blockface-sem-sbf-sem "serial-blockface-sem-sbf-sem") |  |
-| [serial section TEM (ssTEM)](#serial-section-tem-sstem "serial-section-tem-sstem") |  |
-| [Immuno-gold EM on resin sections (resin-EM)](#immuno-gold-em-on-resin-sections-resin-em "immuno-gold-em-on-resin-sections-resin-em") |  |
-| [pre-embedding immunolabelling (pre-embed IL)](#pre-embedding-immunolabelling-pre-embed-il "pre-embedding-immunolabelling-pre-embed-il") |  |
-| [Atomic Force Microscopy (AFM)](#atomic-force-microscopy-afm "atomic-force-microscopy-afm") |  |
-| [in vivo optical imaging (OI)](#in-vivo-optical-imaging-oi "in-vivo-optical-imaging-oi") |  |
+| Technology | Confirmed facility providers | Instrument highlights |
+| --- | --- | --- |
+| [Image Scanning microscopy (ISM)](#image-scanning-microscopy-ism "image-scanning-microscopy-ism") | Sándor Damjanovich Core Facility |  |
+| [Laser scanning confocal microscopy (LSCM/CLSM)](#laser-scanning-confocal-microscopy-lscm-clsm "laser-scanning-confocal-microscopy-lscm-clsm") | Cellular Imaging Laboratory, Sándor Damjanovich Core Facility | Cellular Imaging Laboratory: Stellaris 8, SP5, FV1000; Sándor Damjanovich Core Facility: FV1000 |
+| [Spinning disk confocal microscopy (SDCM)](#spinning-disk-confocal-microscopy-sdcm "spinning-disk-confocal-microscopy-sdcm") | Cellular Imaging Laboratory (qualified), Femtonics Ltd (qualified) |  |
+| [Structured illumination microscopy (SIM)](#structured-illumination-microscopy-sim "structured-illumination-microscopy-sim") | Nano-Bio-Imaging Core Facility | Nano-Bio-Imaging Core Facility: Zeiss Elyra S.1 SIM |
+| [Total internal reflection fluorescence microscopy (TIRF)](#total-internal-reflection-fluorescence-microscopy-tirf "total-internal-reflection-fluorescence-microscopy-tirf") | Georg von Békésy Center for Biophysical Research, Nano-Bio-Imaging Core Facility, Sándor Damjanovich Core Facility | Nano-Bio-Imaging Core Facility: Olympus IX81S1F-ZDC2 Fiber-TIRF |
+| [Two-photon microscopy (2P)](#two-photon-microscopy-2p "two-photon-microscopy-2p") | BVC, Femtonics Ltd, Nano-Bio-Imaging Core Facility | Femtonics Ltd: FEMTO3D Atlas (acousto-optic all-in-one two-photon); Nano-Bio-Imaging Core Facility: Femto2D-SMART in-vivo two-photon microscope |
+| [Single Molecule localization microscopy (SMLM)](#single-molecule-localization-microscopy-smlm "single-molecule-localization-microscopy-smlm") | Nano-Bio-Imaging Core Facility, Sándor Damjanovich Core Facility | Nano-Bio-Imaging Core Facility: Nikon Eclipse Ti2-E |
+| [Stimulated emission depletion microscopy (STED)](#stimulated-emission-depletion-microscopy-sted "stimulated-emission-depletion-microscopy-sted") | Nano-Bio-Imaging Core Facility | Nano-Bio-Imaging Core Facility: Abberior Instruments Expert Line/FLIM on Nikon Eclipse Ti2 |
+| [Second/Third Harmonic Generation (SHG/THG)](#second-third-harmonic-generation-shg-thg "second-third-harmonic-generation-shg-thg") | BVC (qualified) |  |
+| [Light-sheet mesoscopic imaging (SPIM/dSLSM)](#light-sheet-mesoscopic-imaging-spim-dslsm "light-sheet-mesoscopic-imaging-spim-dslsm") | Femtonics Ltd (qualified) |  |
+| [Anisotropy/Polarization Microscopy (AM)](#anisotropy-polarization-microscopy-am "anisotropy-polarization-microscopy-am") | Sándor Damjanovich Core Facility |  |
+| [Fluorescence (cross)-correlation spectroscopy (FCS/FCCS)](#fluorescence-cross-correlation-spectroscopy-fcs-fccs "fluorescence-cross-correlation-spectroscopy-fcs-fccs") | Cellular Imaging Laboratory, Sándor Damjanovich Core Facility |  |
+| [Fluorescence Lifetime Imaging (FLIM)](#fluorescence-lifetime-imaging-flim "fluorescence-lifetime-imaging-flim") | Cellular Imaging Laboratory, Nano-Bio-Imaging Core Facility, Sándor Damjanovich Core Facility | Nano-Bio-Imaging Core Facility: Abberior Instruments Expert Line/FLIM on Nikon Eclipse Ti2 |
+| [Fluorescence Recovery after Photobleaching (FRAP)](#fluorescence-recovery-after-photobleaching-frap "fluorescence-recovery-after-photobleaching-frap") | Cellular Imaging Laboratory, Sándor Damjanovich Core Facility |  |
+| [Fluorescence Resonance Energy Transfer (FRET)](#fluorescence-resonance-energy-transfer-fret "fluorescence-resonance-energy-transfer-fret") | Sándor Damjanovich Core Facility |  |
+| [High throughput microscopy/high content screening (HTM/HCS)](#high-throughput-microscopy-high-content-screening-htm-hcs "high-throughput-microscopy-high-content-screening-htm-hcs") | Georg von Békésy Center for Biophysical Research |  |
+| [High-speed Imaging (HSI)](#high-speed-imaging-hsi "high-speed-imaging-hsi") | BVC (qualified), Femtonics Ltd (qualified) |  |
+| [Imaging at Biosafety Level >1 (BSL>1)](#imaging-at-biosafety-level-gt-1-bsl-gt-1 "imaging-at-biosafety-level-gt-1-bsl-gt-1") | No confirmed facility provider yet |  |
+| [Microdissection (µDis)](#microdissection-mdis "microdissection-mdis") | No confirmed facility provider yet |  |
+| [Phosphorescence Lifetime imaging (PLIM)](#phosphorescence-lifetime-imaging-plim "phosphorescence-lifetime-imaging-plim") | No confirmed facility provider yet |  |
+| [Photomanipulation (Pmanip)](#photomanipulation-pmanip "photomanipulation-pmanip") | BVC, Nano-Bio-Imaging Core Facility |  |
+| [Voltage/pH/Ion Imaging](#voltage-ph-ion-imaging "voltage-ph-ion-imaging") | Femtonics Ltd |  |
+| [TEM of chemical fixed samples (TEM)](#tem-of-chemical-fixed-samples-tem "tem-of-chemical-fixed-samples-tem") | No confirmed facility provider yet |  |
+| [Array tomography (AT)](#array-tomography-at "array-tomography-at") | Sándor Damjanovich Core Facility (qualified) |  |
+| [Serial Blockface SEM (SBF-SEM)](#serial-blockface-sem-sbf-sem "serial-blockface-sem-sbf-sem") | No confirmed facility provider yet |  |
+| [serial section TEM (ssTEM)](#serial-section-tem-sstem "serial-section-tem-sstem") | No confirmed facility provider yet |  |
+| [Immuno-gold EM on resin sections (resin-EM)](#immuno-gold-em-on-resin-sections-resin-em "immuno-gold-em-on-resin-sections-resin-em") | No confirmed facility provider yet |  |
+| [pre-embedding immunolabelling (pre-embed IL)](#pre-embedding-immunolabelling-pre-embed-il "pre-embedding-immunolabelling-pre-embed-il") | No confirmed facility provider yet |  |
+| [Atomic Force Microscopy (AFM)](#atomic-force-microscopy-afm "atomic-force-microscopy-afm") | Georg von Békésy Center for Biophysical Research |  |
+| [in vivo optical imaging (OI)](#in-vivo-optical-imaging-oi "in-vivo-optical-imaging-oi") | No confirmed facility provider yet |  |
+
+(qualified): the provider link is recorded with a scope note and is to be confirmed by the Node.
 
 ## Specialties and research focus
 
-Neuroscience runs through much of the Node's work. BVC studies neurodegenerative disease, including depression, dementia and epilepsy, and also works on vision and blindness. Femtonics Ltd serves neuroscience first and other life-science fields as well, with model organisms that range from zebrafish to non-human primates. At the Nano-Bio-Imaging Core Facility, research includes in vivo imaging of brain activity and calcium imaging.
+Neuroscience is the largest research area across the Node. BVC in Budapest studies neurodegenerative disease, including depression, dementia and epilepsy, and also works on vision and blindness. Femtonics Ltd centres its work on neuroscience and supports other life-science fields, with model organisms that range from zebrafish to non-human primates. At the Nano-Bio-Imaging Core Facility in Pécs, research includes imaging brain activity in vivo and following calcium signals in living tissue.
 
-Membrane and molecular biophysics form the second strand. The Sándor Damjanovich Core Facility works in cell biology and biophysics, with a focus on receptors and cell membranes. The Nano-Bio-Imaging Core Facility follows membrane dynamics and tracks single molecules in living cells. The Georg von Békésy Center for Biophysical Research studies muscle mechanics and the nanomechanics of single molecules and DNA, and its research spans scales from molecules to whole organisms. The Cellular Imaging Laboratory focuses on fluorescence-based cellular imaging for researchers in cell and molecular biology.
+Cell biology and membrane biophysics form the second strand. The Sándor Damjanovich Core Facility in Debrecen supports cell biology and biophysics, with a particular focus on cell-surface receptors and the organisation of membranes. The Nano-Bio-Imaging Core Facility also works on membrane dynamics and tracks single molecules in living cells with super-resolution methods.
+
+The Georg von Békésy Center for Biophysical Research in Budapest looks at mechanics at the molecular and tissue scale. Its research covers muscle mechanics and the nanomechanics of single molecules and DNA, within a broader programme in biophysics. The Cellular Imaging Laboratory in Szeged concentrates on fluorescence-based imaging of cells.
 
 ## Services and user support
 
-A project at the Node starts with imaging services, which all facilities provide. At the Nano-Bio-Imaging Core Facility, staff can help set up a method for a new experiment, so that the imaging approach fits the biological question before data collection begins. The same facility gives technical assistance to run its instruments, which helps visitors working with super-resolution or two-photon systems for the first time.
-
-Researchers who want to work more independently can be trained in using the infrastructure. The Cellular Imaging Laboratory also runs general training courses, which give a broader grounding in imaging methods.
-
-Once images are acquired, the Nano-Bio-Imaging Core Facility supports data processing and analysis. The Cellular Imaging Laboratory provides software for processing and analysing data. Where a project goes beyond a service, the Nano-Bio-Imaging Core Facility also takes part in collaborative research, which suits work that needs method development or sustained input from its staff.
-
-### Services offered*
+### Services currently recorded (not in the signed SLA, please confirm)
 
 - Imaging services
 - Methodological setup (at Nano-Bio-Imaging Core Facility, University of Pécs)
@@ -74,7 +74,6 @@ Once images are acquired, the Nano-Bio-Imaging Core Facility supports data proce
 - General Training Courses (at Cellular Imaging Laboratory, HUN-REN Biological Research Centre)
 - Data processing and analysis (at Nano-Bio-Imaging Core Facility, University of Pécs)
 - Data processing and analysis software (at Cellular Imaging Laboratory, HUN-REN Biological Research Centre)
-- Collaborative research (at Nano-Bio-Imaging Core Facility, University of Pécs)
 
 ## Facilities
 
@@ -87,11 +86,11 @@ Once images are acquired, the Nano-Bio-Imaging Core Facility supports data proce
 | [Nano-Bio-Imaging Core Facility, University of Pécs](https://szkk.pte.hu/en/core_facilities/nano_bio_imaging_core_facility "cellular-imaging-hungary-nano-bio-imaging-core-facility-university-of-pecs") | University of Pécs | Pécs |
 | [Sándor Damjanovich Core Facility](https://biophys.unideb.hu/en/cellular-imaging-hungary-euro-bioimaging-node-sandor-damjanovich-core-facility "cellular-imaging-hungary-sandor-damjanovich-core-facility") | University of Debrecen, Department of Biophysics and Cell Biology | Debrecen |
 
-The Node's six facilities fall into three regional groups. Budapest hosts three of them. BVC and the Georg von Békésy Center for Biophysical Research both belong to Semmelweis University. BVC is a research institute and competence centre that pairs molecular neurobiology with 3D laser microscopy. The Georg von Békésy Center for Biophysical Research takes a biophysical view, combining surface-sensitive fluorescence with high-content screening and atomic force measurements, and it belongs to the Semmelweis BioImaging Consortium. Femtonics Ltd is a company that develops multiphoton microscopes, so researchers can work on the platforms where they are designed.
+Two core facilities carry most of the Node's super-resolution and molecular dynamics work. The Sándor Damjanovich Core Facility belongs to the Department of Biophysics and Cell Biology at the University of Debrecen. It offers confocal, image scanning and single-molecule localisation microscopy, a full set of fluorescence dynamics methods and array tomography, and its staff are expert in FRET and membrane biophysics. The Nano-Bio-Imaging Core Facility at the University of Pécs offers STED, SMLM, structured illumination and TIRF microscopy alongside two-photon imaging and photomanipulation. Its team works on single-molecule tracking and live-cell super-resolution.
 
-The Cellular Imaging Laboratory in Szeged is the core facility of the HUN-REN Biological Research Centre. It serves researchers from its own centre and other Hungarian institutes, and it suits confocal studies of cells and measurements of molecular mobility.
+Two Budapest facilities focus on imaging the nervous system. BVC is a research institute and competence centre at Semmelweis University that combines molecular neurobiology with 3D laser microscopy. It offers two-photon microscopy, harmonic generation imaging and photomanipulation. Femtonics Ltd is a company that develops multiphoton microscopes, and it offers two-photon, spinning disk and light-sheet imaging, with high-speed and ion imaging in development.
 
-The two university core facilities outside Budapest complement each other. The Sándor Damjanovich Core Facility belongs to the Department of Biophysics and Cell Biology at the University of Debrecen. It is the place for interaction and orientation measurements, and its combination of light microscopy with array tomography suits projects that link fluorescence to ultrastructure. The Nano-Bio-Imaging Core Facility at the University of Pécs joins super-resolution with in vivo two-photon imaging. A single project there can move from nanoscale structure in cultured cells to activity in the living brain.
+The Cellular Imaging Laboratory at the HUN-REN Biological Research Centre in Szeged is a fluorescence imaging core. It offers confocal and spinning disk microscopy together with lifetime imaging, photobleaching and correlation spectroscopy. The Georg von Békésy Center for Biophysical Research at Semmelweis University supports biophysics from single molecules to whole organisms and takes part in the Semmelweis BioImaging Consortium. It offers TIRF microscopy, high content screening and atomic force microscopy.
 
 ## Access and contact
 

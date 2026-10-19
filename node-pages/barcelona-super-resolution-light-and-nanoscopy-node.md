@@ -2,61 +2,56 @@
 
 ## Overview
 
-SLN@BCN is a Spanish Node built around super-resolution light microscopy. Both of its facilities offer stimulated emission depletion (STED) and single-molecule localisation microscopy (SMLM), which resolve cellular structures far below the limit of conventional light microscopy. The Node joins two core facilities at two institutions. These are the Centre for Genomic Regulation (CRG) in Barcelona and the Institute of Photonic Sciences (ICFO) in Castelldefels. It works in biological imaging, and alongside nanoscopy it offers confocal, multiphoton, TIRF and lifetime imaging.
+SLN@BCN is a Spanish Node for super-resolution light microscopy, or nanoscopy, in the life sciences. Its two facilities offer stimulated emission depletion (STED) and single-molecule localisation microscopy (SMLM), which resolve structures below the diffraction limit, together with confocal, multiphoton and fluorescence lifetime imaging. The Node has two facilities at the Centre for Genomic Regulation (CRG) in Barcelona and the Institute of Photonic Sciences (ICFO) in Castelldefels, and it covers biological imaging.
 
-The staff have experience across the whole course of an imaging project. This runs from experimental design and sample preparation to acquisition and the processing of complex image datasets, including custom bioimage analysis. The Node also carries out its own research and development on several super-resolution techniques, so instruments can be refined to suit the needs of a particular project. This work involves collaborations with industry, hospitals and research centres. At ALMU in Barcelona, the team is expert in quantitative bioimaging, multiphoton and single-molecule imaging and bioimage analysis. The SLN team in Castelldefels concentrates on nanoscopy and single-molecule imaging and contributes to the development of new nanoscopy methods.
+Staff at both facilities support the whole course of an imaging project, from experimental design and sample preparation to acquisition and the processing of complex image datasets. They also write customised bioimage analysis for individual projects. The Node carries out its own development work on several super-resolution and microscopy techniques and adjusts instrument specifications to the needs of particular projects. It collaborates with industry, hospitals and research centres. At ALMU in Barcelona the expertise centres on quantitative bioimaging, multiphoton and single-molecule imaging, and bioimage analysis. The team at SLN in Castelldefels specialises in nanoscopy and single-molecule imaging and contributes to the development of new nanoscopy methods.
 
-Cell biologists who need to map proteins or subcellular structures at the nanoscale can work with either facility, because both offer STED and SMLM. Projects that pair super-resolution with spinning disk confocal imaging, image scanning microscopy or photobleaching experiments fit best at ALMU. Researchers working with organoids, small embryos or corneal specimens will find most support at SLN. SLN is also the place for label-free contrast from Raman spectroscopy or harmonic generation.
+STED and SMLM are at both ALMU in Barcelona and SLN in Castelldefels. Confocal, two-photon and total internal reflection fluorescence (TIRF) microscopy are also at both facilities, as is fluorescence lifetime imaging (FLIM). Spinning disk confocal microscopy, image scanning microscopy and fluorescence recovery after photobleaching (FRAP) are at ALMU in Barcelona. Label-free imaging by Raman spectroscopy and second and third harmonic generation is at SLN in Castelldefels, and both facilities offer image analysis.
 
 ## Imaging technologies offered
 
-Nanoscopy is the core of the Node. STED microscopy narrows the excitation spot optically, so a researcher can image subcellular structures and molecular distributions directly at nanometre detail. SMLM takes a different route and builds an image from the positions of individual fluorescent molecules, which suits mapping how proteins are arranged. ALMU and SLN both offer STED and SMLM. SLN runs an Abberior INFINITY for STED, while ALMU uses a SAFe360 MN for SMLM and total internal reflection fluorescence (TIRF) microscopy.
+Super-resolution fluorescence is the core of the Node. STED sharpens the fluorescent spot directly, so researchers can resolve subcellular structures and the distribution of molecules without collecting single molecules one by one. SMLM takes the opposite route and builds an image from the positions of individual molecules, which maps molecular distributions with high specificity. SLN offers STED on an Abberior INFINITY, and ALMU runs a SAFe360 MN for TIRF, HiLo and SMLM.
 
-A set of fluorescence methods adds context and dynamics. ALMU and SLN both offer laser scanning confocal and two-photon microscopy. Two-photon excitation gives optical sections deep in thick tissue. Both facilities also offer TIRF, which limits the signal to membranes and molecules close to the coverslip. Fluorescence lifetime imaging (FLIM), offered at ALMU and SLN, adds contrast that depends on the molecular environment rather than on intensity alone. ALMU also offers spinning disk confocal and image scanning microscopy. It offers fluorescence recovery after photobleaching (FRAP) too, which measures how molecules move and exchange within a region of a cell. Its Zeiss LSM 990 Airyscan 2 NLO FLIM combines confocal, multiphoton and lifetime imaging, and its Evident SpinSR supports live-cell work.
+Confocal and multiphoton microscopy support this work at both facilities. Confocal imaging gives optical sections and multichannel 3D localisation in cells and optically accessible tissue, while two-photon excitation reaches cells deeper within thick tissue. TIRF limits excitation to a thin layer near the coverslip, which gives high contrast for membranes and single molecules. At ALMU the Zeiss LSM 990 Airyscan 2 NLO FLIM combines multiphoton, image scanning and lifetime imaging, and the Evident SpinSR offers fast spinning disk confocal imaging of living cells.
 
-SLN adds two label-free methods. Raman spectroscopy on a Renishaw inVia reads molecular composition from small regions of a sample. Second and third harmonic generation shows ordered structures in cells and tissues without any added dye. Image analysis of the acquired data is offered at ALMU and SLN.
+Functional methods add measurements beyond intensity. FLIM reports on the molecular environment and interactions in each pixel, and FRAP at ALMU measures how quickly molecules move and exchange within a cell region. SLN also offers label-free imaging. Raman spectroscopy on a Renishaw inVia reads the molecular composition of small regions, and harmonic generation shows ordered structures in cells and tissues without any added dye. Both facilities quantify and process the acquired images.
 
 ### Technologies and instruments
 
-| Technology | Instrument highlights |
-| --- | --- |
-| [Deconvolution widefield microscopy (DWM)](#deconvolution-widefield-microscopy-dwm "deconvolution-widefield-microscopy-dwm") |  |
-| [Image Scanning microscopy (ISM)](#image-scanning-microscopy-ism "image-scanning-microscopy-ism") | ALMU: Zeiss LSM 990 Airyscan 2 NLO FLIM |
-| [Laser scanning confocal microscopy (LSCM/CLSM)](#laser-scanning-confocal-microscopy-lscm-clsm "laser-scanning-confocal-microscopy-lscm-clsm") | ALMU: Zeiss LSM 990 Airyscan 2 NLO FLIM |
-| [Spinning disk confocal microscopy (SDCM)](#spinning-disk-confocal-microscopy-sdcm "spinning-disk-confocal-microscopy-sdcm") | ALMU: Evident SpinSR |
-| [Total internal reflection fluorescence microscopy (TIRF)](#total-internal-reflection-fluorescence-microscopy-tirf "total-internal-reflection-fluorescence-microscopy-tirf") | ALMU: SAFe360 MN |
-| [Two-photon microscopy (2P)](#two-photon-microscopy-2p "two-photon-microscopy-2p") | ALMU: Zeiss LSM 990 Airyscan 2 NLO FLIM |
-| [Reversible optical fluorescence transitions (RESOLFT)](#reversible-optical-fluorescence-transitions-resolft "reversible-optical-fluorescence-transitions-resolft") |  |
-| [Single Molecule localization microscopy (SMLM)](#single-molecule-localization-microscopy-smlm "single-molecule-localization-microscopy-smlm") | ALMU: SAFe360 MN |
-| [Stimulated emission depletion microscopy (STED)](#stimulated-emission-depletion-microscopy-sted "stimulated-emission-depletion-microscopy-sted") | SLN: Abberior INFINITY |
-| [Raman Spectroscopy (RS)](#raman-spectroscopy-rs "raman-spectroscopy-rs") | SLN: Renishaw inVia |
-| [Second/Third Harmonic Generation (SHG/THG)](#second-third-harmonic-generation-shg-thg "second-third-harmonic-generation-shg-thg") |  |
-| [Fluorescence (cross)-correlation spectroscopy (FCS/FCCS)](#fluorescence-cross-correlation-spectroscopy-fcs-fccs "fluorescence-cross-correlation-spectroscopy-fcs-fccs") |  |
-| [Fluorescence Lifetime Imaging (FLIM)](#fluorescence-lifetime-imaging-flim "fluorescence-lifetime-imaging-flim") | ALMU: Zeiss LSM 990 Airyscan 2 NLO FLIM |
-| [Fluorescence Recovery after Photobleaching (FRAP)](#fluorescence-recovery-after-photobleaching-frap "fluorescence-recovery-after-photobleaching-frap") |  |
-| [Fluorescence Resonance Energy Transfer (FRET)](#fluorescence-resonance-energy-transfer-fret "fluorescence-resonance-energy-transfer-fret") |  |
-| [High throughput microscopy/high content screening (HTM/HCS)](#high-throughput-microscopy-high-content-screening-htm-hcs "high-throughput-microscopy-high-content-screening-htm-hcs") |  |
-| [Image Analysis -bio (IA bio)](#image-analysis-bio "image-analysis-bio") |  |
+| Technology | Confirmed facility providers | Instrument highlights |
+| --- | --- | --- |
+| [Deconvolution widefield microscopy (DWM)](#deconvolution-widefield-microscopy-dwm "deconvolution-widefield-microscopy-dwm") | No confirmed facility provider yet |  |
+| [Image Scanning microscopy (ISM)](#image-scanning-microscopy-ism "image-scanning-microscopy-ism") | ALMU | ALMU: Zeiss LSM 990 Airyscan 2 NLO FLIM |
+| [Laser scanning confocal microscopy (LSCM/CLSM)](#laser-scanning-confocal-microscopy-lscm-clsm "laser-scanning-confocal-microscopy-lscm-clsm") | ALMU, SLN | ALMU: Zeiss LSM 990 Airyscan 2 NLO FLIM |
+| [Spinning disk confocal microscopy (SDCM)](#spinning-disk-confocal-microscopy-sdcm "spinning-disk-confocal-microscopy-sdcm") | ALMU | ALMU: Evident SpinSR |
+| [Total internal reflection fluorescence microscopy (TIRF)](#total-internal-reflection-fluorescence-microscopy-tirf "total-internal-reflection-fluorescence-microscopy-tirf") | ALMU, SLN | ALMU: SAFe360 MN |
+| [Two-photon microscopy (2P)](#two-photon-microscopy-2p "two-photon-microscopy-2p") | ALMU, SLN | ALMU: Zeiss LSM 990 Airyscan 2 NLO FLIM |
+| [Reversible optical fluorescence transitions (RESOLFT)](#reversible-optical-fluorescence-transitions-resolft "reversible-optical-fluorescence-transitions-resolft") | No confirmed facility provider yet |  |
+| [Single Molecule localization microscopy (SMLM)](#single-molecule-localization-microscopy-smlm "single-molecule-localization-microscopy-smlm") | ALMU, SLN | ALMU: SAFe360 MN |
+| [Stimulated emission depletion microscopy (STED)](#stimulated-emission-depletion-microscopy-sted "stimulated-emission-depletion-microscopy-sted") | ALMU, SLN | SLN: Abberior INFINITY |
+| [Raman Spectroscopy (RS)](#raman-spectroscopy-rs "raman-spectroscopy-rs") | SLN | SLN: Renishaw inVia |
+| [Second/Third Harmonic Generation (SHG/THG)](#second-third-harmonic-generation-shg-thg "second-third-harmonic-generation-shg-thg") | SLN |  |
+| [Fluorescence (cross)-correlation spectroscopy (FCS/FCCS)](#fluorescence-cross-correlation-spectroscopy-fcs-fccs "fluorescence-cross-correlation-spectroscopy-fcs-fccs") | No confirmed facility provider yet |  |
+| [Fluorescence Lifetime Imaging (FLIM)](#fluorescence-lifetime-imaging-flim "fluorescence-lifetime-imaging-flim") | ALMU, SLN | ALMU: Zeiss LSM 990 Airyscan 2 NLO FLIM |
+| [Fluorescence Recovery after Photobleaching (FRAP)](#fluorescence-recovery-after-photobleaching-frap "fluorescence-recovery-after-photobleaching-frap") | ALMU |  |
+| [Fluorescence Resonance Energy Transfer (FRET)](#fluorescence-resonance-energy-transfer-fret "fluorescence-resonance-energy-transfer-fret") | No confirmed facility provider yet |  |
+| [High throughput microscopy/high content screening (HTM/HCS)](#high-throughput-microscopy-high-content-screening-htm-hcs "high-throughput-microscopy-high-content-screening-htm-hcs") | No confirmed facility provider yet |  |
+| [Image Analysis -bio (IA bio)](#image-analysis-bio "image-analysis-bio") | ALMU, SLN |  |
 
 ## Specialties and research focus
 
-The research the Node supports spans three scales: single molecules, subcellular components and whole cells. Its super-resolution methods matter most at the first two scales, where questions concern how molecules are arranged and how small structures are assembled inside the cell.
+Research at the Node spans three scales of biological organisation: single molecules, subcellular components and whole cells. The Node's development work on super-resolution methods runs alongside this, and its partners include industry, hospitals and research centres, so the questions it meets come from both basic and applied settings.
 
-ALMU in Barcelona serves the broad life sciences, and within the Node its work centres on super-resolution. The samples it handles are cultured cells and prepared specimens, which suit nanoscale mapping and quantitative imaging of cellular structures. SLN in Castelldefels serves biomedical and life-science imaging. It works with organoids and small embryos, which bring three-dimensional tissue organisation into view, and with corneal specimens. Because SLN offers fluorescence nanoscopy alongside label-free methods, a project on such tissue can combine labelled targets with information on molecular composition or ordered structure from the same samples.
+ALMU in Barcelona serves the broad life sciences, and within SLN@BCN its work focuses on super-resolution. Its staff work with cultured cells and prepared specimens, and their background in quantitative bioimaging means images are treated as measurements rather than pictures alone. Single-molecule imaging and multiphoton work on tissue sit alongside each other in its projects.
 
-The Node's development of super-resolution techniques is tied to collaborations with industry, hospitals and research centres. This links its microscopy work to biomedical as well as basic research questions, from the behaviour of single molecules to the organisation of cells in tissue.
+SLN in Castelldefels supports biomedical and life-science imaging. Its sample types extend beyond cultured cells to organoids, small embryos and corneal specimens, which brings three-dimensional and tissue samples into the Node's work. Because SLN takes part in nanoscopy method development, projects there often sit close to new optical approaches as they are being refined. Its label-free methods add chemical and structural contrast to the fluorescence imaging of these samples.
 
 ## Services and user support
 
-Researchers can work with SLN@BCN in two main ways. Staff provide technical assistance to run the instruments, so a visiting scientist can acquire data alongside someone who knows the system well. This suits nanoscopy in particular, where the choice of settings strongly shapes the final image. Researchers who would rather operate the microscopes themselves can be trained in the use of the infrastructure. Training gives them the skills to plan and run their own sessions on the systems they need.
-
-The third service is research and development. Both facilities develop and refine super-resolution methods, and this work is open to projects as a service. A project that needs an instrument adapted to its questions, or a technique taken beyond its standard configuration, can draw on the staff's development work. This makes the Node a partner for methodological projects as well as a place to acquire images. Through this service, the Node's engineering and optics expertise becomes part of the project itself.
-
-### Services offered*
+### Services currently recorded (not in the signed SLA, please confirm)
 
 - Technical assistance to run instrument
 - Training in infrastructure use
-- Research and development
 
 ## Facilities
 
@@ -65,11 +60,11 @@ The third service is research and development. Both facilities develop and refin
 | [Advanced Light Microscopy Unit (ALMU), CRG](https://www.crg.eu/en/programmes-groups/advanced-light-microscopy-unit "barcelona-super-resolution-light-and-nanoscopy-node-advanced-light-microscopy-unit-almu-crg") | Centre for Genomic Regulation (CRG) | Barcelona |
 | [Super-resolution Light Microscopy & Nanoscopy Facility (SLN), ICFO](https://www.icfo.eu/research/facilities/sln/ "barcelona-super-resolution-light-and-nanoscopy-node-super-resolution-light-microscopy-nanoscopy-facility-sln-icfo") | Institute of Photonic Sciences (ICFO) | Castelldefels (Barcelona) |
 
-SLN@BCN combines two facilities that share a common core and differ at the edges. ALMU is the Advanced Light Microscopy Unit at the Centre for Genomic Regulation in Barcelona. It is a walk-in core facility for quantitative bioimaging that spans confocal and super-resolution microscopy. Its range of fluorescence methods makes it a good base for cell biology projects that need several kinds of imaging on the same samples, from fast optical sectioning to nanoscale detail.
+The Advanced Light Microscopy Unit (ALMU) is the core facility for quantitative bioimaging at the Centre for Genomic Regulation in Barcelona. It offers confocal, spinning disk and image scanning microscopy, together with two-photon and TIRF imaging. For resolution below the diffraction limit it provides both STED and SMLM. ALMU also offers FLIM and FRAP, so researchers can measure molecular environment and mobility as well as structure. Its staff are experienced in multiphoton and single-molecule imaging and in bioimage analysis, and they work with cultured cells and prepared specimens across the life sciences.
 
-SLN is the Super-resolution Light Microscopy and Nanoscopy Facility at the Institute of Photonic Sciences in Castelldefels. It provides super-resolution imaging within the Node and contributes to the development of nanoscopy methods. Its setting in a photonics institute shows in its focus on optical method development and in its label-free techniques, which ALMU does not offer.
+The Super-resolution Light Microscopy & Nanoscopy Facility (SLN) is based at the Institute of Photonic Sciences in Castelldefels. It provides super-resolution imaging within SLN@BCN, with STED and SMLM as its main methods, and adds confocal, two-photon, TIRF and lifetime imaging. SLN is the Node's site for label-free imaging, offering Raman spectroscopy and second and third harmonic generation. Its team specialises in nanoscopy and single-molecule imaging and contributes to the development of new nanoscopy methods. The facility handles organoids, small embryos and corneal specimens for biomedical and life-science projects.
 
-The two facilities overlap on STED, SMLM, confocal, two-photon, TIRF and lifetime imaging, so a project in nanoscopy can be placed at either site. ALMU adds spinning disk confocal, image scanning microscopy and FRAP, which suit dynamic and live-cell questions. SLN adds Raman spectroscopy and harmonic generation for samples where chemical or structural contrast without labels is useful. A project can therefore begin at one facility and continue at the other when it needs a method that only the second one offers. Both facilities offer image analysis.
+Both facilities offer image analysis, and their staff write customised analysis for the complex datasets that super-resolution and lifetime imaging produce.
 
 ## Access and contact
 

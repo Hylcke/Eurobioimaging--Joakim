@@ -2,50 +2,43 @@
 
 ## Overview
 
-The Dutch High Field Imaging Hub provides human magnetic resonance imaging and spectroscopy (MRI/MRS) at ultra-high field, meaning 7 tesla and above. All five of its facilities offer this one method, so the Node suits human studies that need detailed anatomy, tissue physiology or metabolite measurements from a high-field scanner. The facilities sit at five institutions in Leiden, Utrecht, Maastricht and Amsterdam. The fifth is the Donders Institute, which is coordinated from Nijmegen and runs its MRI site in Essen, Germany. The Node works entirely in biomedical imaging and focuses on people rather than cells or tissue samples.
+The Dutch High Field Imaging Hub offers human magnetic resonance imaging and spectroscopy (MRI/MRS) at ultra-high field strengths of 7 tesla and above. Its focus is precision MRI for medical and neuroscience research in people. The Node has five facilities, four of them in the Dutch cities of Amsterdam, Leiden, Maastricht and Utrecht, and the fifth is coordinated from Nijmegen with its MRI site in Essen, Germany. All of its work is in biomedical imaging.
 
-The sites share a common base of high-field expertise, but each has its own emphasis. The C.J. Gorter MRI Center in Leiden and UMC Utrecht High Field MRI in Utrecht concentrate on technical development and translational studies across medical applications. Staff at C.J. Gorter develop MR technology, including non-invasive blood-flow measurement, quantitative fat-fraction assessment and high-resolution imaging of ocular tumours. Scannexus in Maastricht and the Spinoza Centre for Neuroimaging in Amsterdam lean more towards basic neuroscience. The Spinoza team is experienced in imaging brain function, anatomy, connectivity and metabolism at ultra-high field, while the Donders Institute brings expertise in cognitive neuroimaging, study design and imaging methodology. Across the Node, staff also image the head and neck, heart, breast, pelvis, abdomen and limbs.
+The sites share one method but differ in emphasis. The C.J. Gorter MRI Center in Leiden and UMC Utrecht High Field MRI in Utrecht concentrate on technical development and translational studies across medical applications. Staff at the C.J. Gorter MRI Center develop MR technology, including non-invasive blood-flow measurement, quantitative fat-fraction assessment and high-resolution imaging of ocular tumours. Scannexus in Maastricht and the Spinoza Centre for Neuroimaging in Amsterdam lean more towards basic neuroscience, and the Spinoza team images brain function, anatomy, connectivity and metabolism. The Donders Institute brings experience in cognitive neuroimaging, study design and imaging methodology. Because the sites overlap, they share a knowledge base that reaches beyond the brain to the head and neck, heart, breast, pelvis, abdomen and extremities.
 
-Neuroscientists studying brain function or brain disorders will find close support at the Spinoza Centre for Neuroimaging. Clinical and translational groups, especially those working on muscle disease or eye tumours, are well served by the C.J. Gorter MRI Center. Teams developing or testing diagnostics, therapeutics or new imaging technology will find that work in the application areas of Scannexus.
+MRI/MRS at 7 tesla and above is offered at all five facilities. In the Netherlands it is at the C.J. Gorter MRI Center in Leiden, UMC Utrecht High Field MRI in Utrecht and the Spinoza Centre for Neuroimaging in Amsterdam. Scannexus in Maastricht offers it too. The Donders Institute, coordinated from Radboud University in Nijmegen, provides it at its MRI site in Essen.
 
 ## Imaging technologies offered
 
-Every facility in the Node offers MRI/MRS at 7 tesla or above. Ultra-high-field MRI shows human soft-tissue anatomy and physiology in fine detail without ionising radiation. Spectroscopy adds measurements of metabolites within small volumes of tissue. In the brain, this lets researchers study structure, function and connectivity, and the Spinoza Centre for Neuroimaging also images brain metabolism. Outside the brain, the same method supports imaging of the heart, breast, abdomen, pelvis, head and neck, and limbs.
+Every facility in the Node offers the same method, human MRI and MRS at 7 tesla and above. MRI shows soft-tissue anatomy and tissue physiology in living people without ionising radiation, so participants can be scanned repeatedly. MRS adds chemistry to the picture, because it measures the concentration of metabolites within each small volume of tissue. Together they let a researcher relate structure, function and metabolism in the same person.
 
-Some sites have adapted the method for particular measurements. At the C.J. Gorter MRI Center, researchers can measure blood flow non-invasively, quantify the fat fraction of tissue and image ocular tumours at high resolution. These measurements are useful in neuromuscular disease and eye oncology.
+In the brain, the sites use these methods to study function, anatomy, connectivity and metabolism. The same techniques also apply to the body. The C.J. Gorter MRI Center in Leiden measures blood flow without contrast injection, quantifies the fat content of tissue such as muscle, and images ocular tumours at high resolution. The Node's 7T systems are configured for both brain and body studies, which covers organs from the head and neck to the heart, breast, pelvis, abdomen and limbs.
 
-The C.J. Gorter MRI Center runs a Philips 7 Tesla human MRI research system with its own hardware and reconstruction infrastructure. Scannexus has 7T and 9.4T UHF MAGNETOM systems, and its 3T MAGNETOM Prisma Fit sits alongside them. UMC Utrecht High Field MRI operates a 7 tesla MR system for research, and the Spinoza Centre for Neuroimaging has 7T and 3T MRI systems. The Donders Institute provides its high-field MRI from its site in Essen.
+Several instruments show what is available. The C.J. Gorter MRI Center runs a Philips 7 Tesla human MRI research system. Scannexus in Maastricht operates ultra-high-field MAGNETOM systems at 7T and 9.4T. UMC Utrecht High Field MRI in Utrecht has a 7 tesla MR system dedicated to research, and the Spinoza Centre for Neuroimaging in Amsterdam also runs a 7T scanner.
 
 ### Technologies and instruments
 
-| Technology | Instrument highlights |
-| --- | --- |
-| [MRI/MRS (>= 7T)](#mri-mrs-gte-7t "mri-mrs-gte-7t") | C.J. Gorter MRI Center: Philips 7 Tesla human MRI research system |
+| Technology | Confirmed facility providers | Instrument highlights |
+| --- | --- | --- |
+| [MRI/MRS (>= 7T)](#mri-mrs-gte-7t "mri-mrs-gte-7t") | C.J. Gorter MRI Center, Donders Institute, Scannexus, Spinoza Centre for Neuroimaging, UMC Utrecht High Field MRI | C.J. Gorter MRI Center: Philips 7 Tesla human MRI research system |
 
 ## Specialties and research focus
 
-Research at the Node centres on the living human body, with the brain as the most common subject. The Spinoza Centre for Neuroimaging in Amsterdam supports fundamental brain research and the study of brain disorders in neurology and psychiatry, and it is also open to research outside the brain. The Donders Institute serves cognitive neuroscience, studies of brain function and structure, and clinical and translational neuroimaging. UMC Utrecht High Field MRI concentrates on human brain imaging research.
+Neuroscience runs through most of the Node. The Spinoza Centre for Neuroimaging in Amsterdam works on fundamental brain research and on brain disorders in neurology and psychiatry, and it also takes on research outside the brain. At the Donders Institute the work centres on cognitive neuroscience, brain function and structure, and clinical and translational neuroimaging. UMC Utrecht High Field MRI in Utrecht supports human brain imaging research.
 
-Other facilities reach further into medicine. The C.J. Gorter MRI Center in Leiden works on neurology, neuromuscular disease and ocular tumours, and it also supports research using pre-clinical disease models. Scannexus in Maastricht covers human anatomy, physiology, cognition and function. Its application areas also include the development and evaluation of diagnostics, therapeutics and imaging technology.
+Scannexus in Maastricht covers human anatomy, physiology, cognition and function. Its research also includes the development and evaluation of diagnostics, therapeutics and imaging technology. The C.J. Gorter MRI Center in Leiden works on neurology, neuromuscular disease and ocular tumours, and it also studies pre-clinical disease models.
 
-Because the sites overlap, the Node can take on studies beyond neuroimaging. Its staff have worked on imaging of the head and neck, heart, breast, pelvis, abdomen and extremities.
+Across the sites, research is not limited to the brain. The Node's ultra-high-field studies extend to the head and neck, the heart, the breast, the pelvis, the abdomen and the extremities. This pairs the basic neuroscience at Amsterdam and Maastricht with translational medical studies at Leiden and Utrecht.
 
 ## Services and user support
 
-A project at the Node usually begins with methodological set-up. Staff help define the imaging protocol and adapt the high-field method to the research question. At Scannexus, this can grow into research and development, where staff work with the researcher to develop the project itself.
-
-Once the study is running, staff provide technical assistance to run the scanner. At the C.J. Gorter MRI Center, this assistance covers MRI technology and its applications, which helps projects that need adapted sequences or specialised measurements. Researchers who want to work more independently can be trained in using the infrastructure, which is useful for longer studies with many scanning sessions.
-
-After acquisition, the Node offers data processing and analysis. This matters at ultra-high field, where images and spectra often need careful processing before they can be quantified. Taken together, these services let a group follow a study from protocol design through scanning to analysed results.
-
-### Services offered*
+### Services currently recorded (not in the signed SLA, please confirm)
 
 - Technical assistance to run instrument
 - Methodological setup
 - Training in infrastructure use
 - Data processing and analysis
 - Technical assistance to run instrument (MRI technology and applications), at C.J. Gorter MRI Center, LUMC
-- Research and development (project development), at Scannexus
 
 ## Facilities
 
@@ -57,13 +50,9 @@ After acquisition, the Node offers data processing and analysis. This matters at
 | [Spinoza Centre for Neuroimaging](https://www.spinozacentre.nl/about-us/ "dutch-high-field-imaging-hub-spinoza-centre-for-neuroimaging") | KNAW / Netherlands Institute for Neuroscience; VU Amsterdam; Amsterdam UMC (joint initiative) | Amsterdam |
 | [UMC Utrecht High Field MRI / 7T MRI](https://www.umcutrecht.nl/en/high-field-mri "dutch-high-field-imaging-hub-umc-utrecht-high-field-mri-7t-mri") | UMC Utrecht | Utrecht |
 
-The Node is a network of five sites that all offer the same method, so they work as a shared pool of high-field knowledge rather than separate specialties. Researchers can choose a site by research focus while relying on common expertise across the Hub.
+Two facilities concentrate on developing MRI methods and moving them towards medical use. The C.J. Gorter MRI Center at LUMC develops and translates magnetic-resonance technology for clinical and preclinical applications. Its staff are expert in measuring blood flow non-invasively, quantifying fat fractions and imaging ocular tumours, and their work extends to neuromuscular disease. UMC Utrecht High Field MRI supports human research at ultra-high field, with a focus on the brain, and shares the Node's emphasis on technical development and translational studies.
 
-The C.J. Gorter MRI Center at Leiden University Medical Center is the most clinically oriented site. It develops and translates MR technology for clinical and preclinical applications. UMC Utrecht High Field MRI, at UMC Utrecht, shares this interest in technical development and translational work, and its application focus is human brain imaging. Projects that need a new measurement can turn to either of these two sites.
-
-The Spinoza Centre for Neuroimaging is a joint initiative of the KNAW Netherlands Institute for Neuroscience, VU Amsterdam and Amsterdam UMC. It acts as a core facility and knowledge hub for brain research. Scannexus in Maastricht supports human MRI research in neuroimaging and in the development of diagnostics and imaging technology.
-
-The Donders Institute is the Node's site outside the Netherlands. Radboud University coordinates the service from Nijmegen, and the MRI site in Essen, Germany, is operated jointly with the University of Duisburg-Essen. It suits cognitive neuroscience projects that need help with study design and imaging methodology.
+Three facilities lean towards neuroscience. The Spinoza Centre for Neuroimaging is a core facility and knowledge hub run jointly by KNAW and the Netherlands Institute for Neuroscience, VU Amsterdam and Amsterdam UMC. Its expertise lies in ultra-high-field imaging of brain function, anatomy, connectivity and metabolism, applied to neurology and psychiatry. Scannexus supports human MRI research on anatomy, physiology, cognition and function, and its staff are expert in the principles and applications of ultra-high-field MRI. The Donders Institute provides high-field human MRI from Radboud University, and its Essen scanner site is operated jointly with the University of Duisburg-Essen. Its staff contribute expertise in cognitive neuroimaging, study design and imaging methodology for work on brain function and structure.
 
 ## Access and contact
 

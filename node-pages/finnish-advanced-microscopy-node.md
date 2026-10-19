@@ -2,78 +2,80 @@
 
 ## Overview
 
-The Finnish Advanced Microscopy Node (FiAM) is above all a light microscopy Node, with particular depth in super-resolution, functional and mesoscopic fluorescence imaging. Electron microscopy is its second strength, and correlative light and electron microscopy (CLEM) joins the two at one facility in Helsinki. FiAM brings together eight facilities at six institutions in Helsinki, Turku and Oulu, and all of them work in biological imaging. Five facilities run light microscopy and three run electron microscopy. The sites have a long history of collaboration.
+The Finnish Advanced Microscopy Node (FiAM) mainly offers advanced light microscopy, from confocal and super-resolution imaging to light-sheet imaging of embryos and organs. It also offers electron microscopy and correlative light and electron microscopy (CLEM), which place a fluorescent signal in its ultrastructural context. The Node has eight facilities at six institutions in Helsinki, Turku and Oulu, and it works in biological imaging.
 
-Staff expertise follows the same lines. The Advanced Imaging Core in Turku specialises in conventional and advanced light microscopy and in image analysis. BIU in Helsinki supports biomedical optical imaging from experiment design to the analysis of results. FIMM-HCA in Helsinki has experience with automated high-content confocal imaging, including 3D imaging of cell systems and live cells. For electron microscopy, Oulu BioImaging (EBI-FAC-0063) in Oulu brings experience in immuno-electron microscopy and the ultrastructural analysis of gene-modified mouse tissues. The Helsinki University Electron Microscopy Unit in Helsinki combines live-cell and pre-embedding CLEM with molecular labelling for EM, including genetically encoded EM probes.
+The Node concentrates its expertise on super-resolution imaging, CLEM and mesoscopic imaging of larger specimens. Staff at Advanced Imaging Core in Turku combine conventional and advanced light microscopy with image analysis. The BIU team in Helsinki supports biomedical optical imaging projects from experiment design through to the analysis of results. Staff at FIMM-HCA in Helsinki are experienced in automated high-content confocal imaging, scaling from a single well plate to hundreds of plates and including 3D imaging of cell systems and live cells. The Oulu BioImaging Electron Microscopy Core Facility in Oulu has expertise in immuno-electron microscopy and in the ultrastructural analysis of gene-modified mouse tissues.
 
-Cell biologists who need nanoscale detail or measurements of molecular interactions will find most support at the Advanced Imaging Core. It offers STED, single-molecule localisation microscopy and fluorescence resonance energy transfer (FRET). Screening projects that compare cell phenotypes across many conditions, for example in oncology, suit FIMM-HCA. Researchers who want to see a fluorescent signal in its ultrastructural context should go to the Helsinki University Electron Microscopy Unit, which is the Node's CLEM site.
+STED super-resolution microscopy is at Advanced Imaging Core in Turku and LMU in Helsinki. Single-molecule localisation microscopy is at Advanced Imaging Core in Turku and BIU in Helsinki. Light-sheet imaging is at Advanced Imaging Core in Turku, BIU in Helsinki and the Oulu BioImaging Light Microscopy Unit in Oulu, and the Oulu unit also offers optical projection tomography. Volume electron microscopy and immunogold labelling are at the Oulu BioImaging Electron Microscopy Core Facility in Oulu and the Helsinki University Electron Microscopy Unit in Helsinki, while CLEM is at the Helsinki University unit. High-content screening is at Advanced Imaging Core in Turku, BIU in Helsinki and FIMM-HCA in Helsinki.
 
 ## Imaging technologies offered
 
-Fluorescence microscopy carries most of the Node. Laser scanning confocal microscopy is offered at five facilities. Spinning-disk confocal microscopy runs at three, and it images quickly with less light on the sample. Two-photon microscopy at BIU in Helsinki and Oulu BioImaging (EBI-FAC-0062) in Oulu reaches cells deep in thick tissue. The Advanced Imaging Core runs STELLARIS 8 and LSM 880 confocals and a CSU-W1 spinning-disk system.
+Light microscopy is the largest part of the Node. Laser scanning confocal microscopy is available at five facilities and gives optical sections for multichannel 3D localisation in cells and tissues. Spinning disk confocal microscopy at Advanced Imaging Core, BIU and the Oulu BioImaging Light Microscopy Unit images live samples quickly with less light exposure. Two-photon microscopy at BIU and the Oulu unit reaches cells deeper in thick tissue. At Advanced Imaging Core these methods run on instruments such as the STELLARIS 8 and LSM 880 confocals and the CSU-W1 spinning-disk system.
 
-Super-resolution methods resolve structures below the diffraction limit. Stimulated emission depletion (STED) microscopy is offered at LMU in Helsinki and the Advanced Imaging Core in Turku. Single-molecule localisation microscopy maps molecular distributions at the Advanced Imaging Core and BIU. The Node's instruments include a mirror-STED for 3D tomographic STED and an N-STORM system for 3D localisation microscopy. Functional methods measure what molecules do. Fluorescence lifetime imaging (FLIM) at four facilities reports on the molecular environment. FRAP, FRET and fluorescence correlation spectroscopy at the Advanced Imaging Core and LMU measure mobility, proximity and diffusion. Light-sheet imaging at three facilities records embryos and whole organs in 3D with gentle illumination.
+For detail below the diffraction limit, researchers can use STED, single-molecule localisation microscopy and image scanning microscopy. Functional methods measure what molecules do. Fluorescence lifetime imaging is offered at four facilities and reports on molecular environment, while FRET, FRAP and fluorescence correlation spectroscopy at Advanced Imaging Core and LMU measure molecular proximity, mobility and diffusion. Light-sheet microscopy and optical projection tomography record whole embryos and organs in 3D.
 
-Electron microscopy covers transmission and scanning electron microscopy (TEM and SEM) of cells and tissues. For volume EM, Oulu BioImaging (EBI-FAC-0063) offers focused ion beam SEM (FIB-SEM) and EM tomography. The Helsinki University Electron Microscopy Unit offers serial block-face SEM. Immunogold labelling places proteins within this ultrastructure. It is done on thawed cryosections in Oulu and on resin sections in Helsinki.
+Electron microscopy covers transmission and scanning EM, EM tomography, FIB-SEM and serial block-face SEM, which reconstruct cells and tissues in three dimensions. The Helsinki University Electron Microscopy Unit adds live-cell and pre-embedding CLEM and genetically encoded EM probes, which locate a tagged protein in the electron microscope. Image analysis is offered at three facilities.
 
 ### Technologies and instruments
 
-| Technology | Instrument highlights |
-| --- | --- |
-| [Deconvolution widefield microscopy (DWM)](#deconvolution-widefield-microscopy-dwm "deconvolution-widefield-microscopy-dwm") |  |
-| [Image Scanning microscopy (ISM)](#image-scanning-microscopy-ism "image-scanning-microscopy-ism") |  |
-| [Laser scanning confocal microscopy (LSCM/CLSM)](#laser-scanning-confocal-microscopy-lscm-clsm "laser-scanning-confocal-microscopy-lscm-clsm") | Advanced Imaging Core: Stellaris 8, LSM 880, LSM 510 |
-| [Spinning disk confocal microscopy (SDCM)](#spinning-disk-confocal-microscopy-sdcm "spinning-disk-confocal-microscopy-sdcm") | Advanced Imaging Core: CSU-W1 |
-| [Structured illumination microscopy (SIM)](#structured-illumination-microscopy-sim "structured-illumination-microscopy-sim") |  |
-| [Total internal reflection fluorescence microscopy (TIRF)](#total-internal-reflection-fluorescence-microscopy-tirf "total-internal-reflection-fluorescence-microscopy-tirf") |  |
-| [Two-photon microscopy (2P)](#two-photon-microscopy-2p "two-photon-microscopy-2p") |  |
-| [Single Molecule localization microscopy (SMLM)](#single-molecule-localization-microscopy-smlm "single-molecule-localization-microscopy-smlm") |  |
-| [Stimulated emission depletion microscopy (STED)](#stimulated-emission-depletion-microscopy-sted "stimulated-emission-depletion-microscopy-sted") |  |
-| [Coherent Anti-Stokes Raman Scattering microscopy (CARS)](#coherent-anti-stokes-raman-scattering-microscopy-cars "coherent-anti-stokes-raman-scattering-microscopy-cars") |  |
-| [Second/Third Harmonic Generation (SHG/THG)](#second-third-harmonic-generation-shg-thg "second-third-harmonic-generation-shg-thg") |  |
-| [Light-sheet mesoscopic imaging (SPIM/dSLSM)](#light-sheet-mesoscopic-imaging-spim-dslsm "light-sheet-mesoscopic-imaging-spim-dslsm") |  |
-| [Optical projection tomography (OPT)](#optical-projection-tomography-opt "optical-projection-tomography-opt") |  |
-| [Fluorescence (cross)-correlation spectroscopy (FCS/FCCS)](#fluorescence-cross-correlation-spectroscopy-fcs-fccs "fluorescence-cross-correlation-spectroscopy-fcs-fccs") |  |
-| [Fluorescence Lifetime Imaging (FLIM)](#fluorescence-lifetime-imaging-flim "fluorescence-lifetime-imaging-flim") |  |
-| [Fluorescence Recovery after Photobleaching (FRAP)](#fluorescence-recovery-after-photobleaching-frap "fluorescence-recovery-after-photobleaching-frap") |  |
-| [Fluorescence Resonance Energy Transfer (FRET)](#fluorescence-resonance-energy-transfer-fret "fluorescence-resonance-energy-transfer-fret") |  |
-| [High throughput microscopy/high content screening (HTM/HCS)](#high-throughput-microscopy-high-content-screening-htm-hcs "high-throughput-microscopy-high-content-screening-htm-hcs") |  |
-| [pre-embedding CLEM (pre-emb CLEM)](#pre-embedding-clem-pre-emb-clem "pre-embedding-clem-pre-emb-clem") |  |
-| [live-cell Correlative Light and Electron Microscopy (live-cell CLEM)](#live-cell-correlative-light-and-electron-microscopy-live-cell-clem "live-cell-correlative-light-and-electron-microscopy-live-cell-clem") |  |
-| [Scanning Electron Microscopy (SEM)](#scanning-electron-microscopy-sem "scanning-electron-microscopy-sem") |  |
-| [Large scale EM (lsTEM)](#large-scale-em-lstem "large-scale-em-lstem") |  |
-| [TEM of chemical fixed samples (TEM)](#tem-of-chemical-fixed-samples-tem "tem-of-chemical-fixed-samples-tem") |  |
-| [TEM of cryo-immobilized samples (TEM cryo samples)](#tem-of-cryo-immobilized-samples-tem-cryo-samples "tem-of-cryo-immobilized-samples-tem-cryo-samples") |  |
-| [Array tomography (AT)](#array-tomography-at "array-tomography-at") |  |
-| [EM tomography (ET)](#em-tomography-et "em-tomography-et") |  |
-| [Focussed Ion beam SEM (FIB-SEM)](#focussed-ion-beam-sem-fib-sem "focussed-ion-beam-sem-fib-sem") |  |
-| [Serial Blockface SEM (SBF-SEM)](#serial-blockface-sem-sbf-sem "serial-blockface-sem-sbf-sem") |  |
-| [serial section TEM (ssTEM)](#serial-section-tem-sstem "serial-section-tem-sstem") |  |
-| [Genetic encoded EM probes (GE probes)](#genetic-encoded-em-probes-ge-probes "genetic-encoded-em-probes-ge-probes") |  |
-| [Immuno-gold EM on resin sections (resin-EM)](#immuno-gold-em-on-resin-sections-resin-em "immuno-gold-em-on-resin-sections-resin-em") |  |
-| [Immuno-gold EM on thawed cryo-sections (Tokuyasu-EM)](#immuno-gold-em-on-thawed-cryo-sections-tokuyasu-em "immuno-gold-em-on-thawed-cryo-sections-tokuyasu-em") |  |
-| [pre-embed Correlative Light and Electron Microscopy (pre-embed CLEM)](#pre-embed-correlative-light-and-electron-microscopy-pre-embed-clem "pre-embed-correlative-light-and-electron-microscopy-pre-embed-clem") |  |
-| [pre-embedding immunolabelling (pre-embed IL)](#pre-embedding-immunolabelling-pre-embed-il "pre-embedding-immunolabelling-pre-embed-il") |  |
-| [Atomic Force Microscopy (AFM)](#atomic-force-microscopy-afm "atomic-force-microscopy-afm") |  |
-| [Mass spectrometry-based imaging - bio (MSI - bio)](#mass-spectrometry-based-imaging-msi-bio "mass-spectrometry-based-imaging-msi-bio") |  |
-| [Traction Force Microscopy (TFM)](#traction-force-microscopy-tfm "traction-force-microscopy-tfm") |  |
-| [Image Analysis -bio (IA bio)](#image-analysis-bio "image-analysis-bio") |  |
+| Technology | Confirmed facility providers | Instrument highlights |
+| --- | --- | --- |
+| [Deconvolution widefield microscopy (DWM)](#deconvolution-widefield-microscopy-dwm "deconvolution-widefield-microscopy-dwm") | Oulu BioImaging (EBI-FAC-0062), BIU, LMU |  |
+| [Image Scanning microscopy (ISM)](#image-scanning-microscopy-ism "image-scanning-microscopy-ism") | Advanced Imaging Core, LMU |  |
+| [Laser scanning confocal microscopy (LSCM/CLSM)](#laser-scanning-confocal-microscopy-lscm-clsm "laser-scanning-confocal-microscopy-lscm-clsm") | Advanced Imaging Core, Oulu BioImaging (EBI-FAC-0062), BIU, FIMM-HCA, LMU | Advanced Imaging Core: Stellaris 8, LSM 880, LSM 510 |
+| [Spinning disk confocal microscopy (SDCM)](#spinning-disk-confocal-microscopy-sdcm "spinning-disk-confocal-microscopy-sdcm") | Advanced Imaging Core, Oulu BioImaging (EBI-FAC-0062), BIU | Advanced Imaging Core: CSU-W1 |
+| [Structured illumination microscopy (SIM)](#structured-illumination-microscopy-sim "structured-illumination-microscopy-sim") | BIU |  |
+| [Total internal reflection fluorescence microscopy (TIRF)](#total-internal-reflection-fluorescence-microscopy-tirf "total-internal-reflection-fluorescence-microscopy-tirf") | Advanced Imaging Core, BIU |  |
+| [Two-photon microscopy (2P)](#two-photon-microscopy-2p "two-photon-microscopy-2p") | Oulu BioImaging (EBI-FAC-0062), BIU |  |
+| [Single Molecule localization microscopy (SMLM)](#single-molecule-localization-microscopy-smlm "single-molecule-localization-microscopy-smlm") | Advanced Imaging Core, BIU |  |
+| [Stimulated emission depletion microscopy (STED)](#stimulated-emission-depletion-microscopy-sted "stimulated-emission-depletion-microscopy-sted") | Advanced Imaging Core, LMU |  |
+| [Coherent Anti-Stokes Raman Scattering microscopy (CARS)](#coherent-anti-stokes-raman-scattering-microscopy-cars "coherent-anti-stokes-raman-scattering-microscopy-cars") | BIU |  |
+| [Second/Third Harmonic Generation (SHG/THG)](#second-third-harmonic-generation-shg-thg "second-third-harmonic-generation-shg-thg") | No confirmed facility provider yet |  |
+| [Light-sheet mesoscopic imaging (SPIM/dSLSM)](#light-sheet-mesoscopic-imaging-spim-dslsm "light-sheet-mesoscopic-imaging-spim-dslsm") | Advanced Imaging Core, Oulu BioImaging (EBI-FAC-0062), BIU |  |
+| [Optical projection tomography (OPT)](#optical-projection-tomography-opt "optical-projection-tomography-opt") | Oulu BioImaging (EBI-FAC-0062) |  |
+| [Fluorescence (cross)-correlation spectroscopy (FCS/FCCS)](#fluorescence-cross-correlation-spectroscopy-fcs-fccs "fluorescence-cross-correlation-spectroscopy-fcs-fccs") | Advanced Imaging Core, LMU |  |
+| [Fluorescence Lifetime Imaging (FLIM)](#fluorescence-lifetime-imaging-flim "fluorescence-lifetime-imaging-flim") | Advanced Imaging Core, Oulu BioImaging (EBI-FAC-0062), BIU, LMU |  |
+| [Fluorescence Recovery after Photobleaching (FRAP)](#fluorescence-recovery-after-photobleaching-frap "fluorescence-recovery-after-photobleaching-frap") | Advanced Imaging Core, LMU |  |
+| [Fluorescence Resonance Energy Transfer (FRET)](#fluorescence-resonance-energy-transfer-fret "fluorescence-resonance-energy-transfer-fret") | Advanced Imaging Core, LMU |  |
+| [High throughput microscopy/high content screening (HTM/HCS)](#high-throughput-microscopy-high-content-screening-htm-hcs "high-throughput-microscopy-high-content-screening-htm-hcs") | Advanced Imaging Core, BIU, FIMM-HCA |  |
+| [pre-embedding CLEM (pre-emb CLEM)](#pre-embedding-clem-pre-emb-clem "pre-embedding-clem-pre-emb-clem") | Helsinki University |  |
+| [live-cell Correlative Light and Electron Microscopy (live-cell CLEM)](#live-cell-correlative-light-and-electron-microscopy-live-cell-clem "live-cell-correlative-light-and-electron-microscopy-live-cell-clem") | Helsinki University |  |
+| [Scanning Electron Microscopy (SEM)](#scanning-electron-microscopy-sem "scanning-electron-microscopy-sem") | Oulu BioImaging (EBI-FAC-0063), Helsinki University |  |
+| [Large scale EM (lsTEM)](#large-scale-em-lstem "large-scale-em-lstem") | No confirmed facility provider yet |  |
+| [TEM of chemical fixed samples (TEM)](#tem-of-chemical-fixed-samples-tem "tem-of-chemical-fixed-samples-tem") | Oulu BioImaging (EBI-FAC-0063), TBI |  |
+| [TEM of cryo-immobilized samples (TEM cryo samples)](#tem-of-cryo-immobilized-samples-tem-cryo-samples "tem-of-cryo-immobilized-samples-tem-cryo-samples") | Oulu BioImaging (EBI-FAC-0063), Helsinki University |  |
+| [Array tomography (AT)](#array-tomography-at "array-tomography-at") | No confirmed facility provider yet |  |
+| [EM tomography (ET)](#em-tomography-et "em-tomography-et") | Oulu BioImaging (EBI-FAC-0063) |  |
+| [Focussed Ion beam SEM (FIB-SEM)](#focussed-ion-beam-sem-fib-sem "focussed-ion-beam-sem-fib-sem") | Oulu BioImaging (EBI-FAC-0063) |  |
+| [Serial Blockface SEM (SBF-SEM)](#serial-blockface-sem-sbf-sem "serial-blockface-sem-sbf-sem") | Helsinki University |  |
+| [serial section TEM (ssTEM)](#serial-section-tem-sstem "serial-section-tem-sstem") | No confirmed facility provider yet |  |
+| [Genetic encoded EM probes (GE probes)](#genetic-encoded-em-probes-ge-probes "genetic-encoded-em-probes-ge-probes") | Helsinki University |  |
+| [Immuno-gold EM on resin sections (resin-EM)](#immuno-gold-em-on-resin-sections-resin-em "immuno-gold-em-on-resin-sections-resin-em") | Helsinki University |  |
+| [Immuno-gold EM on thawed cryo-sections (Tokuyasu-EM)](#immuno-gold-em-on-thawed-cryo-sections-tokuyasu-em "immuno-gold-em-on-thawed-cryo-sections-tokuyasu-em") | Oulu BioImaging (EBI-FAC-0063) |  |
+| [pre-embed Correlative Light and Electron Microscopy (pre-embed CLEM)](#pre-embed-correlative-light-and-electron-microscopy-pre-embed-clem "pre-embed-correlative-light-and-electron-microscopy-pre-embed-clem") | Helsinki University |  |
+| [pre-embedding immunolabelling (pre-embed IL)](#pre-embedding-immunolabelling-pre-embed-il "pre-embedding-immunolabelling-pre-embed-il") | Helsinki University |  |
+| [Atomic Force Microscopy (AFM)](#atomic-force-microscopy-afm "atomic-force-microscopy-afm") | Advanced Imaging Core |  |
+| [Mass spectrometry-based imaging - bio (MSI - bio)](#mass-spectrometry-based-imaging-msi-bio "mass-spectrometry-based-imaging-msi-bio") | No confirmed facility provider yet |  |
+| [Traction Force Microscopy (TFM)](#traction-force-microscopy-tfm "traction-force-microscopy-tfm") | No confirmed facility provider yet |  |
+| [Image Analysis -bio (IA bio)](#image-analysis-bio "image-analysis-bio") | Oulu BioImaging (EBI-FAC-0062), Helsinki University, FIMM-HCA |  |
 
 ## Specialties and research focus
 
-Across its facilities, FiAM supports research in metabolism and inflammation, developmental biology and cancer biology, as well as cardiovascular research and neurology. Cell biology is a strong thread, including cell migration, adhesion and invasion, extracellular matrix biology and quantitative cell biology. The facilities work with many model organisms and in vitro systems, and with organotypic cultures that keep tissue architecture intact.
+The facilities serve research on metabolism and inflammation, developmental biology and cell migration, adhesion and invasion. Other fields include quantitative cell biology, extracellular matrix biology, organotypic cultures, cardiovascular research, neurology and cancer biology. Across these fields the Node works with many model organisms as well as in vitro systems.
 
-Some facilities have a clearer focus. Oulu BioImaging (EBI-FAC-0063) works on the ultrastructure of tissues from gene-modified mice, which suits projects asking how a genetic change alters cells and organelles. Its light microscopy partner, Oulu BioImaging (EBI-FAC-0062), serves biomedical research, and organoid and kidney research form part of its institutional setting. BIU serves biomedical and preclinical research. FIMM-HCA works in oncology. TBI in Turku links associated units that work on oncology and disease modelling. LMU works with virus-infected cells as one of its sample types.
+Several facilities have a particular research context. The Oulu BioImaging Light Microscopy Unit supports biomedical work, with organoid and kidney research in its institutional setting. The Oulu BioImaging Electron Microscopy Core Facility studies the ultrastructure of tissues from gene-modified mice. In Helsinki, BIU serves biomedical and preclinical research, and FIMM-HCA applies high-content imaging to oncology. LMU in Helsinki works with virus-infected cells, which links light microscopy to questions in virology and infection biology. TBI in Turku connects associated imaging units whose work covers oncology and disease modelling.
+
+The Node's emphasis on CLEM and super-resolution serves questions that need molecular identity and structure in the same view, such as where a labelled protein sits within a membrane system or organelle.
 
 ## Services and user support
 
-A project with FiAM usually begins with methodological setup. Staff help design the study protocol and the standard operating procedures, so the imaging plan fits the biological question. Researchers are then trained to use the instruments, and staff give technical assistance while the instruments are running. A training seminar room supports this teaching.
+A project starts with methodological setup, where staff help design the study protocol and agree standard operating procedures for the imaging. Researchers then receive training in using the infrastructure, and a training seminar room is available for teaching sessions. Staff also give technical assistance to run instruments, so a visiting researcher can work alongside them rather than alone from the first day.
 
-Several services support sample work close to the microscopes. Wet lab space is available, together with cell culture facilities at safety levels 1 and 2. For projects in Turku that combine imaging with animal work, animal facilities are provided by the University of Turku KEK and the Turku BioScience Fish core unit. This lets experiments on animal models be prepared near the imaging sites.
+Sample work can happen on site. The Node provides wet lab space and cell culture facilities at safety level 1 and safety level 2. For animal work in Turku, animal facilities are offered at the University of Turku KEK and the Turku BioScience Fish core unit, which lets groups prepare and image animal models close to the microscopes.
 
-After acquisition, staff help with data processing and analysis, which turns raw images into measurements. Server space is also available, so image data from a project can be kept on the Node's systems.
+Once images are acquired, staff help with data processing and analysis, turning raw data into measurements. Server space is available for storing data during the project.
 
-### Services offered
+### Services in the signed SLA
 
 - Technical assistance to run instrument
 - Methodological setup (e.g. design of study protocol and standard operation procedures)
@@ -99,11 +101,11 @@ After acquisition, staff help with data processing and analysis, which turns raw
 | [Helsinki University / Light Microscopy Unit (LMU)](https://www.helsinki.fi/en/infrastructures/bioimaging/light-microscopy-unit "finnish-advanced-microscopy-node-helsinki-university-light-microscopy-unit-lmu") | Institute of Biotechnology, University of Helsinki | Helsinki |
 | [Turku BioImaging (TBI)](https://bioimaging.fi/ "finnish-advanced-microscopy-node-turku-bioimaging-tbi") | University of Turku and Åbo Akademi University | Turku |
 
-FiAM's eight facilities sit in three cities, and each city offers a different mix. Helsinki has four facilities. BIU, on the Meilahti campus within Medicum, is a core for biomedical optical imaging and covers confocal, two-photon and light-sheet imaging. LMU at the Institute of Biotechnology focuses on super-resolution and functional fluorescence methods such as STED and FLIM. The Helsinki University Electron Microscopy Unit on the Viikki campus belongs to the same institute, so light and electron microscopy can be planned within one institution. FIMM-HCA completes the Helsinki group with automated, high-content imaging and image analysis.
+Four facilities focus on light microscopy. Advanced Imaging Core in Turku is a central platform for conventional and advanced light microscopy, offering STED, single-molecule localisation, light-sheet imaging and functional methods such as FRET and FCS, with atomic force microscopy alongside. LMU at the Institute of Biotechnology in Helsinki offers STED, image scanning microscopy and fluorescence methods for molecular dynamics, and it works with virus-infected cells. BIU on the Meilahti campus in Helsinki covers biomedical optical imaging from experiment design to results analysis, including single-molecule localisation, two-photon and light-sheet microscopy. The Oulu BioImaging Light Microscopy Unit in Oulu combines image acquisition and analysis, with light-sheet imaging, optical projection tomography and two-photon microscopy.
 
-Turku has two facilities. The Advanced Imaging Core at Turku Bioscience Centre is a centralised platform for conventional and advanced light microscopy. TBI is a distributed infrastructure that connects associated imaging facilities in Turku. Through the Node it offers TEM of chemically fixed samples and atomic force microscopy.
+FIMM-HCA in Helsinki specialises in high-content imaging and analysis, running automated confocal screens across many plates for cancer research.
 
-In Oulu, Biocenter Oulu hosts two units of Oulu BioImaging. The light microscopy unit, Oulu BioImaging (EBI-FAC-0062), handles image acquisition and analysis and is the Node's only site for optical projection tomography. The electron microscopy unit, Oulu BioImaging (EBI-FAC-0063), is the site for FIB-SEM, EM tomography and Tokuyasu immunogold labelling. Because the two units share one institution, light and electron microscopy of the same tissues can be done in Oulu.
+Three facilities offer electron microscopy. The Oulu BioImaging Electron Microscopy Core Facility provides EM tomography, FIB-SEM and Tokuyasu immunogold labelling, with expertise in mouse tissue ultrastructure. The Helsinki University Electron Microscopy Unit on the Viikki campus focuses on CLEM, serial block-face SEM and molecular localisation with immunolabelling and genetically encoded probes. TBI is a distributed infrastructure connecting imaging units in Turku, and it offers transmission electron microscopy of chemically fixed samples.
 
 ## Access and contact
 

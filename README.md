@@ -267,6 +267,16 @@ the script), or paste the prompt and the `.js` files into the boxes by hand.
 - **v1**: turns the page into a binary file named `<node_uri>.md` for the Drive
   upload, and stops if the page or file name is missing.
 
+### Node pages (`node-pages/`)
+
+- **19 Oct**: the 40 pages from the v16 run replace the v14 pages. Built with prompt
+  v16, Clean v3.2, Render v13, temperature 0.2. `check_pages.py` finds 63 flags; most are
+  expected (no written Services text for the 11 Nodes without SLA services, words such as
+  "records" used as a verb, method names inside instrument or facility names). Pages to
+  read again: SOM (STED and FLIM are not registered for the Node), Brno (EEG), Barcelona
+  live and intravital (ALMU and intravital imaging), Finnish biomedical imaging
+  (multiphoton).
+
 ### Documentation
 
 - **19 Oct**: `docs/HOW_TO_RUN.md` Part 5b says where finished pages go: downloaded

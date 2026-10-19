@@ -2,114 +2,110 @@
 
 ## Overview
 
-The France-BioImaging Node is France's national research infrastructure for biological imaging, and its main strength is advanced light microscopy. Forty of its facilities offer light microscopy, from confocal and multiphoton imaging to super-resolution and functional methods that measure how molecules move and interact. The Node brings together 45 facilities at 42 institutions, spread from Strasbourg and Rennes to Marseille and Toulouse. Electron microscopy is offered at 15 facilities, and four of them link light and electron microscopy in correlative workflows. Preclinical imaging is a smaller part of the Node, provided by ImCy in Evry-Courcouronnes and Montpellier Ressources Imagerie (MRI) in Montpellier.
+France-BioImaging (FBI) is France's national research infrastructure for biological imaging, and as a Node it mainly offers advanced light microscopy. Confocal, light-sheet and super-resolution microscopy are available at many of its sites. Electron microscopy, correlative light and electron microscopy (CLEM) and image analysis are offered at a smaller number. The Node has 45 facilities at 42 institutions, with the largest groups in Toulouse, Paris and Strasbourg and further facilities in 15 other French cities. It covers biological imaging together with some preclinical imaging.
 
-The Node sits where cell biology meets physics, engineering and informatics, and several facilities develop their own methods. QuESt in Illkirch-Graffenstaden specialises in quantitative functional imaging, using FRAP, FLIM and fluorescence correlation spectroscopy to measure molecular dynamics and interactions. MORPHOSCOPE in Palaiseau brings expertise in multicolour multiphoton imaging deep inside tissue. CBS in Montpellier works on single-molecule fluorescence, atomic force microscopy and mechanobiology. The BIC team in Bordeaux handles plant tissues as well as animal samples, and IMM Microscopy Core Facility-PiCSL in Marseille prepares bacteria, viruses, amoebae and microalgae for cryo-electron microscopy. Image analysis runs through the whole Node, and F-BIAS connects analysis experts across the participating facilities.
+Much of the staff's expertise lies in quantitative and specialised imaging. QuESt in Illkirch-Graffenstaden specialises in quantitative functional imaging and measures molecular dynamics and interactions with FRAP, FLIM and fluorescence correlation spectroscopy. ImaChem - IBENS in Paris works with 3D-PALM using adaptive optics and with ultrafast two-photon microscopy for functional recordings in vivo. At BIC in Bordeaux, staff work with plant tissues, using plant immunolabelling, FISH and resin-based plant CLEM. IMM Microscopy Core Facility-PiCSL in Marseille images microorganisms by cryo-EM and super-resolution, and IPBS in Toulouse images human pathogens under biosafety level 3 conditions. Analysts at BioImage Informatics in Paris and in the national F-BIAS network support image analysis across microscopy modalities.
 
-Plant biologists will find imaging expertise for plant tissues at BIC, with further plant-focused facilities in Strasbourg, Gif-sur-Yvette and Auzeville-Tolosane. Projects that need to find a fluorescent event and then see its ultrastructure suit IBDM-PiCSL in Marseille, which offers pre-embedding, post-embedding and live-cell correlative workflows. Researchers measuring binding or molecular mobility in living cells should look first at QuESt. Neuroscience facilities cluster in Paris and Marseille, while cancer research is served in Villejuif, Paris and Toulouse.
+Light microscopy is offered at almost every facility. STED and single-molecule localisation microscopy are both available at NeurImag in Paris, ISdV in Grenoble and BIC in Bordeaux, among others. Electron tomography is offered at BIC in Bordeaux, PICT in Paris and METi in Toulouse. FIB-SEM is at UTechS UBI in Paris and Imagerie-Gif in Gif-sur-Yvette. CLEM is offered at BIC in Bordeaux and at Montpellier Ressources Imagerie (MRI) in Montpellier, and in Marseille at IBDM-PiCSL and IMM Microscopy Core Facility-PiCSL. Preclinical in vivo optical imaging is at ImCy in Evry-Courcouronnes, and micro-CT is at MRI.
 
 ## Imaging technologies offered
 
-Fluorescence microscopy is the core of the Node. Laser scanning confocal microscopy is offered at 18 facilities and two-photon microscopy at 14, so 3D imaging of cells and thick tissue is possible in most regions. Light-sheet mesoscopic imaging, at 17 facilities, records embryos and whole organs while illuminating only the plane being imaged. For fast 3D dynamics at high resolution, BIC in Bordeaux and PICT in Paris offer lattice light-sheet microscopy.
+Fluorescence light microscopy makes up most of the offer. Laser scanning confocal, spinning-disk and light-sheet microscopy give optical sections of cells, tissues, embryos and whole organs, and two-photon microscopy reaches cells deep inside thick tissue. Intravital microscopy follows cellular processes inside living animals at six facilities, including IPAM in Montpellier and PFIC in Villejuif. Lattice light-sheet microscopy at BIC in Bordeaux and PICT in Paris records fast 3D dynamics in living cells and embryos.
 
-Super-resolution is shared across many sites. STED at 14 facilities and single-molecule localisation microscopy at 15 map molecular distributions below the diffraction limit. SIM and image scanning microscopy add a resolution gain with standard labels. NeurImag runs a Bruker Vutara for localisation microscopy, and LyMIC an Abberior Expert Line STED. MORPHOSCOPE offers SIM and TIRF on a DeltaVision OMX SR. Fluorescence lifetime imaging (FLIM) and FRET report molecular proximity and environment, while FRAP and fluorescence correlation spectroscopy measure mobility, diffusion and concentration. Label-free contrast comes from harmonic generation and Raman methods.
+Super-resolution is offered at many facilities. STED and single-molecule localisation microscopy resolve structures and molecular distributions below the diffraction limit. Instruments include the Leica SP8 STED 3X and the Bruker Vutara at NeurImag, and the DeltaVision OMX SR at MORPHOSCOPE, which combines SIM and TIRF. Functional methods such as FLIM, FRET and FRAP measure molecular interactions, local environment and mobility in living cells. Label-free methods such as harmonic generation and Raman spectroscopy show tissue architecture and chemical composition without added dyes.
 
-Electron microscopy includes SEM and EM tomography, and PICT supports tomography with a JEOL 2200 FS. Volume methods such as FIB-SEM and serial block-face SEM reconstruct cells and tissue in 3D. Intravital microscopy at six facilities follows cells inside living animals. ImCy offers in vivo optical imaging, and Montpellier Ressources Imagerie offers micro-CT.
+Electron microscopy covers ultrastructure in two and three dimensions. Serial block-face SEM, FIB-SEM and electron tomography reconstruct cells and tissues in volume, while cryo methods keep samples close to their native state. PICT runs a JEOL 2200 FS for electron tomography. Image analysis is offered at 18 facilities, and preclinical imaging adds in vivo optical imaging at ImCy and micro-CT at MRI.
 
 ### Technologies and instruments
 
-| Technology | Instrument highlights |
-| --- | --- |
-| [Deconvolution widefield microscopy (DWM)](#deconvolution-widefield-microscopy-dwm "deconvolution-widefield-microscopy-dwm") |  |
-| [Image Scanning microscopy (ISM)](#image-scanning-microscopy-ism "image-scanning-microscopy-ism") |  |
-| [Laser scanning confocal microscopy (LSCM/CLSM)](#laser-scanning-confocal-microscopy-lscm-clsm "laser-scanning-confocal-microscopy-lscm-clsm") | In Vitro Imaging platform: Stellaris 8; PIC-STRA: Airyscan confocal; MicroPICell: Nikon A1rHD LFOV confocal, Nikon A1 RSi confocal, Nikon AX LIPSI confocal, Nikon A1 N-SIM super-resolution/confocal; ImCy: Leica TCS SP8 with gated STED 775; PFIC: Leica SP8 multiphoton, Olympus FV10i, Leica SPE, Nikon AX R with NSPARC detector; CIML-PiCSL: Zeiss LSM 980 NIR; NeurImag: Leica SP8 STED 3X, Zeiss LSM880-Elyra PS1; FRAIB: Leica confocal SP8 SMD (FLIM) |
-| [Lattice light-sheet (LLS)](#lattice-light-sheet-lls "lattice-light-sheet-lls") |  |
-| [Objective-coupled planar illumination (OCPI)](#objective-coupled-planar-illumination-ocpi "objective-coupled-planar-illumination-ocpi") |  |
-| [Random Illumination Microscopy (RIM)](#random-illumination-microscopy-rim "random-illumination-microscopy-rim") |  |
-| [Spinning disk confocal microscopy (SDCM)](#spinning-disk-confocal-microscopy-sdcm "spinning-disk-confocal-microscopy-sdcm") | PIC-STRA: CSU-W1; PFIC: 2 Yokogawa/Gataca spinning-disk; PRIMACEN: CSU W1 |
-| [Structured illumination microscopy (SIM)](#structured-illumination-microscopy-sim "structured-illumination-microscopy-sim") | MicroPICell: Nikon A1 N-SIM super-resolution/confocal; MORPHOSCOPE: GE Healthcare DeltaVision OMX SR super-resolution SIM/TIRF microscope; IMM Microscopy Core Facility-PiCSL: 3D-SIM/TIRF microscope |
-| [Total internal reflection fluorescence microscopy (TIRF)](#total-internal-reflection-fluorescence-microscopy-tirf "total-internal-reflection-fluorescence-microscopy-tirf") | MORPHOSCOPE: GE Healthcare DeltaVision OMX SR super-resolution SIM/TIRF microscope |
-| [Two-photon microscopy (2P)](#two-photon-microscopy-2p "two-photon-microscopy-2p") | PFIC: Leica SP8 multiphoton; IBDM-PiCSL: TriMScope (LaVision Biotec) via CircuitPhotonics |
-| [Reversible optical fluorescence transitions (RESOLFT)](#reversible-optical-fluorescence-transitions-resolft "reversible-optical-fluorescence-transitions-resolft") |  |
-| [Single Molecule localization microscopy (SMLM)](#single-molecule-localization-microscopy-smlm "single-molecule-localization-microscopy-smlm") | NeurImag: Bruker Vutara |
-| [Stimulated emission depletion microscopy (STED)](#stimulated-emission-depletion-microscopy-sted "stimulated-emission-depletion-microscopy-sted") | ImCy: Leica TCS SP8 with gated STED 775; PFIC: STEDYCON; NeurImag: Leica SP8 STED 3X; LyMIC: Abberior Expert Line STED 3D super-resolution microscope (CIQLE) |
-| [Coherent Anti-Stokes Raman Scattering microscopy (CARS)](#coherent-anti-stokes-raman-scattering-microscopy-cars "coherent-anti-stokes-raman-scattering-microscopy-cars") |  |
-| [Polarization microscopy (PM)](#polarization-microscopy-pm "polarization-microscopy-pm") |  |
-| [Quantitative Phase Imaging (QPI)](#quantitative-phase-imaging-qpi "quantitative-phase-imaging-qpi") |  |
-| [Raman Spectroscopy (RS)](#raman-spectroscopy-rs "raman-spectroscopy-rs") |  |
-| [Second/Third Harmonic Generation (SHG/THG)](#second-third-harmonic-generation-shg-thg "second-third-harmonic-generation-shg-thg") |  |
-| [Stimulated Raman Scattering (SRS)](#stimulated-raman-scattering-srs "stimulated-raman-scattering-srs") |  |
-| [Light-sheet mesoscopic imaging (SPIM/dSLSM)](#light-sheet-mesoscopic-imaging-spim-dslsm "light-sheet-mesoscopic-imaging-spim-dslsm") | ImCy: PhaseView alpha3 light-sheet microscope; IBDM-PiCSL: TriMScope (LaVision Biotec) via CircuitPhotonics |
-| [Macro Serial Blockface Fluorescence imaging (S-BFI)](#macro-serial-blockface-fluorescence-imaging-s-bfi "macro-serial-blockface-fluorescence-imaging-s-bfi") |  |
-| [Optical projection tomography (OPT)](#optical-projection-tomography-opt "optical-projection-tomography-opt") |  |
-| [Anisotropy/Polarization Microscopy (AM)](#anisotropy-polarization-microscopy-am "anisotropy-polarization-microscopy-am") |  |
-| [Brillouin Scattering Microscopy (BSM)](#brillouin-scattering-microscopy-bsm "brillouin-scattering-microscopy-bsm") |  |
-| [Expansion Microscopy (ExM)](#expansion-microscopy-exm "expansion-microscopy-exm") |  |
-| [Feedback microscopy (FDBKM)](#feedback-microscopy-fdbkm "feedback-microscopy-fdbkm") |  |
-| [Fluorescence (cross)-correlation spectroscopy (FCS/FCCS)](#fluorescence-cross-correlation-spectroscopy-fcs-fccs "fluorescence-cross-correlation-spectroscopy-fcs-fccs") |  |
-| [Fluorescence Lifetime Imaging (FLIM)](#fluorescence-lifetime-imaging-flim "fluorescence-lifetime-imaging-flim") | FRAIB: Leica confocal SP8 SMD (FLIM) |
-| [Fluorescence Recovery after Photobleaching (FRAP)](#fluorescence-recovery-after-photobleaching-frap "fluorescence-recovery-after-photobleaching-frap") |  |
-| [Fluorescence Resonance Energy Transfer (FRET)](#fluorescence-resonance-energy-transfer-fret "fluorescence-resonance-energy-transfer-fret") |  |
-| [High throughput microscopy/high content screening (HTM/HCS)](#high-throughput-microscopy-high-content-screening-htm-hcs "high-throughput-microscopy-high-content-screening-htm-hcs") |  |
-| [High-speed Imaging (HSI)](#high-speed-imaging-hsi "high-speed-imaging-hsi") |  |
-| [Imaging at Biosafety Level >1 (BSL>1)](#imaging-at-biosafety-level-gt-1-bsl-gt-1 "imaging-at-biosafety-level-gt-1-bsl-gt-1") |  |
-| [Imaging Flow Cytometry (IFC)](#imaging-flow-cytometry-ifc "imaging-flow-cytometry-ifc") |  |
-| [Intravital Microscopy (IVM)](#intravital-microscopy-ivm "intravital-microscopy-ivm") |  |
-| [Microdissection (µDis)](#microdissection-mdis "microdissection-mdis") |  |
-| [Multiplexing imaging (MXI)](#multiplexing-imaging-mxi "multiplexing-imaging-mxi") |  |
-| [Phosphorescence Lifetime imaging (PLIM)](#phosphorescence-lifetime-imaging-plim "phosphorescence-lifetime-imaging-plim") |  |
-| [Photomanipulation (Pmanip)](#photomanipulation-pmanip "photomanipulation-pmanip") |  |
-| [Single molecule FRET (smFRET)](#single-molecule-fret-smfret "single-molecule-fret-smfret") |  |
-| [Spatial Transcriptomics (ST)](#spatial-transcriptomics-st "spatial-transcriptomics-st") |  |
-| [Tissue Clearing (TC)](#tissue-clearing-tc "tissue-clearing-tc") | MicroPICell: X-CLARITY |
-| [Voltage/pH/Ion Imaging](#voltage-ph-ion-imaging "voltage-ph-ion-imaging") |  |
-| [3D Correlative Light and Electron Microscopy (3D-CLEM)](#3d-correlative-light-and-electron-microscopy-3d-clem "3d-correlative-light-and-electron-microscopy-3d-clem") |  |
-| [Correlative Array Tomography (CAT)](#correlative-array-tomography-cat "correlative-array-tomography-cat") |  |
-| [Cryo Correlative Light and Electron Microscopy (Cryo-CLEM)](#cryo-correlative-light-and-electron-microscopy-cryo-clem "cryo-correlative-light-and-electron-microscopy-cryo-clem") |  |
-| [Elemental analysis Correlative Light and Electron Microscopy (EDX-CLEM)](#elemental-analysis-correlative-light-and-electron-microscopy-edx-clem "elemental-analysis-correlative-light-and-electron-microscopy-edx-clem") |  |
-| [post-embedding CLEM (post-emb CLEM)](#post-embedding-clem-post-emb-clem "post-embedding-clem-post-emb-clem") |  |
-| [pre-embedding CLEM (pre-emb CLEM)](#pre-embedding-clem-pre-emb-clem "pre-embedding-clem-pre-emb-clem") |  |
-| [live-cell Correlative Light and Electron Microscopy (live-cell CLEM)](#live-cell-correlative-light-and-electron-microscopy-live-cell-clem "live-cell-correlative-light-and-electron-microscopy-live-cell-clem") |  |
-| [Cryo Electron Tomography (Cryo-ET)](#cryo-electron-tomography-cryo-et "cryo-electron-tomography-cryo-et") |  |
-| [Cryo Scanning Electron Microscopy (Cryo-SEM)](#cryo-scanning-electron-microscop-cryo-sem "cryo-scanning-electron-microscop-cryo-sem") |  |
-| [Cryo Transmission Electron Microscopy (Cryo-TEM)](#cryo-transmission-electron-microscopy-cryo-tem "cryo-transmission-electron-microscopy-cryo-tem") |  |
-| [Elemental analysis (EDX)](#elemental-analysis-edx "elemental-analysis-edx") |  |
-| [Scanning Electron Microscopy (SEM)](#scanning-electron-microscopy-sem "scanning-electron-microscopy-sem") |  |
-| [Large scale EM (lsTEM)](#large-scale-em-lstem "large-scale-em-lstem") |  |
-| [TEM of chemical fixed samples (TEM)](#tem-of-chemical-fixed-samples-tem "tem-of-chemical-fixed-samples-tem") | Imagerie-Gif: 2× JEOL 1400 120 kV TEM |
-| [TEM of cryo-immobilized samples (TEM cryo samples)](#tem-of-cryo-immobilized-samples-tem-cryo-samples "tem-of-cryo-immobilized-samples-tem-cryo-samples") |  |
-| [Array tomography (AT)](#array-tomography-at "array-tomography-at") |  |
-| [EM tomography (ET)](#em-tomography-et "em-tomography-et") |  |
-| [Focussed Ion beam SEM (FIB-SEM)](#focussed-ion-beam-sem-fib-sem "focussed-ion-beam-sem-fib-sem") |  |
-| [Serial Blockface SEM (SBF-SEM)](#serial-blockface-sem-sbf-sem "serial-blockface-sem-sbf-sem") | IBDM-PiCSL: SEM for automated 3D Serial Block-Face |
-| [serial section TEM (ssTEM)](#serial-section-tem-sstem "serial-section-tem-sstem") |  |
-| [STEM tomography (STEM)](#stem-tomography-stem "stem-tomography-stem") |  |
-| [Genetic encoded EM probes (GE probes)](#genetic-encoded-em-probes-ge-probes "genetic-encoded-em-probes-ge-probes") |  |
-| [Immuno-gold EM on resin sections (resin-EM)](#immuno-gold-em-on-resin-sections-resin-em "immuno-gold-em-on-resin-sections-resin-em") |  |
-| [Immuno-gold EM on thawed cryo-sections (Tokuyasu-EM)](#immuno-gold-em-on-thawed-cryo-sections-tokuyasu-em "immuno-gold-em-on-thawed-cryo-sections-tokuyasu-em") |  |
-| [post-embed Correlative Light and Electron Microscopy (on-section CLEM)](#post-embed-correlative-light-and-electron-microscopy-post-embed-clem "post-embed-correlative-light-and-electron-microscopy-post-embed-clem") |  |
-| [pre-embed Correlative Light and Electron Microscopy (pre-embed CLEM)](#pre-embed-correlative-light-and-electron-microscopy-pre-embed-clem "pre-embed-correlative-light-and-electron-microscopy-pre-embed-clem") |  |
-| [pre-embedding immunolabelling (pre-embed IL)](#pre-embedding-immunolabelling-pre-embed-il "pre-embedding-immunolabelling-pre-embed-il") |  |
-| [Correlative X-ray and EM (CXEM)](#correlative-x-ray-and-em-cxem "correlative-x-ray-and-em-cxem") |  |
-| [Atomic Force Microscopy (AFM)](#atomic-force-microscopy-afm "atomic-force-microscopy-afm") |  |
-| [Traction Force Microscopy (TFM)](#traction-force-microscopy-tfm "traction-force-microscopy-tfm") |  |
-| [in vivo optical imaging (OI)](#in-vivo-optical-imaging-oi "in-vivo-optical-imaging-oi") |  |
-| [micro-CT](#micro-ct "micro-ct") |  |
-| [Image Analysis -bio (IA bio)](#image-analysis-bio "image-analysis-bio") |  |
+| Technology | Confirmed facility providers | Instrument highlights |
+| --- | --- | --- |
+| [Deconvolution widefield microscopy (DWM)](#deconvolution-widefield-microscopy-dwm "deconvolution-widefield-microscopy-dwm") | PIC-STRA, PFIC |  |
+| [Image Scanning microscopy (ISM)](#image-scanning-microscopy-ism "image-scanning-microscopy-ism") | Confocal Microscopy platform, MRIC, MicroPICell, Imagoseine, NeurImag, ISdV, IPBS, CBI |  |
+| [Laser scanning confocal microscopy (LSCM/CLSM)](#laser-scanning-confocal-microscopy-lscm-clsm "laser-scanning-confocal-microscopy-lscm-clsm") | Confocal Microscopy platform, Imaging platform PI2, In Vitro Imaging platform, PIC-STRA, BIC, MicroPICell, ImCy, Imagerie-Gif, MORPHOSCOPE, PFIC, CIML-PiCSL, CBS, ImaChem - College de France, NeurImag, LyMIC, FRAIB, CBI, RESTORE | In Vitro Imaging platform: Stellaris 8; PIC-STRA: Airyscan confocal; MicroPICell: Nikon A1rHD LFOV confocal, Nikon A1 RSi confocal, Nikon AX LIPSI confocal, Nikon A1 N-SIM super-resolution/confocal; ImCy: Leica TCS SP8 with gated STED 775; PFIC: Leica SP8 multiphoton, Olympus FV10i, Leica SPE, Nikon AX R with NSPARC detector; CIML-PiCSL: Zeiss LSM 980 NIR; NeurImag: Leica SP8 STED 3X, Zeiss LSM880-Elyra PS1; FRAIB: Leica confocal SP8 SMD (FLIM) |
+| [Lattice light-sheet (LLS)](#lattice-light-sheet-lls "lattice-light-sheet-lls") | BIC, PICT |  |
+| [Objective-coupled planar illumination (OCPI)](#objective-coupled-planar-illumination-ocpi "objective-coupled-planar-illumination-ocpi") | No confirmed facility provider yet |  |
+| [Random Illumination Microscopy (RIM)](#random-illumination-microscopy-rim "random-illumination-microscopy-rim") | MRIC, MicroPICell, IPBS, CBI |  |
+| [Spinning disk confocal microscopy (SDCM)](#spinning-disk-confocal-microscopy-sdcm "spinning-disk-confocal-microscopy-sdcm") | Confocal Microscopy platform, PIC-STRA, QuESt, BIC, PFIC, PRIMACEN, ImaChem - College de France, LyMIC, CBI | PIC-STRA: CSU-W1; PFIC: 2 Yokogawa/Gataca spinning-disk; PRIMACEN: CSU W1 |
+| [Structured illumination microscopy (SIM)](#structured-illumination-microscopy-sim "structured-illumination-microscopy-sim") | MRIC, MicroPICell, Imagerie-Gif, MORPHOSCOPE, IBDM-PiCSL, IMM Microscopy Core Facility-PiCSL, Imagoseine, PICT, ISdV, IPBS, CBI | MicroPICell: Nikon A1 N-SIM super-resolution/confocal; MORPHOSCOPE: GE Healthcare DeltaVision OMX SR super-resolution SIM/TIRF microscope; IMM Microscopy Core Facility-PiCSL: 3D-SIM/TIRF microscope |
+| [Total internal reflection fluorescence microscopy (TIRF)](#total-internal-reflection-fluorescence-microscopy-tirf "total-internal-reflection-fluorescence-microscopy-tirf") | QuESt, MORPHOSCOPE, PFIC, CBS, PRIMACEN, PICT, ISdV | MORPHOSCOPE: GE Healthcare DeltaVision OMX SR super-resolution SIM/TIRF microscope |
+| [Two-photon microscopy (2P)](#two-photon-microscopy-2p "two-photon-microscopy-2p") | BIC, MORPHOSCOPE, PFIC, IBDM-PiCSL, InMAGIC (INMED Imaging Center)-PiCSL, IPAM, PRIMACEN, IMAG'IC, ImaChem - IBENS, Photonic BioImaging, LyMIC, INFINITy, IPBS, CBI | PFIC: Leica SP8 multiphoton; IBDM-PiCSL: TriMScope (LaVision Biotec) via CircuitPhotonics |
+| [Reversible optical fluorescence transitions (RESOLFT)](#reversible-optical-fluorescence-transitions-resolft "reversible-optical-fluorescence-transitions-resolft") | No confirmed facility provider yet |  |
+| [Single Molecule localization microscopy (SMLM)](#single-molecule-localization-microscopy-smlm "single-molecule-localization-microscopy-smlm") | BIC, MRIC, MicroPICell, Imagerie-Gif, IBDM-PiCSL, IMM Microscopy Core Facility-PiCSL, CBS, MRI, ImaChem - IBENS, Imagoseine, NeurImag, PICT, ISdV, IPBS, CBI | NeurImag: Bruker Vutara |
+| [Stimulated emission depletion microscopy (STED)](#stimulated-emission-depletion-microscopy-sted "stimulated-emission-depletion-microscopy-sted") | In Vitro Imaging platform, BIC, ImCy, PFIC, IBDM-PiCSL, IMM Microscopy Core Facility-PiCSL, MRI, PRIMACEN, IMAG'IC, ImaChem - College de France, NeurImag, ISdV, LyMIC, INFINITy | ImCy: Leica TCS SP8 with gated STED 775; PFIC: STEDYCON; NeurImag: Leica SP8 STED 3X; LyMIC: Abberior Expert Line STED 3D super-resolution microscope (CIQLE) |
+| [Coherent Anti-Stokes Raman Scattering microscopy (CARS)](#coherent-anti-stokes-raman-scattering-microscopy-cars "coherent-anti-stokes-raman-scattering-microscopy-cars") | H2P2, Photonic BioImaging, FRAIB |  |
+| [Polarization microscopy (PM)](#polarization-microscopy-pm "polarization-microscopy-pm") | MORPHOSCOPE |  |
+| [Quantitative Phase Imaging (QPI)](#quantitative-phase-imaging-qpi "quantitative-phase-imaging-qpi") | MRIC, PFIC |  |
+| [Raman Spectroscopy (RS)](#raman-spectroscopy-rs "raman-spectroscopy-rs") | H2P2, MRIC, MicroPICell, CMEAB, FRAIB, METi |  |
+| [Second/Third Harmonic Generation (SHG/THG)](#second-third-harmonic-generation-shg-thg "second-third-harmonic-generation-shg-thg") | BIC, H2P2, MRIC, MicroPICell, MORPHOSCOPE, IMAG'IC, ImaChem - College de France, FRAIB |  |
+| [Stimulated Raman Scattering (SRS)](#stimulated-raman-scattering-srs "stimulated-raman-scattering-srs") | H2P2, FRAIB |  |
+| [Light-sheet mesoscopic imaging (SPIM/dSLSM)](#light-sheet-mesoscopic-imaging-spim-dslsm "light-sheet-mesoscopic-imaging-spim-dslsm") | QuESt, BIC, H2P2, MRIC, MicroPICell, ImCy, MORPHOSCOPE, PFIC, CIML-PiCSL, IBDM-PiCSL, InMAGIC (INMED Imaging Center)-PiCSL, PRIMACEN, ImaChem - College de France, ImaChem - IBENS, NeurImag, Photonic BioImaging, RESTORE | ImCy: PhaseView alpha3 light-sheet microscope; IBDM-PiCSL: TriMScope (LaVision Biotec) via CircuitPhotonics |
+| [Macro Serial Blockface Fluorescence imaging (S-BFI)](#macro-serial-blockface-fluorescence-imaging-s-bfi "macro-serial-blockface-fluorescence-imaging-s-bfi") | MicroPICell |  |
+| [Optical projection tomography (OPT)](#optical-projection-tomography-opt "optical-projection-tomography-opt") | No confirmed facility provider yet |  |
+| [Anisotropy/Polarization Microscopy (AM)](#anisotropy-polarization-microscopy-am "anisotropy-polarization-microscopy-am") | MRIC |  |
+| [Brillouin Scattering Microscopy (BSM)](#brillouin-scattering-microscopy-bsm "brillouin-scattering-microscopy-bsm") | LyMIC |  |
+| [Expansion Microscopy (ExM)](#expansion-microscopy-exm "expansion-microscopy-exm") | BIC, PFIC, IMAG'IC, ImaChem - IBENS |  |
+| [Feedback microscopy (FDBKM)](#feedback-microscopy-fdbkm "feedback-microscopy-fdbkm") | MRIC, MicroPICell |  |
+| [Fluorescence (cross)-correlation spectroscopy (FCS/FCCS)](#fluorescence-cross-correlation-spectroscopy-fcs-fccs "fluorescence-cross-correlation-spectroscopy-fcs-fccs") | QuESt, BIC, MRIC, CIML-PiCSL, CBS, Imagoseine, NeurImag, Photonic BioImaging, ISdV, CRCT |  |
+| [Fluorescence Lifetime Imaging (FLIM)](#fluorescence-lifetime-imaging-flim "fluorescence-lifetime-imaging-flim") | In Vitro Imaging platform, PIC-STRA, QuESt, BIC, MRIC, Imagerie-Gif, MORPHOSCOPE, IBDM-PiCSL, CBS, PRIMACEN, IMAG'IC, Imagoseine, NeurImag, Photonic BioImaging, CMEAB, CRCT, FRAIB, METi | FRAIB: Leica confocal SP8 SMD (FLIM) |
+| [Fluorescence Recovery after Photobleaching (FRAP)](#fluorescence-recovery-after-photobleaching-frap "fluorescence-recovery-after-photobleaching-frap") | PIC-STRA, QuESt, BIC, MRIC, Imagerie-Gif, PFIC, IBDM-PiCSL, Imagoseine, NeurImag, ISdV, CRCT |  |
+| [Fluorescence Resonance Energy Transfer (FRET)](#fluorescence-resonance-energy-transfer-fret "fluorescence-resonance-energy-transfer-fret") | In Vitro Imaging platform, PIC-STRA, MRIC, Imagerie-Gif, PFIC, CBS, IMAG'IC, Imagoseine, NeurImag, CMEAB, FRAIB, METi |  |
+| [High throughput microscopy/high content screening (HTM/HCS)](#high-throughput-microscopy-high-content-screening-htm-hcs "high-throughput-microscopy-high-content-screening-htm-hcs") | MRI, PICT, CBI |  |
+| [High-speed Imaging (HSI)](#high-speed-imaging-hsi "high-speed-imaging-hsi") | No confirmed facility provider yet |  |
+| [Imaging at Biosafety Level >1 (BSL>1)](#imaging-at-biosafety-level-gt-1-bsl-gt-1 "imaging-at-biosafety-level-gt-1-bsl-gt-1") | IMAG'IC, IPBS |  |
+| [Imaging Flow Cytometry (IFC)](#imaging-flow-cytometry-ifc "imaging-flow-cytometry-ifc") | ImCy |  |
+| [Intravital Microscopy (IVM)](#intravital-microscopy-ivm "intravital-microscopy-ivm") | PFIC, IPAM, PRIMACEN, IMAG'IC, INFINITy, IPBS |  |
+| [Microdissection (µDis)](#microdissection-mdis "microdissection-mdis") | FRAIB |  |
+| [Multiplexing imaging (MXI)](#multiplexing-imaging-mxi "multiplexing-imaging-mxi") | H2P2, MicroPICell, PHI, CRCT, INFINITy, IPBS, IRSD, RESTORE |  |
+| [Phosphorescence Lifetime imaging (PLIM)](#phosphorescence-lifetime-imaging-plim "phosphorescence-lifetime-imaging-plim") | QuESt |  |
+| [Photomanipulation (Pmanip)](#photomanipulation-pmanip "photomanipulation-pmanip") | QuESt, BIC, Imagoseine, LyMIC, IPBS, CBI |  |
+| [Single molecule FRET (smFRET)](#single-molecule-fret-smfret "single-molecule-fret-smfret") | CBS |  |
+| [Spatial Transcriptomics (ST)](#spatial-transcriptomics-st "spatial-transcriptomics-st") | LyMIC |  |
+| [Tissue Clearing (TC)](#tissue-clearing-tc "tissue-clearing-tc") | MicroPICell, CIML-PiCSL, IMAG'IC, Photonic BioImaging | MicroPICell: X-CLARITY |
+| [Voltage/pH/Ion Imaging](#voltage-ph-ion-imaging "voltage-ph-ion-imaging") | IBDM-PiCSL, InMAGIC (INMED Imaging Center)-PiCSL, IPAM |  |
+| [3D Correlative Light and Electron Microscopy (3D-CLEM)](#3d-correlative-light-and-electron-microscopy-3d-clem "3d-correlative-light-and-electron-microscopy-3d-clem") | IBDM-PiCSL |  |
+| [Correlative Array Tomography (CAT)](#correlative-array-tomography-cat "correlative-array-tomography-cat") | No confirmed facility provider yet |  |
+| [Cryo Correlative Light and Electron Microscopy (Cryo-CLEM)](#cryo-correlative-light-and-electron-microscopy-cryo-clem "cryo-correlative-light-and-electron-microscopy-cryo-clem") | BIC, IMM Microscopy Core Facility-PiCSL |  |
+| [Elemental analysis Correlative Light and Electron Microscopy (EDX-CLEM)](#elemental-analysis-correlative-light-and-electron-microscopy-edx-clem "elemental-analysis-correlative-light-and-electron-microscopy-edx-clem") | No confirmed facility provider yet |  |
+| [post-embedding CLEM (post-emb CLEM)](#post-embedding-clem-post-emb-clem "post-embedding-clem-post-emb-clem") | IBDM-PiCSL |  |
+| [pre-embedding CLEM (pre-emb CLEM)](#pre-embedding-clem-pre-emb-clem "pre-embedding-clem-pre-emb-clem") | IBDM-PiCSL, MRI |  |
+| [live-cell Correlative Light and Electron Microscopy (live-cell CLEM)](#live-cell-correlative-light-and-electron-microscopy-live-cell-clem "live-cell-correlative-light-and-electron-microscopy-live-cell-clem") | IBDM-PiCSL |  |
+| [Cryo Electron Tomography (Cryo-ET)](#cryo-electron-tomography-cryo-et "cryo-electron-tomography-cryo-et") | PICT, METi |  |
+| [Cryo Scanning Electron Microscopy (Cryo-SEM)](#cryo-scanning-electron-microscop-cryo-sem "cryo-scanning-electron-microscop-cryo-sem") | BIC, LyMIC, CMEAB, METi |  |
+| [Cryo Transmission Electron Microscopy (Cryo-TEM)](#cryo-transmission-electron-microscopy-cryo-tem "cryo-transmission-electron-microscopy-cryo-tem") | BIC, IMM Microscopy Core Facility-PiCSL, PRIMACEN, PICT, LyMIC, CMEAB, METi |  |
+| [Elemental analysis (EDX)](#elemental-analysis-edx "elemental-analysis-edx") | BIC, Imagerie-Gif |  |
+| [Scanning Electron Microscopy (SEM)](#scanning-electron-microscopy-sem "scanning-electron-microscopy-sem") | In Vitro Imaging platform, BIC, UTechS UBI, LyMIC, CMEAB |  |
+| [Large scale EM (lsTEM)](#large-scale-em-lstem "large-scale-em-lstem") | MRI |  |
+| [TEM of chemical fixed samples (TEM)](#tem-of-chemical-fixed-samples-tem "tem-of-chemical-fixed-samples-tem") | Imagerie-Gif | Imagerie-Gif: 2× JEOL 1400 120 kV TEM |
+| [TEM of cryo-immobilized samples (TEM cryo samples)](#tem-of-cryo-immobilized-samples-tem-cryo-samples "tem-of-cryo-immobilized-samples-tem-cryo-samples") | In Vitro Imaging platform, BIC, PICT, METi |  |
+| [Array tomography (AT)](#array-tomography-at "array-tomography-at") | BIC |  |
+| [EM tomography (ET)](#em-tomography-et "em-tomography-et") | BIC, IBDM-PiCSL, Imagoseine, PICT, LyMIC, METi |  |
+| [Focussed Ion beam SEM (FIB-SEM)](#focussed-ion-beam-sem-fib-sem "focussed-ion-beam-sem-fib-sem") | BIC, Imagerie-Gif, UTechS UBI, ISdV |  |
+| [Serial Blockface SEM (SBF-SEM)](#serial-blockface-sem-sbf-sem "serial-blockface-sem-sbf-sem") | Cellular Imaging platform, BIC, IBDM-PiCSL, Imagoseine, UTechS UBI | IBDM-PiCSL: SEM for automated 3D Serial Block-Face |
+| [serial section TEM (ssTEM)](#serial-section-tem-sstem "serial-section-tem-sstem") | Imagerie-Gif |  |
+| [STEM tomography (STEM)](#stem-tomography-stem "stem-tomography-stem") | No confirmed facility provider yet |  |
+| [Genetic encoded EM probes (GE probes)](#genetic-encoded-em-probes-ge-probes "genetic-encoded-em-probes-ge-probes") | No confirmed facility provider yet |  |
+| [Immuno-gold EM on resin sections (resin-EM)](#immuno-gold-em-on-resin-sections-resin-em "immuno-gold-em-on-resin-sections-resin-em") | No confirmed facility provider yet |  |
+| [Immuno-gold EM on thawed cryo-sections (Tokuyasu-EM)](#immuno-gold-em-on-thawed-cryo-sections-tokuyasu-em "immuno-gold-em-on-thawed-cryo-sections-tokuyasu-em") | BIC, METi |  |
+| [post-embed Correlative Light and Electron Microscopy (on-section CLEM)](#post-embed-correlative-light-and-electron-microscopy-post-embed-clem "post-embed-correlative-light-and-electron-microscopy-post-embed-clem") | No confirmed facility provider yet |  |
+| [pre-embed Correlative Light and Electron Microscopy (pre-embed CLEM)](#pre-embed-correlative-light-and-electron-microscopy-pre-embed-clem "pre-embed-correlative-light-and-electron-microscopy-pre-embed-clem") | IBDM-PiCSL, MRI |  |
+| [pre-embedding immunolabelling (pre-embed IL)](#pre-embedding-immunolabelling-pre-embed-il "pre-embedding-immunolabelling-pre-embed-il") | No confirmed facility provider yet |  |
+| [Correlative X-ray and EM (CXEM)](#correlative-x-ray-and-em-cxem "correlative-x-ray-and-em-cxem") | MRI |  |
+| [Atomic Force Microscopy (AFM)](#atomic-force-microscopy-afm "atomic-force-microscopy-afm") | CBS, ImaChem - College de France, LyMIC, RESTORE |  |
+| [Traction Force Microscopy (TFM)](#traction-force-microscopy-tfm "traction-force-microscopy-tfm") | LyMIC |  |
+| [in vivo optical imaging (OI)](#in-vivo-optical-imaging-oi "in-vivo-optical-imaging-oi") | ImCy |  |
+| [micro-CT](#micro-ct "micro-ct") | MRI |  |
+| [Image Analysis -bio (IA bio)](#image-analysis-bio "image-analysis-bio") | Imaging platform PI2, PIC-STRA, QuESt, BioImage Informatics, BIC, MicroPICell, F-BIAS, ImCy, Imagerie-Gif, MRI, PRIMACEN, ISdV, LyMIC, FRAIB, INFINITy, CBI, METi, RESTORE |  |
 
 ## Specialties and research focus
 
-The facilities serve most of the life sciences, but several fields have dedicated support. Neuroscience is the focus at NeurImag in Paris, which also works on psychiatry, and at InMAGIC (INMED Imaging Center)-PiCSL in Marseille, which supports in vivo functional imaging of neurons. ISdV in Grenoble adds studies of central nervous system morphology and neurodegenerative disease. Immunology is served by CIML-PiCSL in Marseille, Imaging platform PI2 in Strasbourg and INFINITy in Toulouse, where the work extends to infectious and inflammatory disease. Developmental biology is the focus at IBDM-PiCSL.
+Neuroscience runs through several facilities. NeurImag in Paris serves neuroscience and psychiatry, InMAGIC (INMED Imaging Center)-PiCSL in Marseille supports neurobiology with in vivo functional neuronal imaging, and ISdV in Grenoble works on central nervous system morphology and neurodegenerative disease. Cancer research is the focus of PFIC in Villejuif and CRCT in Toulouse, and PICT in Paris serves cancer and developmental biology. PFIC also images living organs and 3D organoids, while IRSD in Toulouse works with intestinal organoids and other stem-cell-derived 3D models.
 
-Cancer research is central at PFIC in Villejuif, which images living organs and 3D organoids, and also at PICT and CRCT in Toulouse. At Institut Pasteur in Paris, UTechS UBI and Photonic BioImaging support host-pathogen research, and IPBS in Toulouse images human-pathogen specimens. FRAIB in Auzeville-Tolosane works on plant biology and microorganisms, while IMM Microscopy Core Facility-PiCSL studies bacteria, giant viruses and microalgae. Other specialities include gene therapy for neuromuscular disease at ImCy, and metabolic, cardiovascular and renal disease at PHI in Toulouse. IRSD in Toulouse works with intestinal and epithelial organoids.
+Immunology and infection form another group. CIML-PiCSL in Marseille studies the immune system from molecules to whole organisms, and INFINITy in Toulouse supports research on infectious and inflammatory diseases. Host-pathogen interactions are studied at UTechS UBI and Photonic BioImaging in Paris. Plant biology is served by BIC in Bordeaux, FRAIB in Auzeville-Tolosane and the Cellular Imaging platform in Strasbourg, which follows gene expression in plants. Gene therapy for neuromuscular diseases is the focus of ImCy in Evry-Courcouronnes, and PHI in Toulouse works on metabolic, cardiovascular and renal disease.
 
 ## Services and user support
 
-Projects usually begin with methodological set-up, where staff help adapt an imaging approach to the research question. CBI and METi in Toulouse also offer project management, and MORPHOSCOPE runs collaborative pilot studies. Researchers can be trained to use instruments independently, or work with staff who give technical assistance or run fully assisted imaging studies. At ImaChem - IBENS, that assistance extends to instrument selection, calibration, configuration and troubleshooting. Sample preparation is offered at NeurImag and METi. IRSD adds an organoid biobank, training in organoid culture and collaborative organoid research.
-
-Data processing and analysis is available across the Node, and F-BIAS builds customised analysis pipelines. NeurImag and CBI provide image analysis workstations, while data management is offered at Montpellier Ressources Imagerie. Data storage is available at ImaChem and NeurImag in Paris, and NeurImag also handles data transfer. For longer-term work, staff take part in method development for imaging technology and software and in collaborative research. PFIC at Gustave Roussy also offers research and development.
-
-### Services offered*
+### Services currently recorded (not in the signed SLA, please confirm)
 
 - Instruments (independent use after training where offered)
 - Technical assistance to run instrument
@@ -125,13 +121,9 @@ Data processing and analysis is available across the Node, and F-BIAS builds cus
 - Technical assistance to run instrument (selection, calibration, configuration and troubleshooting), at ImaChem, IBENS
 - Imaging services (fully assisted studies)
 - Project management (at LITC and METi)
-- Pilot studies (collaborative access), at MORPHOSCOPE
 - Biobanking (organoid access), at IRSD
 - Training in infrastructure use (organoid culture), at IRSD
-- Collaborative research (organoid culture), at IRSD
 - Method development (imaging technology and software)
-- Collaborative research
-- Research and development (at PFIC, Institut Gustave Roussy)
 
 ## Facilities
 
@@ -183,11 +175,11 @@ Data processing and analysis is available across the Node, and F-BIAS builds cus
 | [Toulouse (TRI-Genotoul) / RESTORE](https://restore-lab.fr/portfolio/imagerie/ "french-bioimaging-node-toulouse-tri-genotoul-restore") | RESTORE | Toulouse |
 | [Toulouse Reseau Imagerie (TRI) - multi-site imaging network](https://trigenotoul.com/en/ "french-bioimaging-node-toulouse-reseau-imagerie-tri-multi-site-imaging-network") | Toulouse (TRI-Genotoul) / Toulouse Reseau Imagerie (TRI) - coordinating platform | Toulouse |
 
-The Node is organised in regional groups, each built around a few research institutes. In Paris, Institut Pasteur hosts three facilities, including BioImage Informatics, which shares image-analysis expertise across biomedical projects. Institut Curie, Institut Cochin and Institut Jacques Monod each run imaging platforms. Imagoseine at Institut Jacques Monod combines advanced light microscopy with electron microscopy. South of Paris, Imagerie-Gif in Gif-sur-Yvette also brings light and electron microscopy together, so a correlative project can stay in one place, while ImCy and PFIC add gene-therapy and cancer support.
+Several facilities combine light and electron microscopy. BIC in Bordeaux works across photonic, electron and plant imaging, and IBDM-PiCSL in Marseille brings volume EM, CLEM and optomanipulation to developmental biology. LyMIC in Lyon federates three imaging poles for photonic and electron microscopy, cryo-methods and mechanical measurements on cells. Imagerie-Gif in Gif-sur-Yvette joins light and electron microscopy with correlative and live imaging for cell biology.
 
-The Marseille facilities form the shared PiCSL platform at Luminy. In Montpellier, Montpellier Ressources Imagerie offers correlative work, screening and large-scale electron microscopy. Nearby, IPAM is a small-animal platform with three technical plateaux. The Toulouse Reseau Imagerie (TRI) coordinates the facilities in and around Toulouse, which cover both electron and light microscopy. LyMIC in Lyon federates three imaging poles, and ISdV links several platforms across Grenoble.
+Dedicated electron microscopy facilities include UTechS UBI in Paris, which handles scanning and transmission EM at room temperature and under cryogenic conditions. METi in Toulouse covers transmission EM from macromolecular structure to cell and tissue organisation. CMEAB in Toulouse handles electron microscopy from sample preparation to interpretation, in biology and beyond.
 
-In western France, H2P2 in Rennes works at tissue scale on histopathology and multiplexed imaging. MicroPICell in Nantes combines tissue clearing with photonic imaging. PRIMACEN in Mont-Saint-Aignan covers cellular imaging in Normandy, and further facilities sit in Strasbourg and Mulhouse. F-BIAS works across all of these sites and links image-analysis experts from the participating facilities.
+Quantitative light microscopy is the focus of several other groups. Imagoseine in Paris works on functional imaging such as FLIM-FRET and FCCS alongside super-resolution and EM. CBI in Toulouse specialises in single-molecule analysis, optogenetic manipulation and live-cell imaging. CBS in Montpellier combines single-molecule fluorescence with atomic force microscopy for biophysics and mechanobiology. H2P2 in Rennes brings histopathology expertise to multiplexed and label-free tissue imaging, and MicroPICell in Nantes specialises in tissue clearing and photonic imaging of tissues. IPAM in Montpellier focuses on in vivo imaging of small animals, including deep-tissue two-photon microscopy. TRI coordinates the imaging network in Toulouse.
 
 ## Access and contact
 

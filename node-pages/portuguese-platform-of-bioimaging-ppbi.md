@@ -2,74 +2,78 @@
 
 ## Overview
 
-The Portuguese Platform of BioImaging (PPBI) is Portugal's Node, and its main strength is advanced light microscopy. Eighteen of its 20 facilities offer optical imaging, which ranges from confocal and widefield work to nanoscopy, light-sheet imaging and quantitative fluorescence methods. The facilities belong to 16 institutions in eight cities, from Braga and Porto in the north to Faro in the south, and they are organised into three geographical clusters. The Node serves both biological and biomedical research. Three facilities add scanning electron microscopy, and the i3S Bioimaging Scientific Platform in Porto extends the Node into preclinical imaging with micro-CT.
+The Portuguese Platform of BioImaging (PPBI) mainly offers advanced light microscopy and image analysis for the life sciences. Light microscopy is available at almost every facility, and it ranges from confocal imaging to super-resolution, light-sheet and quantitative methods that measure how molecules move and interact. PPBI has 20 facilities at 16 institutions in Aveiro, Braga, Coimbra, Covilhã, Faro, Lisbon, Oeiras and Porto, and it covers biological imaging alongside scanning electron microscopy and preclinical micro-CT.
 
-Each site sits within a research institute, so its staff's expertise follows the science done around them. The Advanced Fluorescence Microscopy Facility in Lisbon specialises in molecular and cell biophysics, using single-molecule techniques and quantitative modelling to study how molecules organise and interact. BIC in Oeiras has core expertise in microbiology and host-microbe interactions, with models ranging from bacteria and viruses to multicellular eukaryotes. The CCMAR Imaging Platform in Faro works with marine organisms, and the ICVS Microscopy and Imaging Facility in Braga brings experience in stereology. In Porto, BioSciences Screening develops assays for automated imaging, and ABC applies mechanobiology expertise to biomaterials and biointerfaces.
+The staff's expertise follows the research of their host institutes. At the Advanced Fluorescence Microscopy Facility in Lisbon, the team specialises in molecular and cell biophysics and single-molecule techniques, and it builds quantitative models of molecular organisation. Staff at BIC in Oeiras are experienced in microbiology and host-microbe interactions, with models ranging from bacteria and viruses to multicellular eukaryotes. The CCMAR Imaging Platform in Faro images marine organisms such as zebrafish, corals and algae. The ICVS Microscopy and Imaging Facility in Braga brings expertise in confocal microscopy and stereology. Image analysis runs through the Node, from bioimage data analysis at Advanced Light Microscopy in Porto to assay development at BioSciences Screening in Porto.
 
-Projects that need detail beyond the diffraction limit fit best at Advanced Light Microscopy in Porto, the only facility offering STED. Microbiologists and infection researchers will find specialist support at BIC in Oeiras. Marine and developmental biologists working with embryos or small whole organisms should look to the CCMAR Imaging Platform in Faro, which offers light-sheet imaging. Confocal microscopy is offered by facilities in all eight cities.
+Single-molecule localisation microscopy is at Advanced Light Microscopy in Porto and BIC in Oeiras, and STED is at Advanced Light Microscopy alone. Light-sheet imaging is at five facilities, including the CCMAR Imaging Platform in Faro and the two GIMM sites in Lisbon and Oeiras. High-content screening is at BioSciences Screening in Porto and four other facilities. Scanning electron microscopy is at HEMS in Porto, INL imaging platforms in Braga and iLAB in Coimbra. Micro-CT for small animals is at the i3S Bioimaging Scientific Platform in Porto.
 
 ## Imaging technologies offered
 
-Confocal microscopy is the backbone of the Node, with 17 facilities offering optical sectioning and multichannel 3D localisation in cells and tissues. Widefield deconvolution and spinning disk confocal microscopy give faster or gentler options for live samples. Fluorescence recovery after photobleaching (FRAP) and fluorescence resonance energy transfer (FRET) are offered at 13 and 12 facilities, and they measure molecular mobility and proximity in cells. Two-photon microscopy at seven facilities reaches cells deep within thick tissue. Intravital microscopy, which follows cells inside living animals, is offered at four facilities, including MICC-CNC in Coimbra.
+Confocal, spinning-disk and deconvolution widefield microscopes form the base of the Node, and they localise structures in three dimensions in fixed and living cells. FRAP and FRET, offered at 12 and 11 facilities respectively, measure how quickly proteins exchange and whether two molecules lie within nanometres of each other. Fluorescence lifetime imaging (FLIM) reports on the molecular environment. Fluorescence correlation spectroscopy at the Advanced Fluorescence Microscopy Facility, Advanced Light Microscopy and the GIMM Bioimaging Platform measures diffusion and concentration. Two-photon microscopy reaches cells deep in thick tissue, and intravital microscopy at Advanced Light Microscopy, the GIMM Bioimaging Platform and MICC-CNC follows cells inside living animals.
 
-For nanoscale detail, Advanced Light Microscopy in Porto runs stimulated emission depletion (STED) microscopy, and single-molecule localisation microscopy is offered by Advanced Light Microscopy, BIC and GIMM Oeiras. Light-sheet imaging at five facilities records embryos and organs with little photodamage, for example on the Zeiss LightSheet Z.1 at the CCMAR Imaging Platform. The Advanced Fluorescence Microscopy Facility measures diffusion, molecular environment and orientation with fluorescence correlation spectroscopy, lifetime imaging and anisotropy. High-content screening at five facilities includes the Opera Phenix Plus at BioSciences Screening.
+Light-sheet microscopy images embryos and organs with little light exposure, and the CCMAR Imaging Platform runs a Zeiss LightSheet Z.1. Single-molecule localisation microscopy at Advanced Light Microscopy and BIC, and STED at Advanced Light Microscopy, resolve organisation at the molecular scale. BioSciences Screening uses an Opera Phenix Plus to record multiparameter phenotypes across many wells and conditions.
 
-Scanning electron microscopy is offered by HEMS, INL imaging platforms and iLAB, and HEMS runs a Zeiss Gemini 360 FE-SEM for detailed surface imaging. Raman spectroscopy reports chemical composition without labels and is offered by INL imaging platforms and the i3S Bioimaging Scientific Platform. The latter also uses a Bruker SkyScan 1276 for micro-CT of small animals and specimens.
+Supporting methods are more specialised. Raman spectroscopy at INL imaging platforms and the i3S Bioimaging Scientific Platform reads molecular composition without labels. Scanning electron microscopy at HEMS, INL imaging platforms and iLAB shows surface morphology. Atomic force microscopy at ABC and INL imaging platforms measures topography and local mechanics. A Bruker SkyScan 1276 at the i3S Bioimaging Scientific Platform gives 3D anatomy of small animals by micro-CT.
 
 ### Technologies and instruments
 
-| Technology | Instrument highlights |
-| --- | --- |
-| [Deconvolution widefield microscopy (DWM)](#deconvolution-widefield-microscopy-dwm "deconvolution-widefield-microscopy-dwm") |  |
-| [Laser scanning confocal microscopy (LSCM/CLSM)](#laser-scanning-confocal-microscopy-lscm-clsm "laser-scanning-confocal-microscopy-lscm-clsm") | INL imaging platforms: Zeiss LSM 880 Airyscan, NBI: Zeiss LSM 780 confocal microscope; LiM: Zeiss LSM 880 confocal, Zeiss LSM 510 Meta confocal |
-| [Spinning disk confocal microscopy (SDCM)](#spinning-disk-confocal-microscopy-sdcm "spinning-disk-confocal-microscopy-sdcm") | LiM: Andor Spinning Disk W1 |
-| [Structured illumination microscopy (SIM)](#structured-illumination-microscopy-sim "structured-illumination-microscopy-sim") |  |
-| [Total internal reflection fluorescence microscopy (TIRF)](#total-internal-reflection-fluorescence-microscopy-tirf "total-internal-reflection-fluorescence-microscopy-tirf") | INL imaging platforms: Nikon Ti-E TIRF |
-| [Two-photon microscopy (2P)](#two-photon-microscopy-2p "two-photon-microscopy-2p") |  |
-| [Single Molecule localization microscopy (SMLM)](#single-molecule-localization-microscopy-smlm "single-molecule-localization-microscopy-smlm") |  |
-| [Stimulated emission depletion microscopy (STED)](#stimulated-emission-depletion-microscopy-sted "stimulated-emission-depletion-microscopy-sted") |  |
-| [Raman Spectroscopy (RS)](#raman-spectroscopy-rs "raman-spectroscopy-rs") | INL imaging platforms: Witec Alpha300 R Raman microscope |
-| [Second/Third Harmonic Generation (SHG/THG)](#second-third-harmonic-generation-shg-thg "second-third-harmonic-generation-shg-thg") |  |
-| [Light-sheet mesoscopic imaging (SPIM/dSLSM)](#light-sheet-mesoscopic-imaging-spim-dslsm "light-sheet-mesoscopic-imaging-spim-dslsm") | CCMAR Imaging Platform: Zeiss LightSheet Z.1 |
-| [Optical projection tomography (OPT)](#optical-projection-tomography-opt "optical-projection-tomography-opt") |  |
-| [Anisotropy/Polarization Microscopy (AM)](#anisotropy-polarization-microscopy-am "anisotropy-polarization-microscopy-am") |  |
-| [Expansion Microscopy (ExM)](#expansion-microscopy-exm "expansion-microscopy-exm") |  |
-| [Fluorescence (cross)-correlation spectroscopy (FCS/FCCS)](#fluorescence-cross-correlation-spectroscopy-fcs-fccs "fluorescence-cross-correlation-spectroscopy-fcs-fccs") |  |
-| [Fluorescence Lifetime Imaging (FLIM)](#fluorescence-lifetime-imaging-flim "fluorescence-lifetime-imaging-flim") |  |
-| [Fluorescence Recovery after Photobleaching (FRAP)](#fluorescence-recovery-after-photobleaching-frap "fluorescence-recovery-after-photobleaching-frap") |  |
-| [Fluorescence Resonance Energy Transfer (FRET)](#fluorescence-resonance-energy-transfer-fret "fluorescence-resonance-energy-transfer-fret") |  |
-| [High throughput microscopy/high content screening (HTM/HCS)](#high-throughput-microscopy-high-content-screening-htm-hcs "high-throughput-microscopy-high-content-screening-htm-hcs") | BioSciences Screening: Opera Phenix Plus, Operetta CLS |
-| [Imaging at Biosafety Level >1 (BSL>1)](#imaging-at-biosafety-level-gt-1-bsl-gt-1 "imaging-at-biosafety-level-gt-1-bsl-gt-1") |  |
-| [Imaging Flow Cytometry (IFC)](#imaging-flow-cytometry-ifc "imaging-flow-cytometry-ifc") |  |
-| [Intravital Microscopy (IVM)](#intravital-microscopy-ivm "intravital-microscopy-ivm") |  |
-| [Microdissection (µDis)](#microdissection-mdis "microdissection-mdis") |  |
-| [Photomanipulation (Pmanip)](#photomanipulation-pmanip "photomanipulation-pmanip") |  |
-| [Single molecule FRET (smFRET)](#single-molecule-fret-smfret "single-molecule-fret-smfret") |  |
-| [Tissue Clearing (TC)](#tissue-clearing-tc "tissue-clearing-tc") |  |
-| [Elemental analysis (EDX)](#elemental-analysis-edx "elemental-analysis-edx") |  |
-| [Scanning Electron Microscopy (SEM)](#scanning-electron-microscopy-sem "scanning-electron-microscopy-sem") | HEMS: Zeiss Gemini 360 FE-SEM |
-| [TEM of chemical fixed samples (TEM)](#tem-of-chemical-fixed-samples-tem "tem-of-chemical-fixed-samples-tem") |  |
-| [Immuno-gold EM on resin sections (resin-EM)](#immuno-gold-em-on-resin-sections-resin-em "immuno-gold-em-on-resin-sections-resin-em") |  |
-| [pre-embedding immunolabelling (pre-embed IL)](#pre-embedding-immunolabelling-pre-embed-il "pre-embedding-immunolabelling-pre-embed-il") |  |
-| [Atomic Force Microscopy (AFM)](#atomic-force-microscopy-afm "atomic-force-microscopy-afm") | ABC: Bruker/JPK NanoWizard V AFM with inverted fluorescence microscopy |
-| [micro-CT](#micro-ct "micro-ct") | i3S Bioimaging Scientific Platform: Bruker SkyScan 1276 microCT and multimodal optical/preclinical systems |
-| [micro-US](#micro-us "micro-us") |  |
-| [Image Analysis -bio (IA bio)](#image-analysis-bio "image-analysis-bio") |  |
-| [Light-field microscopy (LFM)](#light-field-microscopy-lfm "light-field-microscopy-lfm") |  |
+| Technology | Confirmed facility providers | Instrument highlights |
+| --- | --- | --- |
+| [Deconvolution widefield microscopy (DWM)](#deconvolution-widefield-microscopy-dwm "deconvolution-widefield-microscopy-dwm") | ABC-RI Microscopy Facility, AbbE, Advanced Light Microscopy, BIC, FCUL Microscopy Facility, Fluorescence Microscopy Unit, GIMM Bioimaging Platform, ICVS Microscopy and Imaging Facility, LiM, MICC-CNC, NOVA Medical School Microscopy Facility, iLAB |  |
+| [Laser scanning confocal microscopy (LSCM/CLSM)](#laser-scanning-confocal-microscopy-lscm-clsm "laser-scanning-confocal-microscopy-lscm-clsm") | AbbE, Advanced Fluorescence Microscopy Facility, Advanced Light Microscopy, BIC, CCMAR Imaging Platform, FCUL Microscopy Facility, Fluorescence Microscopy Unit, GIMM Bioimaging Platform, GIMM Oeiras, ICVS Microscopy and Imaging Facility, INL imaging platforms, LiM, MICC-CNC, NOVA Medical School Microscopy Facility, i3S Bioimaging Scientific Platform, iLAB | INL imaging platforms: Zeiss LSM 880 Airyscan, NBI: Zeiss LSM 780 confocal microscope; LiM: Zeiss LSM 880 confocal, Zeiss LSM 510 Meta confocal |
+| [Spinning disk confocal microscopy (SDCM)](#spinning-disk-confocal-microscopy-sdcm "spinning-disk-confocal-microscopy-sdcm") | ABC-RI Microscopy Facility, Advanced Light Microscopy, BIC, GIMM Bioimaging Platform, GIMM Oeiras, LiM, MICC-CNC, NOVA Medical School Microscopy Facility | LiM: Andor Spinning Disk W1 |
+| [Structured illumination microscopy (SIM)](#structured-illumination-microscopy-sim "structured-illumination-microscopy-sim") | Advanced Light Microscopy, BIC, GIMM Bioimaging Platform, GIMM Oeiras |  |
+| [Total internal reflection fluorescence microscopy (TIRF)](#total-internal-reflection-fluorescence-microscopy-tirf "total-internal-reflection-fluorescence-microscopy-tirf") | Advanced Light Microscopy, BIC, GIMM Bioimaging Platform, INL imaging platforms | INL imaging platforms: Nikon Ti-E TIRF |
+| [Two-photon microscopy (2P)](#two-photon-microscopy-2p "two-photon-microscopy-2p") | Advanced Fluorescence Microscopy Facility, Advanced Light Microscopy, GIMM Bioimaging Platform, GIMM Oeiras, ICVS Microscopy and Imaging Facility, MICC-CNC, iLAB |  |
+| [Single Molecule localization microscopy (SMLM)](#single-molecule-localization-microscopy-smlm "single-molecule-localization-microscopy-smlm") | Advanced Light Microscopy, BIC |  |
+| [Stimulated emission depletion microscopy (STED)](#stimulated-emission-depletion-microscopy-sted "stimulated-emission-depletion-microscopy-sted") | Advanced Light Microscopy |  |
+| [Raman Spectroscopy (RS)](#raman-spectroscopy-rs "raman-spectroscopy-rs") | INL imaging platforms, i3S Bioimaging Scientific Platform | INL imaging platforms: Witec Alpha300 R Raman microscope |
+| [Second/Third Harmonic Generation (SHG/THG)](#second-third-harmonic-generation-shg-thg "second-third-harmonic-generation-shg-thg") | Advanced Light Microscopy |  |
+| [Light-sheet mesoscopic imaging (SPIM/dSLSM)](#light-sheet-mesoscopic-imaging-spim-dslsm "light-sheet-mesoscopic-imaging-spim-dslsm") | AbbE, Advanced Light Microscopy, CCMAR Imaging Platform, GIMM Bioimaging Platform, GIMM Oeiras | CCMAR Imaging Platform: Zeiss LightSheet Z.1 |
+| [Optical projection tomography (OPT)](#optical-projection-tomography-opt "optical-projection-tomography-opt") | GIMM Bioimaging Platform, GIMM Oeiras |  |
+| [Anisotropy/Polarization Microscopy (AM)](#anisotropy-polarization-microscopy-am "anisotropy-polarization-microscopy-am") | Advanced Fluorescence Microscopy Facility, Advanced Light Microscopy |  |
+| [Expansion Microscopy (ExM)](#expansion-microscopy-exm "expansion-microscopy-exm") | Advanced Light Microscopy, BIC, GIMM Bioimaging Platform |  |
+| [Fluorescence (cross)-correlation spectroscopy (FCS/FCCS)](#fluorescence-cross-correlation-spectroscopy-fcs-fccs "fluorescence-cross-correlation-spectroscopy-fcs-fccs") | Advanced Fluorescence Microscopy Facility, Advanced Light Microscopy, GIMM Bioimaging Platform |  |
+| [Fluorescence Lifetime Imaging (FLIM)](#fluorescence-lifetime-imaging-flim "fluorescence-lifetime-imaging-flim") | Advanced Fluorescence Microscopy Facility, Advanced Light Microscopy, BIC, CCMAR Imaging Platform, FCUL Microscopy Facility |  |
+| [Fluorescence Recovery after Photobleaching (FRAP)](#fluorescence-recovery-after-photobleaching-frap "fluorescence-recovery-after-photobleaching-frap") | AbbE, Advanced Fluorescence Microscopy Facility, Advanced Light Microscopy, BIC, FCUL Microscopy Facility, Fluorescence Microscopy Unit, GIMM Bioimaging Platform, ICVS Microscopy and Imaging Facility, LiM, MICC-CNC, NOVA Medical School Microscopy Facility, i3S Bioimaging Scientific Platform |  |
+| [Fluorescence Resonance Energy Transfer (FRET)](#fluorescence-resonance-energy-transfer-fret "fluorescence-resonance-energy-transfer-fret") | Advanced Fluorescence Microscopy Facility, Advanced Light Microscopy, BIC, FCUL Microscopy Facility, Fluorescence Microscopy Unit, GIMM Bioimaging Platform, ICVS Microscopy and Imaging Facility, LiM, MICC-CNC, NOVA Medical School Microscopy Facility, i3S Bioimaging Scientific Platform |  |
+| [High throughput microscopy/high content screening (HTM/HCS)](#high-throughput-microscopy-high-content-screening-htm-hcs "high-throughput-microscopy-high-content-screening-htm-hcs") | AbbE, BioSciences Screening, FCUL Microscopy Facility, GIMM Bioimaging Platform, NOVA Medical School Microscopy Facility | BioSciences Screening: Opera Phenix Plus, Operetta CLS |
+| [Imaging at Biosafety Level >1 (BSL>1)](#imaging-at-biosafety-level-gt-1-bsl-gt-1 "imaging-at-biosafety-level-gt-1-bsl-gt-1") | GIMM Bioimaging Platform, GIMM Oeiras |  |
+| [Imaging Flow Cytometry (IFC)](#imaging-flow-cytometry-ifc "imaging-flow-cytometry-ifc") | LiM, i3S Bioimaging Scientific Platform |  |
+| [Intravital Microscopy (IVM)](#intravital-microscopy-ivm "intravital-microscopy-ivm") | Advanced Light Microscopy, GIMM Bioimaging Platform, MICC-CNC |  |
+| [Microdissection (µDis)](#microdissection-mdis "microdissection-mdis") | GIMM Bioimaging Platform, MICC-CNC |  |
+| [Photomanipulation (Pmanip)](#photomanipulation-pmanip "photomanipulation-pmanip") | Advanced Light Microscopy, GIMM Bioimaging Platform, GIMM Oeiras, NOVA Medical School Microscopy Facility |  |
+| [Single molecule FRET (smFRET)](#single-molecule-fret-smfret "single-molecule-fret-smfret") | Advanced Fluorescence Microscopy Facility |  |
+| [Tissue Clearing (TC)](#tissue-clearing-tc "tissue-clearing-tc") | GIMM Bioimaging Platform, MICC-CNC |  |
+| [Elemental analysis (EDX)](#elemental-analysis-edx "elemental-analysis-edx") | HEMS |  |
+| [Scanning Electron Microscopy (SEM)](#scanning-electron-microscopy-sem "scanning-electron-microscopy-sem") | INL imaging platforms, HEMS, iLAB | HEMS: Zeiss Gemini 360 FE-SEM |
+| [TEM of chemical fixed samples (TEM)](#tem-of-chemical-fixed-samples-tem "tem-of-chemical-fixed-samples-tem") | No confirmed facility provider yet |  |
+| [Immuno-gold EM on resin sections (resin-EM)](#immuno-gold-em-on-resin-sections-resin-em "immuno-gold-em-on-resin-sections-resin-em") | No confirmed facility provider yet |  |
+| [pre-embedding immunolabelling (pre-embed IL)](#pre-embedding-immunolabelling-pre-embed-il "pre-embedding-immunolabelling-pre-embed-il") | No confirmed facility provider yet |  |
+| [Atomic Force Microscopy (AFM)](#atomic-force-microscopy-afm "atomic-force-microscopy-afm") | INL imaging platforms, ABC | ABC: Bruker/JPK NanoWizard V AFM with inverted fluorescence microscopy |
+| [micro-CT](#micro-ct "micro-ct") | i3S Bioimaging Scientific Platform | i3S Bioimaging Scientific Platform: Bruker SkyScan 1276 microCT and multimodal optical/preclinical systems |
+| [micro-US](#micro-us "micro-us") | No confirmed facility provider yet |  |
+| [Image Analysis -bio (IA bio)](#image-analysis-bio "image-analysis-bio") | AbbE |  |
+| [Light-field microscopy (LFM)](#light-field-microscopy-lfm "light-field-microscopy-lfm") | AbbE |  |
 
 ## Specialties and research focus
 
-The facilities serve cell and developmental biology, neuroscience, oncobiology, immunology, infection research, regenerative medicine and marine biology. The research institutes behind them also work on nerve regeneration, genetic and chronic disease, and systems biology. Advanced Light Microscopy in Porto supports cell biology, oncobiology, neurobiology, immunology and biomaterials research. Neuroscience is the explicit focus of the ICVS Microscopy and Imaging Facility in Braga, which analyses neurons and the nervous system alongside cells, tissues and microorganisms. BIC in Oeiras serves microbiology and studies of how microbes interact with their hosts.
+PPBI's facilities sit within research institutes, and their work reflects the science of those hosts, from cancer and neurodegenerative disease to nerve regeneration, host-pathogen interaction and drug discovery. Advanced Light Microscopy supports cell biology, oncobiology, neurobiology, immunology and biomaterials research. Neuroscience is also central at the ICVS Microscopy and Imaging Facility, which images the nervous system and individual neurons alongside other cells, tissues and microorganisms.
 
-Several Porto facilities lean towards applied and translational questions. BioSciences Screening supports drug discovery, functional genomics and advanced cell models, while the i3S Bioimaging Scientific Platform serves nanomedicine and regenerative medicine. ABC works with hydrogels, organoids, tissue-engineered matrices and nanoparticles. In the south, the CCMAR Imaging Platform in Faro studies zebrafish, corals, algae and embryos, and it also supports environmental monitoring. The Advanced Fluorescence Microscopy Facility in Lisbon looks at molecular organisation and dynamics both in vitro and in cells. INL imaging platforms in Braga connect the life sciences with materials and nanomaterial research.
+Infection biology is the focus at BIC, where projects concern microbiology and host-microbe interactions. At the Advanced Fluorescence Microscopy Facility, the questions are biophysical and concern how molecules organise, move and interact in vitro and in cells. BioSciences Screening serves drug discovery, functional genomics and advanced cell models.
+
+Materials and regeneration form another strand. ABC in Porto works with hydrogels, organoids, tissue-engineered matrices and nanoparticles, and the i3S Bioimaging Scientific Platform supports biomedicine, nanomedicine and regenerative medicine. INL imaging platforms connect the life sciences with materials and nanomaterial characterisation. Marine biology is the specialty of the CCMAR Imaging Platform, which works with zebrafish, corals, algae and embryos and also supports environmental monitoring.
 
 ## Services and user support
 
-A project with PPBI usually starts with methodological setup, where staff help design the study protocol and the standard operating procedures for imaging. Researchers can then run their experiments with technical assistance from facility staff, or they can be trained to use the instruments on their own. Training workstations and a seminar room support this teaching, so new users can practise acquisition and analysis before working on their own samples.
+A project usually begins with methodological setup, where staff help design the study protocol and the standard operating procedures that go with it. Researchers can then be trained to use the instruments themselves, and the Node has training workstations and a training seminar room for this. Researchers who prefer not to run the instruments alone can work with technical assistance from staff.
 
-The Node also helps with the work that comes before imaging. Staff can prepare probes and animals, and the Node has animal facilities for in vivo studies. Visiting groups can use wet lab space and cell culture facilities at safety levels 1, 2 and 3, so samples that need higher containment can be handled under the appropriate conditions. Once images are acquired, staff help with data processing and analysis, which turns raw image data into measurements. Server space is provided for the resulting image data.
+Many projects need preparation before imaging starts. Staff prepare probes and animals, and the Node provides animal facilities for in vivo work. Wet lab space lets visiting researchers handle their samples close to the microscopes. The Node also has cell culture facilities at biosafety levels 1, 2 and 3, so cells can be grown and kept under the containment their work requires.
 
-### Services offered
+Once images are acquired, staff help with data processing and analysis, from turning raw images into measurements to quantifying results across experiments. Server space holds the data during the project.
+
+### Services in the signed SLA
 
 - Technical assistance to run instrument
 - Methodological setup (e.g. design of study protocol and standard operation procedures)
@@ -111,11 +115,13 @@ The Node also helps with the work that comes before imaging. Staff can prepare p
 | [i3S Histology and Electron Microscopy (HEMS)](https://www.i3s.up.pt/scientific-platform.php?groupid=65 "portuguese-platform-of-bioimaging-ppbi-i3s-histology-and-electron-microscopy-hems") | i3S, Institute for Research and Innovation in Health | Porto |
 | [iLAB - Microscopy and Bioimaging Laboratory](https://www.uc.pt/ilab/ "portuguese-platform-of-bioimaging-ppbi-ilab-microscopy-and-bioimaging-laboratory") | Faculty of Medicine, University of Coimbra | Coimbra |
 
-PPBI is organised in three geographical clusters, and the largest concentration is in Porto. There, five platforms at i3S work side by side. Advanced Light Microscopy and BioSciences Screening cover optical imaging and screening, while HEMS handles histology and electron microscopy. ABC characterises materials and biological samples, and the i3S Bioimaging Scientific Platform links microscopy with preclinical imaging. A project can therefore move from cells to tissue ultrastructure and whole animals within one institute.
+The larger light-microscopy platforms cover the most methods. Advanced Light Microscopy in Porto combines super-resolution, two-photon, intravital and label-free harmonic imaging with bioimage data analysis. The GIMM Bioimaging Platform in Lisbon supports light-microscopy projects from acquisition through processing to analysis. GIMM Oeiras adds confocal systems with incubation, light-sheet imaging for cleared or water-mounted samples and a spinning-disk microscope in a biosafety level 2 room. AbbE in Lisbon trains users on light microscopes and image-analysis software.
 
-GIMM runs two sites, the GIMM Bioimaging Platform in Lisbon and GIMM Oeiras, and both offer imaging at biosafety level above 1. Three more Lisbon facilities, AbbE, FCUL Microscopy Facility and NOVA Medical School Microscopy Facility, add light microscopy and high-content screening. AbbE at the Champalimaud Foundation is also the facility that offers biological image analysis as a dedicated technology.
+Some facilities have a sharper focus. The Advanced Fluorescence Microscopy Facility in Lisbon specialises in quantitative and single-molecule fluorescence, and BIC in Oeiras specialises in bacterial and host-microbe imaging. BioSciences Screening in Porto runs automated microscopy together with assay development. The CCMAR Imaging Platform in Faro images marine, cellular and developmental specimens.
 
-In Braga, INL imaging platforms combine optical imaging, Raman spectroscopy and electron microscopy for nanoscale and materials questions, alongside the ICVS Microscopy and Imaging Facility. iLAB in Coimbra offers both light and electron microscopy, which suits correlative projects in one place. MICC-CNC, also in Coimbra, adds microdissection and intravital work. LiM in Aveiro and the Fluorescence Microscopy Unit in Covilha provide light microscopy for their regions. In the south, ABC-RI Microscopy Facility in Faro joins the CCMAR Imaging Platform, which is also in Faro.
+HEMS in Porto brings expertise in histology, ultrastructure and tissue analysis to scanning electron microscopy. INL imaging platforms in Braga add optical nanomaterial characterisation and single-molecule and nanoparticle detection. iLAB in Coimbra offers both optical and scanning electron microscopy. ABC in Porto studies biomaterials, biointerfaces and mechanobiology by atomic force microscopy, and the i3S Bioimaging Scientific Platform in Porto links imaging from molecules to small animals.
+
+Seven further facilities offer confocal and widefield fluorescence imaging, and six of them add FRAP and FRET. They include LiM in Aveiro and the Fluorescence Microscopy Unit in Covilhã, with others in Faro, Lisbon, Braga and Coimbra.
 
 ## Access and contact
 

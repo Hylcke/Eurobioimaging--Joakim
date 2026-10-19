@@ -2,54 +2,40 @@
 
 ## Overview
 
-The Sofia BioImaging Node is a light microscopy Node built around watching proteins at work in living cells, with a strong focus on DNA repair. It combines fast live-cell confocal imaging with quantitative fluorescence methods that measure how molecules move, interact and respond to their surroundings. The Node has one facility, the Center for Advanced Microscopy at the Institute of Molecular Biology in Sofia, which is part of the Bulgarian Academy of Sciences. It covers biological imaging and belongs to Bulgaria's National Roadmap for Scientific Infrastructure.
+The Sofia BioImaging Node offers advanced light microscopy, centred on fluorescence methods that follow proteins and other molecules in living cells. Its scientific focus is the molecular and cellular biology of DNA replication, repair, transcription and chromatin dynamics, together with applied work in biomedical pharmacology and drug design. The Node is a single site with one facility, the Center for Advanced Microscopy at the Institute of Molecular Biology in Sofia, hosted by the Institute of Molecular Biology, Bulgarian Academy of Sciences, and it covers biological imaging. It is part of Bulgaria's National Roadmap for Scientific Infrastructure.
 
-The staff are experienced in advanced fluorescence microscopy and image analysis. Their own research deals with DNA replication, repair, transcription and chromatin dynamics, together with applied work in biomedical pharmacology and drug design. In DNA repair studies the team records living cells on spinning-disk microscopes while using a laser to damage DNA or remove cell components at a chosen spot. They pair this with a large library of GFP-tagged DNA-repair proteins, each expressed under its natural regulatory sequences. This combination lets them record very fast protein dynamics and interactions in the cell.
+The staff are experts in advanced fluorescence microscopy and image analysis, and much of their experience comes from DNA repair research. They combine live-cell recordings on spinning-disk confocal microscopes with laser ablation, which induces DNA damage or removes a cell component at a chosen spot. They pair this with a large library of GFP-tagged DNA repair proteins expressed under their natural regulatory sequences. Together these approaches let them record very fast protein dynamics and interactions. The facility applies the same expertise to cancer research and to wider questions of protein dynamics.
 
-The Node suits projects that ask how proteins behave in living cells, not only where they sit. Researchers in DNA repair, chromatin biology and cancer research will find the closest match, because the facility can damage DNA locally and follow how repair proteins respond. Groups studying protein interactions or mobility can add lifetime, photobleaching and correlation measurements to their imaging. When a project needs finer detail than confocal imaging gives, it can move to STED microscopy within the same facility.
+The Center for Advanced Microscopy at the Institute of Molecular Biology combines three groups of light microscopy methods. Confocal imaging includes laser scanning, spinning-disk and image scanning microscopy. Total internal reflection fluorescence (TIRF) microscopy images the region of the cell next to the coverslip. Stimulated emission depletion (STED) microscopy resolves structures below the usual optical limit. The third group measures how molecules move and interact, through photobleaching recovery (FRAP), energy transfer (FRET) and fluorescence lifetime imaging (FLIM). Fluorescence correlation spectroscopy and anisotropy microscopy complete this group.
 
 ## Imaging technologies offered
 
-The Node's core is confocal fluorescence imaging of living cells. Spinning disk confocal microscopy (SDCM) gives fast optical sections with a low light dose, which suits long or rapid recordings of live cells. Laser scanning confocal microscopy (LSCM) adds flexible multichannel 3D imaging, and total internal reflection fluorescence microscopy (TIRF) shows membranes and molecules close to the coverslip with high contrast.
+Confocal fluorescence microscopy is the core of the Node, and it gives optical sections of cells and tissues for multichannel 3D localisation. Spinning-disk confocal microscopy records quickly and puts less light on the sample, which helps in long live-cell recordings. The Andor Revolution XD system, with Borealis illumination on a Nikon TiE stand, images through two iXon3 897 EMCCD cameras. It carries a FRAPPA unit for FRAP and a Micropoint UV laser micro-irradiation device, so researchers can damage DNA at a chosen point and follow how the cell responds. The Andor Dragonfly 505 adds a configuration for deconvolution and super-resolution.
 
-A second strength lies in functional methods that measure molecular behaviour rather than only position. Fluorescence recovery after photobleaching (FRAP) reports how quickly proteins exchange within a region of the cell. Fluorescence resonance energy transfer (FRET) and fluorescence lifetime imaging (FLIM) reveal whether two molecules sit within nanometres of each other or how their environment changes. Fluorescence correlation and cross-correlation spectroscopy (FCS/FCCS) measures diffusion, concentration and co-diffusion, while anisotropy microscopy reports molecular orientation and rotation.
-
-For finer structural detail, the facility offers stimulated emission depletion (STED) microscopy and image scanning microscopy (ISM). Both resolve subcellular structures beyond the limit of conventional confocal imaging.
-
-The Andor Revolution XD spinning disk system, built on a Nikon TiE stand, carries a FRAPPA unit for FRAP and a Micropoint UV laser for micro-irradiation of chosen regions. An Andor Dragonfly 505 is set up for deconvolution and super-resolution work. Lifetime measurements run on an LSM980 fitted with PicoQuant RapidFLIM.
+Beyond standard confocal imaging, STED microscopy resolves subcellular structures and molecular-scale distributions, and image scanning microscopy makes better use of the detected light to sharpen images of cells. TIRF microscopy gives high contrast at membranes and other regions close to the coverslip. A set of functional methods measures molecular behaviour rather than shape. FRAP reports mobility and exchange, and FRET reports proximity at the nanometre scale. Fluorescence correlation spectroscopy measures diffusion, concentration and co-diffusion of labelled molecules. Fluorescence lifetime imaging adds contrast that is sensitive to the molecular environment and to interactions, and it runs on an LSM980 with PicoQuant RapidFLIM set up for lifetime and pulsed interleaved excitation work. Anisotropy microscopy reports molecular orientation and rotation.
 
 ### Technologies and instruments
 
-| Technology | Instrument highlights |
-| --- | --- |
-| [Image Scanning microscopy (ISM)](#image-scanning-microscopy-ism "image-scanning-microscopy-ism") |  |
-| [Laser scanning confocal microscopy (LSCM/CLSM)](#laser-scanning-confocal-microscopy-lscm-clsm "laser-scanning-confocal-microscopy-lscm-clsm") |  |
-| [Spinning disk confocal microscopy (SDCM)](#spinning-disk-confocal-microscopy-sdcm "spinning-disk-confocal-microscopy-sdcm") | Center for Advanced Microscopy at the Institute of Molecular Biology: Andor Dragonfly 505, Andor Revolution XD spinning disk confocal (Borealis, Nikon TiE stand) |
-| [Total internal reflection fluorescence microscopy (TIRF)](#total-internal-reflection-fluorescence-microscopy-tirf "total-internal-reflection-fluorescence-microscopy-tirf") |  |
-| [Stimulated emission depletion microscopy (STED)](#stimulated-emission-depletion-microscopy-sted "stimulated-emission-depletion-microscopy-sted") |  |
-| [Anisotropy/Polarization Microscopy (AM)](#anisotropy-polarization-microscopy-am "anisotropy-polarization-microscopy-am") |  |
-| [Fluorescence (cross)-correlation spectroscopy (FCS/FCCS)](#fluorescence-cross-correlation-spectroscopy-fcs-fccs "fluorescence-cross-correlation-spectroscopy-fcs-fccs") |  |
-| [Fluorescence Lifetime Imaging (FLIM)](#fluorescence-lifetime-imaging-flim "fluorescence-lifetime-imaging-flim") | Center for Advanced Microscopy at the Institute of Molecular Biology: Lifetime/PIE configuration with LSM980 (PicoQuant RapidFLIM) |
-| [Fluorescence Recovery after Photobleaching (FRAP)](#fluorescence-recovery-after-photobleaching-frap "fluorescence-recovery-after-photobleaching-frap") |  |
-| [Fluorescence Resonance Energy Transfer (FRET)](#fluorescence-resonance-energy-transfer-fret "fluorescence-resonance-energy-transfer-fret") |  |
+| Technology | Confirmed facility providers | Instrument highlights |
+| --- | --- | --- |
+| [Image Scanning microscopy (ISM)](#image-scanning-microscopy-ism "image-scanning-microscopy-ism") | Center for Advanced Microscopy at the Institute of Molecular Biology (qualified) |  |
+| [Laser scanning confocal microscopy (LSCM/CLSM)](#laser-scanning-confocal-microscopy-lscm-clsm "laser-scanning-confocal-microscopy-lscm-clsm") | Center for Advanced Microscopy at the Institute of Molecular Biology |  |
+| [Spinning disk confocal microscopy (SDCM)](#spinning-disk-confocal-microscopy-sdcm "spinning-disk-confocal-microscopy-sdcm") | Center for Advanced Microscopy at the Institute of Molecular Biology | Center for Advanced Microscopy at the Institute of Molecular Biology: Andor Dragonfly 505, Andor Revolution XD spinning disk confocal (Borealis, Nikon TiE stand) |
+| [Total internal reflection fluorescence microscopy (TIRF)](#total-internal-reflection-fluorescence-microscopy-tirf "total-internal-reflection-fluorescence-microscopy-tirf") | Center for Advanced Microscopy at the Institute of Molecular Biology |  |
+| [Stimulated emission depletion microscopy (STED)](#stimulated-emission-depletion-microscopy-sted "stimulated-emission-depletion-microscopy-sted") | Center for Advanced Microscopy at the Institute of Molecular Biology (qualified) |  |
+| [Anisotropy/Polarization Microscopy (AM)](#anisotropy-polarization-microscopy-am "anisotropy-polarization-microscopy-am") | Center for Advanced Microscopy at the Institute of Molecular Biology (qualified) |  |
+| [Fluorescence (cross)-correlation spectroscopy (FCS/FCCS)](#fluorescence-cross-correlation-spectroscopy-fcs-fccs "fluorescence-cross-correlation-spectroscopy-fcs-fccs") | Center for Advanced Microscopy at the Institute of Molecular Biology (qualified) |  |
+| [Fluorescence Lifetime Imaging (FLIM)](#fluorescence-lifetime-imaging-flim "fluorescence-lifetime-imaging-flim") | Center for Advanced Microscopy at the Institute of Molecular Biology | Center for Advanced Microscopy at the Institute of Molecular Biology: LSM980 (PicoQuant RapidFLIM) |
+| [Fluorescence Recovery after Photobleaching (FRAP)](#fluorescence-recovery-after-photobleaching-frap "fluorescence-recovery-after-photobleaching-frap") | Center for Advanced Microscopy at the Institute of Molecular Biology |  |
+| [Fluorescence Resonance Energy Transfer (FRET)](#fluorescence-resonance-energy-transfer-fret "fluorescence-resonance-energy-transfer-fret") | Center for Advanced Microscopy at the Institute of Molecular Biology |  |
+
+(qualified): the provider link is recorded with a scope note and is to be confirmed by the Node.
 
 ## Specialties and research focus
 
-Research at the Center for Advanced Microscopy at the Institute of Molecular Biology centres on how cells copy, read and maintain their genome. The main fields are DNA replication, DNA repair, transcription and chromatin dynamics, so the questions often concern how proteins find damaged or active regions of chromatin and how long they stay there.
+Research at the Node centres on how cells copy, repair and read their DNA. The Center for Advanced Microscopy at the Institute of Molecular Biology works on DNA replication, DNA repair and transcription, and on chromatin dynamics. In DNA repair, the questions concern the very fast dynamics of repair proteins and the interactions between them. The staff follow these events in living cells, using GFP-tagged repair proteins expressed under their natural regulatory sequences and inducing damage with a laser at a chosen spot.
 
-DNA repair is the clearest focus. Work in this area follows how individual repair proteins gather at sites of damage and how they interact with one another as repair proceeds. Because the tagged proteins come from a large library expressed under natural regulatory sequences, many different repair factors can be studied in comparable ways. The broader application area of protein dynamics extends the same questions to other nuclear processes.
-
-The facility also serves cancer research, which links naturally to the study of genome maintenance. Alongside this basic cell biology, the Node carries out applied work in biomedical pharmacology and drug design. This connects its interest in protein behaviour inside cells with questions about how candidate compounds act.
-
-## Services and user support
-
-The Node offers infrastructure access, which means that researchers use the instruments of the Center for Advanced Microscopy at the Institute of Molecular Biology for their own projects. A visiting project can therefore draw on the full set of light microscopy methods in one building, from live-cell spinning disk recordings to lifetime and correlation measurements.
-
-This matters most for projects that need several kinds of measurement on the same sample. A researcher studying a DNA repair protein, for example, could record its arrival at laser-induced damage on a spinning disk system and then measure its mobility or interactions with other functional methods. A question about fine structure can continue on the STED or image scanning microscopes without moving the samples to another site.
-
-### Services offered*
-
-- Infrastructure access
+The facility's application areas extend from DNA repair into cancer research and broader studies of protein dynamics. These fields share an interest in how proteins move, bind and exchange inside the cell, which links the basic molecular biology to disease. Alongside this work, the Node carries out applied research in biomedical pharmacology and drug design, so its imaging serves both fundamental questions about genome maintenance and applied questions about how drugs act in cells.
 
 ## Facilities
 
@@ -57,7 +43,9 @@ This matters most for projects that need several kinds of measurement on the sam
 | --- | --- | --- |
 | [Center for Advanced Microscopy at the Institute of Molecular Biology, Bulgarian Academy of Sciences](#sofia-bioimaging-node-advanced-light-microscopy-node-sofia-bulgaria-center-for-advanced-microscopy-at-the-institute-of-molecular-biology-bulgarian-academy-of-sciences "sofia-bioimaging-node-advanced-light-microscopy-node-sofia-bulgaria-center-for-advanced-microscopy-at-the-institute-of-molecular-biology-bulgarian-academy-of-sciences") | Institute of Molecular Biology, Bulgarian Academy of Sciences | Sofia |
 
-The Node consists of a single facility, the Center for Advanced Microscopy at the Institute of Molecular Biology in Sofia, which is part of the Bulgarian Academy of Sciences. It brings together confocal, surface-selective, super-resolution and functional fluorescence methods, so every technique on the Node sits in one place. This makes it well suited to projects that combine live imaging with quantitative measurements of protein mobility, proximity or diffusion in the same cells. Its links to the Institute's own research in DNA replication, repair and chromatin give the facility a strong grounding in nuclear cell biology. The facility also contributes to Bulgaria's National Roadmap for Scientific Infrastructure as the country's Node for advanced light microscopy.
+The Center for Advanced Microscopy at the Institute of Molecular Biology in Sofia is the Node's only facility. It belongs to the Institute of Molecular Biology, Bulgarian Academy of Sciences, and provides biological and biomedical imaging within Euro-BioImaging and Bulgaria's National Roadmap for Scientific Infrastructure. All of its methods are fluorescence light microscopy, from confocal, TIRF and image scanning microscopy to STED super-resolution. It also offers a group of functional methods, including FLIM, FRET and fluorescence correlation spectroscopy, which measure molecular interactions, mobility and environment in cells.
+
+The staff's expertise lies in advanced fluorescence microscopy and image analysis. Their own research on DNA repair shapes much of this experience, particularly live-cell spinning-disk imaging combined with laser ablation to damage DNA or remove cell components. Because the same team works on DNA replication, transcription and chromatin dynamics, its experience covers several processes that take place on DNA inside the nucleus. The facility applies this experience to DNA repair, cancer research and protein dynamics, with a focus on recording fast protein movements and interactions in living cells.
 
 ## Access and contact
 

@@ -2,54 +2,60 @@
 
 ## Overview
 
-The Multimodal Imaging Node Brno combines advanced light microscopy with magnetic resonance imaging, so a project can move from cells and embryos to animal models and the living human brain. Most of its technologies are in light microscopy, while its medical imaging arm pairs ultra-high-field animal MRI with human MRI linked to electrophysiology. The Node has six facilities at four institutions, all in Brno, and it covers both biological and biomedical imaging. An independent image analysis unit supports work in both arms.
+The Multimodal Imaging Node Brno combines advanced light microscopy with preclinical and human magnetic resonance imaging (MRI). Its light microscopy units cover confocal, light-sheet and super-resolution methods, and its medical imaging arm runs ultra-high-field MRI for animal studies and 3T MRI for human brain research. The Node has six facilities at four institutions, all in Brno, and covers both biological and biomedical imaging.
 
-Staff at the CELLIM Cellular Imaging Core Facility in Brno have expertise in sample preparation, image acquisition and data analysis for light microscopy. They specialise in super-resolution and light-sheet imaging and in handling very large datasets. The Biophotonics Core Facility in Brno specialises in label-free live-cell imaging, and its research group develops holographic microscopy methods. At ISI-MR in Brno, the team develops MR acquisition and processing methods and helps researchers design animal studies. MAFIL staff in Brno work on functional and structural brain mapping, combining several imaging and electrophysiological measures in one study. The CBIA team in Brno develops and benchmarks algorithms for cell segmentation, cell tracking and image synthesis.
+Staff at the CELLIM Cellular Imaging Core Facility in Brno are experienced in sample preparation, image acquisition and data analysis, with particular expertise in super-resolution, light-sheet imaging and the handling of large image datasets. The Biophotonics Core Facility in Brno specialises in label-free imaging of living cells by holographic phase measurement. ISI-MR in Brno develops its own MR acquisition and processing methods and helps researchers design animal studies. MAFIL in Brno works on functional and structural brain mapping and integrates its human MRI with electrophysiology. This makes simultaneous EEG and functional MRI possible, as well as hyperscanning, in which two participants are scanned at the same time in two scanners. CBIA in Brno develops and benchmarks algorithms for cell segmentation, tracking and the synthesis of biomedical images.
 
-Cell and developmental biologists, including those working with plants, stem cells or embryos, will find most support at CELLIM. Researchers who need to follow anatomy, physiology or metabolism in mice and rats should turn to ISI-MR. Human neuroscience projects, from brain mapping to simultaneous EEG and functional MRI, belong at MAFIL, which can also scan two participants at the same time.
+Confocal, deconvolution widefield and image scanning microscopy are at CELLIM and the Biophotonics Core Facility. Spinning disk confocal, light-sheet and single-molecule localisation microscopy are at CELLIM only, which also offers FRAP and FRET. Preclinical MRI and magnetic resonance spectroscopy (MRS), for living animals and for ex vivo specimens, are at ISI-MR. Human MRI and MRS are at MAFIL. Image analysis for biological data is at CBIA, and medical image analysis is at CBIA and MAFIL.
 
 ## Imaging technologies offered
 
-Light microscopy is the Node's largest family. Laser scanning confocal, deconvolution widefield and image scanning microscopy are offered by both CELLIM and the Biophotonics Core Facility, giving optical sections and 3D localisation of labelled structures in cells and tissues. CELLIM adds spinning disk confocal microscopy for faster imaging with less light on the sample, and light-sheet microscopy for embryos, organs and other larger specimens. For detail below the diffraction limit, CELLIM offers single-molecule localisation microscopy, which maps individual labelled molecules, alongside structured illumination microscopy. CELLIM also runs FRAP to measure how molecules move and exchange, and FRET to show whether two molecules sit within nanometres of each other. The Biophotonics Core Facility adds quantitative phase imaging, which measures cell shape and growth without labels.
+Light microscopy accounts for most of the Node's methods. Laser scanning confocal microscopy at CELLIM and the Biophotonics Core Facility gives optical sections and multichannel 3D localisation in cells and optically accessible tissue. CELLIM runs a Leica Stellaris 8 with FALCON FLIM for this work. Its Evident IX83 IXplore SpinSR spinning disk system collects optical sections quickly while putting less light on the sample, which helps with live specimens. For larger samples such as embryos and organs, CELLIM offers light-sheet imaging on a Zeiss Lightsheet 7, which illuminates only the plane being recorded.
 
-Magnetic resonance covers the larger scales. ISI-MR offers micro-MRI and MR spectroscopy at 9.4T on live animals and ex vivo specimens, so anatomy, physiology and metabolites can be studied without sectioning. MAFIL offers human MRI and MR spectroscopy at 3T. CBIA provides analysis of biological images, and CBIA and MAFIL both offer analysis of medical images. At CELLIM, instruments include a Leica STELLARIS 8 with FALCON FLIM, an Evident IX83 IXplore SpinSR and a Zeiss Lightsheet 7. The Biophotonics Core Facility runs a Q-Phase Multimodal Holographic Microscope.
+Beyond the diffraction limit, single-molecule localisation microscopy at CELLIM maps the distribution of individual molecules within subcellular structures. Image scanning microscopy and structured illumination add further resolution with common labels. FRAP and FRET at CELLIM measure how fast molecules move and exchange, and whether two labelled molecules sit within nanometres of each other. The Biophotonics Core Facility adds deconvolution widefield microscopy and label-free quantitative phase imaging on a Q-Phase Multimodal Holographic Microscope, which measures cell growth and shape without stains.
+
+ISI-MR offers MRI and MRS at 9.4T, which show anatomy, physiology and tissue chemistry in animals without sectioning and allow repeated studies of the same animal. At MAFIL, 3T human MRI and MRS show soft-tissue anatomy, brain function and metabolites without ionising radiation. Image analysis at CBIA and MAFIL turns acquired data into quantitative results.
 
 ### Technologies and instruments
 
-| Technology | Instrument highlights |
-| --- | --- |
-| [Deconvolution widefield microscopy (DWM)](#deconvolution-widefield-microscopy-dwm "deconvolution-widefield-microscopy-dwm") | CELLIM Cellular Imaging Core Facility: Evident IX83 IXplore SpinSR (Yokogawa SoRa), Zeiss Lightsheet 7 |
-| [Image Scanning microscopy (ISM)](#image-scanning-microscopy-ism "image-scanning-microscopy-ism") |  |
-| [Laser scanning confocal microscopy (LSCM/CLSM)](#laser-scanning-confocal-microscopy-lscm-clsm "laser-scanning-confocal-microscopy-lscm-clsm") | CELLIM Cellular Imaging Core Facility: Leica Stellaris 8 with FALCON FLIM, Zeiss Lightsheet 7 |
-| [Spinning disk confocal microscopy (SDCM)](#spinning-disk-confocal-microscopy-sdcm "spinning-disk-confocal-microscopy-sdcm") | CELLIM Cellular Imaging Core Facility: Evident IX83 IXplore SpinSR (Yokogawa SoRa) |
-| [Structured illumination microscopy (SIM)](#structured-illumination-microscopy-sim "structured-illumination-microscopy-sim") |  |
-| [Total internal reflection fluorescence microscopy (TIRF)](#total-internal-reflection-fluorescence-microscopy-tirf "total-internal-reflection-fluorescence-microscopy-tirf") |  |
-| [Single Molecule localization microscopy (SMLM)](#single-molecule-localization-microscopy-smlm "single-molecule-localization-microscopy-smlm") |  |
-| [Quantitative Phase Imaging (QPI)](#quantitative-phase-imaging-qpi "quantitative-phase-imaging-qpi") |  |
-| [Light-sheet mesoscopic imaging (SPIM/dSLSM)](#light-sheet-mesoscopic-imaging-spim-dslsm "light-sheet-mesoscopic-imaging-spim-dslsm") | CELLIM Cellular Imaging Core Facility: Zeiss Lightsheet 7 |
-| [Expansion Microscopy (ExM)](#expansion-microscopy-exm "expansion-microscopy-exm") |  |
-| [Fluorescence Recovery after Photobleaching (FRAP)](#fluorescence-recovery-after-photobleaching-frap "fluorescence-recovery-after-photobleaching-frap") |  |
-| [Fluorescence Resonance Energy Transfer (FRET)](#fluorescence-resonance-energy-transfer-fret "fluorescence-resonance-energy-transfer-fret") |  |
-| [Tissue Clearing (TC)](#tissue-clearing-tc "tissue-clearing-tc") |  |
-| [micro-MRI/MRS (Field >= 7 T)](#micro-mri-mrs-gte-7t "micro-mri-mrs-gte-7t") |  |
-| [micro-MRI/MRS (>= 7 T)ex-vivo](#micro-mri-mrs-gte-7t-ex-vivo "micro-mri-mrs-gte-7t-ex-vivo") |  |
-| [MRI/MRS (< 7T)](#mri-mrs-lt-7t "mri-mrs-lt-7t") |  |
-| [Image Analysis -bio (IA bio)](#image-analysis-bio "image-analysis-bio") |  |
-| [Image analysis - med (IA med)](#image-analysis-med "image-analysis-med") |  |
+| Technology | Confirmed facility providers | Instrument highlights |
+| --- | --- | --- |
+| [Deconvolution widefield microscopy (DWM)](#deconvolution-widefield-microscopy-dwm "deconvolution-widefield-microscopy-dwm") | Biophotonics Core Facility, CELLIM Cellular Imaging Core Facility | CELLIM Cellular Imaging Core Facility: Evident IX83 IXplore SpinSR (Yokogawa SoRa), Zeiss Lightsheet 7 |
+| [Image Scanning microscopy (ISM)](#image-scanning-microscopy-ism "image-scanning-microscopy-ism") | Biophotonics Core Facility, CELLIM Cellular Imaging Core Facility |  |
+| [Laser scanning confocal microscopy (LSCM/CLSM)](#laser-scanning-confocal-microscopy-lscm-clsm "laser-scanning-confocal-microscopy-lscm-clsm") | Biophotonics Core Facility, CELLIM Cellular Imaging Core Facility | CELLIM Cellular Imaging Core Facility: Leica Stellaris 8 with FALCON FLIM, Zeiss Lightsheet 7 |
+| [Spinning disk confocal microscopy (SDCM)](#spinning-disk-confocal-microscopy-sdcm "spinning-disk-confocal-microscopy-sdcm") | CELLIM Cellular Imaging Core Facility | CELLIM Cellular Imaging Core Facility: Evident IX83 IXplore SpinSR (Yokogawa SoRa) |
+| [Structured illumination microscopy (SIM)](#structured-illumination-microscopy-sim "structured-illumination-microscopy-sim") | CELLIM Cellular Imaging Core Facility |  |
+| [Total internal reflection fluorescence microscopy (TIRF)](#total-internal-reflection-fluorescence-microscopy-tirf "total-internal-reflection-fluorescence-microscopy-tirf") | No confirmed facility provider yet |  |
+| [Single Molecule localization microscopy (SMLM)](#single-molecule-localization-microscopy-smlm "single-molecule-localization-microscopy-smlm") | CELLIM Cellular Imaging Core Facility |  |
+| [Quantitative Phase Imaging (QPI)](#quantitative-phase-imaging-qpi "quantitative-phase-imaging-qpi") | Biophotonics Core Facility |  |
+| [Light-sheet mesoscopic imaging (SPIM/dSLSM)](#light-sheet-mesoscopic-imaging-spim-dslsm "light-sheet-mesoscopic-imaging-spim-dslsm") | CELLIM Cellular Imaging Core Facility | CELLIM Cellular Imaging Core Facility: Zeiss Lightsheet 7 |
+| [Expansion Microscopy (ExM)](#expansion-microscopy-exm "expansion-microscopy-exm") | No confirmed facility provider yet |  |
+| [Fluorescence Recovery after Photobleaching (FRAP)](#fluorescence-recovery-after-photobleaching-frap "fluorescence-recovery-after-photobleaching-frap") | CELLIM Cellular Imaging Core Facility |  |
+| [Fluorescence Resonance Energy Transfer (FRET)](#fluorescence-resonance-energy-transfer-fret "fluorescence-resonance-energy-transfer-fret") | CELLIM Cellular Imaging Core Facility |  |
+| [Tissue Clearing (TC)](#tissue-clearing-tc "tissue-clearing-tc") | No confirmed facility provider yet |  |
+| [micro-MRI/MRS (Field >= 7 T)](#micro-mri-mrs-gte-7t "micro-mri-mrs-gte-7t") | ISI-MR |  |
+| [micro-MRI/MRS (>= 7 T)ex-vivo](#micro-mri-mrs-gte-7t-ex-vivo "micro-mri-mrs-gte-7t-ex-vivo") | ISI-MR |  |
+| [MRI/MRS (< 7T)](#mri-mrs-lt-7t "mri-mrs-lt-7t") | MAFIL |  |
+| [Image Analysis -bio (IA bio)](#image-analysis-bio "image-analysis-bio") | CBIA |  |
+| [Image analysis - med (IA med)](#image-analysis-med "image-analysis-med") | CBIA, MAFIL |  |
 
 ## Specialties and research focus
 
-CELLIM serves cell and molecular biology, and its work extends to plant systems and to research on stem cells and embryos. The Biophotonics Core Facility focuses on cell behaviour, especially growth and motility, with applications in cancer research and nanotechnology. CBIA applies automated image analysis mostly to biology and medicine, and it is linked to an AI-in-Oncology centre.
+The light microscopy facilities serve cell and molecular biology. CELLIM works with plant systems, stem cells and embryos, which fits its emphasis on light-sheet and live imaging. The Biophotonics Core Facility studies cell behaviour, in particular growth and motility, and supports work in cancer research and nanotechnology.
 
-The Core Facility Electron Microscopy and Raman Spectroscopy in Brno serves biological and soft-matter research. Its staff work with hydrated and beam-sensitive specimens and with quantitative and multimodal approaches to microscopy for biomedicine. ISI-MR supports preclinical studies in animals and is not tied to any one disease, so its research focus follows the questions of the groups it works with. MAFIL concentrates on neuroscience and human brain mapping, and it also images other regions of the body. Its application areas include neuromarketing as well as basic research on how the human brain is organised and how it responds during tasks.
+On the medical side, MAFIL focuses on neuroscience and human brain mapping, using functional and structural imaging of the brain and other body regions. Its work also extends to neuromarketing studies. ISI-MR supports preclinical studies in animals and is not tied to any one disease area, so its projects range across different organ systems and models.
+
+CBIA applies automated image analysis mainly to biology and medicine, with a link to oncology through an associated centre for artificial intelligence in oncology. Its team also builds benchmark datasets and synthetic images for testing analysis methods. The Core Facility Electron Microscopy and Raman Spectroscopy works on biological and soft-matter samples, with a particular interest in hydrated and beam-sensitive specimens and in quantitative, multimodal electron microscopy for biomedicine.
 
 ## Services and user support
 
-A project often begins with methodological setup, where staff help design the study protocol and standard operating procedures, and the Node also offers regulatory affairs management. Researchers are then trained in using the infrastructure or work with technical assistance from staff. ISI provides two training workstations with ParaVision licences, and four apartments at the institute offer accommodation for visiting researchers.
+A project usually begins with methodological setup, where staff help design the study protocol and standard operating procedures. The Node also offers regulatory affairs management, which helps with the approvals that animal and human studies need. Researchers then receive training in using the infrastructure, and staff provide technical assistance for running the instruments. At ISI, training workstations with ParaVision licences let users practise MR acquisition and processing.
 
-For animal work, ISI houses mice and rats in individually ventilated cages and handles surgery and anaesthesia. Its animal MR scanner can be combined with MR-compatible focused ultrasound. MAFIL equips human studies with MR-compatible recording of EEG, ECG and other physiological signals, and with stimulation and response devices that include eye tracking. MAFIL can also run hyperscanning studies across its two 3T scanners and real-time fMRI for neurofeedback. The Node prepares biological samples for all its imaging modalities, with special preparations for electron microscopy, and it offers microfluidic techniques and wet lab space. After acquisition, staff help with data processing and analysis, and biological material can be stored and processed through the Node's biobanking service.
+Biological samples can be prepared for all imaging modalities, with a particular focus on special preparations for electron microscopy. Microfluidic techniques, wet lab space and biobanking with storage and processing of biological material support this work. For animal studies, ISI offers animal facilities for mice and rats, with housing in individually ventilated cages, surgery and anaesthesia. ISI also provides MR-compatible focused ultrasound for its animal scanner.
 
-### Services offered
+MAFIL offers MR-compatible electrophysiology systems for EEG, EMG, ECG, respiration and skin conductance, along with stimulation and response devices such as eye-tracking. It also runs dual fMRI hyperscanning studies on two human 3T scanners and real-time fMRI for neurofeedback. After acquisition, the Node offers data processing and analysis. Visiting researchers can stay in apartments at ISI.
+
+### Services in the signed SLA
 
 - MR compatible focused ultrasound for animal MR scanner (at ISI)
 - MR compatible electrophysiological systems (EEG, EMG, ECG, respiration, skin conductance, etc.), at MAFIL
@@ -80,11 +86,13 @@ For animal work, ISI houses mice and rats in individually ventilated cages and h
 | [Magnetic Resonance Group / Core Facility Magnetic Resonance (ISI-MR)](https://magres.isibrno.cz/ "multimodal-imaging-node-brno-cz-magnetic-resonance-group-core-facility-magnetic-resonance-isi-mr") | Institute of Scientific Instruments, Czech Academy of Sciences | Brno |
 | [Multimodal and Functional Imaging Laboratory (MAFIL)](https://mafil.ceitec.cz/en/ "multimodal-imaging-node-brno-cz-multimodal-and-functional-imaging-laboratory-mafil") | CEITEC, Masaryk University | Brno |
 
-The Node's six facilities form two imaging arms and an independent data-processing unit, all in Brno. In the light microscopy arm, CELLIM at CEITEC, Masaryk University, is the broadest facility. The Biophotonics Core Facility at CEITEC, Brno University of Technology, complements it with label-free imaging of living cells. Both facilities offer confocal, deconvolution widefield and image scanning microscopy, so a project can combine fluorescence work with label-free measurements of cell growth and movement.
+Two facilities offer light microscopy. The CELLIM Cellular Imaging Core Facility at CEITEC, Masaryk University in Brno is the larger of the two and covers confocal, spinning disk, light-sheet and super-resolution methods, together with FRAP and FRET. Its staff guide users from sample preparation through acquisition to the analysis of large datasets, and they provide individual training. The Biophotonics Core Facility at CEITEC, Brno University of Technology in Brno concentrates on label-free live-cell imaging and confocal microscopy, and its research group develops holographic microscopy methods.
 
-The medical imaging arm joins ISI-MR at the Institute of Scientific Instruments of the Czech Academy of Sciences with MAFIL at CEITEC, Masaryk University. Together they support translational research, because a question first studied in animal models can be followed up in human participants with closely related MR methods.
+Magnetic resonance is split between animal and human work. ISI-MR at the Institute of Scientific Instruments, Czech Academy of Sciences, combines method development in MR acquisition and processing with experiment, data analysis and animal study design. MAFIL at CEITEC, Masaryk University is a shared laboratory for human neuroimaging, where staff specialise in multimodal and multiparametric brain mapping that links MRI with electrophysiology.
 
-CBIA, at the Faculty of Informatics of Masaryk University, develops and benchmarks algorithms for analysing and synthesising biomedical images and for automating image acquisition. It suits projects where quantification is the hardest step, such as segmenting and tracking cells over time. The Core Facility Electron Microscopy and Raman Spectroscopy, also at the Institute of Scientific Instruments, brings expertise in electron optics, cryogenic sample preparation and data analysis for biological and soft-matter research.
+CBIA at the Faculty of Informatics, Masaryk University is a unit for research, education and services in automated biomedical image analysis. Its team develops and benchmarks algorithms, generates synthetic image data and works on automating image acquisition.
+
+The Core Facility Electron Microscopy and Raman Spectroscopy, also at the Institute of Scientific Instruments, brings expertise in chemical and cryogenic sample preparation, electron optics and data analysis for biological and soft-matter research.
 
 ## Access and contact
 

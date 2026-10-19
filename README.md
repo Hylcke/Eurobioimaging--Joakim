@@ -163,6 +163,11 @@ the script), or paste the prompt and the `.js` files into the boxes by hand.
 
 ### Build (`build_node_files.py`)
 
+- **19 Oct, final**: service lists drop items that are not services or that promise
+  feasibility, booking or prices ("Pilot studies (feasibility)", "Collaborative research",
+  "Research and development", "Infrastructure access"). Instrument cells: no CT scanner
+  in the in vivo optical imaging row, and "X configuration with" prefixes removed.
+
 - **19 Oct**: applies the master's Navigator gates: Node technologies NOD-02, facility
   providers LNK-01 only (35 held links on 12 Nodes left out and listed for review; 58
   qualified links marked), facility services SVC-01, contacts CON-01, SLA services SLA-01.

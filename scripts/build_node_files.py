@@ -220,6 +220,10 @@ def clean_services(items: list[str]) -> list[str]:
         x = re.sub(r"\s+", " ", x).strip()
         if re.search(r"INTERNAL|Not established|\bSQ\d+|^\[.*\]$|partial list", x, re.I):
             continue
+        # Not a service a researcher can use, or a feasibility/booking/pricing promise (team, 16 Oct).
+        if re.search(r"feasib|pilot stud|booking|pricing|\bprice|^collaborative research\b|^research and development\b"
+                     r"|^infrastructure access$|^access to (the )?infrastructure$", x, re.I):
+            continue
         site = ""
         m = re.search(r"\s*\[Site scope:\s*([^\]]+)\]\s*$", x)
         if m:

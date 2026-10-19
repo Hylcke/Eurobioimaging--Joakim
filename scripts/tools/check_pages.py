@@ -22,7 +22,7 @@ RANGE = {"Overview": (230, 290), "Imaging technologies offered": (180, 240),
          "Specialties and research focus": (150, 200), "Services and user support": (140, 190),
          "Facilities": (180, 240)}
 BANNED = re.compile(r"\b(state-of-the-art|cutting-edge|world-class|unique|comprehensive|diverse|robust|seamless(ly)?|"
-                    r"wide range|notably|importantly|it is worth noting|most users|listed as|is listed|are listed|strongest|best suited|well suited|suits|natural place|will find|most support|within one node|in one place)\b", re.I)
+                    r"wide range|notably|importantly|it is worth noting|most users|listed as|is listed|are listed|strongest|best suited|well suited|suits|natural place|will find|most support|within one node|in one place|recorded|records|registered|according to|is described|are described)\b", re.I)
 # (pattern in text, pattern in the Node's technology labels)
 METHODS = [
     (r"\bSTED\b", r"STED"), (r"\b(STORM|dSTORM|PALM|DNA-PAINT|single[- ]molecule locali[sz]ation|SMLM)\b", r"SMLM|Single Molecule localization"),

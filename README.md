@@ -5,7 +5,7 @@ Euro-BioImaging Node (40 Nodes). An n8n workflow reads one JSON file per Node,
 built from the EB Knowledge Base, has Claude write five sections of text, adds
 tables and contacts in code, and saves one Markdown page per Node to Google Drive.
 
-Owner and curator: Joakim Edman. Current version: prompt v15, Render v13, 19 October 2026.
+Owner and curator: Joakim Edman. Current version: prompt v16, Render v13, 19 October 2026.
 
 ## Where the content comes from
 
@@ -31,7 +31,7 @@ Owner and curator: Joakim Edman. Current version: prompt v15, Render v13, 19 Oct
 
 | Folder | What is in it |
 | --- | --- |
-| `n8n/` | The workflow to import (`EB-NODES_KB_workflow.json`), the writer prompt (`node_writer_system_prompt_v15.md`) and the code of the boxes "Clean and explode sections" and "Render node page" |
+| `n8n/` | The workflow to import (`EB-NODES_KB_workflow.json`), the writer prompt (`node_writer_system_prompt_v16.md`) and the code of the boxes "Clean and explode sections" and "Render node page" |
 | `scripts/` | Python that builds the Node files from the Knowledge Base (`build_node_files.py`, `kbdata.py`, `reconcile.py`, `tech_instruments.py`, `check_links.py`), rebuilds the workflow (`make_workflow.py`), the link CSVs, and `tools/` (`check_pages.py` to check finished pages, `rerender.js` to rebuild pages and keep the AI text) |
 | `docs/` | `HOW_TO_RUN.md` (step by step), `NODE_FILES.md` (fields of a Node file, page layout, rules), `OPTIMISATION_2026-10-15.md` (review of the first batch and the fixes after it) |
 | `AI Prompts/` | Prompts from the 2025 approach (rewriting website text with local models). Kept for reference |
@@ -53,7 +53,7 @@ Drive folder or spreadsheet IDs; you pick those in n8n after importing.
    1. **List node files** and **Pick node files** (`NODE_FILTER` picks Nodes; empty means all)
    2. **Loop Over Nodes**, one Node at a time
    3. **Download node file** and **Read node file**
-   4. **AI Node Writer** (Claude, `claude-opus-5-5`, prompt v15) writes Overview,
+   4. **AI Node Writer** (Claude, `claude-opus-5-5`, prompt v16) writes Overview,
       Imaging technologies offered, Specialties and research focus, Services and
       user support, and Facilities, about 1,000 words
    5. **Clean and explode sections** checks the five sections, checks the text is
@@ -94,6 +94,12 @@ the script), or paste the prompt and the `.js` files into the boxes by hand.
 
 ### Writer prompt (`node_writer_system_prompt`)
 
+- **v16** (19 Oct 2026): v15 made the text vague ("whose records describe", "is
+  recorded at"). v16 states every fact in the briefing plainly in the present tense and
+  bans hedging words (recorded, registered, listed, described, according to, may). Only
+  judgements stay out (strongest, suits, will find). The Overview ends with where each
+  main group of methods is (facility and city), and Facilities is grouped by what the
+  facilities do, with their expertise, instead of by host institution.
 - **v15** (19 Oct 2026, team feedback): describe, do not evaluate or recommend. No
   "strongest", "suits", "will find most support at" or "can be done within one Node".
   The last Overview paragraph is a factual map of which facility offers which main group
@@ -164,6 +170,7 @@ the script), or paste the prompt and the `.js` files into the boxes by hand.
 
 ### Clean and explode sections
 
+- **v3.2** (19 Oct): review flags for hedging words (recorded, registered, according to).
 - **v3.1** (19 Oct): review flags for evaluating or recommending phrases.
 - **16 Oct, latest**: an empty answer from the writer now stops the run with its
   own message (out of tokens) instead of "no parseable JSON".

@@ -135,7 +135,7 @@ const NODE_FILTER = "center-for-advanced-preclinical-imaging-capi, swedish-natio
 ```
 
 Download the three `.md` files from the output folder into
-a `test_pages` folder
+the `pages/test` folder next to the scripts
 and ask Claude to review them; it can read that folder directly.
 
 ## Part 4c. Trial run of the 15 October changes (prompt v11, Clean v3, Render v11)
@@ -147,10 +147,10 @@ large Node, service list, instrument tables, contacts):
 const NODE_FILTER = "barcelona-mesoscopic-imaging-node, barcelona-live-and-intravital-node, brain-imaging-network-bin, austrian-bioimaging-node-cmi, advanced-nl-microscopy";
 ```
 
-Put the five pages in `test_pages` and check them with:
+Put the five pages in `pages/test` and check them with:
 
 ```
-python tools/check_pages.py test_pages
+python tools/check_pages.py pages/test
 ```
 
 ## Part 4d. Rebuild finished pages without a new AI run
@@ -196,6 +196,16 @@ const NODE_FILTER = "advanced-light-and-electron-microscopy-node-prague-cz, adva
 To redo single Nodes, list just those: `const NODE_FILTER = "danish, flanders";`.
 
 When all four are done, **EB-Nodes** has 40 `.md` files.
+
+## Part 5b. Save and check the finished pages
+
+1. Download all 40 `.md` files from the **EB-Nodes** folder in Google Drive into a
+   `pages/v16` folder next to the scripts (on Joakim's laptop:
+   `EuroBioImaging_Master_Data\n8n\pages\v16`). The `node_files` folder is only for
+   the input JSON files; pages never go there.
+2. Check them: `python tools/check_pages.py pages/v16`
+3. When they are approved, copy them into `node-pages/` in this repo, replacing the
+   older pages, and commit.
 
 ---
 

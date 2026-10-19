@@ -20,7 +20,8 @@
           "mode": "id"
         },
         "options": {
-          "maxTokensToSample": 21000
+          "maxTokensToSample": 21000,
+          "temperature": 0.2
         }
       },
       "type": "@n8n/n8n-nodes-langchain.lmChatAnthropic",

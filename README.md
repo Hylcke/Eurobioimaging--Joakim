@@ -269,6 +269,9 @@ the script), or paste the prompt and the `.js` files into the boxes by hand.
 
 ### Documentation
 
+- **19 Oct**: `docs/HOW_TO_RUN.md` Part 5b says where finished pages go: downloaded
+  from Drive into `pages/v16`, checked with `check_pages.py`, then copied into
+  `node-pages/`. Test pages go into `pages/test` (was `test_pages`).
 - **19 Oct**: `docs/HOW_TO_RUN.md` Part 5 has the four batches joined into one
   `NODE_FILTER` line, for a single run of all 40 Nodes (an empty filter does the same).
   New folder `docs/presentations/` with the two decks about this pipeline: the
@@ -281,8 +284,12 @@ the script), or paste the prompt and the `.js` files into the boxes by hand.
   came back empty because thinking used the whole budget. 21,000 is close to the
   most n8n allows without streaming.
 
-- Model `claude-opus-5-5` by ID, 21,000 max tokens, temperature, top K and top P
-  unset (they give an error 400), prompt caching off.
+- **19 Oct**: temperature 0.2, the same as the live workflow. `make_workflow.py`
+  now writes it into the model options, so an imported workflow matches the one that
+  produced the v16 pages. (Earlier notes said Claude Opus 5.5 needed temperature unset;
+  the live workflow runs at 0.2 without errors.)
+- Model `claude-opus-5-5` by ID, 21,000 max tokens, temperature 0.2, top K and top P
+  unset, prompt caching off.
 - The briefing is sent as compact JSON, which halves the prompt for the largest Nodes.
 - AI Node Writer and Upload node page to Drive retry up to 3 times.
 - Save sections to sheet and Archive briefing are switched off; the output is the

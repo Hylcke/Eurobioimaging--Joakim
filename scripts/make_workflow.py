@@ -114,12 +114,12 @@ def main() -> None:
             code = code.replace("'text/markdown'", "'text/markdown; charset=utf-8'")
             n["parameters"]["jsCode"] = code
         if n["name"] == "Anthropic Chat Model":
-            # Claude Opus 5.5: temperature, top K and top P must be left unset (400 error otherwise);
-            # adaptive thinking is always on and shares max tokens with the answer.
+            # Claude Opus 5.5 at temperature 0.2 (as in the live workflow); top K and top P stay unset.
+            # Adaptive thinking is always on and shares max tokens with the answer.
             # 21000: large Nodes (PPBI) used all of 16000 on thinking and returned empty text.
             # Above about 21,300 the Anthropic SDK refuses non-streaming calls ("Streaming is required").
             n["parameters"]["model"] = {"__rl": True, "value": "claude-opus-5-5", "mode": "id"}
-            n["parameters"]["options"] = {"maxTokensToSample": 21000}
+            n["parameters"]["options"] = {"maxTokensToSample": 21000, "temperature": 0.2}
         if n["name"] in ("Archive briefing", "Save sections to sheet"):
             # Output is the Markdown file only; the Sheets copies are switched off (data passes through).
             n["disabled"] = True

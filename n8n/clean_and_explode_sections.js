@@ -1,5 +1,7 @@
 // ============================================================
-// CLEAN AND EXPLODE SECTIONS v3
+// CLEAN AND EXPLODE SECTIONS v3.1
+// v3.1 (19 Oct): review flags also catch evaluating or recommending phrases (strongest, suits,
+// will find, natural place, within one Node). An empty writer answer stops the run with its own message.
 // v3: every section is tidied before it reaches the page (dashes, stray markdown,
 // "Access:" lines, people's email addresses), and style and fact checks are
 // written to review_flags on each item. Flags never stop the run.
@@ -214,7 +216,7 @@ const WORD_RANGE = {
   "Overview": [230, 290], "Imaging technologies offered": [180, 240],
   "Specialties and research focus": [150, 200], "Services and user support": [140, 190], "Facilities": [180, 240]
 };
-const BANNED = /\b(state-of-the-art|cutting-edge|world-class|unique|comprehensive|diverse|robust|seamless(ly)?|wide range|notably|importantly|it is worth noting|most users|listed as|is listed|are listed)\b/gi;
+const BANNED = /\b(state-of-the-art|cutting-edge|world-class|unique|comprehensive|diverse|robust|seamless(ly)?|wide range|notably|importantly|it is worth noting|most users|listed as|is listed|are listed|strongest|best suited|well suited|suits|natural place|will find|most support|within one node|in one place)\b/gi;
 // Method names the writer could take from a facility description although the
 // Node does not register them. Each is checked against the Node's technology labels.
 const METHOD_CHECKS = [

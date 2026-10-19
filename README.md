@@ -5,14 +5,19 @@ Euro-BioImaging Node (40 Nodes). An n8n workflow reads one JSON file per Node,
 built from the EB Knowledge Base, has Claude write five sections of text, adds
 tables and contacts in code, and saves one Markdown page per Node to Google Drive.
 
-Owner and curator: Joakim Edman. Current version: prompt v14, October 2026.
+Owner and curator: Joakim Edman. Current version: prompt v15, Render v13, 19 October 2026.
 
 ## Where the content comes from
 
-- **Methods, instruments, people and services** come only from the Knowledge Base.
+- **Methods, instruments, people and services** come only from the Knowledge Base, and
+  only where the master's `navigator_route` allows it (the Navigator rules in its Data
+  Dictionary). Held links, held services and old contact records never reach a page.
+- **Two levels of technology**: the table lists every technology registered to the Node
+  (NOD-02) and, next to it, the facilities confirmed to provide it (LNK-01), or "No
+  confirmed facility provider yet".
 - **Services** come from the Node's signed SLA (Annex 1.1) first. A Node with no
-  SLA services falls back to the services recorded in the database, and the page
-  marks that list with `*` ("Services offered*"). A Node with neither gets no
+  SLA services shows the services recorded in the database under "Services currently
+  recorded (not in the signed SLA, please confirm)", without any written text. A Node with neither gets no
   Services section.
 - **Facility websites and descriptions** are used only for specialty and research
   focus context. They never add a method, instrument or service.
@@ -26,7 +31,7 @@ Owner and curator: Joakim Edman. Current version: prompt v14, October 2026.
 
 | Folder | What is in it |
 | --- | --- |
-| `n8n/` | The workflow to import (`EB-NODES_KB_workflow.json`), the writer prompt (`node_writer_system_prompt_v14.md`) and the code of the boxes "Clean and explode sections" and "Render node page" |
+| `n8n/` | The workflow to import (`EB-NODES_KB_workflow.json`), the writer prompt (`node_writer_system_prompt_v15.md`) and the code of the boxes "Clean and explode sections" and "Render node page" |
 | `scripts/` | Python that builds the Node files from the Knowledge Base (`build_node_files.py`, `kbdata.py`, `reconcile.py`, `tech_instruments.py`, `check_links.py`), rebuilds the workflow (`make_workflow.py`), the link CSVs, and `tools/` (`check_pages.py` to check finished pages, `rerender.js` to rebuild pages and keep the AI text) |
 | `docs/` | `HOW_TO_RUN.md` (step by step), `NODE_FILES.md` (fields of a Node file, page layout, rules), `OPTIMISATION_2026-10-15.md` (review of the first batch and the fixes after it) |
 | `AI Prompts/` | Prompts from the 2025 approach (rewriting website text with local models). Kept for reference |
@@ -48,7 +53,7 @@ Drive folder or spreadsheet IDs; you pick those in n8n after importing.
    1. **List node files** and **Pick node files** (`NODE_FILTER` picks Nodes; empty means all)
    2. **Loop Over Nodes**, one Node at a time
    3. **Download node file** and **Read node file**
-   4. **AI Node Writer** (Claude, `claude-opus-5-5`, prompt v14) writes Overview,
+   4. **AI Node Writer** (Claude, `claude-opus-5-5`, prompt v15) writes Overview,
       Imaging technologies offered, Specialties and research focus, Services and
       user support, and Facilities, about 1,000 words
    5. **Clean and explode sections** checks the five sections, checks the text is
@@ -88,6 +93,11 @@ the script), or paste the prompt and the `.js` files into the boxes by hand.
 ## Changelog
 
 ### Writer prompt (`node_writer_system_prompt`)
+
+- **v15** (19 Oct 2026, team feedback): describe, do not evaluate or recommend. No
+  "strongest", "suits", "will find most support at" or "can be done within one Node".
+  The last Overview paragraph is a factual map of which facility offers which main group
+  of registered methods. Services text only for signed SLA services.
 
 - **v14** (16 Oct 2026): services are "the services recorded in the Euro-BioImaging
   database": SLA services first, database services as fallback. An empty list
@@ -145,8 +155,16 @@ the script), or paste the prompt and the `.js` files into the boxes by hand.
   List node files, Pick node files (v2: `NODE_FILTER`, each file once, index file
   skipped) and Download node file. No changes since.
 
+### Build (`build_node_files.py`)
+
+- **19 Oct**: applies the master's Navigator gates: Node technologies NOD-02, facility
+  providers LNK-01 only (35 held links on 12 Nodes left out and listed for review; 58
+  qualified links marked), facility services SVC-01, contacts CON-01, SLA services SLA-01.
+  Database services no longer reach the writer.
+
 ### Clean and explode sections
 
+- **v3.1** (19 Oct): review flags for evaluating or recommending phrases.
 - **16 Oct, latest**: an empty answer from the writer now stops the run with its
   own message (out of tokens) instead of "no parseable JSON".
 - **16 Oct**: when the Node has no services, any Services text is dropped and
@@ -166,6 +184,11 @@ the script), or paste the prompt and the `.js` files into the boxes by hand.
   scan from the EB-TECH workflow) and emits one item per section.
 
 ### Render node page
+
+- **v13** (19 Oct): technology table with a "Confirmed facility providers" column
+  ("No confirmed facility provider yet" for 303 registered technologies, "(qualified)"
+  for a qualified allocation). Services headings "Services in the signed SLA" and
+  "Services currently recorded (not in the signed SLA, please confirm)".
 
 - **16 Oct, latest**: the "(provisional)" mark is gone from the technology table
   (the flag stays in the Node file). The service list heading is "Services

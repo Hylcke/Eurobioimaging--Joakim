@@ -5,7 +5,7 @@ Usage:
 
 Reads  ../../data/reference/EB-NODES9.json (the current workflow export, not in git;
        set EB_WORKFLOW_TEMPLATE to use another path)
-       node_writer_system_prompt_v14.md, clean_and_explode_sections.js, render_node_page.js
+       node_writer_system_prompt_v15.md, clean_and_explode_sections.js, render_node_page.js
        (from ../n8n/ in the git repo, or from this folder)
 Writes EB-NODES_KB_workflow.json, ready for n8n: Workflows > Import from file.
 
@@ -83,7 +83,7 @@ def nid() -> str:
     return str(uuid.uuid4())
 
 
-PROMPT_FILE = "node_writer_system_prompt_v14.md"
+PROMPT_FILE = "node_writer_system_prompt_v15.md"
 
 
 def main() -> None:

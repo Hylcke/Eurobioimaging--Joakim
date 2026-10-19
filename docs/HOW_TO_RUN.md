@@ -120,7 +120,7 @@ you switch the sheet boxes on, the spreadsheet in the two sheet boxes.
    - addresses and contacts under "Access and contact", no coordinates.
 
 If the text needs changes, tell me what is wrong; the prompt is
-`node_writer_system_prompt_v14.md` and a new workflow file is one command.
+`node_writer_system_prompt_v15.md` and a new workflow file is one command.
 
 ---
 
@@ -223,7 +223,7 @@ or "List node files" points at the wrong folder (Part 3.3).
 2. **Pick node files** keeps the Nodes in NODE_FILTER (all if empty), each once.
 3. **Loop Over Nodes** takes one Node at a time.
 4. **Download node file** and **Read node file** load that Node's file.
-5. **AI Node Writer** (Claude Opus 5.5, prompt v14) writes five sections.
+5. **AI Node Writer** (Claude Opus 5.5, prompt v15) writes five sections.
 6. **Clean and explode sections** checks all five are there, checks the text belongs to this Node, and removes em dashes.
 7. **Save sections to sheet** (off) would store them in Node_Body_Output.
 8. **Render node page** adds the technology table, service list, facility

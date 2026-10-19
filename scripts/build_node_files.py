@@ -311,21 +311,34 @@ def main() -> None:
     techs = {t["technology_uri"]: t for t in kb["Technologies"] if t.get("technology_uri")}
     catalogue = Catalogue(techs)
     node_techs = defaultdict(list)
+    # NAVIGATOR GATES. Every relationship is used only when the master's navigator_route allows it
+    # (Data Dictionary, Navigator rules). Anything else fails closed and is listed for review.
     for r in kb["Node Technologies"]:
-        if r.get("scope_status") == "REGISTERED_TO_NODE" and r.get("technology_uri") not in PSEUDO_TECH:
+        if (s(r.get("navigator_route")) == "REGISTERED_NODE_SCOPE"            # NOD-02
+                and r.get("technology_uri") not in PSEUDO_TECH):
             node_techs[r["node_uri"]].append(r["technology_uri"])
     fac_techs = defaultdict(list)
+    qualified_links = set()   # (ebi_fac_id, technology_uri) with a qualified allocation (LNK-01, kept)
+    held_links = defaultdict(list)
     for r in kb["Facility Technologies"]:
-        if r.get("technology_uri") not in PSEUDO_TECH:
+        if r.get("technology_uri") in PSEUDO_TECH:
+            continue
+        route = s(r.get("navigator_route"))
+        if route == "REGISTERED_PROVIDER_LINK":                               # LNK-01
             fac_techs[r["ebi_fac_id"]].append(r["technology_uri"])
+            if s(r.get("round3_relation_status")) == "VALIDATED_FACILITY_ALLOCATION_QUALIFIED":
+                qualified_links.add((r["ebi_fac_id"], r["technology_uri"]))
+        elif route == "HELD_RELATIONSHIP":                                    # LNK-02
+            held_links[r["ebi_fac_id"]].append((r["technology_uri"], s(r.get("round3_relation_status"))))
     fac_services = defaultdict(list)
     for r in kb["Services"]:
-        if r.get("ebi_fac_id") and s(r.get("round4_relation_type")) == "SERVICE" and s(r.get("service_name")):
+        if (r.get("ebi_fac_id") and s(r.get("navigator_route")) == "CURRENT_FACILITY_SERVICE"   # SVC-01
+                and s(r.get("service_name"))):
             if s(r["service_name"]) not in fac_services[r["ebi_fac_id"]]:
                 fac_services[r["ebi_fac_id"]].append(s(r["service_name"]))
     contacts = defaultdict(list)
     for c in kb["Contacts"]:
-        if s(c.get("navigator_route")) == "HELD_MEMBERSHIP":
+        if s(c.get("navigator_route")) != "PUBLIC_CONTACT":                   # CON-01 only
             continue
         role = s(c.get("role"))
         if re.search(r"earlier|context|historic|superseded", role, re.I):
@@ -379,7 +392,7 @@ def main() -> None:
     # services found on facility web pages are not part of the agreement. Nodes without SLA rows fall back to the Node service summary.
     sla_services = defaultdict(list)
     for r in kb.get("Node Services", []):
-        if s(r.get("source_type")) != "SLA_ANNEX_1_1":
+        if s(r.get("source_type")) != "SLA_ANNEX_1_1" or s(r.get("navigator_route")) != "NODE_CONTRACT_CONTEXT":  # SLA-01
             continue
         name_ = s(r.get("service_wording_sla")) or s(r.get("service_name_normalized"))
         site_ = s(r.get("named_site_wording")) if s(r.get("service_scope")) == "NAMED_SITE" else ""
@@ -442,11 +455,18 @@ def main() -> None:
             for u, insts in found.items():
                 inst_by_tech[u].append(f"{sn_}: " + ", ".join(undash(x) for x in insts))
         provided_by = defaultdict(list)
+        qualified_by = defaultdict(list)
         for f in pub:
             for u in fac_techs.get(f["ebi_fac_id"], []):
                 sn_ = SN[f['ebi_fac_id']]
                 if sn_ not in provided_by[u]:
                     provided_by[u].append(sn_)
+                if (f["ebi_fac_id"], u) in qualified_links and sn_ not in qualified_by[u]:
+                    qualified_by[u].append(sn_)
+            for u, why in held_links.get(f["ebi_fac_id"], []):
+                if u in techs:
+                    missing.append(f"Held facility-technology link left out (LNK-02, {why}): "
+                                   f"{SN[f['ebi_fac_id']]} - {s(techs[u]['technology_name']).replace('*', '').strip()}")
         # Technologies by category (the Node's registered portfolio).
         grouped = OrderedDict((c, []) for c in CATEGORY_ORDER)
         other = []
@@ -463,6 +483,7 @@ def main() -> None:
             item = {"label": label.replace("*", "").strip(), "abbreviation": s(t.get("abbreviation")) or None,
                     "provisional": "*" in label, "technology_uri": t_uri,
                     "provided_by": provided_by.get(t_uri, []),
+                    "provided_by_qualified": qualified_by.get(t_uri, []),
                     "instruments": inst_by_tech.get(t_uri, [])}
             cat = s(t.get("category_name")).strip()
             (grouped[cat] if cat in grouped else other).append(item)
@@ -534,7 +555,7 @@ def main() -> None:
                                             if x.strip(" -\u2022\t")])
             services_basis = "DATABASE" if services_list else ""
             missing.append("No services from a signed SLA: service list taken from the Node service summary "
-                           "in the database, marked with * on the page" if services_list else
+                           "in the database, shown on the page as currently recorded, please confirm" if services_list else
                            "No services from a signed SLA and no service summary: Services section left off the page")
 
         # The August profile is older: check it against the master, which wins.
@@ -675,7 +696,9 @@ def main() -> None:
             "specialties": cap(specialties, 2500),
             "application_areas": cap(app_areas, 2500),
             # Services from the signed SLA; when there are none, the Node service summary in the database.
-            "services_support": "; ".join(services_list),
+            # Only SLA services reach the writer; a database fallback list is printed by code with a
+            # "currently recorded, please confirm" label and is never described in the text.
+            "services_support": "; ".join(services_list) if services_basis == "SLA" else "",
             "services_contracted": services_contracted,
             "services_basis": services_basis,
             "geography": {"countries": countries, "cities": cities, "city_count": len(cities),

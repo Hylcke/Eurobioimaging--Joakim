@@ -19,7 +19,7 @@ build_node_files.py  ->  node_files/<node_uri>.json  (40 files) + node_files_ind
         |
         v   upload node_files/ to Google Drive
 n8n: List node files > Pick node files > Loop > Download > Read node file
-     > AI Node Writer (prompt v14) > Clean and explode sections (tidy, checks, identity guard) > [Save sections to sheet, off]
+     > AI Node Writer (prompt v15) > Clean and explode sections (tidy, checks, identity guard) > [Save sections to sheet, off]
      > Render node page (render_node_page.js) > Create markdown file > Upload to Drive
 ```
 
@@ -51,9 +51,9 @@ set `NODE_FILTER` in **Pick node files** to test one Node.
 | `build_node_files.py` | Builds the Node files. All selection and checking rules live here. |
 | `reconcile.py` | Checks the older August Node profile against the master and leaves out what contradicts it. |
 | `tech_instruments.py` | Finds the instruments behind each facility technology (for the technology table). |
-| `node_writer_system_prompt_v14.md` | System prompt of the AI writer (current). Methods, instruments, services and which facility offers them come only from the structured Knowledge Base fields; descriptions only give expertise and specialty context. About 1,000 words in five sections. See the changelog in the top-level README for v1 to v14. |
+| `node_writer_system_prompt_v15.md` | System prompt of the AI writer (current). Methods, instruments, services and which facility offers them come only from the structured Knowledge Base fields; descriptions only give expertise and specialty context. About 1,000 words in five sections. See the changelog in the top-level README for v1 to v15. |
 | `render_node_page.js` | Code of the n8n node "Render node page". Builds everything on the page that is not prose. |
-| `make_workflow.py` | Builds the importable workflow from the n8n export `data/reference/EB-NODES9.json` (not in git; set `EB_WORKFLOW_TEMPLATE`), injecting prompt v14, the Render code and the Clean code. |
+| `make_workflow.py` | Builds the importable workflow from the n8n export `data/reference/EB-NODES9.json` (not in git; set `EB_WORKFLOW_TEMPLATE`), injecting prompt v15, the Render code and the Clean code. |
 | `clean_and_explode_sections.js` | Code of the n8n node "Clean and explode sections". Stops the run if the text names neither the Node nor any of its facilities (guards against pinned or cached output from another Node). |
 | `EB-NODES_KB_workflow.json` | The workflow to import into n8n. |
 
@@ -132,8 +132,11 @@ text that was left out and why; the number of open Data Enrichment issues.
    unchecked or failing link is left off and listed in `missing_info`.
 3. **Data Enrichment issues are not used in descriptions.** Their IDs are kept
    for review only.
-4. **All master facts count as true.** No filtering by publication status,
-   except facilities on membership hold.
+4. **The master's Navigator gates decide what is used.** Only rows on a positive
+   `navigator_route` reach a Node file: NOD-02 (Node technologies), FAC-01 (facilities),
+   LNK-01 (facility providers), SVC-01 (facility services), CON-01 (contacts), SLA-01
+   (signed SLA services). Held and unknown routes fail closed and are listed in
+   `review/missing_information.md`.
 5. **No em dashes** anywhere in the files (`undash()`), and plain, neutral
    language in the prompt and the page.
 6. **The writer never sees anything it may not print**, and the render code
